@@ -38,7 +38,7 @@
     <link href="https://freysu.github.io/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
     <id>https://freysu.github.io/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/</id>
     <published>2021-03-14T16:19:11.000Z</published>
-    <updated>2021-03-15T13:03:06.602Z</updated>
+    <updated>2021-03-15T13:31:38.656Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;英语网站&quot;&gt;&lt;a href=&quot;#英语网站&quot; class=&quot;headerlink&quot; title=&quot;英语网站&quot;&gt;&lt;/a&gt;&lt;strong&gt;英语网站&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;中文网站&quot;&gt;&lt;a href=&quot;#中文网站&quot; class=&quot;headerlink&quot; title=&quot;中文网站&quot;&gt;&lt;/a&gt;中文网站&lt;/h3&gt;&lt;table&gt;
@@ -112,6 +112,8 @@
     
     
     
+    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
+    
     
     <category term="英语资源" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E8%B5%84%E6%BA%90/"/>
     
@@ -126,7 +128,7 @@
     <link href="https://freysu.github.io/2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
     <id>https://freysu.github.io/2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/</id>
     <published>2021-03-14T16:13:56.000Z</published>
-    <updated>2021-03-15T13:02:38.984Z</updated>
+    <updated>2021-03-15T13:31:47.518Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;影视网站集合&quot;&gt;&lt;a href=&quot;#影视网站集合&quot; class=&quot;headerlink&quot; title=&quot;影视网站集合&quot;&gt;&lt;/a&gt;影视网站集合&lt;/h2&gt;&lt;table&gt;
@@ -215,6 +217,8 @@
     
     
     
+    <category term="影视资源" scheme="https://freysu.github.io/categories/%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90/"/>
+    
     
     <category term="影视网站" scheme="https://freysu.github.io/tags/%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99/"/>
     
@@ -229,13 +233,17 @@
     <link href="https://freysu.github.io/2021/03/13/hello-world/"/>
     <id>https://freysu.github.io/2021/03/13/hello-world/</id>
     <published>2021-03-12T16:38:02.398Z</published>
-    <updated>2021-03-15T13:02:18.618Z</updated>
+    <updated>2021-03-15T13:32:45.120Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
+    <category term="Hexo教程" scheme="https://freysu.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://freysu.github.io/tags/Hexo/"/>
     
   </entry>
   
