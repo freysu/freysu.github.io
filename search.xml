@@ -1,924 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/03/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>A test</title>
+      <link href="2021/03/15/test/"/>
+      <url>2021/03/15/test/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="7881093d1788922eb800e0b3d004e53bef0b52ad7103c4db971ba38a0e499229">23ee0b56edd02031a3330db20002c24b0eccfbf386226f9bef535d34dfe6dda10aec23a6afac7a7328f73c4c52d2b37d93265ddf879e6f8db91ad6dd2516e86b234398f6327c2e7afd55aa9eedf08a6e68c4e66828590ce9b83f16fd059709597ab9db21510665173026c032de2ab55c14ab17da55b64f3c978596d73c101177c90a870b48bc4c54ef8a4fbf1dc0a983fcecbfb4e8b1370c7a725a11f3f5995cae2ca6839ddccefbe817bdb17087f270016c7a734dd3fff43f31df43e4b14773dacbfdcb0cb104b6592096a281b0a61a768ee50740ecdd677d49f83fd92dbd513cdbf1892edc7637472d02925f3666314bc89dd347f6e3ab852688f9ca418822bf92819abcfd0fa6722fb160725bf1786636285881cd8f087a6112aa5b204eaeab2ffbfbd58a920fdc155c6946918eeb39bb3bc58703fc50c9e2e6684a762bb2ec1c48f5d677323f2ed248ac9db6a8823fcdd14cf548d00ce6007e10089dbdc4e45115c76b6e8107a539782a96117650161d68174aa4e398bb107c7cbc5db8da6ef81b7ae200f629abfbcc46fa066745d4b568c8cb93691bd62abc29ee17482b0120e8f1e2b5d123c7517777a702b033f1865388c951a7c4eac16e3d4109091a6be84e2a245c5a1973187da33f9fb89568fa2ceef6fada5b8f12b700bc5a26a09379f6d4a7976e88a889c7152e3cb239aa46a4c542043d116781796cc6635e22600bb308d73040f396653aede71db9761b807406b69dbfea3ea60b39a58f66ab87ae33f79aa9922bac99f3ca65263fc71da737c33d87445937657bdd075749660cc2668d2d6adef5f0c400864aa8303537d58d31546ed00761c9d87ce7c2b2c4457103fdb9144246d1737909d43cf96e2f2cb8f8db6a439974815f9a6fc52c299cfbb73de8eae18858debe1ac842777db98547494f1ea2d43d0e11272ae8e9109ecf2a4afc0fd0a1af4b1ea38202aa44967cb7e54e31622abfa5eb59348113e373e2a22a6040c0432431141b82ef3cefbdba99bf9a7c77b93411d5abf94a02f606fd930f8363aaf111d876bc7bec3b2d8ce0b75b513df39ba71cdaed66a144b96c7f81b403ea6a53eb6137c4a07692ba543ad8af1b0574d48dab374fbe7a8d8e3f05daa39eeca95d951447ac0823382d3a9196435f2bd23bb141155cc9fea4c23c793bafd49be9bc7362a71132e38d81441ae9db13b6d12bd69d925284821b91275bf2e084b72a43df962187a679649fdcc73184d7a532faa85f02f7487651fcfbf75a43296a9142de0974fbd2218bd5842446d0ae24d00694e13731a893c55cb5a2db807c6e2bd66a75410c38ae5a133fffd1d6cd25869d2c32f536a7aa990e80149fd43ee88e800fc22394157c3aeb1fff2c7495da253524472bf4440de4c2643c52a8d47a843f5df10823d764adf55b79a60fe03876af7f09a9a07b838e82364a08eeb1de1b53b2f34bcef1d9aba96b8da7da41acbdb06daf4622be1be1bd100e2651d5bdd0b68781b3117450c253c0e5bcb58fd4fc55e1e00b54bcdfc56005aec69f11f3c6f74f0c3481418080bf3bf2e609f8a4eece8049306303684f4b88a492823d6cb4c0c00e4e11e06aee8d57957a460711f034434fae36398be5acef3ed7e95ae7070ba501894b2b5f014fc79f72a425ef00a01764d5b67dbf2c9548588ce88a2453676fb145dae048c0b5f0136336ac81f277c0809d419317b7f1f2ac518337a5ca0ba3e1ef2570df72a20156daefbe4467c9023db77d04da4ec59caece5f2b0f5b55d1ec44250b2091f36808e9cac1b8237c7b5b500fc45fb6cb8d72357d4f7862ba3d266f0edcd3376ce7fb9288ce903b1858399d2350eda673e40af575e4f7c0788e6d30cf23770fb4533157f5e6e029cdabb9038c1aab7fb68ba4d0d2ede068523461f855a1c8537a</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 嘘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>英语学习资源导航页</title>
+      <link href="2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
+      <url>2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="英语网站"><a href="#英语网站" class="headerlink" title="英语网站"></a><strong>英语网站</strong></h2><h3 id="中文网站"><a href="#中文网站" class="headerlink" title="中文网站"></a>中文网站</h3><table><thead><tr><th><a href="https://www.hjenglish.com/">沪江英语</a></th><th><a href="https://www.shanbay.com/">扇贝</a></th></tr></thead><tbody><tr><td><a href="https://www.i21st.cn/">21英语</a></td><td><a href="http://yingyu.xdf.cn/">新东方英语</a></td></tr><tr><td><a href="http://www.bigear.cn/">大耳朵英语</a></td><td><a href="http://www.wwenglish.org/index.htm">旺旺英语</a></td></tr><tr><td><a href="https://www.24en.com/">爱思英语</a></td><td><a href="https://www.xiao84.com/">巴士英语网</a></td></tr><tr><td><a href="https://language.chinadaily.com.cn/">英语点津</a></td><td><a href="http://www.dioenglish.com/wiki/">英语百科</a></td></tr><tr><td><a href="http://www.kekenet.com/hangye/">可可行业英语</a></td><td><a href="https://www.24en.com/esp/">爱思行业英语</a></td></tr><tr><td><a href="https://bbs.fobshanghai.com/forumdisplay.php?fid=47&amp;sid=kNS8PJ">福步外贸英语</a></td><td></td></tr></tbody></table><h3 id="英文网站"><a href="#英文网站" class="headerlink" title="英文网站"></a>英文网站</h3><table><thead><tr><th><a href="https://www.engvid.com/">engVid</a></th><th><a href="https://www.mmmenglish.com/">mmmEnglish</a></th></tr></thead><tbody><tr><td><a href="https://www.englishclub.com/">EnglishClub</a></td><td><a href="http://www.world-english.org/">World English</a></td></tr><tr><td><a href="http://www.manythings.org/">ManyThings</a></td><td><a href="https://www.learnenglish.de/">Learn English</a></td></tr><tr><td><a href="https://www.englisch-hilfen.de/en/">English Hilfen</a></td><td><a href="http://www.perfectyourenglish.com/index.htm">PerfectYourEnglish</a></td></tr><tr><td><a href="https://www.thoughtco.com/esl-4133095">ThoughtCo.</a></td><td><a href="https://english.stackexchange.com/">English Stackexchange</a></td></tr></tbody></table><h3 id="英语导航"><a href="#英语导航" class="headerlink" title="英语导航"></a>英语导航</h3><table><thead><tr><th><a href="http://www.up-6.com/">英语学习导航</a></th><th><a href="http://www.yywz123.com/">英语学习网站大全</a></th></tr></thead><tbody><tr><td><a href="http://www.dioenglish.com/diolinks/">英语网址导航</a></td><td><a href="http://www.eol.cn/html/en/daohang/index.shtml">外语学习导航</a></td></tr></tbody></table><span id="more"></span><h2 id="英语资源"><a href="#英语资源" class="headerlink" title="英语资源"></a><strong>英语资源</strong></h2><table><thead><tr><th><a href="https://www.pdawiki.com/forum/forum-92-1.html">PDAWIKI 学习交流区</a></th><th><a href="https://www.pdawiki.com/forum/forum-105-1.html">PDAWIKI 学习资源区</a></th></tr></thead><tbody><tr><td><a href="https://www.pdawiki.com/forum/forum-4-1.html">PDAWIKI 词库资源区</a></td><td><a href="https://freemdict.com/">FreeMdict</a></td></tr><tr><td><a href="http://yingyu.bbs.kaoyan.com/">英语考研论坛</a></td><td><a href="https://www.lxwc.com.cn/topic-55-1.html">两小无猜儿童英语</a></td></tr><tr><td><a href="https://www.tjxz.cc/">田间小站</a></td><td><a href="https://www.i-bei.com/baby/thread-66369-1-1.html">牛津阅读树</a></td></tr><tr><td><a href="http://www.eol.cn/html/en/picen001/index.shtml">《图解英语》</a></td><td><a href="http://www.dogwood.com.cn/">新东方图书网</a></td></tr><tr><td><a href="https://ienglish521.com/">力哥爱英语</a></td><td><a href="https://babynames.net/">BellyBallot 英文起名网站</a></td></tr><tr><td><a href="https://disk.lijie.org/gglog/%E8%A7%86%E9%A2%91/%E6%95%99%E7%A8%8B/%E8%8B%B1%E8%AF%AD/">视频/教程/英语网盘</a></td><td></td></tr></tbody></table><h3 id="英语游戏"><a href="#英语游戏" class="headerlink" title="英语游戏"></a>英语游戏</h3><table><thead><tr><th><a href="https://quizlet.com/zh-cn">单词卡 | Quizlet</a></th><th><a href="https://babadum.com/">看图学单词 | Ba Ba Dum</a></th></tr></thead><tbody><tr><td><a href="https://www.ratatype.com/">英文打字练习 | Ratatype</a></td><td><a href="https://zty.pe/">英文打字练习 | ZType</a></td></tr><tr><td><a href="https://www.purposegames.com/">PurposeGames</a></td><td><a href="https://qwerty-learner.vercel.app/">Qwerty Learner</a></td></tr><tr><td><a href="https://www.youtube.com/c/Langfocus/videos">Langfocus</a></td><td><a href="https://www.youtube.com/user/Xidnaf/videos">Xidnaf</a></td></tr></tbody></table><h2 id="单词词汇"><a href="#单词词汇" class="headerlink" title="单词词汇"></a><strong>单词词汇</strong></h2><table><thead><tr><th><a href="https://www.cipindanci.com/">词频背单词</a></th><th><a href="https://bdc2.youzack.com/Recitation/Home">YouZack背单词</a></th></tr></thead><tbody><tr><td><a href="http://testyourvocab.com/">Test Your Vocabulary</a></td><td><a href="https://www.languageguide.org/%E8%8B%B1%E8%AF%AD/%E8%AF%8D%E6%B1%87/">LanguageGuide.org</a></td></tr><tr><td><a href="https://www.engrish.com/">Engrish 英语错用收集</a></td><td></td></tr><tr><td><a href="https://www.usingenglish.com/">UsingEnglish.com</a></td><td><a href="https://www.englishpage.com/">English Pages</a></td></tr><tr><td><a href="https://www.myenglishpages.com/">My English Pages</a></td><td></td></tr></tbody></table><h2 id="听力口语"><a href="#听力口语" class="headerlink" title="听力口语"></a><strong>听力口语</strong></h2><h3 id="在线听力"><a href="#在线听力" class="headerlink" title="在线听力"></a>在线听力</h3><table><thead><tr><th><a href="http://www.tingroom.com/">在线英语听力室</a></th><th><a href="http://dict.eudic.net/ting">每日英语听力</a></th></tr></thead><tbody><tr><td><a href="https://www.putclub.com/">普特听力</a></td><td><a href="http://www.tingclass.net/">听力课堂</a></td></tr><tr><td><a href="http://www.kekenet.com/">可可英语</a></td><td></td></tr><tr><td><a href="http://yinbiao.tingclass.net/show-16-9-1.html">48个英语音标表</a></td><td><a href="http://www.hydcd.com/baike/yingyuyinbiao.htm">48个国际音标发音表</a></td></tr><tr><td><a href="https://www.youzack.com/">英语听力逐句精听</a></td><td><a href="https://www.listeningexpress.com/">听力特快</a></td></tr><tr><td><a href="https://youglish.com/">Youglish</a></td><td></td></tr><tr><td><a href="https://www.listeningexpress.com/cnn10/">CNN10 Student News</a></td><td><a href="https://www.51voa.com/">51VOA</a></td></tr><tr><td><a href="http://www.tingvoa.com/">VOA英语学习网</a></td><td><a href="http://mini-ielts.com/">在线雅思机考模拟</a></td></tr></tbody></table><h3 id="口语博主"><a href="#口语博主" class="headerlink" title="口语博主"></a><strong>口语博主</strong></h3><table><thead><tr><th><a href="https://space.bilibili.com/407282397/video">EnglishTube</a></th><th><a href="https://space.bilibili.com/24801003/video">口语老炮儿马思瑞</a></th></tr></thead><tbody><tr><td><a href="https://space.bilibili.com/340223423/video">Ella教美语</a></td><td><a href="https://space.bilibili.com/131058159/video">英语老师Lee</a></td></tr><tr><td><a href="https://space.bilibili.com/30145454/video">阿曾曾儿</a></td><td><a href="https://space.bilibili.com/346396741/video">FanfaniShare</a></td></tr><tr><td><a href="https://space.bilibili.com/433248184/video">一起暴击口语</a></td><td><a href="https://space.bilibili.com/17996988/video">免子队长油百万</a></td></tr><tr><td><a href="https://space.bilibili.com/20420581/video">EngVid</a></td><td></td></tr><tr><td><a href="https://www.youtube.com/c/engvidEmma/videos">EngVid</a></td><td><a href="https://www.youtube.com/c/EnglishLikeANative/videos">English Like A Native</a></td></tr><tr><td><a href="https://www.youtube.com/c/rachelsenglish/videos">Rachel’s English</a></td><td><a href="https://www.youtube.com/c/EnglishwithLucy/videos">English with Lucy</a></td></tr><tr><td><a href="https://www.youtube.com/c/mmmEnglish_Emma/videos">mmmEnglish</a></td><td><a href="https://www.youtube.com/c/MaaaxterEnglish/videos">Maaaxter English</a></td></tr><tr><td><a href="https://www.youtube.com/c/SoundsAmerican/videos">Sounds American</a></td><td><a href="https://www.youtube.com/c/JackiesEnglishClass/videos">跟洋妞学英语 Jackie</a></td></tr></tbody></table><h2 id="阅读理解"><a href="#阅读理解" class="headerlink" title="阅读理解"></a><strong>阅读理解</strong></h2><h3 id="杂志周刊"><a href="#杂志周刊" class="headerlink" title="杂志周刊"></a>杂志周刊</h3><table><thead><tr><th><a href="https://time.com/">TIME</a></th><th><a href="https://www.economist.com/">The Economist</a></th></tr></thead><tbody><tr><td><a href="https://github.com/nailperry-zd/The-Economist">The Economist 下载</a></td><td><a href="https://www.discover.com/">Discover</a></td></tr><tr><td><a href="https://www.newsweek.com/">Newsweek</a></td><td><a href="https://www.rd.com/">Reader’s Digest</a></td></tr></tbody></table><h3 id="西方新闻"><a href="#西方新闻" class="headerlink" title="西方新闻"></a>西方新闻</h3><table><thead><tr><th><a href="https://edition.cnn.com/">CNN</a></th><th><a href="https://www.usatoday.com/">USA TODAY</a></th></tr></thead><tbody><tr><td><a href="https://www.washingtonpost.com/">Washington Post</a></td><td><a href="https://www.nytimes.com/">New York Times</a></td></tr><tr><td><a href="https://www.latimes.com/">Los Angeles Times</a></td><td><a href="https://www.bbc.com/">BBC</a></td></tr><tr><td><a href="https://www.theguardian.com/international">The Guardian</a></td><td></td></tr></tbody></table><h3 id="中国新闻"><a href="#中国新闻" class="headerlink" title="中国新闻"></a>中国新闻</h3><table><thead><tr><th><a href="http://www.chinadaily.com.cn/">China Daily</a></th><th><a href="http://en.people.cn/home.html">People’s Daily Online</a></th></tr></thead><tbody><tr><td><a href="http://www.qcenglish.com/">七彩英语</a></td><td><a href="http://www.enread.com/">英文阅读网</a></td></tr><tr><td><a href="http://www.kekenet.com/read/">可可双语阅读</a></td><td><a href="http://www.qqenglish.com/">蛐蛐英语</a></td></tr><tr><td><a href="https://zhuanlan.zhihu.com/p/31557166">21个英语新闻网站</a></td><td></td></tr></tbody></table><h3 id="语法博主"><a href="#语法博主" class="headerlink" title="语法博主"></a><strong>语法博主</strong></h3><table><thead><tr><th align="left"><a href="https://space.bilibili.com/401727458/video">张富贵的英语世界</a></th><th align="left"><a href="https://space.bilibili.com/224437180/video">rio老师</a></th></tr></thead><tbody><tr><td align="left"><a href="https://space.bilibili.com/402370368/video">Mmxgxg</a></td><td align="left"><a href="https://space.bilibili.com/99574633/video">KMF考满分</a></td></tr><tr><td align="left"><a href="https://www.youtube.com/c/Englishwithjennifer/videos#0">JenniferESL</a></td><td align="left"></td></tr><tr><td align="left"><a href="https://www.youtube.com/c/engvidJames/videos">JamesESL English Lessons</a></td><td align="left"><a href="https://www.youtube.com/c/engvidRonnie/videos">EnglishLessons4U</a></td></tr><tr><td align="left"><a href="https://github.com/Dictionaryphile/All_Dictionaries">宇宙最全在线词典网站导航</a></td><td align="left"></td></tr><tr><td align="left"><a href="https://github.com/Dictionaryphile/1000_Eng_Dicts">1000 部英语类词典名录</a></td><td align="left"><a href="https://zhuanlan.zhihu.com/51xiaochu">51xiaochu雅思写作</a></td></tr><tr><td align="left"><a href="https://zhuanlan.zhihu.com/talk-about-english">魏剑峰</a></td><td align="left"><a href="https://zhuanlan.zhihu.com/miaomianba">妙面爸英语</a></td></tr><tr><td align="left"><a href="https://www.jianshu.com/users/e652ef294319/timeline">超级莎 – 简书</a></td><td align="left"></td></tr></tbody></table><h2 id="写作词典"><a href="#写作词典" class="headerlink" title="写作词典"></a><strong>写作词典</strong></h2><h3 id="词库查询"><a href="#词库查询" class="headerlink" title="词库查询"></a>词库查询</h3><table><thead><tr><th><a href="https://www.wordnik.com/">Wordnik</a></th><th><a href="https://www.collinsdictionary.com/dictionary/english-thesaurus">Collins Thesaurus</a></th></tr></thead><tbody><tr><td><a href="https://www.powerthesaurus.org/">PowerThesaurus</a></td><td><a href="https://www.words-to-use.com/">Words to Use</a></td></tr><tr><td><a href="https://www.thesaurus.com/">Thesaurus.com</a></td><td><a href="https://www.freethesaurus.com/">FreeThesaurus</a></td></tr><tr><td><a href="https://words.bighugelabs.com/">Big Huge Thesaurus</a></td><td><a href="https://www.wordhippo.com/">WordHippo</a></td></tr><tr><td><a href="https://visuwords.com/">VisuWords</a></td><td></td></tr></tbody></table><h3 id="搭配词典"><a href="#搭配词典" class="headerlink" title="搭配词典"></a>搭配词典</h3><table><thead><tr><th><a href="http://www.freecollocation.com/">Collocation Dictionary ▲</a></th><th><a href="http://ozdic.com/">Ozdic.com</a></th></tr></thead><tbody><tr><td><a href="http://www.just-the-word.com/">Just the Word</a></td><td><a href="https://linggle.com/">Linggle</a></td></tr><tr><td><a href="https://netspeak.org/">Netspeak ▲</a></td><td><a href="https://textranch.com/sentence-checker/">TextRanch</a></td></tr></tbody></table><h3 id="例句词典"><a href="#例句词典" class="headerlink" title="例句词典"></a>例句词典</h3><table><thead><tr><th><a href="http://www.jukuu.com/">句库</a></th><th><a href="https://sentencedict.com/">SentenceDict</a></th></tr></thead><tbody><tr><td><a href="https://www.linguee.com/">Linguee</a></td><td><a href="https://ludwig.guru/">Ludwig</a></td></tr><tr><td><a href="https://www.english-corpora.org/coca/">语料库 | COCA</a></td><td><a href="https://www.english-corpora.org/bnc/">语料库 | BNC</a></td></tr><tr><td><a href="http://www.webcorp.org.uk/live/index.jsp">语料库 | WebCorp</a></td><td><a href="https://www.azquotes.com/">名人语录 | A-Z Quotes</a></td></tr></tbody></table><h2 id="写作语法"><a href="#写作语法" class="headerlink" title="写作语法"></a><strong>写作语法</strong></h2><h3 id="语法检测"><a href="#语法检测" class="headerlink" title="语法检测"></a>语法检测</h3><table><thead><tr><th><a href="http://www.wwenglish.org/en/z/grammar/index.htm">旺旺英语语法</a></th><th><a href="https://www.grammarly.com/grammar-check">Grammarly</a></th></tr></thead><tbody><tr><td><a href="https://www.languagetool.org/">LanguageTool</a></td><td><a href="http://www.1checker.com/OnlineChecker">易改</a></td></tr><tr><td><a href="https://www.nounplus.net/grammarcheck/">NounPlus</a></td><td><a href="https://grammica.com/">GrammarChecker</a></td></tr><tr><td><a href="https://hemingwayapp.com/">Hemingway Editor</a></td><td><a href="https://app.mtutor.engkoo.com/englishwriting/">Aim Writing</a></td></tr><tr><td><a href="https://wordcounter.net/">WordCounter</a></td><td></td></tr></tbody></table><h3 id="写作建议"><a href="#写作建议" class="headerlink" title="写作建议"></a>写作建议</h3><table><thead><tr><th><a href="http://www.1checker.com/Templates">英文写作模版</a></th><th><a href="https://www.adreep.cn/">英语作文网</a></th></tr></thead><tbody><tr><td><a href="https://www.writeexpress.com/">英语写作模板</a></td><td><a href="https://guinlist.wordpress.com/">guinlist</a></td></tr><tr><td><a href="https://www.powa.org/">Paradigm</a></td><td><a href="https://www.squibler.io/writing-prompts">Squibler 写作工具</a></td></tr><tr><td><a href="https://www.writersdigest.com/">Writer’s Digest 写作文摘</a></td><td><a href="https://grammica.com/paraphrasing-tool/">Grammica 伪原创工具</a></td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>Hexo教程</category>
+          
+          <category> 英语学习 </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>A test</title>
-    <url>/2021/03/15/test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="7881093d1788922eb800e0b3d004e53bef0b52ad7103c4db971ba38a0e499229">23ee0b56edd02031a3330db20002c24b0eccfbf386226f9bef535d34dfe6dda10aec23a6afac7a7328f73c4c52d2b37d93265ddf879e6f8db91ad6dd2516e86b234398f6327c2e7afd55aa9eedf08a6e68c4e66828590ce9b83f16fd059709597ab9db21510665173026c032de2ab55c14ab17da55b64f3c978596d73c101177c90a870b48bc4c54ef8a4fbf1dc0a983fcecbfb4e8b1370c7a725a11f3f5995cae2ca6839ddccefbe817bdb17087f270016c7a734dd3fff43f31df43e4b14773dacbfdcb0cb104b6592096a281b0a61a768ee50740ecdd677d49f83fd92dbd513cdbf1892edc7637472d02925f3666314bc89dd347f6e3ab852688f9ca418822bf92819abcfd0fa6722fb160725bf1786636285881cd8f087a6112aa5b204eaeab2ffbfbd58a920fdc155c6946918eeb39bb3bc58703fc50c9e2e6684a762bb2ec1c48f5d677323f2ed248ac9db6a8823fcdd14cf548d00ce6007e10089dbdc4e45115c76b6e8107a539782a96117650161d68174aa4e398bb107c7cbc5db8da6ef81b7ae200f629abfbcc46fa066745d4b568c8cb93691bd62abc29ee17482b0120e8f1e2b5d123c7517777a702b033f1865388c951a7c4eac16e3d4109091a6be84e2a245c5a1973187da33f9fb89568fa2ceef6fada5b8f12b700bc5a26a09379f6d4a7976e88a889c7152e3cb239aa46a4c542043d116781796cc6635e22600bb308d73040f396653aede71db9761b807406b69dbfea3ea60b39a58f66ab87ae33f79aa9922bac99f3ca65263fc71da737c33d87445937657bdd075749660cc2668d2d6adef5f0c400864aa8303537d58d31546ed00761c9d87ce7c2b2c4457103fdb9144246d1737909d43cf96e2f2cb8f8db6a439974815f9a6fc52c299cfbb73de8eae18858debe1ac842777db98547494f1ea2d43d0e11272ae8e9109ecf2a4afc0fd0a1af4b1ea38202aa44967cb7e54e31622abfa5eb59348113e373e2a22a6040c0432431141b82ef3cefbdba99bf9a7c77b93411d5abf94a02f606fd930f8363aaf111d876bc7bec3b2d8ce0b75b513df39ba71cdaed66a144b96c7f81b403ea6a53eb6137c4a07692ba543ad8af1b0574d48dab374fbe7a8d8e3f05daa39eeca95d951447ac0823382d3a9196435f2bd23bb141155cc9fea4c23c793bafd49be9bc7362a71132e38d81441ae9db13b6d12bd69d925284821b91275bf2e084b72a43df962187a679649fdcc73184d7a532faa85f02f7487651fcfbf75a43296a9142de0974fbd2218bd5842446d0ae24d00694e13731a893c55cb5a2db807c6e2bd66a75410c38ae5a133fffd1d6cd25869d2c32f536a7aa990e80149fd43ee88e800fc22394157c3aeb1fff2c7495da253524472bf4440de4c2643c52a8d47a843f5df10823d764adf55b79a60fe03876af7f09a9a07b838e82364a08eeb1de1b53b2f34bcef1d9aba96b8da7da41acbdb06daf4622be1be1bd100e2651d5bdd0b68781b3117450c253c0e5bcb58fd4fc55e1e00b54bcdfc56005aec69f11f3c6f74f0c3481418080bf3bf2e609f8a4eece8049306303684f4b88a492823d6cb4c0c00e4e11e06aee8d57957a460711f034434fae36398be5acef3ed7e95ae7070ba501894b2b5f014fc79f72a425ef00a01764d5b67dbf2c9548588ce88a2453676fb145dae048c0b5f0136336ac81f277c0809d419317b7f1f2ac518337a5ca0ba3e1ef2570df72a20156daefbe4467c9023db77d04da4ec59caece5f2b0f5b55d1ec44250b2091f36808e9cac1b8237c7b5b500fc45fb6cb8d72357d4f7862ba3d266f0edcd3376ce7fb9288ce903b1858399d2350eda673e40af575e4f7c0788e6d30cf23770fb4533157f5e6e029cdabb9038c1aab7fb68ba4d0d2ede068523461f855a1c8537a</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>嘘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小锋TV导航页</title>
-    <url>/2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
-    <content><![CDATA[<h2 id="影视网站集合"><a href="#影视网站集合" class="headerlink" title="影视网站集合"></a>影视网站集合</h2><table>
-<thead>
-<tr>
-<th>名称</th>
-<th>网址</th>
-<th>名称</th>
-<th>网址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>135 资源网</td>
-<td><a href="http://cj.zycjw1.com/">http://cj.zycjw1.com/</a></td>
-<td>酷云资源</td>
-<td><a href="http://caiji.kuyun98.com/">http://caiji.kuyun98.com/</a></td>
-</tr>
-<tr>
-<td>速播资源站</td>
-<td><a href="https://www.subo988.com/">https://www.subo988.com/</a></td>
-<td>209 资源</td>
-<td><a href="http://cj.1156zy.com/">http://cj.1156zy.com/</a></td>
-</tr>
-<tr>
-<td>酷播资源</td>
-<td><a href="http://api.kbzyapi.com/">http://api.kbzyapi.com/</a></td>
-<td>永久资源</td>
-<td><a href="http://cj.yongjiuzyw.com/">http://cj.yongjiuzyw.com/</a></td>
-</tr>
-<tr>
-<td>OK 资源网</td>
-<td><a href="http://cj.okzy.tv/">http://cj.okzy.tv/</a></td>
-<td>最大资源网</td>
-<td><a href="http://www.zdziyuan.com/">http://www.zdziyuan.com/</a></td>
-</tr>
-<tr>
-<td>88 影视资源站</td>
-<td><a href="http://www.88zyw.net/">http://www.88zyw.net/</a></td>
-<td>卧龙资源</td>
-<td><a href="http://cj.wlzy.tv/">http://cj.wlzy.tv/</a></td>
-</tr>
-<tr>
-<td>快快资源</td>
-<td><a href="https://api.kkzy.tv/">https://api.kkzy.tv/</a></td>
-<td>壹伍捌资源网</td>
-<td><a href="http://cj.158zyz.net:158/">http://cj.158zyz.net:158/</a></td>
-</tr>
-<tr>
-<td>魔卡资源网</td>
-<td><a href="https://cj.heiyap.com/">https://cj.heiyap.com/</a></td>
-<td>快影资源站</td>
-<td><a href="https://www.kyzy.tv/">https://www.kyzy.tv/</a></td>
-</tr>
-<tr>
-<td>步步高顶尖资源网</td>
-<td><a href="http://api.bbkdj.com/">http://api.bbkdj.com/</a></td>
-<td>1886 资源</td>
-<td><a href="http://cj.1886zy.co/">http://cj.1886zy.co/</a></td>
-</tr>
-<tr>
-<td>605资源</td>
-<td><a href="http://www.605zy.net/">http://www.605zy.net/</a></td>
-<td>秒播资源</td>
-<td><a href="http://caiji.mb77.vip/">http://caiji.mb77.vip/</a></td>
-</tr>
-<tr>
-<td>人人资源</td>
-<td><a href="https://www.rrzyw.cc/">https://www.rrzyw.cc/</a></td>
-<td>麻花资源</td>
-<td><a href="https://www.mhapi123.com/">https://www.mhapi123.com/</a></td>
-</tr>
-<tr>
-<td>豆瓣电影资源</td>
-<td><a href="http://v.1988cj.com/">http://v.1988cj.com/</a></td>
-<td>123 资源</td>
-<td><a href="http://cj.123ku2.com:12315/">http://cj.123ku2.com:12315/</a></td>
-</tr>
-<tr>
-<td>最新资源</td>
-<td><a href="http://api.zuixinapi.com/">http://api.zuixinapi.com/</a></td>
-<td>芒果 TV 资源网</td>
-<td><a href="https://api.shijiapi.com/">https://api.shijiapi.com/</a></td>
-</tr>
-</tbody></table>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line">收集了几个影视导航站点，做影视类的拿去折腾吧。还是那句话，版权归原网站所有[哈哈]</span><br><span class="line"></span><br><span class="line">https://adzhp.cn/mian-fei-shi-pin.html </span><br><span class="line"></span><br><span class="line">https://jubt.cf/cn/index.html </span><br><span class="line"></span><br><span class="line">http://www.xsldh6.com/ </span><br><span class="line"></span><br><span class="line">https://hao.su/531/ </span><br></pre></td></tr></tbody></table></figure>
-
-<span id="more"></span>
-
-<h3 id="免费在线"><a href="#免费在线" class="headerlink" title="免费在线"></a>免费在线</h3><p><strong>推荐影视站：<a href="https://www.o8tv.com/">555电影</a></strong><br><strong>推荐APP</strong>：<a href="http://dxzj.tv/"><strong>免费大熊追剧</strong></a></p>
-<table>
-<thead>
-<tr>
-<th><strong><a href="https://www.zhenbuka.com/">真不卡电影网</a></strong></th>
-<th><strong><a href="https://www.nfmovies.com/">奈菲影视</a></strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="http://www.wanmeikk.me/">完美看看</a></strong></td>
-<td><strong><a href="http://www.fenggoudy1.com/">疯狗电影</a></strong></td>
-</tr>
-<tr>
-<td>**<a href="http://www.diliktv.com/">嘀哩影视</a>**🚫</td>
-<td><strong><a href="https://tv547.com/">迪迪影视</a></strong></td>
-</tr>
-<tr>
-<td><a href="http://dianying.im/"><strong>电影先生</strong></a></td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="http://www.idybee.com/">电影蜜蜂</a></strong></td>
-<td><strong><a href="https://www.magedn.com/">MaGeDN</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="http://www.kkkkmao.com/">4K屋</a></strong></td>
-<td><strong><a href="https://www.66s.cc/">6V电影</a></strong></td>
-</tr>
-<tr>
-<td>**<a href="https://www.dadatutu.com/">达达兔</a>**–<a href="https://v.jlszyy.org/">1</a>–<a href="https://www.jlszyy.cc/">2</a></td>
-<td><strong><a href="https://www.kankanwu.com/">看看屋</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://tv547.com/">小蚁影视</a></strong></td>
-<td><strong><a href="https://www.yunbtv.com/">云播TV</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.adcmove.com/">ADC电影网</a></strong></td>
-<td><strong><a href="https://suyingtv.xyz/">速影TV</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.dandanzan.cc/">蛋蛋赞</a></strong></td>
-<td><strong><a href="https://tv547.com/">我爱影视</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://tv547.com/">剧汇TV</a></strong></td>
-<td><strong><a href="http://puz.pub/">PZ影视网</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.77kpp.com/">琪琪看片</a></strong></td>
-<td><strong><a href="http://www.tv432.com/">黑米影院</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.bde4.com/">哔嘀影视</a></strong>|<a href="https://bdys.me/">备用</a></td>
-<td><strong><a href="http://www.tv5box.com/">电影盒子</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.okdyw.com/">OK电影网</a></strong></td>
-<td><strong><a href="http://www.nkdyw.com/">南柯电影网</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="http://www.aaqqw.com/">私人官网</a></strong></td>
-<td><strong><a href="https://www.tcmove.com/">太初电影</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.haiduomi.cc/">嗨哆咪影视</a></strong></td>
-<td><strong><a href="https://www.66e.cc/">66影视</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.newqiyu.com/">新奇遇电影</a></strong></td>
-<td><strong><a href="https://www.qukantv.net/">去看TV</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="http://u5kk.com/">U5影视</a></strong></td>
-<td><a href="https://www.yeshi8.cn/"><strong>无忧影城</strong></a></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>建议电脑观看，手机可能广告较多。</p>
-</blockquote>
-<h3 id="电影聚合搜索"><a href="#电影聚合搜索" class="headerlink" title="电影聚合搜索"></a>电影聚合搜索</h3><p><a href="https://adzhp.cn/sites/3940.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E6%90%9C-%E7%B4%A2.png" alt="影视聚合搜索">🍦<strong>影视聚合搜索</strong>电影网站聚合类搜索，搜电影要方便一点</a></p>
-<h3 id="高清下载"><a href="#高清下载" class="headerlink" title="高清下载"></a>高清下载</h3><p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html">高清电影下载网站索引</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<h3 id="视频解析"><a href="#视频解析" class="headerlink" title="视频解析"></a>视频解析</h3><p><a href="https://adzhp.cn/vipdianyingyuduanshipinjiexiziyuansuoyin.html">VIP电影与视频解析下载</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<h3 id="视频软件"><a href="#视频软件" class="headerlink" title="视频软件"></a>视频软件</h3><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<h2 id="在线网站"><a href="#在线网站" class="headerlink" title="在线网站"></a>在线网站</h2><h3 id="综合"><a href="#综合" class="headerlink" title="综合"></a>综合</h3><blockquote>
-<p>比较方便的聚合类美日韩等国外剧和电影站：<a href="https://adzhp.cn/favorites/guowaiju"><strong>国外剧 | 爱达杂货铺 (adzhp.cn)</strong></a>，或从首页直接进入。</p>
-</blockquote>
-<h3 id="美剧"><a href="#美剧" class="headerlink" title="美剧"></a>美剧</h3><blockquote>
-<p>2021年2月3日，上海警方对外发布通报称，2020年9月有人通过“人人影视字幕组”网站和客户端提供疑似侵权影视作品的在线观看和离线下载。上海警方共抓获以梁某为首的犯罪嫌疑人14名，查处涉案公司3家，查获作案用手机20部和电脑主机、服务器12台，涉案金额1600余万元。</p>
-<p>详见<a href="https://baike.baidu.com/item/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86/8666514">百度百科&gt;&gt;&gt;</a></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>MAG磁力</th>
-<th><a href="http://mag234.com/home.html">http://mag234.com/home.html</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>美剧迷</td>
-<td><a href="https://www.meijumi.net/">https://www.meijumi.net/</a></td>
-</tr>
-<tr>
-<td>美剧侠</td>
-<td><a href="http://www.meijuxia.com/">http://www.meijuxia.com/</a></td>
-</tr>
-<tr>
-<td>牛牛美剧</td>
-<td><a href="http://www.nnmeiju.com/">http://www.nnmeiju.com/</a></td>
-</tr>
-<tr>
-<td>耐卡影音</td>
-<td><a href="http://mcar.cc/">http://mcar.cc/</a></td>
-</tr>
-<tr>
-<td>91美剧</td>
-<td><a href="https://91mjw.com/">https://91mjw.com/</a></td>
-</tr>
-<tr>
-<td>美剧天堂</td>
-<td><a href="https://www.meijutt.tv/">https://www.meijutt.tv/</a></td>
-</tr>
-<tr>
-<td>不卡美剧</td>
-<td><a href="https://www.meijutt.cn/">https://www.meijutt.cn/</a></td>
-</tr>
-<tr>
-<td>EZTV片源</td>
-<td><a href="https://eztv.ag/">https://eztv.ag/</a></td>
-</tr>
-<tr>
-<td>天下美剧</td>
-<td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td>
-</tr>
-<tr>
-<td>爱美剧TV1</td>
-<td><a href="https://www.imjtv.com/">https://www.imjtv.com/</a></td>
-</tr>
-<tr>
-<td>爱美剧TV2</td>
-<td><a href="https://www.imeijutv.com/">https://www.imeijutv.com/</a></td>
-</tr>
-<tr>
-<td>爱美剧</td>
-<td><a href="https://www.imeiju.io/">https://www.imeiju.io/</a></td>
-</tr>
-<tr>
-<td>天天美剧</td>
-<td><a href="http://www.ttmeiju.me/">http://www.ttmeiju.me/</a></td>
-</tr>
-<tr>
-<td>美剧粉</td>
-<td><a href="http://www.mjf2020.com/">http://www.mjf2020.com/</a></td>
-</tr>
-<tr>
-<td>謦灵风软</td>
-<td><a href="http://www.1000fr.net/">http://www.1000fr.net/</a></td>
-</tr>
-<tr>
-<td>美剧鸟</td>
-<td><a href="http://www.meijuniao.com/">http://www.meijuniao.com/</a></td>
-</tr>
-<tr>
-<td>天天看美剧</td>
-<td><a href="https://www.ttkmj.net/">https://www.ttkmj.net/</a></td>
-</tr>
-<tr>
-<td>天下美剧</td>
-<td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td>
-</tr>
-<tr>
-<td>每日美剧</td>
-<td><a href="http://www.meirimeiju.com/">http://www.meirimeiju.com/</a></td>
-</tr>
-</tbody></table>
-<h3 id="韩剧"><a href="#韩剧" class="headerlink" title="韩剧"></a>韩剧</h3><p><a href="https://adzhp.cn/sites/3896.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1.ico" alt="韩剧资源合集">🍦<strong>韩剧资源合集</strong>本页收录韩剧相关资源，为大家提供韩剧免费观看渠道</a></p>
-<h3 id="日剧"><a href="#日剧" class="headerlink" title="日剧"></a>日剧</h3><p><a href="https://adzhp.cn/sites/3899.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/cropped-favicon-192x192-1.png" alt="日剧资源合集">🍦<strong>日剧资源合集</strong>本页收录日剧相关资源，为大家提供日剧免费观看渠道</a></p>
-<h3 id="港剧"><a href="#港剧" class="headerlink" title="港剧"></a>港剧</h3><p><a href="https://adzhp.cn/sites/3902.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1-1.ico" alt="港剧资源合集">🍦<strong>港剧资源合集</strong>本页收录港剧相关资源，为大家提供港剧免费观看渠道</a></p>
-<h3 id="字幕"><a href="#字幕" class="headerlink" title="字幕"></a>字幕</h3><p><a href="https://adzhp.cn/sites/3905.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon.png" alt="字幕组翻译">🍦<strong>字幕组翻译</strong>本页收录各大字幕组网站，从这里获取国外视频的首发翻译吧</a></p>
-<h2 id="手机APP"><a href="#手机APP" class="headerlink" title="手机APP"></a>手机APP</h2><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<p><a href="https://www.cupfox.com/">茶狐杯</a></p>
-<p><a href="https://www.dianyinggou.com/">电影狗</a></p>
-<p><a href="https://xiaoshesoso.com/">小蛇搜搜</a></p>
-<p><a href="https://www.sbkk.me/">随便看看</a></p>
-<p><a href="http://ifkdy.com/">疯狂影视</a></p>
-<p><a href="http://ifkdy.com/">五号站</a></p>
-<p><a href="https://www.mvcat.com/">影猫</a></p>
-<h4 id="相关导航"><a href="#相关导航" class="headerlink" title="相关导航"></a>相关导航</h4><p><a href="https://adzhp.cn/mian-fei-shi-pin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/03/%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E6%91%84%E5%BD%B1-01-1.png" alt="🈴免费在线影视"><strong>🈴免费在线影视</strong>本页收录各大免费在线视频网站，主要提供电影、电视剧、综艺等免费观看，请勿相信网站内部广告</a></p>
-<p><a href="https://adzhp.cn/sites/4244.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/img.jpg" alt="免费观看超高清大片"><strong>免费观看超高清大片</strong>院线高清大片 点击进来，超高清大片随您看，免费在线或 下载APP观看</a></p>
-<p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E4%B8%8B%E8%BD%BD.png" alt="高清电影下载">🍦<strong>高清电影下载</strong></a></p>
-<p><a href="https://adzhp.cn/wang-luo-zhi-bo.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/TV.png" alt="网络电视直播">🍦<strong>网络电视直播</strong>本页收录网络直播、电视直播、体育直播等相关直播类资源</a></p>
-<p><a href="https://adzhp.cn/sites/3363.html"><img src="https://api.iowen.cn/favicon/www.nfmovies.com.png" alt="奈菲影视"><strong>奈菲影视</strong>高清秒播，速度快，手机电脑均有广告。</a></p>
-<p><a href="https://adzhp.cn/sites/1185.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/01/favicon-3.ico" alt="达达兔"><strong>达达兔</strong>无广告视频站，页面简洁速度快。</a></p>
-<h3 id="高清下载-1"><a href="#高清下载-1" class="headerlink" title="高清下载"></a>高清下载</h3><p>电影天堂系列：<a href="https://www.dytt8.net/">电影天堂1</a>–<a href="https://www.dy2018.com/">电影天堂2</a>–<a href="https://www.ygdy8.com/index.html">阳光电影</a>–<a href="https://www.btwuji.com/">无极电影</a>|<a href="https://dytt8.net/app.html">APP下载</a></p>
-<table>
-<thead>
-<tr>
-<th><a href="http://www.415.net/">BT之家</a> +<a href="https://www.51btbtt.com/">2</a>[BT]</th>
-<th><a href="https://www.mypianku.com/"><strong>片库网</strong></a> [在线+磁力+BT]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.80s.tw/">80s电影</a> [<a href="http://www.jianpian.com/">荐片</a>+迅雷]</td>
-<td><a href="https://www.66s.cc/">6V电影网</a>[在线+磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="https://www.piaohua.com/">飘花资源</a> [磁力+<a href="http://www.jianpian.com/">荐片</a>]</td>
-<td><a href="http://www.btshoufa.net/forum.php">BT首发论坛</a> [BT]</td>
-</tr>
-<tr>
-<td><a href="https://www.btdx8.com/">比特大雄</a> [在线+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td>
-<td><a href="http://www.dygang.net/">电影港</a> [磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="http://www.ed2000.com/">ED2000</a> <del>[</del>磁力]</td>
-<td><a href="http://www.etdown.tv/">光影资源联盟</a> [磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="http://www.mp4ba.la/">高清MP4</a>[BT+磁力+百度云]</td>
-<td><a href="http://www.rarbt.com/">RABT</a> [BT]</td>
-</tr>
-<tr>
-<td><a href="https://www.bttwo.com/">两个BT</a> [在线+BT]</td>
-<td><a href="http://www.youzhidy.com/">优质电影网</a> [磁力]</td>
-</tr>
-<tr>
-<td><a href="http://xijing.tv/movie/index">XijingTv</a> [磁力+奶牛+百度云]</td>
-<td><a href="https://www.jsr9.com/">BT天堂</a> [在线+BT]</td>
-</tr>
-<tr>
-<td><a href="http://www.chapaofan.com/">泡饭影视</a> [收费]</td>
-<td><a href="http://www.btbuluo.com/">BT部落天堂</a> [磁力+迅雷]</td>
-</tr>
-<tr>
-<td><a href="http://mag234.com/">MAG磁力站</a>[磁力+人人影视下载器]</td>
-<td><a href="http://xiepp.com/">下片片</a> [磁力+在线+迅雷]</td>
-</tr>
-<tr>
-<td><a href="https://www.xl720.com/">迅雷电影天堂</a> [在线++迅雷+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td>
-<td><a href="https://www.yingyinwu.com/">影音屋</a> [BT]</td>
-</tr>
-<tr>
-<td><a href="https://www.993dy.com/">LOL电影天堂</a> [迅雷]</td>
-<td><a href="https://www.cilixiong.com/">磁力熊</a> [在线+磁力]</td>
-</tr>
-<tr>
-<td><a href="http://www.verycd.com/">电驴大全</a></td>
-<td><a href="http://www.hkb123.com/">好恐怖</a> [在线+磁力+电驴]</td>
-</tr>
-<tr>
-<td><a href="https://www.dy8c.com/">电影巴士</a>[磁力]</td>
-<td><a href="https://www.uump4.net/">悠悠MP4</a> [BT+磁力+电驴]</td>
-</tr>
-<tr>
-<td><a href="https://www.domp4.com/">MP4电影</a> [在线+磁力]</td>
-<td><a href="https://www.poxiao.com/">破晓电影</a> [迅雷+<a href="http://www.jianpian.com/">荐片</a>]</td>
-</tr>
-<tr>
-<td><a href="https://www.12bt.net/">12BT</a> [BT]</td>
-<td><a href="https://www.xlc2020.com/">迅雷仓</a> [迅雷]</td>
-</tr>
-<tr>
-<td><a href="https://dlkoo.com/">大连生活网</a> [BT+百度云]</td>
-<td><a href="http://www.qtfy7.com/">且听风吟</a> [在线+迅雷]</td>
-</tr>
-<tr>
-<td><a href="http://www.rrdyw.cc/">人人电影网</a> [百度云]</td>
-<td><a href="http://www.xyxz001.com/">夕阳小站</a> [磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="http://seehd.so/">看高清联盟</a> [BT]</td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="高质量电影下载"><a href="#高质量电影下载" class="headerlink" title="高质量电影下载"></a>高质量电影下载</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.languang.co/">蓝光网</a> [磁力+4K]</th>
-<th><a href="http://www.yinfans.com/">音范丝</a> [磁力+4K]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.4ktt.com/">4K天堂</a> [收费+磁力+4K]</td>
-<td><a href="https://www.hao4k.cn/forum.php">hao4K论坛</a> [BT+4K]</td>
-</tr>
-<tr>
-<td><a href="http://pianyuan.la/">片源网</a> [BT+磁力]</td>
-<td><a href="https://www.chapianyuan.com/">查片源</a> [电驴+磁力]</td>
-</tr>
-<tr>
-<td><a href="https://gaoqing.fm/">高清电台</a> [BT+磁力+4K]</td>
-<td><a href="http://gaoqing.la/">中国高清网</a> [磁力+原盘]</td>
-</tr>
-<tr>
-<td><a href="http://www.gaoqingw.com/">高清网</a> [BT+磁力+4K]</td>
-<td><a href="https://www.1080.cn/">蓝光电影网</a> [磁力+4K]</td>
-</tr>
-<tr>
-<td><a href="https://www.mini4k.com/">迷客电影</a> [BT+磁力+4K]</td>
-<td><a href="https://www.7bt.org/">7BT</a> [BT+4K]</td>
-</tr>
-<tr>
-<td><a href="https://www.60zhen.com/">60帧电影</a> [收费+网盘]</td>
-<td><a href="https://www.4k123.com/"> 4K论坛</a></td>
-</tr>
-</tbody></table>
-<h2 id="在线解析站"><a href="#在线解析站" class="headerlink" title="在线解析站"></a>在线解析站</h2><p>提供爱奇艺、腾讯、优酷等收费视频网站解析、复制视频地址即可享受VIP服务。<br>视频解析背后的原理：<a href="https://www.bilibili.com/read/cv10045082">https://www.bilibili.com/read/cv10045082</a></p>
-<table>
-<thead>
-<tr>
-<th><strong><a href="https://www.administrator5.com/">无名小站</a></strong></th>
-<th><strong><a href="https://www.ikukk.com/">爱酷看看</a></strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://v.cnv3.com/">全民解析</a></strong></td>
-<td><a href="http://czjx8.com/"><strong>船长解析</strong></a></td>
-</tr>
-<tr>
-<td><strong><a href="https://660e.com/">乐乐云</a></strong></td>
-<td><strong><a href="http://jx.618g.com/">618G免费解析</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.nxflv.com/">诺讯解析</a></strong></td>
-<td><strong><a href="https://vip.mpos.ren/">人人视频解析</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.sounm.com/">搜你妹解析</a></strong></td>
-<td><strong><a href="https://api.927jx.com/">927解析</a></strong></td>
-</tr>
-</tbody></table>
-<h2 id="VIP视频解析油猴脚本"><a href="#VIP视频解析油猴脚本" class="headerlink" title="VIP视频解析油猴脚本"></a>VIP视频解析油猴脚本</h2><p>使用油猴脚本解析：<a href="https://greasyfork.org/zh-CN/scripts?q=VIP">VIP视频相关的脚本 (greasyfork.org)</a><br>油猴脚本安装方法：<a href="https://adzhp.cn/sites/1919.html">Greasy Fork(油猴脚本) | 爱达杂货铺 (adzhp.cn)</a></p>
-<h3 id="视频下载软件"><a href="#视频下载软件" class="headerlink" title="视频下载软件"></a>视频下载软件</h3><p><a href="https://adzhp.cn/sites/3882.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E4%B8%8B%E8%BD%BD.png" alt="在线视频下载软件">🍦<strong>在线视频下载软件</strong>可以下载网页上播放视频、支持各种站点，比如YouTube、哔哩哔哩、西瓜等短视频平台</a></p>
-<h3 id="视频在线解析"><a href="#视频在线解析" class="headerlink" title="视频在线解析"></a>视频在线解析</h3><h4 id="哔哩哔哩"><a href="#哔哩哔哩" class="headerlink" title="哔哩哔哩"></a>哔哩哔哩</h4><p><a href="https://adzhp.cn/sites/3876.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/favicon.ico" alt="B站视频下载">🍦<strong>B站视频下载</strong>本页收录那些可以解析哔哩哔哩的视频网站以及下载软件，方便大家下载B站视频</a></p>
-<h4 id="综合短视频解析"><a href="#综合短视频解析" class="headerlink" title="综合短视频解析"></a>综合短视频解析</h4><p><a href="https://adzhp.cn/sites/3884.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8A%96%E9%9F%B3.png" alt="短视频解析下载">🍦<strong>短视频解析下载</strong>提供各种短视频网站解析下载服务，支持抖音、快手、火山等主流视频平台视频</a></p>
-<h3 id="国外视频下载"><a href="#国外视频下载" class="headerlink" title="国外视频下载"></a>国外视频下载</h3><p><a href="https://adzhp.cn/sites/3888.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8E%A8%E7%89%B9-twitter.png" alt="其他国外视频下载">🍦<strong>其他国外视频下载</strong>提供Twitter、Instagram、Facebook和vlive等视频下载服务的相关内容</a></p>
-<h3 id="小程序"><a href="#小程序" class="headerlink" title="小程序"></a>小程序</h3><p>微信小程序搜索：<strong>去水印</strong></p>
-<p>注：本页很多资源由用户“神界中人”提供，在此表示感谢！</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 英语资源 </tag>
+            
+            <tag> 英语专业 </tag>
+            
+            <tag> 英语网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小锋TV导航页</title>
+      <link href="2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
+      <url>2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="影视网站集合"><a href="#影视网站集合" class="headerlink" title="影视网站集合"></a>影视网站集合</h2><table><thead><tr><th>名称</th><th>网址</th><th>名称</th><th>网址</th></tr></thead><tbody><tr><td>135 资源网</td><td><a href="http://cj.zycjw1.com/">http://cj.zycjw1.com/</a></td><td>酷云资源</td><td><a href="http://caiji.kuyun98.com/">http://caiji.kuyun98.com/</a></td></tr><tr><td>速播资源站</td><td><a href="https://www.subo988.com/">https://www.subo988.com/</a></td><td>209 资源</td><td><a href="http://cj.1156zy.com/">http://cj.1156zy.com/</a></td></tr><tr><td>酷播资源</td><td><a href="http://api.kbzyapi.com/">http://api.kbzyapi.com/</a></td><td>永久资源</td><td><a href="http://cj.yongjiuzyw.com/">http://cj.yongjiuzyw.com/</a></td></tr><tr><td>OK 资源网</td><td><a href="http://cj.okzy.tv/">http://cj.okzy.tv/</a></td><td>最大资源网</td><td><a href="http://www.zdziyuan.com/">http://www.zdziyuan.com/</a></td></tr><tr><td>88 影视资源站</td><td><a href="http://www.88zyw.net/">http://www.88zyw.net/</a></td><td>卧龙资源</td><td><a href="http://cj.wlzy.tv/">http://cj.wlzy.tv/</a></td></tr><tr><td>快快资源</td><td><a href="https://api.kkzy.tv/">https://api.kkzy.tv/</a></td><td>壹伍捌资源网</td><td><a href="http://cj.158zyz.net:158/">http://cj.158zyz.net:158/</a></td></tr><tr><td>魔卡资源网</td><td><a href="https://cj.heiyap.com/">https://cj.heiyap.com/</a></td><td>快影资源站</td><td><a href="https://www.kyzy.tv/">https://www.kyzy.tv/</a></td></tr><tr><td>步步高顶尖资源网</td><td><a href="http://api.bbkdj.com/">http://api.bbkdj.com/</a></td><td>1886 资源</td><td><a href="http://cj.1886zy.co/">http://cj.1886zy.co/</a></td></tr><tr><td>605资源</td><td><a href="http://www.605zy.net/">http://www.605zy.net/</a></td><td>秒播资源</td><td><a href="http://caiji.mb77.vip/">http://caiji.mb77.vip/</a></td></tr><tr><td>人人资源</td><td><a href="https://www.rrzyw.cc/">https://www.rrzyw.cc/</a></td><td>麻花资源</td><td><a href="https://www.mhapi123.com/">https://www.mhapi123.com/</a></td></tr><tr><td>豆瓣电影资源</td><td><a href="http://v.1988cj.com/">http://v.1988cj.com/</a></td><td>123 资源</td><td><a href="http://cj.123ku2.com:12315/">http://cj.123ku2.com:12315/</a></td></tr><tr><td>最新资源</td><td><a href="http://api.zuixinapi.com/">http://api.zuixinapi.com/</a></td><td>芒果 TV 资源网</td><td><a href="https://api.shijiapi.com/">https://api.shijiapi.com/</a></td></tr></tbody></table><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">收集了几个影视导航站点，做影视类的拿去折腾吧。还是那句话，版权归原网站所有[哈哈]</span><br><span class="line"></span><br><span class="line">https://adzhp.cn/mian-fei-shi-pin.html </span><br><span class="line"></span><br><span class="line">https://jubt.cf/cn/index.html </span><br><span class="line"></span><br><span class="line">http://www.xsldh6.com/ </span><br><span class="line"></span><br><span class="line">https://hao.su/531/ </span><br></pre></td></tr></tbody></table></figure><span id="more"></span><h3 id="免费在线"><a href="#免费在线" class="headerlink" title="免费在线"></a>免费在线</h3><p><strong>推荐影视站：<a href="https://www.o8tv.com/">555电影</a></strong><br><strong>推荐APP</strong>：<a href="http://dxzj.tv/"><strong>免费大熊追剧</strong></a></p><table><thead><tr><th><strong><a href="https://www.zhenbuka.com/">真不卡电影网</a></strong></th><th><strong><a href="https://www.nfmovies.com/">奈菲影视</a></strong></th></tr></thead><tbody><tr><td><strong><a href="http://www.wanmeikk.me/">完美看看</a></strong></td><td><strong><a href="http://www.fenggoudy1.com/">疯狗电影</a></strong></td></tr><tr><td>**<a href="http://www.diliktv.com/">嘀哩影视</a>**🚫</td><td><strong><a href="https://tv547.com/">迪迪影视</a></strong></td></tr><tr><td><a href="http://dianying.im/"><strong>电影先生</strong></a></td><td></td></tr><tr><td><strong><a href="http://www.idybee.com/">电影蜜蜂</a></strong></td><td><strong><a href="https://www.magedn.com/">MaGeDN</a></strong></td></tr><tr><td><strong><a href="http://www.kkkkmao.com/">4K屋</a></strong></td><td><strong><a href="https://www.66s.cc/">6V电影</a></strong></td></tr><tr><td>**<a href="https://www.dadatutu.com/">达达兔</a>**–<a href="https://v.jlszyy.org/">1</a>–<a href="https://www.jlszyy.cc/">2</a></td><td><strong><a href="https://www.kankanwu.com/">看看屋</a></strong></td></tr><tr><td><strong><a href="https://tv547.com/">小蚁影视</a></strong></td><td><strong><a href="https://www.yunbtv.com/">云播TV</a></strong></td></tr><tr><td><strong><a href="https://www.adcmove.com/">ADC电影网</a></strong></td><td><strong><a href="https://suyingtv.xyz/">速影TV</a></strong></td></tr><tr><td><strong><a href="https://www.dandanzan.cc/">蛋蛋赞</a></strong></td><td><strong><a href="https://tv547.com/">我爱影视</a></strong></td></tr><tr><td><strong><a href="https://tv547.com/">剧汇TV</a></strong></td><td><strong><a href="http://puz.pub/">PZ影视网</a></strong></td></tr><tr><td><strong><a href="https://www.77kpp.com/">琪琪看片</a></strong></td><td><strong><a href="http://www.tv432.com/">黑米影院</a></strong></td></tr><tr><td><strong><a href="https://www.bde4.com/">哔嘀影视</a></strong>|<a href="https://bdys.me/">备用</a></td><td><strong><a href="http://www.tv5box.com/">电影盒子</a></strong></td></tr><tr><td><strong><a href="https://www.okdyw.com/">OK电影网</a></strong></td><td><strong><a href="http://www.nkdyw.com/">南柯电影网</a></strong></td></tr><tr><td><strong><a href="http://www.aaqqw.com/">私人官网</a></strong></td><td><strong><a href="https://www.tcmove.com/">太初电影</a></strong></td></tr><tr><td><strong><a href="https://www.haiduomi.cc/">嗨哆咪影视</a></strong></td><td><strong><a href="https://www.66e.cc/">66影视</a></strong></td></tr><tr><td><strong><a href="https://www.newqiyu.com/">新奇遇电影</a></strong></td><td><strong><a href="https://www.qukantv.net/">去看TV</a></strong></td></tr><tr><td><strong><a href="http://u5kk.com/">U5影视</a></strong></td><td><a href="https://www.yeshi8.cn/"><strong>无忧影城</strong></a></td></tr></tbody></table><blockquote><p>建议电脑观看，手机可能广告较多。</p></blockquote><h3 id="电影聚合搜索"><a href="#电影聚合搜索" class="headerlink" title="电影聚合搜索"></a>电影聚合搜索</h3><p><a href="https://adzhp.cn/sites/3940.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E6%90%9C-%E7%B4%A2.png" alt="影视聚合搜索">🍦<strong>影视聚合搜索</strong>电影网站聚合类搜索，搜电影要方便一点</a></p><h3 id="高清下载"><a href="#高清下载" class="headerlink" title="高清下载"></a>高清下载</h3><p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html">高清电影下载网站索引</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><h3 id="视频解析"><a href="#视频解析" class="headerlink" title="视频解析"></a>视频解析</h3><p><a href="https://adzhp.cn/vipdianyingyuduanshipinjiexiziyuansuoyin.html">VIP电影与视频解析下载</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><h3 id="视频软件"><a href="#视频软件" class="headerlink" title="视频软件"></a>视频软件</h3><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><h2 id="在线网站"><a href="#在线网站" class="headerlink" title="在线网站"></a>在线网站</h2><h3 id="综合"><a href="#综合" class="headerlink" title="综合"></a>综合</h3><blockquote><p>比较方便的聚合类美日韩等国外剧和电影站：<a href="https://adzhp.cn/favorites/guowaiju"><strong>国外剧 | 爱达杂货铺 (adzhp.cn)</strong></a>，或从首页直接进入。</p></blockquote><h3 id="美剧"><a href="#美剧" class="headerlink" title="美剧"></a>美剧</h3><blockquote><p>2021年2月3日，上海警方对外发布通报称，2020年9月有人通过“人人影视字幕组”网站和客户端提供疑似侵权影视作品的在线观看和离线下载。上海警方共抓获以梁某为首的犯罪嫌疑人14名，查处涉案公司3家，查获作案用手机20部和电脑主机、服务器12台，涉案金额1600余万元。</p><p>详见<a href="https://baike.baidu.com/item/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86/8666514">百度百科&gt;&gt;&gt;</a></p></blockquote><table><thead><tr><th>MAG磁力</th><th><a href="http://mag234.com/home.html">http://mag234.com/home.html</a></th></tr></thead><tbody><tr><td>美剧迷</td><td><a href="https://www.meijumi.net/">https://www.meijumi.net/</a></td></tr><tr><td>美剧侠</td><td><a href="http://www.meijuxia.com/">http://www.meijuxia.com/</a></td></tr><tr><td>牛牛美剧</td><td><a href="http://www.nnmeiju.com/">http://www.nnmeiju.com/</a></td></tr><tr><td>耐卡影音</td><td><a href="http://mcar.cc/">http://mcar.cc/</a></td></tr><tr><td>91美剧</td><td><a href="https://91mjw.com/">https://91mjw.com/</a></td></tr><tr><td>美剧天堂</td><td><a href="https://www.meijutt.tv/">https://www.meijutt.tv/</a></td></tr><tr><td>不卡美剧</td><td><a href="https://www.meijutt.cn/">https://www.meijutt.cn/</a></td></tr><tr><td>EZTV片源</td><td><a href="https://eztv.ag/">https://eztv.ag/</a></td></tr><tr><td>天下美剧</td><td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td></tr><tr><td>爱美剧TV1</td><td><a href="https://www.imjtv.com/">https://www.imjtv.com/</a></td></tr><tr><td>爱美剧TV2</td><td><a href="https://www.imeijutv.com/">https://www.imeijutv.com/</a></td></tr><tr><td>爱美剧</td><td><a href="https://www.imeiju.io/">https://www.imeiju.io/</a></td></tr><tr><td>天天美剧</td><td><a href="http://www.ttmeiju.me/">http://www.ttmeiju.me/</a></td></tr><tr><td>美剧粉</td><td><a href="http://www.mjf2020.com/">http://www.mjf2020.com/</a></td></tr><tr><td>謦灵风软</td><td><a href="http://www.1000fr.net/">http://www.1000fr.net/</a></td></tr><tr><td>美剧鸟</td><td><a href="http://www.meijuniao.com/">http://www.meijuniao.com/</a></td></tr><tr><td>天天看美剧</td><td><a href="https://www.ttkmj.net/">https://www.ttkmj.net/</a></td></tr><tr><td>天下美剧</td><td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td></tr><tr><td>每日美剧</td><td><a href="http://www.meirimeiju.com/">http://www.meirimeiju.com/</a></td></tr></tbody></table><h3 id="韩剧"><a href="#韩剧" class="headerlink" title="韩剧"></a>韩剧</h3><p><a href="https://adzhp.cn/sites/3896.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1.ico" alt="韩剧资源合集">🍦<strong>韩剧资源合集</strong>本页收录韩剧相关资源，为大家提供韩剧免费观看渠道</a></p><h3 id="日剧"><a href="#日剧" class="headerlink" title="日剧"></a>日剧</h3><p><a href="https://adzhp.cn/sites/3899.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/cropped-favicon-192x192-1.png" alt="日剧资源合集">🍦<strong>日剧资源合集</strong>本页收录日剧相关资源，为大家提供日剧免费观看渠道</a></p><h3 id="港剧"><a href="#港剧" class="headerlink" title="港剧"></a>港剧</h3><p><a href="https://adzhp.cn/sites/3902.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1-1.ico" alt="港剧资源合集">🍦<strong>港剧资源合集</strong>本页收录港剧相关资源，为大家提供港剧免费观看渠道</a></p><h3 id="字幕"><a href="#字幕" class="headerlink" title="字幕"></a>字幕</h3><p><a href="https://adzhp.cn/sites/3905.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon.png" alt="字幕组翻译">🍦<strong>字幕组翻译</strong>本页收录各大字幕组网站，从这里获取国外视频的首发翻译吧</a></p><h2 id="手机APP"><a href="#手机APP" class="headerlink" title="手机APP"></a>手机APP</h2><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><p><a href="https://www.cupfox.com/">茶狐杯</a></p><p><a href="https://www.dianyinggou.com/">电影狗</a></p><p><a href="https://xiaoshesoso.com/">小蛇搜搜</a></p><p><a href="https://www.sbkk.me/">随便看看</a></p><p><a href="http://ifkdy.com/">疯狂影视</a></p><p><a href="http://ifkdy.com/">五号站</a></p><p><a href="https://www.mvcat.com/">影猫</a></p><h4 id="相关导航"><a href="#相关导航" class="headerlink" title="相关导航"></a>相关导航</h4><p><a href="https://adzhp.cn/mian-fei-shi-pin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/03/%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E6%91%84%E5%BD%B1-01-1.png" alt="🈴免费在线影视"><strong>🈴免费在线影视</strong>本页收录各大免费在线视频网站，主要提供电影、电视剧、综艺等免费观看，请勿相信网站内部广告</a></p><p><a href="https://adzhp.cn/sites/4244.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/img.jpg" alt="免费观看超高清大片"><strong>免费观看超高清大片</strong>院线高清大片 点击进来，超高清大片随您看，免费在线或 下载APP观看</a></p><p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E4%B8%8B%E8%BD%BD.png" alt="高清电影下载">🍦<strong>高清电影下载</strong></a></p><p><a href="https://adzhp.cn/wang-luo-zhi-bo.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/TV.png" alt="网络电视直播">🍦<strong>网络电视直播</strong>本页收录网络直播、电视直播、体育直播等相关直播类资源</a></p><p><a href="https://adzhp.cn/sites/3363.html"><img src="https://api.iowen.cn/favicon/www.nfmovies.com.png" alt="奈菲影视"><strong>奈菲影视</strong>高清秒播，速度快，手机电脑均有广告。</a></p><p><a href="https://adzhp.cn/sites/1185.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/01/favicon-3.ico" alt="达达兔"><strong>达达兔</strong>无广告视频站，页面简洁速度快。</a></p><h3 id="高清下载-1"><a href="#高清下载-1" class="headerlink" title="高清下载"></a>高清下载</h3><p>电影天堂系列：<a href="https://www.dytt8.net/">电影天堂1</a>–<a href="https://www.dy2018.com/">电影天堂2</a>–<a href="https://www.ygdy8.com/index.html">阳光电影</a>–<a href="https://www.btwuji.com/">无极电影</a>|<a href="https://dytt8.net/app.html">APP下载</a></p><table><thead><tr><th><a href="http://www.415.net/">BT之家</a> +<a href="https://www.51btbtt.com/">2</a>[BT]</th><th><a href="https://www.mypianku.com/"><strong>片库网</strong></a> [在线+磁力+BT]</th></tr></thead><tbody><tr><td><a href="https://www.80s.tw/">80s电影</a> [<a href="http://www.jianpian.com/">荐片</a>+迅雷]</td><td><a href="https://www.66s.cc/">6V电影网</a>[在线+磁力+百度云]</td></tr><tr><td><a href="https://www.piaohua.com/">飘花资源</a> [磁力+<a href="http://www.jianpian.com/">荐片</a>]</td><td><a href="http://www.btshoufa.net/forum.php">BT首发论坛</a> [BT]</td></tr><tr><td><a href="https://www.btdx8.com/">比特大雄</a> [在线+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td><td><a href="http://www.dygang.net/">电影港</a> [磁力+百度云]</td></tr><tr><td><a href="http://www.ed2000.com/">ED2000</a> <del>[</del>磁力]</td><td><a href="http://www.etdown.tv/">光影资源联盟</a> [磁力+百度云]</td></tr><tr><td><a href="http://www.mp4ba.la/">高清MP4</a>[BT+磁力+百度云]</td><td><a href="http://www.rarbt.com/">RABT</a> [BT]</td></tr><tr><td><a href="https://www.bttwo.com/">两个BT</a> [在线+BT]</td><td><a href="http://www.youzhidy.com/">优质电影网</a> [磁力]</td></tr><tr><td><a href="http://xijing.tv/movie/index">XijingTv</a> [磁力+奶牛+百度云]</td><td><a href="https://www.jsr9.com/">BT天堂</a> [在线+BT]</td></tr><tr><td><a href="http://www.chapaofan.com/">泡饭影视</a> [收费]</td><td><a href="http://www.btbuluo.com/">BT部落天堂</a> [磁力+迅雷]</td></tr><tr><td><a href="http://mag234.com/">MAG磁力站</a>[磁力+人人影视下载器]</td><td><a href="http://xiepp.com/">下片片</a> [磁力+在线+迅雷]</td></tr><tr><td><a href="https://www.xl720.com/">迅雷电影天堂</a> [在线++迅雷+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td><td><a href="https://www.yingyinwu.com/">影音屋</a> [BT]</td></tr><tr><td><a href="https://www.993dy.com/">LOL电影天堂</a> [迅雷]</td><td><a href="https://www.cilixiong.com/">磁力熊</a> [在线+磁力]</td></tr><tr><td><a href="http://www.verycd.com/">电驴大全</a></td><td><a href="http://www.hkb123.com/">好恐怖</a> [在线+磁力+电驴]</td></tr><tr><td><a href="https://www.dy8c.com/">电影巴士</a>[磁力]</td><td><a href="https://www.uump4.net/">悠悠MP4</a> [BT+磁力+电驴]</td></tr><tr><td><a href="https://www.domp4.com/">MP4电影</a> [在线+磁力]</td><td><a href="https://www.poxiao.com/">破晓电影</a> [迅雷+<a href="http://www.jianpian.com/">荐片</a>]</td></tr><tr><td><a href="https://www.12bt.net/">12BT</a> [BT]</td><td><a href="https://www.xlc2020.com/">迅雷仓</a> [迅雷]</td></tr><tr><td><a href="https://dlkoo.com/">大连生活网</a> [BT+百度云]</td><td><a href="http://www.qtfy7.com/">且听风吟</a> [在线+迅雷]</td></tr><tr><td><a href="http://www.rrdyw.cc/">人人电影网</a> [百度云]</td><td><a href="http://www.xyxz001.com/">夕阳小站</a> [磁力+百度云]</td></tr><tr><td><a href="http://seehd.so/">看高清联盟</a> [BT]</td><td></td></tr></tbody></table><h3 id="高质量电影下载"><a href="#高质量电影下载" class="headerlink" title="高质量电影下载"></a>高质量电影下载</h3><table><thead><tr><th><a href="http://www.languang.co/">蓝光网</a> [磁力+4K]</th><th><a href="http://www.yinfans.com/">音范丝</a> [磁力+4K]</th></tr></thead><tbody><tr><td><a href="http://www.4ktt.com/">4K天堂</a> [收费+磁力+4K]</td><td><a href="https://www.hao4k.cn/forum.php">hao4K论坛</a> [BT+4K]</td></tr><tr><td><a href="http://pianyuan.la/">片源网</a> [BT+磁力]</td><td><a href="https://www.chapianyuan.com/">查片源</a> [电驴+磁力]</td></tr><tr><td><a href="https://gaoqing.fm/">高清电台</a> [BT+磁力+4K]</td><td><a href="http://gaoqing.la/">中国高清网</a> [磁力+原盘]</td></tr><tr><td><a href="http://www.gaoqingw.com/">高清网</a> [BT+磁力+4K]</td><td><a href="https://www.1080.cn/">蓝光电影网</a> [磁力+4K]</td></tr><tr><td><a href="https://www.mini4k.com/">迷客电影</a> [BT+磁力+4K]</td><td><a href="https://www.7bt.org/">7BT</a> [BT+4K]</td></tr><tr><td><a href="https://www.60zhen.com/">60帧电影</a> [收费+网盘]</td><td><a href="https://www.4k123.com/"> 4K论坛</a></td></tr></tbody></table><h2 id="在线解析站"><a href="#在线解析站" class="headerlink" title="在线解析站"></a>在线解析站</h2><p>提供爱奇艺、腾讯、优酷等收费视频网站解析、复制视频地址即可享受VIP服务。<br>视频解析背后的原理：<a href="https://www.bilibili.com/read/cv10045082">https://www.bilibili.com/read/cv10045082</a></p><table><thead><tr><th><strong><a href="https://www.administrator5.com/">无名小站</a></strong></th><th><strong><a href="https://www.ikukk.com/">爱酷看看</a></strong></th></tr></thead><tbody><tr><td><strong><a href="https://v.cnv3.com/">全民解析</a></strong></td><td><a href="http://czjx8.com/"><strong>船长解析</strong></a></td></tr><tr><td><strong><a href="https://660e.com/">乐乐云</a></strong></td><td><strong><a href="http://jx.618g.com/">618G免费解析</a></strong></td></tr><tr><td><strong><a href="https://www.nxflv.com/">诺讯解析</a></strong></td><td><strong><a href="https://vip.mpos.ren/">人人视频解析</a></strong></td></tr><tr><td><strong><a href="https://www.sounm.com/">搜你妹解析</a></strong></td><td><strong><a href="https://api.927jx.com/">927解析</a></strong></td></tr></tbody></table><h2 id="VIP视频解析油猴脚本"><a href="#VIP视频解析油猴脚本" class="headerlink" title="VIP视频解析油猴脚本"></a>VIP视频解析油猴脚本</h2><p>使用油猴脚本解析：<a href="https://greasyfork.org/zh-CN/scripts?q=VIP">VIP视频相关的脚本 (greasyfork.org)</a><br>油猴脚本安装方法：<a href="https://adzhp.cn/sites/1919.html">Greasy Fork(油猴脚本) | 爱达杂货铺 (adzhp.cn)</a></p><h3 id="视频下载软件"><a href="#视频下载软件" class="headerlink" title="视频下载软件"></a>视频下载软件</h3><p><a href="https://adzhp.cn/sites/3882.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E4%B8%8B%E8%BD%BD.png" alt="在线视频下载软件">🍦<strong>在线视频下载软件</strong>可以下载网页上播放视频、支持各种站点，比如YouTube、哔哩哔哩、西瓜等短视频平台</a></p><h3 id="视频在线解析"><a href="#视频在线解析" class="headerlink" title="视频在线解析"></a>视频在线解析</h3><h4 id="哔哩哔哩"><a href="#哔哩哔哩" class="headerlink" title="哔哩哔哩"></a>哔哩哔哩</h4><p><a href="https://adzhp.cn/sites/3876.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/favicon.ico" alt="B站视频下载">🍦<strong>B站视频下载</strong>本页收录那些可以解析哔哩哔哩的视频网站以及下载软件，方便大家下载B站视频</a></p><h4 id="综合短视频解析"><a href="#综合短视频解析" class="headerlink" title="综合短视频解析"></a>综合短视频解析</h4><p><a href="https://adzhp.cn/sites/3884.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8A%96%E9%9F%B3.png" alt="短视频解析下载">🍦<strong>短视频解析下载</strong>提供各种短视频网站解析下载服务，支持抖音、快手、火山等主流视频平台视频</a></p><h3 id="国外视频下载"><a href="#国外视频下载" class="headerlink" title="国外视频下载"></a>国外视频下载</h3><p><a href="https://adzhp.cn/sites/3888.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8E%A8%E7%89%B9-twitter.png" alt="其他国外视频下载">🍦<strong>其他国外视频下载</strong>提供Twitter、Instagram、Facebook和vlive等视频下载服务的相关内容</a></p><h3 id="小程序"><a href="#小程序" class="headerlink" title="小程序"></a>小程序</h3><p>微信小程序搜索：<strong>去水印</strong></p><p>注：本页很多资源由用户“神界中人”提供，在此表示感谢！</p>]]></content>
+      
+      
       <categories>
-        <category>影视资源</category>
+          
+          <category> 影视资源 </category>
+          
       </categories>
-      <tags>
-        <tag>影视网站</tag>
-        <tag>视频解析</tag>
-        <tag>影视导航</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语学习资源导航页</title>
-    <url>/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
-    <content><![CDATA[<h2 id="英语网站"><a href="#英语网站" class="headerlink" title="英语网站"></a><strong>英语网站</strong></h2><h3 id="中文网站"><a href="#中文网站" class="headerlink" title="中文网站"></a>中文网站</h3><table>
-<thead>
-<tr>
-<th><a href="https://www.hjenglish.com/">沪江英语</a></th>
-<th><a href="https://www.shanbay.com/">扇贝</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.i21st.cn/">21英语</a></td>
-<td><a href="http://yingyu.xdf.cn/">新东方英语</a></td>
-</tr>
-<tr>
-<td><a href="http://www.bigear.cn/">大耳朵英语</a></td>
-<td><a href="http://www.wwenglish.org/index.htm">旺旺英语</a></td>
-</tr>
-<tr>
-<td><a href="https://www.24en.com/">爱思英语</a></td>
-<td><a href="https://www.xiao84.com/">巴士英语网</a></td>
-</tr>
-<tr>
-<td><a href="https://language.chinadaily.com.cn/">英语点津</a></td>
-<td><a href="http://www.dioenglish.com/wiki/">英语百科</a></td>
-</tr>
-<tr>
-<td><a href="http://www.kekenet.com/hangye/">可可行业英语</a></td>
-<td><a href="https://www.24en.com/esp/">爱思行业英语</a></td>
-</tr>
-<tr>
-<td><a href="https://bbs.fobshanghai.com/forumdisplay.php?fid=47&amp;sid=kNS8PJ">福步外贸英语</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="英文网站"><a href="#英文网站" class="headerlink" title="英文网站"></a>英文网站</h3><table>
-<thead>
-<tr>
-<th><a href="https://www.engvid.com/">engVid</a></th>
-<th><a href="https://www.mmmenglish.com/">mmmEnglish</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.englishclub.com/">EnglishClub</a></td>
-<td><a href="http://www.world-english.org/">World English</a></td>
-</tr>
-<tr>
-<td><a href="http://www.manythings.org/">ManyThings</a></td>
-<td><a href="https://www.learnenglish.de/">Learn English</a></td>
-</tr>
-<tr>
-<td><a href="https://www.englisch-hilfen.de/en/">English Hilfen</a></td>
-<td><a href="http://www.perfectyourenglish.com/index.htm">PerfectYourEnglish</a></td>
-</tr>
-<tr>
-<td><a href="https://www.thoughtco.com/esl-4133095">ThoughtCo.</a></td>
-<td><a href="https://english.stackexchange.com/">English Stackexchange</a></td>
-</tr>
-</tbody></table>
-<h3 id="英语导航"><a href="#英语导航" class="headerlink" title="英语导航"></a>英语导航</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.up-6.com/">英语学习导航</a></th>
-<th><a href="http://www.yywz123.com/">英语学习网站大全</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.dioenglish.com/diolinks/">英语网址导航</a></td>
-<td><a href="http://www.eol.cn/html/en/daohang/index.shtml">外语学习导航</a></td>
-</tr>
-</tbody></table>
-<span id="more"></span>
-
-<h2 id="英语资源"><a href="#英语资源" class="headerlink" title="英语资源"></a><strong>英语资源</strong></h2><table>
-<thead>
-<tr>
-<th><a href="https://www.pdawiki.com/forum/forum-92-1.html">PDAWIKI 学习交流区</a></th>
-<th><a href="https://www.pdawiki.com/forum/forum-105-1.html">PDAWIKI 学习资源区</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.pdawiki.com/forum/forum-4-1.html">PDAWIKI 词库资源区</a></td>
-<td><a href="https://freemdict.com/">FreeMdict</a></td>
-</tr>
-<tr>
-<td><a href="http://yingyu.bbs.kaoyan.com/">英语考研论坛</a></td>
-<td><a href="https://www.lxwc.com.cn/topic-55-1.html">两小无猜儿童英语</a></td>
-</tr>
-<tr>
-<td><a href="https://www.tjxz.cc/">田间小站</a></td>
-<td><a href="https://www.i-bei.com/baby/thread-66369-1-1.html">牛津阅读树</a></td>
-</tr>
-<tr>
-<td><a href="http://www.eol.cn/html/en/picen001/index.shtml">《图解英语》</a></td>
-<td><a href="http://www.dogwood.com.cn/">新东方图书网</a></td>
-</tr>
-<tr>
-<td><a href="https://ienglish521.com/">力哥爱英语</a></td>
-<td><a href="https://babynames.net/">BellyBallot 英文起名网站</a></td>
-</tr>
-<tr>
-<td><a href="https://disk.lijie.org/gglog/%E8%A7%86%E9%A2%91/%E6%95%99%E7%A8%8B/%E8%8B%B1%E8%AF%AD/">视频/教程/英语网盘</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="英语游戏"><a href="#英语游戏" class="headerlink" title="英语游戏"></a>英语游戏</h3><table>
-<thead>
-<tr>
-<th><a href="https://quizlet.com/zh-cn">单词卡 | Quizlet</a></th>
-<th><a href="https://babadum.com/">看图学单词 | Ba Ba Dum</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.ratatype.com/">英文打字练习 | Ratatype</a></td>
-<td><a href="https://zty.pe/">英文打字练习 | ZType</a></td>
-</tr>
-<tr>
-<td><a href="https://www.purposegames.com/">PurposeGames</a></td>
-<td><a href="https://qwerty-learner.vercel.app/">Qwerty Learner</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/Langfocus/videos">Langfocus</a></td>
-<td><a href="https://www.youtube.com/user/Xidnaf/videos">Xidnaf</a></td>
-</tr>
-</tbody></table>
-<h2 id="单词词汇"><a href="#单词词汇" class="headerlink" title="单词词汇"></a><strong>单词词汇</strong></h2><table>
-<thead>
-<tr>
-<th><a href="https://www.cipindanci.com/">词频背单词</a></th>
-<th><a href="https://bdc2.youzack.com/Recitation/Home">YouZack背单词</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://testyourvocab.com/">Test Your Vocabulary</a></td>
-<td><a href="https://www.languageguide.org/%E8%8B%B1%E8%AF%AD/%E8%AF%8D%E6%B1%87/">LanguageGuide.org</a></td>
-</tr>
-<tr>
-<td><a href="https://www.engrish.com/">Engrish 英语错用收集</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.usingenglish.com/">UsingEnglish.com</a></td>
-<td><a href="https://www.englishpage.com/">English Pages</a></td>
-</tr>
-<tr>
-<td><a href="https://www.myenglishpages.com/">My English Pages</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="听力口语"><a href="#听力口语" class="headerlink" title="听力口语"></a><strong>听力口语</strong></h2><h3 id="在线听力"><a href="#在线听力" class="headerlink" title="在线听力"></a>在线听力</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.tingroom.com/">在线英语听力室</a></th>
-<th><a href="http://dict.eudic.net/ting">每日英语听力</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.putclub.com/">普特听力</a></td>
-<td><a href="http://www.tingclass.net/">听力课堂</a></td>
-</tr>
-<tr>
-<td><a href="http://www.kekenet.com/">可可英语</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="http://yinbiao.tingclass.net/show-16-9-1.html">48个英语音标表</a></td>
-<td><a href="http://www.hydcd.com/baike/yingyuyinbiao.htm">48个国际音标发音表</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youzack.com/">英语听力逐句精听</a></td>
-<td><a href="https://www.listeningexpress.com/">听力特快</a></td>
-</tr>
-<tr>
-<td><a href="https://youglish.com/">Youglish</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.listeningexpress.com/cnn10/">CNN10 Student News</a></td>
-<td><a href="https://www.51voa.com/">51VOA</a></td>
-</tr>
-<tr>
-<td><a href="http://www.tingvoa.com/">VOA英语学习网</a></td>
-<td><a href="http://mini-ielts.com/">在线雅思机考模拟</a></td>
-</tr>
-</tbody></table>
-<h3 id="口语博主"><a href="#口语博主" class="headerlink" title="口语博主"></a><strong>口语博主</strong></h3><table>
-<thead>
-<tr>
-<th><a href="https://space.bilibili.com/407282397/video">EnglishTube</a></th>
-<th><a href="https://space.bilibili.com/24801003/video">口语老炮儿马思瑞</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://space.bilibili.com/340223423/video">Ella教美语</a></td>
-<td><a href="https://space.bilibili.com/131058159/video">英语老师Lee</a></td>
-</tr>
-<tr>
-<td><a href="https://space.bilibili.com/30145454/video">阿曾曾儿</a></td>
-<td><a href="https://space.bilibili.com/346396741/video">FanfaniShare</a></td>
-</tr>
-<tr>
-<td><a href="https://space.bilibili.com/433248184/video">一起暴击口语</a></td>
-<td><a href="https://space.bilibili.com/17996988/video">免子队长油百万</a></td>
-</tr>
-<tr>
-<td><a href="https://space.bilibili.com/20420581/video">EngVid</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/engvidEmma/videos">EngVid</a></td>
-<td><a href="https://www.youtube.com/c/EnglishLikeANative/videos">English Like A Native</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/rachelsenglish/videos">Rachel’s English</a></td>
-<td><a href="https://www.youtube.com/c/EnglishwithLucy/videos">English with Lucy</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/mmmEnglish_Emma/videos">mmmEnglish</a></td>
-<td><a href="https://www.youtube.com/c/MaaaxterEnglish/videos">Maaaxter English</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/SoundsAmerican/videos">Sounds American</a></td>
-<td><a href="https://www.youtube.com/c/JackiesEnglishClass/videos">跟洋妞学英语 Jackie</a></td>
-</tr>
-</tbody></table>
-<h2 id="阅读理解"><a href="#阅读理解" class="headerlink" title="阅读理解"></a><strong>阅读理解</strong></h2><h3 id="杂志周刊"><a href="#杂志周刊" class="headerlink" title="杂志周刊"></a>杂志周刊</h3><table>
-<thead>
-<tr>
-<th><a href="https://time.com/">TIME</a></th>
-<th><a href="https://www.economist.com/">The Economist</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/nailperry-zd/The-Economist">The Economist 下载</a></td>
-<td><a href="https://www.discover.com/">Discover</a></td>
-</tr>
-<tr>
-<td><a href="https://www.newsweek.com/">Newsweek</a></td>
-<td><a href="https://www.rd.com/">Reader’s Digest</a></td>
-</tr>
-</tbody></table>
-<h3 id="西方新闻"><a href="#西方新闻" class="headerlink" title="西方新闻"></a>西方新闻</h3><table>
-<thead>
-<tr>
-<th><a href="https://edition.cnn.com/">CNN</a></th>
-<th><a href="https://www.usatoday.com/">USA TODAY</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.washingtonpost.com/">Washington Post</a></td>
-<td><a href="https://www.nytimes.com/">New York Times</a></td>
-</tr>
-<tr>
-<td><a href="https://www.latimes.com/">Los Angeles Times</a></td>
-<td><a href="https://www.bbc.com/">BBC</a></td>
-</tr>
-<tr>
-<td><a href="https://www.theguardian.com/international">The Guardian</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="中国新闻"><a href="#中国新闻" class="headerlink" title="中国新闻"></a>中国新闻</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.chinadaily.com.cn/">China Daily</a></th>
-<th><a href="http://en.people.cn/home.html">People’s Daily Online</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.qcenglish.com/">七彩英语</a></td>
-<td><a href="http://www.enread.com/">英文阅读网</a></td>
-</tr>
-<tr>
-<td><a href="http://www.kekenet.com/read/">可可双语阅读</a></td>
-<td><a href="http://www.qqenglish.com/">蛐蛐英语</a></td>
-</tr>
-<tr>
-<td><a href="https://zhuanlan.zhihu.com/p/31557166">21个英语新闻网站</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="语法博主"><a href="#语法博主" class="headerlink" title="语法博主"></a><strong>语法博主</strong></h3><table>
-<thead>
-<tr>
-<th align="left"><a href="https://space.bilibili.com/401727458/video">张富贵的英语世界</a></th>
-<th align="left"><a href="https://space.bilibili.com/224437180/video">rio老师</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://space.bilibili.com/402370368/video">Mmxgxg</a></td>
-<td align="left"><a href="https://space.bilibili.com/99574633/video">KMF考满分</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.youtube.com/c/Englishwithjennifer/videos#0">JenniferESL</a></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.youtube.com/c/engvidJames/videos">JamesESL English Lessons</a></td>
-<td align="left"><a href="https://www.youtube.com/c/engvidRonnie/videos">EnglishLessons4U</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Dictionaryphile/All_Dictionaries">宇宙最全在线词典网站导航</a></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Dictionaryphile/1000_Eng_Dicts">1000 部英语类词典名录</a></td>
-<td align="left"><a href="https://zhuanlan.zhihu.com/51xiaochu">51xiaochu雅思写作</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://zhuanlan.zhihu.com/talk-about-english">魏剑峰</a></td>
-<td align="left"><a href="https://zhuanlan.zhihu.com/miaomianba">妙面爸英语</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.jianshu.com/users/e652ef294319/timeline">超级莎 – 简书</a></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<h2 id="写作词典"><a href="#写作词典" class="headerlink" title="写作词典"></a><strong>写作词典</strong></h2><h3 id="词库查询"><a href="#词库查询" class="headerlink" title="词库查询"></a>词库查询</h3><table>
-<thead>
-<tr>
-<th><a href="https://www.wordnik.com/">Wordnik</a></th>
-<th><a href="https://www.collinsdictionary.com/dictionary/english-thesaurus">Collins Thesaurus</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.powerthesaurus.org/">PowerThesaurus</a></td>
-<td><a href="https://www.words-to-use.com/">Words to Use</a></td>
-</tr>
-<tr>
-<td><a href="https://www.thesaurus.com/">Thesaurus.com</a></td>
-<td><a href="https://www.freethesaurus.com/">FreeThesaurus</a></td>
-</tr>
-<tr>
-<td><a href="https://words.bighugelabs.com/">Big Huge Thesaurus</a></td>
-<td><a href="https://www.wordhippo.com/">WordHippo</a></td>
-</tr>
-<tr>
-<td><a href="https://visuwords.com/">VisuWords</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="搭配词典"><a href="#搭配词典" class="headerlink" title="搭配词典"></a>搭配词典</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.freecollocation.com/">Collocation Dictionary ▲</a></th>
-<th><a href="http://ozdic.com/">Ozdic.com</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.just-the-word.com/">Just the Word</a></td>
-<td><a href="https://linggle.com/">Linggle</a></td>
-</tr>
-<tr>
-<td><a href="https://netspeak.org/">Netspeak ▲</a></td>
-<td><a href="https://textranch.com/sentence-checker/">TextRanch</a></td>
-</tr>
-</tbody></table>
-<h3 id="例句词典"><a href="#例句词典" class="headerlink" title="例句词典"></a>例句词典</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.jukuu.com/">句库</a></th>
-<th><a href="https://sentencedict.com/">SentenceDict</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.linguee.com/">Linguee</a></td>
-<td><a href="https://ludwig.guru/">Ludwig</a></td>
-</tr>
-<tr>
-<td><a href="https://www.english-corpora.org/coca/">语料库 | COCA</a></td>
-<td><a href="https://www.english-corpora.org/bnc/">语料库 | BNC</a></td>
-</tr>
-<tr>
-<td><a href="http://www.webcorp.org.uk/live/index.jsp">语料库 | WebCorp</a></td>
-<td><a href="https://www.azquotes.com/">名人语录 | A-Z Quotes</a></td>
-</tr>
-</tbody></table>
-<h2 id="写作语法"><a href="#写作语法" class="headerlink" title="写作语法"></a><strong>写作语法</strong></h2><h3 id="语法检测"><a href="#语法检测" class="headerlink" title="语法检测"></a>语法检测</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.wwenglish.org/en/z/grammar/index.htm">旺旺英语语法</a></th>
-<th><a href="https://www.grammarly.com/grammar-check">Grammarly</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.languagetool.org/">LanguageTool</a></td>
-<td><a href="http://www.1checker.com/OnlineChecker">易改</a></td>
-</tr>
-<tr>
-<td><a href="https://www.nounplus.net/grammarcheck/">NounPlus</a></td>
-<td><a href="https://grammica.com/">GrammarChecker</a></td>
-</tr>
-<tr>
-<td><a href="https://hemingwayapp.com/">Hemingway Editor</a></td>
-<td><a href="https://app.mtutor.engkoo.com/englishwriting/">Aim Writing</a></td>
-</tr>
-<tr>
-<td><a href="https://wordcounter.net/">WordCounter</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="写作建议"><a href="#写作建议" class="headerlink" title="写作建议"></a>写作建议</h3><table>
-<thead>
-<tr>
-<th><a href="http://www.1checker.com/Templates">英文写作模版</a></th>
-<th><a href="https://www.adreep.cn/">英语作文网</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.writeexpress.com/">英语写作模板</a></td>
-<td><a href="https://guinlist.wordpress.com/">guinlist</a></td>
-</tr>
-<tr>
-<td><a href="https://www.powa.org/">Paradigm</a></td>
-<td><a href="https://www.squibler.io/writing-prompts">Squibler 写作工具</a></td>
-</tr>
-<tr>
-<td><a href="https://www.writersdigest.com/">Writer’s Digest 写作文摘</a></td>
-<td><a href="https://grammica.com/paraphrasing-tool/">Grammica 伪原创工具</a></td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 影视网站 </tag>
+            
+            <tag> 视频解析 </tag>
+            
+            <tag> 影视导航 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/03/13/hello-world/"/>
+      <url>2021/03/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
       <categories>
-        <category>英语学习</category>
+          
+          <category> Hexo教程 </category>
+          
       </categories>
-      <tags>
-        <tag>英语资源</tag>
-        <tag>英语专业</tag>
-        <tag>英语网站</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
