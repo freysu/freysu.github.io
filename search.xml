@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>A test</title>
+    <url>/2021/03/15/test/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="da001b9d35e1674216656f618e76ab4452e2c1ec92b5cb9f0fce7465819fa819">23ee0b56edd02031a3330db20002c24b50d546a5a40af1ab9245d3ad03b0f69b85c4433df91986b4666bfadb10ccdf26ecc99c3f99026576381faf1badd941cf648f948330b9f6dddf65c57fdd54b4fbb8e60daa12d5220628da402c67bd952e688bb43d62a1305dc428c758dbb3aeb71efcba1aae485a65130ac35535d250606c824dec2970b1564642b84a079ec38f20843790ed686b22edf9163c2ec7d5b90c0897c7966f4cbeaf28b02f632309ba9b92af15e01f8d7450d7f160e4b6fea0dde1de97a90bc82599e48a62eb35e2a242ca314d5901488588266f215774b3ea6f6317e85c8d2c5c8d8f64ae818d032a55b7e72502ab0bd4bf145fde6d15f9eaa3b3a861a3923aeb9b45326a9aa8c9f55e5357e89f7602b5d50baff57ca5bdb2549c94e82cec88771297fcef66ce559ff240f7855ee72e439316233132a12f2b1a07396a0e621f288cd57611a4265e81089153c1b6774e340702982bcc70edf41d7eedcdb88665b0835e0b33e45280249083fcd3b41a9bfcba370b0c2f29ad07125bd7ba5428d2867718a208c1197b623235d4533b5611dfdbbf1b912df7b0c8c9e5a57e9e7d78a62395134b05531ba81ffd51c3c93c392b241cce8f50227e717114ed60814aa6dd083f1ef31ce0aff33c64fe89a5fc9028c58a233b8c4368937f5f9ff031e511226783e0647c88d4961f9a2c1e155e03bc3be0003e86e049779aeca0781005d2e317b55b7fe8a731eddbcc4ec493c877cab114bc5683a2a1a6639cdd1bc69be09419fd2d5c9efa3a513f76bd90ed4c3f1376ac1c53e7f2cd6cdcb79400845fb2946429ba0c5e6c58f8ca1e0827972f6f45cee5d580492bb89dc25dc3e35c5a63ef3e964f027a8d6593d20b8800ec4327d5e2ef6a54efff00ad108521160e73ea0db424bfb2715e0e9b3fbac7d8d9106e194f136476d7220b2036910df6bda04afa174e89113ea75407dbdd27415ec8c58a07eb557d9cd26e68da423ebe4d86c9f51a5f47c6dc52ecd476d0c0ab70707b9f518179ae48a39028951ef8cd71d556751b62063cf38a992d692db91755ced06b6e53f1d5ac1e1b682768d81d2b7aa7885e8822e122d5529d1fc29927dc2757b25881429ce21a0fb2702352dbd4661de061b3a021d1d8c425ddbb9676618467e953ac53b113e132cc88278f5a2815aca82cde800ab1091e451d69b36dfaeb3ff93e85d9c52aaffc7c3b9203cbf0a2a9257076885065f57c6771e5ae018e9f92edc6ca4511025a0c7640c500a5863efee3e78ec246268d62d73b8586c7e3158df728c3f51098a03611e024a78dd903a5c3688bfa6dd23c706f891841e6c44934d9da9f127b82cc53d1779c37ce47e8a756f1061a466cd339860eac0a921d70eea6fcd6c5248f6968008e60bfe467b7a24f73101bdcda8ba8398b03e02dbdbba3b8b89a72b70a80f72296016e21d5206141c60388edf98aca2bde229cff61949ba70ed7861fc07b6f1c13a8364f4d512de47434b32ce30e93cdbd3a27e8fdf16ed751726f2647f1148d6963264e87e3a89ebc93e30c4ee734dd4c5a8fc4b4bf6129b012e241e15e63ef7ab6574e856bf1cbc458a9d5ad650ec8f8d487f368126481a9fc7115d5c09b4f3c1d82c049ba13318db0f548aeafec60</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>嘘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/03/13/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -27,29 +46,10 @@
       </tags>
   </entry>
   <entry>
-    <title>A test</title>
-    <url>/2021/03/15/test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="da001b9d35e1674216656f618e76ab4452e2c1ec92b5cb9f0fce7465819fa819">23ee0b56edd02031a3330db20002c24b50d546a5a40af1ab9245d3ad03b0f69b85c4433df91986b4666bfadb10ccdf26ecc99c3f99026576381faf1badd941cf648f948330b9f6dddf65c57fdd54b4fbb8e60daa12d5220628da402c67bd952e688bb43d62a1305dc428c758dbb3aeb71efcba1aae485a65130ac35535d250606c824dec2970b1564642b84a079ec38f20843790ed686b22edf9163c2ec7d5b90c0897c7966f4cbeaf28b02f632309ba9b92af15e01f8d7450d7f160e4b6fea0dde1de97a90bc82599e48a62eb35e2a242ca314d5901488588266f215774b3ea6f6317e85c8d2c5c8d8f64ae818d032a55b7e72502ab0bd4bf145fde6d15f9eaa3b3a861a3923aeb9b45326a9aa8c9f55e5357e89f7602b5d50baff57ca5bdb2549c94e82cec88771297fcef66ce559ff240f7855ee72e439316233132a12f2b1a07396a0e621f288cd57611a4265e81089153c1b6774e340702982bcc70edf41d7eedcdb88665b0835e0b33e45280249083fcd3b41a9bfcba370b0c2f29ad07125bd7ba5428d2867718a208c1197b623235d4533b5611dfdbbf1b912df7b0c8c9e5a57e9e7d78a62395134b05531ba81ffd51c3c93c392b241cce8f50227e717114ed60814aa6dd083f1ef31ce0aff33c64fe89a5fc9028c58a233b8c4368937f5f9ff031e511226783e0647c88d4961f9a2c1e155e03bc3be0003e86e049779aeca0781005d2e317b55b7fe8a731eddbcc4ec493c877cab114bc5683a2a1a6639cdd1bc69be09419fd2d5c9efa3a513f76bd90ed4c3f1376ac1c53e7f2cd6cdcb79400845fb2946429ba0c5e6c58f8ca1e0827972f6f45cee5d580492bb89dc25dc3e35c5a63ef3e964f027a8d6593d20b8800ec4327d5e2ef6a54efff00ad108521160e73ea0db424bfb2715e0e9b3fbac7d8d9106e194f136476d7220b2036910df6bda04afa174e89113ea75407dbdd27415ec8c58a07eb557d9cd26e68da423ebe4d86c9f51a5f47c6dc52ecd476d0c0ab70707b9f518179ae48a39028951ef8cd71d556751b62063cf38a992d692db91755ced06b6e53f1d5ac1e1b682768d81d2b7aa7885e8822e122d5529d1fc29927dc2757b25881429ce21a0fb2702352dbd4661de061b3a021d1d8c425ddbb9676618467e953ac53b113e132cc88278f5a2815aca82cde800ab1091e451d69b36dfaeb3ff93e85d9c52aaffc7c3b9203cbf0a2a9257076885065f57c6771e5ae018e9f92edc6ca4511025a0c7640c500a5863efee3e78ec246268d62d73b8586c7e3158df728c3f51098a03611e024a78dd903a5c3688bfa6dd23c706f891841e6c44934d9da9f127b82cc53d1779c37ce47e8a756f1061a466cd339860eac0a921d70eea6fcd6c5248f6968008e60bfe467b7a24f73101bdcda8ba8398b03e02dbdbba3b8b89a72b70a80f72296016e21d5206141c60388edf98aca2bde229cff61949ba70ed7861fc07b6f1c13a8364f4d512de47434b32ce30e93cdbd3a27e8fdf16ed751726f2647f1148d6963264e87e3a89ebc93e30c4ee734dd4c5a8fc4b4bf6129b012e241e15e63ef7ab6574e856bf1cbc458a9d5ad650ec8f8d487f368126481a9fc7115d5c09b4f3c1d82c049ba13318db0f548aeafec60</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>嘘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>小锋TV导航页</title>
     <url>/2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
     <content><![CDATA[<ul>
-<li><a href="#%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99%E9%9B%86%E5%90%88">影视网站集合</a><ul>
+<li><a href="#%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90%E9%87%87%E9%9B%86%E7%BD%91">影视资源采集网</a><ul>
 <li><a href="#%E5%85%8D%E8%B4%B9%E5%9C%A8%E7%BA%BF">免费在线</a></li>
 <li><a href="#%E7%94%B5%E5%BD%B1%E8%81%9A%E5%90%88%E6%90%9C%E7%B4%A2">电影聚合搜索</a></li>
 <li><a href="#%E9%AB%98%E6%B8%85%E4%B8%8B%E8%BD%BD">高清下载</a></li>
@@ -82,89 +82,39 @@
 </ul>
 <!-- tocstop -->
 
-<h2><span id="影视网站集合">影视网站集合</span></h2><table>
+<h2><span id="影视资源采集网">影视资源采集网</span></h2><table>
 <thead>
 <tr>
-<th>名称</th>
-<th>网址</th>
 <th>名称</th>
 <th>网址</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>135 资源网</td>
-<td><a href="http://cj.zycjw1.com/">http://cj.zycjw1.com/</a></td>
-<td>酷云资源</td>
-<td><a href="http://caiji.kuyun98.com/">http://caiji.kuyun98.com/</a></td>
-</tr>
-<tr>
 <td>速播资源站</td>
 <td><a href="https://www.subo988.com/">https://www.subo988.com/</a></td>
-<td>209 资源</td>
-<td><a href="http://cj.1156zy.com/">http://cj.1156zy.com/</a></td>
-</tr>
-<tr>
-<td>酷播资源</td>
-<td><a href="http://api.kbzyapi.com/">http://api.kbzyapi.com/</a></td>
-<td>永久资源</td>
-<td><a href="http://cj.yongjiuzyw.com/">http://cj.yongjiuzyw.com/</a></td>
 </tr>
 <tr>
 <td>OK 资源网</td>
 <td><a href="http://cj.okzy.tv/">http://cj.okzy.tv/</a></td>
-<td>最大资源网</td>
-<td><a href="http://www.zdziyuan.com/">http://www.zdziyuan.com/</a></td>
 </tr>
 <tr>
 <td>88 影视资源站</td>
 <td><a href="http://www.88zyw.net/">http://www.88zyw.net/</a></td>
-<td>卧龙资源</td>
-<td><a href="http://cj.wlzy.tv/">http://cj.wlzy.tv/</a></td>
 </tr>
 <tr>
-<td>快快资源</td>
-<td><a href="https://api.kkzy.tv/">https://api.kkzy.tv/</a></td>
-<td>壹伍捌资源网</td>
-<td><a href="http://cj.158zyz.net:158/">http://cj.158zyz.net:158/</a></td>
-</tr>
-<tr>
-<td>魔卡资源网</td>
-<td><a href="https://cj.heiyap.com/">https://cj.heiyap.com/</a></td>
-<td>快影资源站</td>
-<td><a href="https://www.kyzy.tv/">https://www.kyzy.tv/</a></td>
-</tr>
-<tr>
-<td>步步高顶尖资源网</td>
-<td><a href="http://api.bbkdj.com/">http://api.bbkdj.com/</a></td>
 <td>1886 资源</td>
 <td><a href="http://cj.1886zy.co/">http://cj.1886zy.co/</a></td>
 </tr>
 <tr>
-<td>605资源</td>
-<td><a href="http://www.605zy.net/">http://www.605zy.net/</a></td>
-<td>秒播资源</td>
-<td><a href="http://caiji.mb77.vip/">http://caiji.mb77.vip/</a></td>
-</tr>
-<tr>
-<td>人人资源</td>
-<td><a href="https://www.rrzyw.cc/">https://www.rrzyw.cc/</a></td>
-<td>麻花资源</td>
-<td><a href="https://www.mhapi123.com/">https://www.mhapi123.com/</a></td>
-</tr>
-<tr>
-<td>豆瓣电影资源</td>
-<td><a href="http://v.1988cj.com/">http://v.1988cj.com/</a></td>
 <td>123 资源</td>
 <td><a href="http://cj.123ku2.com:12315/">http://cj.123ku2.com:12315/</a></td>
 </tr>
 <tr>
-<td>最新资源</td>
-<td><a href="http://api.zuixinapi.com/">http://api.zuixinapi.com/</a></td>
-<td>芒果 TV 资源网</td>
-<td><a href="https://api.shijiapi.com/">https://api.shijiapi.com/</a></td>
+<td>最大资源网</td>
+<td><a href="http://www.zdziyuan.com/">http://www.zdziyuan.com/</a></td>
 </tr>
 </tbody></table>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line">收集了几个影视导航站点，做影视类的拿去折腾吧。还是那句话，版权归原网站所有[哈哈]</span><br><span class="line"></span><br><span class="line">https://adzhp.cn/mian-fei-shi-pin.html </span><br><span class="line"></span><br><span class="line">https://jubt.cf/cn/index.html </span><br><span class="line"></span><br><span class="line">http://www.xsldh6.com/ </span><br><span class="line"></span><br><span class="line">https://hao.su/531/ </span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line">影视导航</span><br><span class="line">https://adzhp.cn/mian-fei-shi-pin.html </span><br><span class="line"></span><br><span class="line">http://www.xsldh6.com/ </span><br></pre></td></tr></tbody></table></figure>
 
 <span id="more"></span>
 
