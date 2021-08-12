@@ -1,1475 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>A test</title>
-    <url>/2021/03/15/test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="2b8db4a1a8f6c724fd82ed1a9f972577278c280334bd9a25ae72f4c0a2e0f360">23ee0b56edd02031a3330db20002c24bc5903662c9df8c3df10fac081733675799f3410786eaaeef9e2ca5f45433c45cc5a75703f6df9922318a8d9dfe8f18fe6b2683bffce4fc09222cc268c41bed841dae0218d348a022ce7fe3d92f11ab3f23b3de1f826551e34ffe88a765f6e379c3ead02a4ef2f5d4aa7acabc5c0a1fc0365d3364e7afdb6b2e5712f2ae26a293974f6a5464cf5117a8f46cae70ca9a2c593a33868f800ceec2b02ebd0947372b307ed20de059fff5a33a79833582f2c5413b248749ac9f601205e65cd2bd47fa7fa751ffd4939d5c864df26c94cd8cc10842a955f4cb4325d9863c30ee5ee9279f140feea7cd157e0111b240b3cd4b97d9be4626438bcd7c8d2d6157234b259ceb6823cf00f666a75ef7d3a8668b5acc05166c9d7e795ec14fab69155d2faa9b4e3f0f687fa0ccf7ebbbf03b522e37c17f9223250fc4f1bba18392cbfd8b68cd1f1d0f3ddb1e29eb4d8a4bc00167e249dd07ebcd31d04d853e0500cf954947a9f581d725da3113433cb183a3b269b4df0aa7925063de6522b3db45a973b0d2340d6c9deb322f344c51b13fd5577978a70d532df830ddab5a16dc45c4a2fbd4ce702a836aa97581212e8d442f5cd85b8ffee76a92589d59287748948f2ac6ddd3ec3fdbf710d0a44b15d18bd072be598b8f95a7098886d3f0c5422bf1da0951a08d4395f983825329e68d9acf2eb12750df286a4e92b9f3bffaae57d86829f143d00eba6c6b5ef705812072a23c8491db3c45f661517282f1f3f3688975237af8aa157b2e16f7b18412b0ef7c9c6a7b17f511125478084613f2dd0bb7111159db454f50589b25cbd99dfe82c7a777f0c1f44fece5289d30c374eec260d1f9543beade8fecd61e0474ff484e1a47c49f760846051f0ae2d57288c814807f9852beefdbf41060c736caf3e526c4acb31f2d19481eea37a9e1fcc98cfc84356946de78263bc518b22a4641e5c81712c2d0482ec6e6491f4a202fb181643beaca77d2fc05c05c49fde318b46ed4de811ecca03a04cc0cfd5f7fbc330dd082e03c954da3dcebc1149aeecd85080dcf6198db2f186bafa16f04de8b9a298b597eb6565b0b2c064df47812559b7e3af7d8c3c82c2f891b27cb58eb2d7183df4eaca8042f968275a3a5a52dae98ea35442c8e32f8dab307c8d91f93870a6bbd2868f31f6a4b6d5b72d1c0aaca4850815c3ed9ace6b933c33e16fae7fdbee3022d0e4aef2346095878237bc5e8858c94b84b479117ac148e1b1f5d2809d4cbb88d1456570296b3f591de55f58a65f33f203bfc1cb9d76a41fc0f17e8ba3fd487574e8f92e82b3726f983135d3a44a5736d9f7fa3f52af7b6cf6aa80a54b97d0bf5d9d9a7cfa7ff1f38d6ab6635368f9be6d99afe448892205cc3b0f02cf99830035b29bb125752885016e5bb3b648846e8cdec4c379dd9adb5e08acc9e8a2dbe9908d08813711dc96fa0abbadfec6bbf6c0af6a1d3502e084ee11ff191a665ba48ba75c01cebbc7ecce8e372917ccadb0d8f3e3a2b098512e4c621320eb9b7693df37dfccf0b24d9ecebaf3604fad1d853f706138b094b9bafc2046289eb8b38339e89a9bbdae133cf02563a609903bfa06659ca340b6981887aa20a3d1ab17bf1ac771203cede56320e2b0183abbbc8fad50ddaf3</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>嘘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/03/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>JS - 表达式与运算符</title>
+      <link href="2021/08/11/JS%20-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>2021/08/11/JS%20-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6">表达式与运算符</a><ul><li><a href="#%E5%AD%97%E9%9D%A2%E9%87%8F">字面量</a></li><li><a href="#%E8%A1%A8%E8%BE%BE%E5%BC%8F">表达式</a></li></ul></li><li><a href="#%E8%BF%90%E7%AE%97%E7%AC%A6">运算符</a><ul><li><a href="#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6">算数运算符</a></li><li><a href="#%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6">比较运算符</a></li><li><a href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6">逻辑运算符</a></li><li><a href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6">赋值运算符</a></li></ul></li><li><a href="#%E6%AF%94%E8%BE%83%E4%B8%8D%E5%90%8C%E7%9A%84%E7%B1%BB%E5%9E%8B">比较不同的类型</a></li><li><a href="#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81">练习代码</a></li></ul><!-- tocstop --><span id="more"></span><h2><span id="表达式与运算符">表达式与运算符</span></h2><h3><span id="字面量">字面量</span></h3><p><code>"hello world"</code>、<code>100</code>、<code>console.log(字面量)</code></p><h3><span id="表达式">表达式</span></h3><p>通过运算符将变量、字面量组合起来，就是表达式。每一个表达式都有一个固定返回值（表达式的结果）<br><code>"hello" + "world"</code>、<code>10 - 20</code></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">"hello world"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">"hello"</span> + <span class="string">"world"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">10</span> - <span class="number">20</span>);</span><br></pre></td></tr></tbody></table></figure><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> s1 = <span class="string">"hello"</span>; <span class="comment">//将字面量赋值给变量</span></span><br><span class="line"><span class="keyword">var</span> s2 = <span class="string">"world"</span>;</span><br><span class="line"><span class="keyword">var</span> result = s1 + s2; <span class="comment">// 将表达式赋值给变量，返回值："helloworld"</span></span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// helloworld</span></span><br></pre></td></tr></tbody></table></figure><h2><span id="运算符">运算符</span></h2><h3><span id="算数运算符">算数运算符</span></h3><ul><li><p>加法</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> + <span class="number">10</span>);</span><br></pre></td></tr></tbody></table></figure></li><li><p>减法</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> - <span class="number">10</span>);</span><br></pre></td></tr></tbody></table></figure></li><li><p>乘法</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> * <span class="number">10</span>);</span><br></pre></td></tr></tbody></table></figure></li><li><p>除法</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> / <span class="number">10</span>);</span><br></pre></td></tr></tbody></table></figure></li><li><p>系数</p><p>求余</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">17</span> % <span class="number">2</span>);</span><br></pre></td></tr></tbody></table></figure><p>应用场景，可用于判断奇偶数</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num1 = <span class="number">17</span>,</span><br><span class="line">  num2 = <span class="number">188</span>;</span><br><span class="line"><span class="built_in">console</span>.log(num1 % <span class="number">2</span>); <span class="comment">// 奇数 1</span></span><br><span class="line"><span class="built_in">console</span>.log(num2 % <span class="number">2</span>); <span class="comment">// 偶数 0</span></span><br></pre></td></tr></tbody></table></figure></li><li><p><strong>递增</strong></p><p>++ 代表了自增 1，n++ 返回的是自增之前的值，++n 返回的则是自增后的值。</p><p><em>单独写 ++n 和 n++， 输出结果是一样。如果是跟其他代码一起的话，结果会不一样。</em></p><p>因为 ++n 是<strong>先加</strong> 1，再进行运算。而 n++ 是先进行运算，<strong>后加</strong> 1。</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> num1 = <span class="number">188</span>;</span><br><span class="line"><span class="built_in">console</span>.log(++num1); <span class="comment">// 189</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> num3 = <span class="number">188</span>;</span><br><span class="line"><span class="built_in">console</span>.log(num3++); <span class="comment">// 188</span></span><br><span class="line"><span class="built_in">console</span>.log(num3); <span class="comment">// 189</span></span><br></pre></td></tr></tbody></table></figure><p><strong>相关基础题</strong></p><p>(num++) + (++num)，中间的加号是加法运算符。</p><p>num++返回的是 188,这时候 num 已经变成 189.所以++num 就返回的是 190,所以答案就是 188+190=378。</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//求返回结果是多少？ 378</span></span><br><span class="line"><span class="keyword">var</span> num = <span class="number">188</span>;</span><br><span class="line"><span class="built_in">console</span>.log(num++ + ++num);</span><br></pre></td></tr></tbody></table></figure></li><li><p><strong>递减</strong></p><p>与递增同理，只不过是加变成减。</p></li></ul><h3><span id="比较运算符">比较运算符</span></h3><p>比较运算符在逻辑语句中使用，以判定变量或值是否相等。比较的时候要注意数据类型。</p><ul><li><p>&gt; 大于</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">10</span> &gt; <span class="number">20</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>&lt; 小于</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">10</span> &lt; <span class="number">20</span>); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>&gt;= 大于或等于</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">10</span> &gt;= <span class="number">10</span>); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">100</span> &gt;= <span class="number">10</span>); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>&lt;= 小于或等于</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">10</span> &lt;= <span class="number">10</span>); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">100</span> &lt;= <span class="number">10</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>== 等于</p><p><em>不比较数据类型，如果数据类型不同就会有内部的数据转换，转换成相同的数据类型再来比较（可能会影响性能）</em></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> == <span class="number">20</span>); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> == <span class="number">10</span>); <span class="comment">//fasle</span></span><br></pre></td></tr></tbody></table></figure><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> == <span class="string">"20"</span>); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>!= 不等</p><p><em>不比较数据类型，如果数据类型不同就会有内部的数据转换，转换成相同的数据类型再来比较（可能会影响性能）</em></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> != <span class="number">2</span>); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> != <span class="number">1</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> != <span class="string">"2"</span>); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> != <span class="string">"1"</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>=== 等值等型，值相等并且类型相等</p><p><em>全等于，比较数据类型，不会进行数据转换，（最佳实践，最优方式）</em></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> === <span class="string">"20"</span>); <span class="comment">//false</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> === <span class="number">20</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">20</span> === <span class="number">10</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>!== 不等值或不等型，值不相等或类型不相等</p><p>比较数据类型，不会进行数据转换，（最佳实践，最优方式）</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> !== <span class="string">"2"</span>); <span class="comment">//true 最佳实践</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> !== <span class="string">"1"</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> !== <span class="number">2</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> !== <span class="number">1</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li></ul><h3><span id="逻辑运算符">逻辑运算符</span></h3><p>逻辑运算符用于判定变量或值之间的逻辑。</p><ul><li><p><strong>&amp;&amp; 逻辑与</strong></p><p><em>如果左右两个都是 true，返回结果就是 true，如果其中一个有 false,返回结果就是 false</em></p><p>true &amp;&amp; true → true</p><p>true &amp;&amp; false → false</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="literal">true</span> &amp;&amp; <span class="literal">true</span>); <span class="comment">// true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="literal">true</span> &amp;&amp; <span class="literal">false</span>); <span class="comment">// false</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="literal">false</span> &amp;&amp; <span class="literal">true</span>); <span class="comment">// false</span></span><br></pre></td></tr></tbody></table></figure><p><em>应用场景 如登录账户密码判断</em></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> username = <span class="string">"admin"</span>;</span><br><span class="line"><span class="keyword">var</span> password = <span class="string">"123456"</span>;</span><br><span class="line"><span class="comment">//当账号、密码都正确时，返回true</span></span><br><span class="line"><span class="built_in">console</span>.log(username === <span class="string">"admin"</span> &amp;&amp; password === <span class="string">"123456"</span>); <span class="comment">//true</span></span><br><span class="line"><span class="comment">//当账号、密码其中有一个错时，返回false</span></span><br><span class="line"><span class="built_in">console</span>.log(username === <span class="string">"aadmin"</span> &amp;&amp; password === <span class="string">"123456"</span>); <span class="comment">//false</span></span><br><span class="line"><span class="built_in">console</span>.log(username === <span class="string">"admin"</span> &amp;&amp; password === <span class="string">"1234567"</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li><li><p><strong>|| 逻辑或</strong></p><p><em>左右两个中只要有一个 true，返回结果就是 true，当两个都是 true 时返回 true，除非两个都是 false，返回结果才是 false</em></p><p>true || false → true</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="literal">true</span> || <span class="literal">true</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="literal">true</span> || <span class="literal">false</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="literal">false</span> || <span class="literal">true</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="literal">false</span> || <span class="literal">false</span>); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure><p><em>逻辑或 的应用场景 如登录账户密码判断</em></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//如果用户填的满足两个条件其中一个那么就返回true，如果两个条件都不满足那么就返回false。</span></span><br><span class="line"><span class="keyword">var</span> username = <span class="string">"aadmin"</span>; <span class="comment">//假设是用户自己填的</span></span><br><span class="line"><span class="built_in">console</span>.log(username === <span class="string">"admin"</span> || username === <span class="string">"test"</span>); <span class="comment">//false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> username = <span class="string">"admin"</span>; <span class="comment">//假设是用户自己填的</span></span><br><span class="line"><span class="built_in">console</span>.log(username === <span class="string">"admin"</span> || username === <span class="string">"test"</span>); <span class="comment">//true</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> username = <span class="string">"test"</span>; <span class="comment">//假设是用户自己填的</span></span><br><span class="line"><span class="built_in">console</span>.log(username === <span class="string">"admin"</span> || username === <span class="string">"test"</span>); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>! 逻辑非，<em>遇到的时候再应用</em><br>true → false</p><p>false → true</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(!<span class="literal">true</span>); <span class="comment">// false</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(!<span class="literal">false</span>); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure></li></ul><h3><span id="赋值运算符">赋值运算符</span></h3><ul><li><p>= 赋值<br>把 10 赋值给 X<br>x = 10 → 无</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> y;</span><br><span class="line">y = x;</span><br><span class="line"><span class="built_in">console</span>.log(y); <span class="comment">//10</span></span><br></pre></td></tr></tbody></table></figure></li><li><p><strong><em>+= 加并赋值(常用)</em></strong><br>x += y → x = x + y</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> y = <span class="number">20</span>;</span><br><span class="line">y += x; <span class="comment">// 等于 y = y + x; 先看表达式的右边y+x，将20赋值给y，将10赋值给x，此时y+x等于30，最后将30赋值给表达式左边的y,此时y已被覆盖掉。</span></span><br><span class="line"><span class="built_in">console</span>.log(y); <span class="comment">//30</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>-= 减并赋值 <em>同理</em><br>x -= y → x = x - y</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> y = <span class="number">20</span>;</span><br><span class="line">y -= x; <span class="comment">// 等于 y = y - x;</span></span><br><span class="line"><span class="built_in">console</span>.log(y); <span class="comment">//10</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>*= 乘并赋值 同理<br>x *= y → x = x * y</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> y = <span class="number">20</span>;</span><br><span class="line">y *= x; <span class="comment">// 等于 y = y * x;</span></span><br><span class="line"><span class="built_in">console</span>.log(y); <span class="comment">//200</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>/= 除并赋值<br>x /= y → x = x / y</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> y = <span class="number">20</span>;</span><br><span class="line">y /= x; <span class="comment">// 等于 y = y / x;</span></span><br><span class="line"><span class="built_in">console</span>.log(y); <span class="comment">//2</span></span><br></pre></td></tr></tbody></table></figure></li></ul><h2><span id="比较不同的类型">比较不同的类型</span></h2><p>比较不同类型的数据也许会出现不可预料的结果。</p><p>如果将字符串与数字进行比较，那么在做比较时 JavaScript 会把字符串转换为数值。空字符串将被转换为 0。非数值字符串将被转换为始终为 false 的 NaN。</p><table><thead><tr><th align="left">案例</th><th align="left">值</th></tr></thead><tbody><tr><td align="left">2 &lt; 12</td><td align="left">true</td></tr><tr><td align="left">2 &lt; “12”</td><td align="left">true</td></tr><tr><td align="left">2 &lt; “John”</td><td align="left">false</td></tr><tr><td align="left">2 &gt; “John”</td><td align="left">false</td></tr><tr><td align="left">2 == “John”</td><td align="left">false</td></tr><tr><td align="left">“2” &lt; “12”</td><td align="left">false</td></tr><tr><td align="left">“2” &gt; “12”</td><td align="left">true</td></tr><tr><td align="left">“2” == “12”</td><td align="left">false</td></tr></tbody></table><p>当比较两个字符串时，”2” 大于 “12”，因为（_按照字母排序_）1 小于 2。</p><h2><span id="练习代码">练习代码</span></h2><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="comment">//   字面量和表达式</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log("hello world");</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log("hello" + "world");</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(10 - 20);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var s1 = "hello"; //将字面量赋值给变量</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var s2 = "world";</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var result = s1 + s2; // 将表达式赋值给变量，返回值："helloworld"</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(result); // helloworld</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">//算数运算符</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 + 10);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 - 10);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 * 10);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 / 10);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// 求余</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(17 % 2);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   var num1 = 17,</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//     num2 = 188;</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(num1 % 2); // 奇数 1</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(num2 % 2); // 偶数 0</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// 自增 自减</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   var num1 = 188;</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(++num1); // 189</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   var num2 = 188;</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(--num2); // 187</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   var num3 = 188;</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(num3++); // 188</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//   console.log(num3); // 189</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">// var num = 188;</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(num++ + ++num);</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//求返回结果是多少？ 378</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//188 + 190=378</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">// //比较运算符，返回值是一个布尔类型：true\false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(10 &gt; 20)//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(10 &gt;= 10)//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(100 &gt;= 10);//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 == 10);//fasle</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 != "1");//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 !== 2);//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 === 10);//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 !== 1);//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 !== "1");//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(10 &lt;= 10)//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(100 &lt;= 10)//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// //不比较数据类型，如果数据类型不同就会有内部的数据转换，转换成相同的数据类型再来比较（可能会影响性能）</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 == "20")//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// //全等于，不会进行数据转换，（最佳实践，最优方式）</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(20 === "20")//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// //不等于</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 != 2)//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 != 1)//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 != "2")//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(1 !== "2")//true 最佳实践</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">//逻辑运算符</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">// &amp;&amp; 逻辑与 如果左右两个都是true，返回结果就是true，如果其中一个有false,返回结果就是false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(true &amp;&amp; true)// true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(true &amp;&amp; false)// false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(false &amp;&amp; true)// false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// // 逻辑与 的应用场景 如登录账户密码判断</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var username = "admin";</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var password = "123456";</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// //当账号、密码都正确时，返回true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(username === "admin" &amp;&amp; password === "123456");</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// //当账号、密码其中有一个错时，返回false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(username === "aadmin" &amp;&amp; password === "123456");</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(username === "admin" &amp;&amp; password === "1234567");</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">// || 逻辑或 左右两个中只要有一个true，返回结果就是true，当两个都是true时返回true，除非两个都是false，返回结果才是false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(true || true); //true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(true || false); //true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(false || true); //true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(false || false); //false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// // 逻辑或 的应用场景 如登录账户密码判断 var username ="";//用户自己填</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//如果用户填的满足两个条件其中一个那么就返回true，如果两个条件都不满足那么就返回false。</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var username = "aadmin";</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(username === "admin" || username === "test");//false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var username = "admin";</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(username === "admin" || username === "test");//true</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// var username = "test";</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(username === "admin" || username === "test");//true</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">// ! 逻辑非，遇到的时候再应用</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(!true)// false</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// console.log(!false)// true</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">//赋值运算符</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">// = 赋值</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> y;</span></span><br><span class="line">  y = x;</span><br><span class="line"><span class="javascript">  <span class="built_in">console</span>.log(y); <span class="comment">//10</span></span></span><br><span class="line"><span class="javascript">  <span class="comment">//+= 加并赋值(常用)</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> y = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">  y += x; <span class="comment">// 等于 y = y + x; 先看表达式的右边y+x，将20赋值给y，将10赋值给x，此时y+x等于30，最后将30赋值给表达式左边的y,此时y已被覆盖掉。</span></span></span><br><span class="line"><span class="javascript">  <span class="built_in">console</span>.log(y); <span class="comment">//30</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">//-= 减并赋值 同理</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> y = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">  y -= x; <span class="comment">// 等于 y = y - x;</span></span></span><br><span class="line"><span class="javascript">  <span class="built_in">console</span>.log(y); <span class="comment">//10</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">//*= 乘并赋值 同理</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> y = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">  y *= x; <span class="comment">// 等于 y = y * x;</span></span></span><br><span class="line"><span class="javascript">  <span class="built_in">console</span>.log(y); <span class="comment">//200</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">  <span class="comment">///= 除并赋值 同理</span></span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> x = <span class="number">10</span>;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> y = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">  y /= x; <span class="comment">// 等于 y = y / x;</span></span></span><br><span class="line"><span class="javascript">  <span class="built_in">console</span>.log(y); <span class="comment">//2</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Hexo教程</category>
+          
+          <category> 前端学习 </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小锋TV导航页</title>
-    <url>/2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
-    <content><![CDATA[<ul>
-<li><a href="#%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90%E9%87%87%E9%9B%86%E7%BD%91">影视资源采集网</a><ul>
-<li><a href="#%E5%85%8D%E8%B4%B9%E5%9C%A8%E7%BA%BF">免费在线</a></li>
-<li><a href="#%E7%94%B5%E5%BD%B1%E8%81%9A%E5%90%88%E6%90%9C%E7%B4%A2">电影聚合搜索</a></li>
-<li><a href="#%E9%AB%98%E6%B8%85%E4%B8%8B%E8%BD%BD">高清下载</a></li>
-<li><a href="#%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90">视频解析</a></li>
-<li><a href="#%E8%A7%86%E9%A2%91%E8%BD%AF%E4%BB%B6">视频软件</a></li>
-</ul>
-</li>
-<li><a href="#%E5%9C%A8%E7%BA%BF%E7%BD%91%E7%AB%99">在线网站</a><ul>
-<li><a href="#%E7%BB%BC%E5%90%88">综合</a></li>
-<li><a href="#%E7%BE%8E%E5%89%A7">美剧</a></li>
-<li><a href="#%E9%9F%A9%E5%89%A7">韩剧</a></li>
-<li><a href="#%E6%97%A5%E5%89%A7">日剧</a></li>
-<li><a href="#%E6%B8%AF%E5%89%A7">港剧</a></li>
-<li><a href="#%E5%AD%97%E5%B9%95">字幕</a></li>
-</ul>
-</li>
-<li><a href="#%E6%89%8B%E6%9C%BAapp">手机APP</a><ul>
-<li><a href="#%E9%AB%98%E6%B8%85%E4%B8%8B%E8%BD%BD-1">高清下载</a></li>
-<li><a href="#%E9%AB%98%E8%B4%A8%E9%87%8F%E7%94%B5%E5%BD%B1%E4%B8%8B%E8%BD%BD">高质量电影下载</a></li>
-</ul>
-</li>
-<li><a href="#%E5%9C%A8%E7%BA%BF%E8%A7%A3%E6%9E%90%E7%AB%99">在线解析站</a></li>
-<li><a href="#vip%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC">VIP视频解析油猴脚本</a><ul>
-<li><a href="#%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6">视频下载软件</a></li>
-<li><a href="#%E8%A7%86%E9%A2%91%E5%9C%A8%E7%BA%BF%E8%A7%A3%E6%9E%90">视频在线解析</a></li>
-<li><a href="#%E5%9B%BD%E5%A4%96%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD">国外视频下载</a></li>
-<li><a href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F">小程序</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
-
-<span id="more"></span>
-
-<h2><span id="影视资源采集网">影视资源采集网</span></h2><table>
-<thead>
-<tr>
-<th>名称</th>
-<th>网址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>速播资源站</td>
-<td><a href="https://www.subo988.com/">https://www.subo988.com/</a></td>
-</tr>
-<tr>
-<td>OK 资源网</td>
-<td><a href="http://cj.okzy.tv/">http://cj.okzy.tv/</a></td>
-</tr>
-<tr>
-<td>88 影视资源站</td>
-<td><a href="http://www.88zyw.net/">http://www.88zyw.net/</a></td>
-</tr>
-<tr>
-<td>1886 资源</td>
-<td><a href="http://cj.1886zy.co/">http://cj.1886zy.co/</a></td>
-</tr>
-<tr>
-<td>123 资源</td>
-<td><a href="http://cj.123ku2.com:12315/">http://cj.123ku2.com:12315/</a></td>
-</tr>
-<tr>
-<td>最大资源网</td>
-<td><a href="http://www.zdziyuan.com/">http://www.zdziyuan.com/</a></td>
-</tr>
-</tbody></table>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line">影视导航</span><br><span class="line">https://adzhp.cn/mian-fei-shi-pin.html </span><br><span class="line"></span><br><span class="line">http://www.xsldh6.com/ </span><br></pre></td></tr></tbody></table></figure>
-
-<!-- more -->
-
-<h3><span id="免费在线">免费在线</span></h3><p><strong>推荐影视站：<a href="https://www.o8tv.com/">555电影</a></strong><br><strong>推荐APP</strong>：<a href="http://dxzj.tv/"><strong>免费大熊追剧</strong></a></p>
-<table>
-<thead>
-<tr>
-<th><strong><a href="https://www.zhenbuka.com/">真不卡电影网</a></strong></th>
-<th><strong><a href="https://www.nfmovies.com/">奈菲影视</a></strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="http://www.wanmeikk.me/">完美看看</a></strong></td>
-<td><strong><a href="http://www.fenggoudy1.com/">疯狗电影</a></strong></td>
-</tr>
-<tr>
-<td>**<a href="http://www.diliktv.com/">嘀哩影视</a>**🚫</td>
-<td><strong><a href="https://tv547.com/">迪迪影视</a></strong></td>
-</tr>
-<tr>
-<td><a href="http://dianying.im/"><strong>电影先生</strong></a></td>
-<td></td>
-</tr>
-<tr>
-<td><strong><a href="http://www.idybee.com/">电影蜜蜂</a></strong></td>
-<td><strong><a href="https://www.magedn.com/">MaGeDN</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="http://www.kkkkmao.com/">4K屋</a></strong></td>
-<td><strong><a href="https://www.66s.cc/">6V电影</a></strong></td>
-</tr>
-<tr>
-<td>**<a href="https://www.dadatutu.com/">达达兔</a>**–<a href="https://v.jlszyy.org/">1</a>–<a href="https://www.jlszyy.cc/">2</a></td>
-<td><strong><a href="https://www.kankanwu.com/">看看屋</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://tv547.com/">小蚁影视</a></strong></td>
-<td><strong><a href="https://www.yunbtv.com/">云播TV</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.adcmove.com/">ADC电影网</a></strong></td>
-<td><strong><a href="https://suyingtv.xyz/">速影TV</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.dandanzan.cc/">蛋蛋赞</a></strong></td>
-<td><strong><a href="https://tv547.com/">我爱影视</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://tv547.com/">剧汇TV</a></strong></td>
-<td><strong><a href="http://puz.pub/">PZ影视网</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.77kpp.com/">琪琪看片</a></strong></td>
-<td><strong><a href="http://www.tv432.com/">黑米影院</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.bde4.com/">哔嘀影视</a></strong>|<a href="https://bdys.me/">备用</a></td>
-<td><strong><a href="http://www.tv5box.com/">电影盒子</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.okdyw.com/">OK电影网</a></strong></td>
-<td><strong><a href="http://www.nkdyw.com/">南柯电影网</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="http://www.aaqqw.com/">私人官网</a></strong></td>
-<td><strong><a href="https://www.tcmove.com/">太初电影</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.haiduomi.cc/">嗨哆咪影视</a></strong></td>
-<td><strong><a href="https://www.66e.cc/">66影视</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.newqiyu.com/">新奇遇电影</a></strong></td>
-<td><strong><a href="https://www.qukantv.net/">去看TV</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="http://u5kk.com/">U5影视</a></strong></td>
-<td><a href="https://www.yeshi8.cn/"><strong>无忧影城</strong></a></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>建议电脑观看，手机可能广告较多。</p>
-</blockquote>
-<h3><span id="电影聚合搜索">电影聚合搜索</span></h3><p><a href="https://adzhp.cn/sites/3940.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E6%90%9C-%E7%B4%A2.png" alt="影视聚合搜索">🍦<strong>影视聚合搜索</strong>电影网站聚合类搜索，搜电影要方便一点</a></p>
-<h3><span id="高清下载">高清下载</span></h3><p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html">高清电影下载网站索引</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<h3><span id="视频解析">视频解析</span></h3><p><a href="https://adzhp.cn/vipdianyingyuduanshipinjiexiziyuansuoyin.html">VIP电影与视频解析下载</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<h3><span id="视频软件">视频软件</span></h3><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<h2><span id="在线网站">在线网站</span></h2><h3><span id="综合">综合</span></h3><blockquote>
-<p>比较方便的聚合类美日韩等国外剧和电影站：<a href="https://adzhp.cn/favorites/guowaiju"><strong>国外剧 | 爱达杂货铺 (adzhp.cn)</strong></a>，或从首页直接进入。</p>
-</blockquote>
-<h3><span id="美剧">美剧</span></h3><blockquote>
-<p>2021年2月3日，上海警方对外发布通报称，2020年9月有人通过“人人影视字幕组”网站和客户端提供疑似侵权影视作品的在线观看和离线下载。上海警方共抓获以梁某为首的犯罪嫌疑人14名，查处涉案公司3家，查获作案用手机20部和电脑主机、服务器12台，涉案金额1600余万元。</p>
-<p>详见<a href="https://baike.baidu.com/item/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86/8666514">百度百科&gt;&gt;&gt;</a></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>MAG磁力</th>
-<th><a href="http://mag234.com/home.html">http://mag234.com/home.html</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>美剧迷</td>
-<td><a href="https://www.meijumi.net/">https://www.meijumi.net/</a></td>
-</tr>
-<tr>
-<td>美剧侠</td>
-<td><a href="http://www.meijuxia.com/">http://www.meijuxia.com/</a></td>
-</tr>
-<tr>
-<td>牛牛美剧</td>
-<td><a href="http://www.nnmeiju.com/">http://www.nnmeiju.com/</a></td>
-</tr>
-<tr>
-<td>耐卡影音</td>
-<td><a href="http://mcar.cc/">http://mcar.cc/</a></td>
-</tr>
-<tr>
-<td>91美剧</td>
-<td><a href="https://91mjw.com/">https://91mjw.com/</a></td>
-</tr>
-<tr>
-<td>美剧天堂</td>
-<td><a href="https://www.meijutt.tv/">https://www.meijutt.tv/</a></td>
-</tr>
-<tr>
-<td>不卡美剧</td>
-<td><a href="https://www.meijutt.cn/">https://www.meijutt.cn/</a></td>
-</tr>
-<tr>
-<td>EZTV片源</td>
-<td><a href="https://eztv.ag/">https://eztv.ag/</a></td>
-</tr>
-<tr>
-<td>天下美剧</td>
-<td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td>
-</tr>
-<tr>
-<td>爱美剧TV1</td>
-<td><a href="https://www.imjtv.com/">https://www.imjtv.com/</a></td>
-</tr>
-<tr>
-<td>爱美剧TV2</td>
-<td><a href="https://www.imeijutv.com/">https://www.imeijutv.com/</a></td>
-</tr>
-<tr>
-<td>爱美剧</td>
-<td><a href="https://www.imeiju.io/">https://www.imeiju.io/</a></td>
-</tr>
-<tr>
-<td>天天美剧</td>
-<td><a href="http://www.ttmeiju.me/">http://www.ttmeiju.me/</a></td>
-</tr>
-<tr>
-<td>美剧粉</td>
-<td><a href="http://www.mjf2020.com/">http://www.mjf2020.com/</a></td>
-</tr>
-<tr>
-<td>謦灵风软</td>
-<td><a href="http://www.1000fr.net/">http://www.1000fr.net/</a></td>
-</tr>
-<tr>
-<td>美剧鸟</td>
-<td><a href="http://www.meijuniao.com/">http://www.meijuniao.com/</a></td>
-</tr>
-<tr>
-<td>天天看美剧</td>
-<td><a href="https://www.ttkmj.net/">https://www.ttkmj.net/</a></td>
-</tr>
-<tr>
-<td>天下美剧</td>
-<td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td>
-</tr>
-<tr>
-<td>每日美剧</td>
-<td><a href="http://www.meirimeiju.com/">http://www.meirimeiju.com/</a></td>
-</tr>
-</tbody></table>
-<h3><span id="韩剧">韩剧</span></h3><p><a href="https://adzhp.cn/sites/3896.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1.ico" alt="韩剧资源合集">🍦<strong>韩剧资源合集</strong>本页收录韩剧相关资源，为大家提供韩剧免费观看渠道</a></p>
-<h3><span id="日剧">日剧</span></h3><p><a href="https://adzhp.cn/sites/3899.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/cropped-favicon-192x192-1.png" alt="日剧资源合集">🍦<strong>日剧资源合集</strong>本页收录日剧相关资源，为大家提供日剧免费观看渠道</a></p>
-<h3><span id="港剧">港剧</span></h3><p><a href="https://adzhp.cn/sites/3902.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1-1.ico" alt="港剧资源合集">🍦<strong>港剧资源合集</strong>本页收录港剧相关资源，为大家提供港剧免费观看渠道</a></p>
-<h3><span id="字幕">字幕</span></h3><p><a href="https://adzhp.cn/sites/3905.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon.png" alt="字幕组翻译">🍦<strong>字幕组翻译</strong>本页收录各大字幕组网站，从这里获取国外视频的首发翻译吧</a></p>
-<h2><span id="手机app">手机APP</span></h2><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p>
-<p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p>
-<p>9个月前</p>
-<p><a href="https://www.cupfox.com/">茶狐杯</a></p>
-<p><a href="https://www.dianyinggou.com/">电影狗</a></p>
-<p><a href="https://xiaoshesoso.com/">小蛇搜搜</a></p>
-<p><a href="https://www.sbkk.me/">随便看看</a></p>
-<p><a href="http://ifkdy.com/">疯狂影视</a></p>
-<p><a href="http://ifkdy.com/">五号站</a></p>
-<p><a href="https://www.mvcat.com/">影猫</a></p>
-<h4><span id="相关导航">相关导航</span></h4><p><a href="https://adzhp.cn/mian-fei-shi-pin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/03/%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E6%91%84%E5%BD%B1-01-1.png" alt="🈴免费在线影视"><strong>🈴免费在线影视</strong>本页收录各大免费在线视频网站，主要提供电影、电视剧、综艺等免费观看，请勿相信网站内部广告</a></p>
-<p><a href="https://adzhp.cn/sites/4244.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/img.jpg" alt="免费观看超高清大片"><strong>免费观看超高清大片</strong>院线高清大片 点击进来，超高清大片随您看，免费在线或 下载APP观看</a></p>
-<p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E4%B8%8B%E8%BD%BD.png" alt="高清电影下载">🍦<strong>高清电影下载</strong></a></p>
-<p><a href="https://adzhp.cn/wang-luo-zhi-bo.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/TV.png" alt="网络电视直播">🍦<strong>网络电视直播</strong>本页收录网络直播、电视直播、体育直播等相关直播类资源</a></p>
-<p><a href="https://adzhp.cn/sites/3363.html"><img src="https://api.iowen.cn/favicon/www.nfmovies.com.png" alt="奈菲影视"><strong>奈菲影视</strong>高清秒播，速度快，手机电脑均有广告。</a></p>
-<p><a href="https://adzhp.cn/sites/1185.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/01/favicon-3.ico" alt="达达兔"><strong>达达兔</strong>无广告视频站，页面简洁速度快。</a></p>
-<h3><span id="高清下载">高清下载</span></h3><p>电影天堂系列：<a href="https://www.dytt8.net/">电影天堂1</a>–<a href="https://www.dy2018.com/">电影天堂2</a>–<a href="https://www.ygdy8.com/index.html">阳光电影</a>–<a href="https://www.btwuji.com/">无极电影</a>|<a href="https://dytt8.net/app.html">APP下载</a></p>
-<table>
-<thead>
-<tr>
-<th><a href="http://www.415.net/">BT之家</a> +<a href="https://www.51btbtt.com/">2</a>[BT]</th>
-<th><a href="https://www.mypianku.com/"><strong>片库网</strong></a> [在线+磁力+BT]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.80s.tw/">80s电影</a> [<a href="http://www.jianpian.com/">荐片</a>+迅雷]</td>
-<td><a href="https://www.66s.cc/">6V电影网</a>[在线+磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="https://www.piaohua.com/">飘花资源</a> [磁力+<a href="http://www.jianpian.com/">荐片</a>]</td>
-<td><a href="http://www.btshoufa.net/forum.php">BT首发论坛</a> [BT]</td>
-</tr>
-<tr>
-<td><a href="https://www.btdx8.com/">比特大雄</a> [在线+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td>
-<td><a href="http://www.dygang.net/">电影港</a> [磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="http://www.ed2000.com/">ED2000</a> <del>[</del>磁力]</td>
-<td><a href="http://www.etdown.tv/">光影资源联盟</a> [磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="http://www.mp4ba.la/">高清MP4</a>[BT+磁力+百度云]</td>
-<td><a href="http://www.rarbt.com/">RABT</a> [BT]</td>
-</tr>
-<tr>
-<td><a href="https://www.bttwo.com/">两个BT</a> [在线+BT]</td>
-<td><a href="http://www.youzhidy.com/">优质电影网</a> [磁力]</td>
-</tr>
-<tr>
-<td><a href="http://xijing.tv/movie/index">XijingTv</a> [磁力+奶牛+百度云]</td>
-<td><a href="https://www.jsr9.com/">BT天堂</a> [在线+BT]</td>
-</tr>
-<tr>
-<td><a href="http://www.chapaofan.com/">泡饭影视</a> [收费]</td>
-<td><a href="http://www.btbuluo.com/">BT部落天堂</a> [磁力+迅雷]</td>
-</tr>
-<tr>
-<td><a href="http://mag234.com/">MAG磁力站</a>[磁力+人人影视下载器]</td>
-<td><a href="http://xiepp.com/">下片片</a> [磁力+在线+迅雷]</td>
-</tr>
-<tr>
-<td><a href="https://www.xl720.com/">迅雷电影天堂</a> [在线++迅雷+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td>
-<td><a href="https://www.yingyinwu.com/">影音屋</a> [BT]</td>
-</tr>
-<tr>
-<td><a href="https://www.993dy.com/">LOL电影天堂</a> [迅雷]</td>
-<td><a href="https://www.cilixiong.com/">磁力熊</a> [在线+磁力]</td>
-</tr>
-<tr>
-<td><a href="http://www.verycd.com/">电驴大全</a></td>
-<td><a href="http://www.hkb123.com/">好恐怖</a> [在线+磁力+电驴]</td>
-</tr>
-<tr>
-<td><a href="https://www.dy8c.com/">电影巴士</a>[磁力]</td>
-<td><a href="https://www.uump4.net/">悠悠MP4</a> [BT+磁力+电驴]</td>
-</tr>
-<tr>
-<td><a href="https://www.domp4.com/">MP4电影</a> [在线+磁力]</td>
-<td><a href="https://www.poxiao.com/">破晓电影</a> [迅雷+<a href="http://www.jianpian.com/">荐片</a>]</td>
-</tr>
-<tr>
-<td><a href="https://www.12bt.net/">12BT</a> [BT]</td>
-<td><a href="https://www.xlc2020.com/">迅雷仓</a> [迅雷]</td>
-</tr>
-<tr>
-<td><a href="https://dlkoo.com/">大连生活网</a> [BT+百度云]</td>
-<td><a href="http://www.qtfy7.com/">且听风吟</a> [在线+迅雷]</td>
-</tr>
-<tr>
-<td><a href="http://www.rrdyw.cc/">人人电影网</a> [百度云]</td>
-<td><a href="http://www.xyxz001.com/">夕阳小站</a> [磁力+百度云]</td>
-</tr>
-<tr>
-<td><a href="http://seehd.so/">看高清联盟</a> [BT]</td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="高质量电影下载">高质量电影下载</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.languang.co/">蓝光网</a> [磁力+4K]</th>
-<th><a href="http://www.yinfans.com/">音范丝</a> [磁力+4K]</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.4ktt.com/">4K天堂</a> [收费+磁力+4K]</td>
-<td><a href="https://www.hao4k.cn/forum.php">hao4K论坛</a> [BT+4K]</td>
-</tr>
-<tr>
-<td><a href="http://pianyuan.la/">片源网</a> [BT+磁力]</td>
-<td><a href="https://www.chapianyuan.com/">查片源</a> [电驴+磁力]</td>
-</tr>
-<tr>
-<td><a href="https://gaoqing.fm/">高清电台</a> [BT+磁力+4K]</td>
-<td><a href="http://gaoqing.la/">中国高清网</a> [磁力+原盘]</td>
-</tr>
-<tr>
-<td><a href="http://www.gaoqingw.com/">高清网</a> [BT+磁力+4K]</td>
-<td><a href="https://www.1080.cn/">蓝光电影网</a> [磁力+4K]</td>
-</tr>
-<tr>
-<td><a href="https://www.mini4k.com/">迷客电影</a> [BT+磁力+4K]</td>
-<td><a href="https://www.7bt.org/">7BT</a> [BT+4K]</td>
-</tr>
-<tr>
-<td><a href="https://www.60zhen.com/">60帧电影</a> [收费+网盘]</td>
-<td><a href="https://www.4k123.com/"> 4K论坛</a></td>
-</tr>
-</tbody></table>
-<h2><span id="在线解析站">在线解析站</span></h2><p>提供爱奇艺、腾讯、优酷等收费视频网站解析、复制视频地址即可享受VIP服务。<br>视频解析背后的原理：<a href="https://www.bilibili.com/read/cv10045082">https://www.bilibili.com/read/cv10045082</a></p>
-<table>
-<thead>
-<tr>
-<th><strong><a href="https://www.administrator5.com/">无名小站</a></strong></th>
-<th><strong><a href="https://www.ikukk.com/">爱酷看看</a></strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://v.cnv3.com/">全民解析</a></strong></td>
-<td><a href="http://czjx8.com/"><strong>船长解析</strong></a></td>
-</tr>
-<tr>
-<td><strong><a href="https://660e.com/">乐乐云</a></strong></td>
-<td><strong><a href="http://jx.618g.com/">618G免费解析</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.nxflv.com/">诺讯解析</a></strong></td>
-<td><strong><a href="https://vip.mpos.ren/">人人视频解析</a></strong></td>
-</tr>
-<tr>
-<td><strong><a href="https://www.sounm.com/">搜你妹解析</a></strong></td>
-<td><strong><a href="https://api.927jx.com/">927解析</a></strong></td>
-</tr>
-</tbody></table>
-<h2><span id="vip视频解析油猴脚本">VIP视频解析油猴脚本</span></h2><p>使用油猴脚本解析：<a href="https://greasyfork.org/zh-CN/scripts?q=VIP">VIP视频相关的脚本 (greasyfork.org)</a><br>油猴脚本安装方法：<a href="https://adzhp.cn/sites/1919.html">Greasy Fork(油猴脚本) | 爱达杂货铺 (adzhp.cn)</a></p>
-<h3><span id="视频下载软件">视频下载软件</span></h3><p><a href="https://adzhp.cn/sites/3882.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E4%B8%8B%E8%BD%BD.png" alt="在线视频下载软件">🍦<strong>在线视频下载软件</strong>可以下载网页上播放视频、支持各种站点，比如YouTube、哔哩哔哩、西瓜等短视频平台</a></p>
-<h3><span id="视频在线解析">视频在线解析</span></h3><h4><span id="哔哩哔哩">哔哩哔哩</span></h4><p><a href="https://adzhp.cn/sites/3876.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/favicon.ico" alt="B站视频下载">🍦<strong>B站视频下载</strong>本页收录那些可以解析哔哩哔哩的视频网站以及下载软件，方便大家下载B站视频</a></p>
-<h4><span id="综合短视频解析">综合短视频解析</span></h4><p><a href="https://adzhp.cn/sites/3884.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8A%96%E9%9F%B3.png" alt="短视频解析下载">🍦<strong>短视频解析下载</strong>提供各种短视频网站解析下载服务，支持抖音、快手、火山等主流视频平台视频</a></p>
-<h3><span id="国外视频下载">国外视频下载</span></h3><p><a href="https://adzhp.cn/sites/3888.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8E%A8%E7%89%B9-twitter.png" alt="其他国外视频下载">🍦<strong>其他国外视频下载</strong>提供Twitter、Instagram、Facebook和vlive等视频下载服务的相关内容</a></p>
-<h3><span id="小程序">小程序</span></h3><p>微信小程序搜索：<strong>去水印</strong></p>
-<p>注：本页很多资源由用户“神界中人”提供，在此表示感谢！</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 前端学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JS - 变量与数据类型</title>
+      <link href="2021/08/10/JS%20-%20%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+      <url>2021/08/10/JS%20-%20%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#%E5%8F%98%E9%87%8F">变量</a></li><li><a href="#%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4-">加减乘除 <code>+</code> <code>-</code> <code>*</code> <code>/</code></a><ul><li><a href="#var-%E5%A3%B0%E6%98%8E%E5%8F%98%E9%87%8F">var 声明变量</a></li><li><a href="#%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83">变量命名规范</a></li></ul></li><li><a href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">数据类型</a></li><li><a href="#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81">练习代码</a></li></ul><!-- tocstop --><span id="more"></span><h2><span id="变量">变量</span></h2><p>语句结束加分号 加不加其实都可以 但为了规范要加分号。</p><h2><span id="加减乘除-">加减乘除 <code>+</code> <code>-</code> <code>*</code> <code>/</code></span></h2><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> n1 = <span class="number">20</span>,</span><br><span class="line">  n2 = <span class="number">10</span>;</span><br><span class="line"><span class="comment">// 加减乘除 + - * /</span></span><br><span class="line"><span class="keyword">var</span> result = n1 / n2;</span><br><span class="line"><span class="comment">// var result = n1 * n2;</span></span><br><span class="line"><span class="comment">// var result = n1 - n2;</span></span><br><span class="line"><span class="comment">// var result = n1 + n2;</span></span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></tbody></table></figure><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> s1 = <span class="string">"hello"</span>,</span><br><span class="line">  s2 = <span class="string">"world"</span>;</span><br><span class="line"><span class="keyword">var</span> result = s1 + s2;</span><br><span class="line"><span class="built_in">console</span>.log(result);<span class="comment">// helloworld</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> s3 = <span class="string">"100"</span>, s4 = <span class="string">"200"</span></span><br><span class="line"><span class="keyword">var</span> result1 =  s3 + s4;</span><br><span class="line"><span class="built_in">console</span>.log(result1);<span class="comment">// 100200</span></span><br></pre></td></tr></tbody></table></figure><h3><span id="var-声明变量">var 声明变量</span></h3><p>s 是 string 字符串的缩写，常用 s 来定义字符串<br>”=“ 变量赋值：将右侧的数据赋值给左侧的变量,不是等于的意思。<br>var 声明 定义多个变量，要用逗号隔开</p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> s = <span class="string">"hello world"</span>;</span><br><span class="line"><span class="built_in">console</span>.log(s);</span><br></pre></td></tr></tbody></table></figure><h3><span id="变量命名规范">变量命名规范</span></h3><ul><li>变量名要见名知意思（要有语义）</li><li>变量名可以是<ul><li>字母、下划线、$，还有数字，但是不能以数字开头。</li><li>不可以用关键字、保留字命名。</li><li>小写字母开头，多个单词，第二个单词首字母大写（驼峰命名，例如 firstName）</li></ul></li></ul><h2><span id="数据类型">数据类型</span></h2><p>数据类型就是存储在变量中的数据，是有不同类型的。<br>六种数据类型：</p><ul><li>字符串 String : “hello world” “你好世界”</li><li>数值 Number : 100,1,2,3</li><li>布尔数据类型 Boolean ：真 true, 假 false。</li><li>未定义 Undefined : underfined</li><li>空 Null : null</li><li>对象 Object ：{}</li></ul><h2><span id="练习代码">练习代码</span></h2><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">console</span>.log(<span class="string">"world"</span>);</span></span><br><span class="line"><span class="javascript">      <span class="comment">// var 声明变量</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   var s = "hello world";</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   console.log(s);</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">// var 声明 定义多个变量，要用逗号隔开</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">      <span class="comment">//数据类型</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   var s1 = "hello",</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//     s2 = "world"; //字符串类型</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   console.log(s1);</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   console.log(s2);</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   var n = 100; //数值类型</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   console.log(n);</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">//   var b = true; //布尔值布尔数据类型</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> n1 = <span class="number">20</span>, n2 = <span class="number">10</span>;</span></span><br><span class="line"><span class="javascript">      <span class="comment">// 加减乘除 + - * /</span></span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result = n1 / n2;</span></span><br><span class="line"><span class="javascript">      <span class="comment">// var result = n1 * n2;</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">// var result = n1 - n2;</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">// var result = n1 + n2;</span></span></span><br><span class="line"><span class="javascript">      <span class="comment">// console.log(result);</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> s1 = <span class="string">"hello"</span>, s2 = <span class="string">"world"</span>;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result = s1 + s2;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">console</span>.log(result); <span class="comment">// helloworld</span></span></span><br><span class="line"></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> s3 = <span class="string">"100"</span>, s4 = <span class="string">"200"</span>;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> result1 = s3 + s4;</span></span><br><span class="line"><span class="javascript">      <span class="built_in">console</span>.log(result1); <span class="comment">// 100200</span></span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
       <categories>
-        <category>影视资源</category>
+          
+          <category> 前端学习 </category>
+          
       </categories>
-      <tags>
-        <tag>影视网站</tag>
-        <tag>视频解析</tag>
-        <tag>影视导航</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语学习资源导航页</title>
-    <url>/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
-    <content><![CDATA[<ul>
-<li><a href="#%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%AB%99"><strong>英语网站</strong></a><ul>
-<li><a href="#%E4%B8%AD%E6%96%87%E7%BD%91%E7%AB%99">中文网站</a></li>
-<li><a href="#%E8%8B%B1%E6%96%87%E7%BD%91%E7%AB%99">英文网站</a></li>
-<li><a href="#%E8%8B%B1%E8%AF%AD%E5%AF%BC%E8%88%AA">英语导航</a></li>
-</ul>
-</li>
-<li><a href="#%E8%8B%B1%E8%AF%AD%E8%B5%84%E6%BA%90"><strong>英语资源</strong></a><ul>
-<li><a href="#%E8%8B%B1%E8%AF%AD%E6%B8%B8%E6%88%8F">英语游戏</a></li>
-</ul>
-</li>
-<li><a href="#%E5%8D%95%E8%AF%8D%E8%AF%8D%E6%B1%87"><strong>单词词汇</strong></a></li>
-<li><a href="#%E5%90%AC%E5%8A%9B%E5%8F%A3%E8%AF%AD"><strong>听力口语</strong></a><ul>
-<li><a href="#%E5%9C%A8%E7%BA%BF%E5%90%AC%E5%8A%9B">在线听力</a></li>
-<li><a href="#%E5%8F%A3%E8%AF%AD%E5%8D%9A%E4%B8%BB"><strong>口语博主</strong></a></li>
-</ul>
-</li>
-<li><a href="#%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3"><strong>阅读理解</strong></a><ul>
-<li><a href="#%E6%9D%82%E5%BF%97%E5%91%A8%E5%88%8A">杂志周刊</a></li>
-<li><a href="#%E8%A5%BF%E6%96%B9%E6%96%B0%E9%97%BB">西方新闻</a></li>
-<li><a href="#%E4%B8%AD%E5%9B%BD%E6%96%B0%E9%97%BB">中国新闻</a></li>
-<li><a href="#%E8%AF%AD%E6%B3%95%E5%8D%9A%E4%B8%BB"><strong>语法博主</strong></a></li>
-</ul>
-</li>
-<li><a href="#%E5%86%99%E4%BD%9C%E8%AF%8D%E5%85%B8"><strong>写作词典</strong></a><ul>
-<li><a href="#%E8%AF%8D%E5%BA%93%E6%9F%A5%E8%AF%A2">词库查询</a></li>
-<li><a href="#%E6%90%AD%E9%85%8D%E8%AF%8D%E5%85%B8">搭配词典</a></li>
-<li><a href="#%E4%BE%8B%E5%8F%A5%E8%AF%8D%E5%85%B8">例句词典</a></li>
-</ul>
-</li>
-<li><a href="#%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95"><strong>写作语法</strong></a><ul>
-<li><a href="#%E8%AF%AD%E6%B3%95%E6%A3%80%E6%B5%8B">语法检测</a></li>
-<li><a href="#%E5%86%99%E4%BD%9C%E5%BB%BA%E8%AE%AE">写作建议</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
-
-<span id="more"></span>
-<h2><span id="英语网站"><strong>英语网站</strong></span></h2><h3><span id="中文网站">中文网站</span></h3><table>
-<thead>
-<tr>
-<th><a href="https://www.hjenglish.com/">沪江英语</a></th>
-<th><a href="https://www.shanbay.com/">扇贝</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.i21st.cn/">21英语</a></td>
-<td><a href="http://yingyu.xdf.cn/">新东方英语</a></td>
-</tr>
-<tr>
-<td><a href="http://www.bigear.cn/">大耳朵英语</a></td>
-<td><a href="http://www.wwenglish.org/index.htm">旺旺英语</a></td>
-</tr>
-<tr>
-<td><a href="https://www.24en.com/">爱思英语</a></td>
-<td><a href="https://www.xiao84.com/">巴士英语网</a></td>
-</tr>
-<tr>
-<td><a href="https://language.chinadaily.com.cn/">英语点津</a></td>
-<td><a href="http://www.dioenglish.com/wiki/">英语百科</a></td>
-</tr>
-<tr>
-<td><a href="http://www.kekenet.com/hangye/">可可行业英语</a></td>
-<td><a href="https://www.24en.com/esp/">爱思行业英语</a></td>
-</tr>
-<tr>
-<td><a href="https://bbs.fobshanghai.com/forumdisplay.php?fid=47&amp;sid=kNS8PJ">福步外贸英语</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="英文网站">英文网站</span></h3><table>
-<thead>
-<tr>
-<th><a href="https://www.engvid.com/">engVid</a></th>
-<th><a href="https://www.mmmenglish.com/">mmmEnglish</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.englishclub.com/">EnglishClub</a></td>
-<td><a href="http://www.world-english.org/">World English</a></td>
-</tr>
-<tr>
-<td><a href="http://www.manythings.org/">ManyThings</a></td>
-<td><a href="https://www.learnenglish.de/">Learn English</a></td>
-</tr>
-<tr>
-<td><a href="https://www.englisch-hilfen.de/en/">English Hilfen</a></td>
-<td><a href="http://www.perfectyourenglish.com/index.htm">PerfectYourEnglish</a></td>
-</tr>
-<tr>
-<td><a href="https://www.thoughtco.com/esl-4133095">ThoughtCo.</a></td>
-<td><a href="https://english.stackexchange.com/">English Stackexchange</a></td>
-</tr>
-</tbody></table>
-<h3><span id="英语导航">英语导航</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.up-6.com/">英语学习导航</a></th>
-<th><a href="http://www.yywz123.com/">英语学习网站大全</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.dioenglish.com/diolinks/">英语网址导航</a></td>
-<td><a href="http://www.eol.cn/html/en/daohang/index.shtml">外语学习导航</a></td>
-</tr>
-</tbody></table>
-<!-- more -->
-
-<h2><span id="英语资源"><strong>英语资源</strong></span></h2><table>
-<thead>
-<tr>
-<th><a href="https://www.pdawiki.com/forum/forum-92-1.html">PDAWIKI 学习交流区</a></th>
-<th><a href="https://www.pdawiki.com/forum/forum-105-1.html">PDAWIKI 学习资源区</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.pdawiki.com/forum/forum-4-1.html">PDAWIKI 词库资源区</a></td>
-<td><a href="https://freemdict.com/">FreeMdict</a></td>
-</tr>
-<tr>
-<td><a href="http://yingyu.bbs.kaoyan.com/">英语考研论坛</a></td>
-<td><a href="https://www.lxwc.com.cn/topic-55-1.html">两小无猜儿童英语</a></td>
-</tr>
-<tr>
-<td><a href="https://www.tjxz.cc/">田间小站</a></td>
-<td><a href="https://www.i-bei.com/baby/thread-66369-1-1.html">牛津阅读树</a></td>
-</tr>
-<tr>
-<td><a href="http://www.eol.cn/html/en/picen001/index.shtml">《图解英语》</a></td>
-<td><a href="http://www.dogwood.com.cn/">新东方图书网</a></td>
-</tr>
-<tr>
-<td><a href="https://ienglish521.com/">力哥爱英语</a></td>
-<td><a href="https://babynames.net/">BellyBallot 英文起名网站</a></td>
-</tr>
-<tr>
-<td><a href="https://disk.lijie.org/gglog/%E8%A7%86%E9%A2%91/%E6%95%99%E7%A8%8B/%E8%8B%B1%E8%AF%AD/">视频/教程/英语网盘</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="英语游戏">英语游戏</span></h3><table>
-<thead>
-<tr>
-<th><a href="https://quizlet.com/zh-cn">单词卡 | Quizlet</a></th>
-<th><a href="https://babadum.com/">看图学单词 | Ba Ba Dum</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.ratatype.com/">英文打字练习 | Ratatype</a></td>
-<td><a href="https://zty.pe/">英文打字练习 | ZType</a></td>
-</tr>
-<tr>
-<td><a href="https://www.purposegames.com/">PurposeGames</a></td>
-<td><a href="https://qwerty-learner.vercel.app/">Qwerty Learner</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/Langfocus/videos">Langfocus</a></td>
-<td><a href="https://www.youtube.com/user/Xidnaf/videos">Xidnaf</a></td>
-</tr>
-</tbody></table>
-<h2><span id="单词词汇"><strong>单词词汇</strong></span></h2><table>
-<thead>
-<tr>
-<th><a href="https://www.cipindanci.com/">词频背单词</a></th>
-<th><a href="https://bdc2.youzack.com/Recitation/Home">YouZack背单词</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://testyourvocab.com/">Test Your Vocabulary</a></td>
-<td><a href="https://www.languageguide.org/%E8%8B%B1%E8%AF%AD/%E8%AF%8D%E6%B1%87/">LanguageGuide.org</a></td>
-</tr>
-<tr>
-<td><a href="https://www.engrish.com/">Engrish 英语错用收集</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.usingenglish.com/">UsingEnglish.com</a></td>
-<td><a href="https://www.englishpage.com/">English Pages</a></td>
-</tr>
-<tr>
-<td><a href="https://www.myenglishpages.com/">My English Pages</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2><span id="听力口语"><strong>听力口语</strong></span></h2><h3><span id="在线听力">在线听力</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.tingroom.com/">在线英语听力室</a></th>
-<th><a href="http://dict.eudic.net/ting">每日英语听力</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.putclub.com/">普特听力</a></td>
-<td><a href="http://www.tingclass.net/">听力课堂</a></td>
-</tr>
-<tr>
-<td><a href="http://www.kekenet.com/">可可英语</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="http://yinbiao.tingclass.net/show-16-9-1.html">48个英语音标表</a></td>
-<td><a href="http://www.hydcd.com/baike/yingyuyinbiao.htm">48个国际音标发音表</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youzack.com/">英语听力逐句精听</a></td>
-<td><a href="https://www.listeningexpress.com/">听力特快</a></td>
-</tr>
-<tr>
-<td><a href="https://youglish.com/">Youglish</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.listeningexpress.com/cnn10/">CNN10 Student News</a></td>
-<td><a href="https://www.51voa.com/">51VOA</a></td>
-</tr>
-<tr>
-<td><a href="http://www.tingvoa.com/">VOA英语学习网</a></td>
-<td><a href="http://mini-ielts.com/">在线雅思机考模拟</a></td>
-</tr>
-</tbody></table>
-<h3><span id="口语博主"><strong>口语博主</strong></span></h3><table>
-<thead>
-<tr>
-<th><a href="https://space.bilibili.com/407282397/video">EnglishTube</a></th>
-<th><a href="https://space.bilibili.com/24801003/video">口语老炮儿马思瑞</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://space.bilibili.com/340223423/video">Ella教美语</a></td>
-<td><a href="https://space.bilibili.com/131058159/video">英语老师Lee</a></td>
-</tr>
-<tr>
-<td><a href="https://space.bilibili.com/30145454/video">阿曾曾儿</a></td>
-<td><a href="https://space.bilibili.com/346396741/video">FanfaniShare</a></td>
-</tr>
-<tr>
-<td><a href="https://space.bilibili.com/433248184/video">一起暴击口语</a></td>
-<td><a href="https://space.bilibili.com/17996988/video">免子队长油百万</a></td>
-</tr>
-<tr>
-<td><a href="https://space.bilibili.com/20420581/video">EngVid</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/engvidEmma/videos">EngVid</a></td>
-<td><a href="https://www.youtube.com/c/EnglishLikeANative/videos">English Like A Native</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/rachelsenglish/videos">Rachel’s English</a></td>
-<td><a href="https://www.youtube.com/c/EnglishwithLucy/videos">English with Lucy</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/mmmEnglish_Emma/videos">mmmEnglish</a></td>
-<td><a href="https://www.youtube.com/c/MaaaxterEnglish/videos">Maaaxter English</a></td>
-</tr>
-<tr>
-<td><a href="https://www.youtube.com/c/SoundsAmerican/videos">Sounds American</a></td>
-<td><a href="https://www.youtube.com/c/JackiesEnglishClass/videos">跟洋妞学英语 Jackie</a></td>
-</tr>
-</tbody></table>
-<h2><span id="阅读理解"><strong>阅读理解</strong></span></h2><h3><span id="杂志周刊">杂志周刊</span></h3><table>
-<thead>
-<tr>
-<th><a href="https://time.com/">TIME</a></th>
-<th><a href="https://www.economist.com/">The Economist</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/nailperry-zd/The-Economist">The Economist 下载</a></td>
-<td><a href="https://www.discover.com/">Discover</a></td>
-</tr>
-<tr>
-<td><a href="https://www.newsweek.com/">Newsweek</a></td>
-<td><a href="https://www.rd.com/">Reader’s Digest</a></td>
-</tr>
-</tbody></table>
-<h3><span id="西方新闻">西方新闻</span></h3><table>
-<thead>
-<tr>
-<th><a href="https://edition.cnn.com/">CNN</a></th>
-<th><a href="https://www.usatoday.com/">USA TODAY</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.washingtonpost.com/">Washington Post</a></td>
-<td><a href="https://www.nytimes.com/">New York Times</a></td>
-</tr>
-<tr>
-<td><a href="https://www.latimes.com/">Los Angeles Times</a></td>
-<td><a href="https://www.bbc.com/">BBC</a></td>
-</tr>
-<tr>
-<td><a href="https://www.theguardian.com/international">The Guardian</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="中国新闻">中国新闻</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.chinadaily.com.cn/">China Daily</a></th>
-<th><a href="http://en.people.cn/home.html">People’s Daily Online</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.qcenglish.com/">七彩英语</a></td>
-<td><a href="http://www.enread.com/">英文阅读网</a></td>
-</tr>
-<tr>
-<td><a href="http://www.kekenet.com/read/">可可双语阅读</a></td>
-<td><a href="http://www.qqenglish.com/">蛐蛐英语</a></td>
-</tr>
-<tr>
-<td><a href="https://zhuanlan.zhihu.com/p/31557166">21个英语新闻网站</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="语法博主"><strong>语法博主</strong></span></h3><table>
-<thead>
-<tr>
-<th align="left"><a href="https://space.bilibili.com/401727458/video">张富贵的英语世界</a></th>
-<th align="left"><a href="https://space.bilibili.com/224437180/video">rio老师</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://space.bilibili.com/402370368/video">Mmxgxg</a></td>
-<td align="left"><a href="https://space.bilibili.com/99574633/video">KMF考满分</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.youtube.com/c/Englishwithjennifer/videos#0">JenniferESL</a></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.youtube.com/c/engvidJames/videos">JamesESL English Lessons</a></td>
-<td align="left"><a href="https://www.youtube.com/c/engvidRonnie/videos">EnglishLessons4U</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Dictionaryphile/All_Dictionaries">宇宙最全在线词典网站导航</a></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Dictionaryphile/1000_Eng_Dicts">1000 部英语类词典名录</a></td>
-<td align="left"><a href="https://zhuanlan.zhihu.com/51xiaochu">51xiaochu雅思写作</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://zhuanlan.zhihu.com/talk-about-english">魏剑峰</a></td>
-<td align="left"><a href="https://zhuanlan.zhihu.com/miaomianba">妙面爸英语</a></td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.jianshu.com/users/e652ef294319/timeline">超级莎 – 简书</a></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-<h2><span id="写作词典"><strong>写作词典</strong></span></h2><h3><span id="词库查询">词库查询</span></h3><table>
-<thead>
-<tr>
-<th><a href="https://www.wordnik.com/">Wordnik</a></th>
-<th><a href="https://www.collinsdictionary.com/dictionary/english-thesaurus">Collins Thesaurus</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.powerthesaurus.org/">PowerThesaurus</a></td>
-<td><a href="https://www.words-to-use.com/">Words to Use</a></td>
-</tr>
-<tr>
-<td><a href="https://www.thesaurus.com/">Thesaurus.com</a></td>
-<td><a href="https://www.freethesaurus.com/">FreeThesaurus</a></td>
-</tr>
-<tr>
-<td><a href="https://words.bighugelabs.com/">Big Huge Thesaurus</a></td>
-<td><a href="https://www.wordhippo.com/">WordHippo</a></td>
-</tr>
-<tr>
-<td><a href="https://visuwords.com/">VisuWords</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="搭配词典">搭配词典</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.freecollocation.com/">Collocation Dictionary ▲</a></th>
-<th><a href="http://ozdic.com/">Ozdic.com</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://www.just-the-word.com/">Just the Word</a></td>
-<td><a href="https://linggle.com/">Linggle</a></td>
-</tr>
-<tr>
-<td><a href="https://netspeak.org/">Netspeak ▲</a></td>
-<td><a href="https://textranch.com/sentence-checker/">TextRanch</a></td>
-</tr>
-</tbody></table>
-<h3><span id="例句词典">例句词典</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.jukuu.com/">句库</a></th>
-<th><a href="https://sentencedict.com/">SentenceDict</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.linguee.com/">Linguee</a></td>
-<td><a href="https://ludwig.guru/">Ludwig</a></td>
-</tr>
-<tr>
-<td><a href="https://www.english-corpora.org/coca/">语料库 | COCA</a></td>
-<td><a href="https://www.english-corpora.org/bnc/">语料库 | BNC</a></td>
-</tr>
-<tr>
-<td><a href="http://www.webcorp.org.uk/live/index.jsp">语料库 | WebCorp</a></td>
-<td><a href="https://www.azquotes.com/">名人语录 | A-Z Quotes</a></td>
-</tr>
-</tbody></table>
-<h2><span id="写作语法"><strong>写作语法</strong></span></h2><h3><span id="语法检测">语法检测</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.wwenglish.org/en/z/grammar/index.htm">旺旺英语语法</a></th>
-<th><a href="https://www.grammarly.com/grammar-check">Grammarly</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.languagetool.org/">LanguageTool</a></td>
-<td><a href="http://www.1checker.com/OnlineChecker">易改</a></td>
-</tr>
-<tr>
-<td><a href="https://www.nounplus.net/grammarcheck/">NounPlus</a></td>
-<td><a href="https://grammica.com/">GrammarChecker</a></td>
-</tr>
-<tr>
-<td><a href="https://hemingwayapp.com/">Hemingway Editor</a></td>
-<td><a href="https://app.mtutor.engkoo.com/englishwriting/">Aim Writing</a></td>
-</tr>
-<tr>
-<td><a href="https://wordcounter.net/">WordCounter</a></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3><span id="写作建议">写作建议</span></h3><table>
-<thead>
-<tr>
-<th><a href="http://www.1checker.com/Templates">英文写作模版</a></th>
-<th><a href="https://www.adreep.cn/">英语作文网</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.writeexpress.com/">英语写作模板</a></td>
-<td><a href="https://guinlist.wordpress.com/">guinlist</a></td>
-</tr>
-<tr>
-<td><a href="https://www.powa.org/">Paradigm</a></td>
-<td><a href="https://www.squibler.io/writing-prompts">Squibler 写作工具</a></td>
-</tr>
-<tr>
-<td><a href="https://www.writersdigest.com/">Writer’s Digest 写作文摘</a></td>
-<td><a href="https://grammica.com/paraphrasing-tool/">Grammica 伪原创工具</a></td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 前端学习 </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2019恋词 - Unit 2</title>
+      <link href="2021/07/25/2019-love-word-Unit-2/"/>
+      <url>2021/07/25/2019-love-word-Unit-2/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#1-state">1. state</a></li><li><a href="#2-statistics">2. statistics</a></li><li><a href="#3estate">3.estate</a></li><li><a href="#4-establish">4. establish</a></li><li><a href="#5-strategy">5. strategy</a></li><li><a href="#6-direct">6. direct</a></li><li><a href="#7-like">7. like</a></li><li><a href="#8-most">8. most</a></li></ul><!-- tocstop --><span id="more"></span><h2><span id="1-state">1. state</span></h2><p>n.洲；</p><p>n. 状态</p><p>v. 表明，列明</p><h4><span id="真题例句">真题例句</span></h4><p>⭐1: n.洲；</p><p>He comes form the Ohio State of  the United States of America.</p><p>⭐2: n. 状态 v. 表明，列明</p><p>Every time when he was in a dizzy <em>state</em>(n. 状态) after drinking some wines, he would like to <em>state</em>（v. 表明，列明） various reasons to prove that life is not easy.</p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>statement</td><td>n. 陈述，声明</td></tr></tbody></table><h4><span id="形近词">形近词</span></h4><table><thead><tr><th align="left">单词/词组</th><th align="center">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td align="left">overstate</td><td align="center">v. 夸大；对……言过其实</td><td>exaggerate</td><td>v. 夸大；对……言过其实</td></tr><tr><td align="left">statue</td><td align="center">n. 雕像，雕塑</td><td>statutory</td><td>adj. 法令的，法规的</td></tr><tr><td align="left">static</td><td align="center">adj. 静止的，不变化的</td><td></td><td></td></tr></tbody></table><h2><span id="2-statistics">2. statistics</span></h2><p>n. <strong>统计数据（或资料）</strong>；统计学</p><h4><span id="真题例句">真题例句</span></h4><p>（2013-6阅读） n. *统计数据（或资料）；统计学</p><p>The problem is that the statistics aren’t an objective measure of reality; they are simply a best approximation(n. 近似值).</p><h2><span id="3estate">3.estate</span></h2><p>n. 不动产；地产；遗产</p><h4><span id="词根词缀">词根词缀</span></h4><p><strong>sta-</strong> / stac- / stad- / stan- : stand,make or be firm</p><p>稳定不动，伫立……</p><p>e- : out, 往外</p><h2><span id="4-establish">4. establish</span></h2><p>v. 建立；设立；制定；确定；确立（地位）</p><h4><span id="词根词缀">词根词缀</span></h4><p>e- + stab- + lish (v.)</p><h4><span id="真题例句">真题例句</span></h4><p>（2010-6 阅读）</p><p>Last spring one of the two, Australia, gave up the dubious distinction by <em>establishing</em> paid family leave starting in 2011.</p><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>dubious</td><td>adj. 可疑的；模棱两可的</td></tr></tbody></table><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>establishment</td><td>n. 成立；建立；机构；企业</td></tr></tbody></table><h2><span id="5-strategy">5. strategy</span></h2><p>n. 战略；策略</p><h4><span id="词根词缀">词根词缀</span></h4><p>stere(to spread) to eg(to act)</p><p>eg/ag : act 行动</p><p>stereo 立体声</p><p>mono 单声道</p><h4><span id="真题例句">真题例句</span></h4><p>（2012-6阅读）</p><p>In face of global warming, much effort has been focused on reducing greenhouse gas emissions through a variety of <em>strategies</em>.</p><h2><span id="6-direct">6. direct</span></h2><p>v. 指向；指引；指导，管理；指示，命令；指导（电影等）</p><p>adj. 径直的，直达的；<strong>直接的</strong>；坦率的</p><h4><span id="词根词缀">词根词缀</span></h4><p>di-(down) + rect(straight)</p><h4><span id="真题例句">真题例句</span></h4><p>（2013-12 阅读）v. 指示，命令</p><p>Meanwhile, a second group was <em>directed</em> to solve the same problems by collaborating with one another, without any prompts from their instructor.</p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th align="left">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>direction</td><td align="left">n. 方向；方位；（发展）趋势；指示，说明</td><td><strong>director</strong></td><td>n. 导演；主任，主管；（公司的）经理，董事</td></tr><tr><td>directory</td><td align="left">n. 通讯录；（网站上的）专题目录</td><td></td><td></td></tr></tbody></table><h4><span id="形近词">形近词</span></h4><table><thead><tr><th>单词/词组</th><th align="left">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>rectify</td><td align="left">v. 纠正，改正，修改</td><td>directory</td><td>n. 通讯录；（网站上的）专题目录</td></tr></tbody></table><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>correct</td><td>adj. 正确的；恰当的；得体的<br>v. 纠正；纠正；修改；<strong>修正</strong></td></tr></tbody></table><h5><span id="词根词缀">词根词缀</span></h5><p>co- + r + rect</p><p>co- = con- =com- : 共同，完全，<strong>加强</strong></p><p>例如，cooperate\contribute</p><h5><span id="派生词">派生词</span></h5><table><thead><tr><th>单词/词组</th><th align="left">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>correction</td><td align="left">n. 批改；惩罚</td><td>corrective</td><td>adj. 改正的；纠正的/ n. 起纠正作用的东西；修正</td></tr></tbody></table><h5><span id="形近词">形近词</span></h5><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>erect</td><td>v. 建造；建立，创立<br>adj. 直立的；竖直的</td></tr></tbody></table><h5><span id="真题例句">真题例句</span></h5><p>(2014-12 选词填空)  v. 建立，创立</p><p>Thus once they enter school, children begin to define subjects and <em>erect boundaries</em> that needn’t to otherwise exist.</p><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>boundaries</td><td>n.边界，界线（boundary的复数形式）；界限</td></tr></tbody></table><h2><span id="7-like">7. like</span></h2><p>prep. 像，像……一样；比如，例如</p><p>conj. 好像；如同</p><p>v. 喜欢；（用于征询意见）觉得；想要，希望</p><p>n. 爱好；喜欢的事物</p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th align="left">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>likely</td><td align="left">adj. 可能的；看来要发生的；有（……）倾向的</td><td>likelihood</td><td>n. 可能；可能性；可能的事</td></tr><tr><td>likeness</td><td align="left">n. （外表的）相似，相近；肖像，塑像</td><td>unlike</td><td>prep. 不像；与……不同</td></tr><tr><td><strong>alike</strong></td><td align="left">adj. 相似的<br><strong>adv.相似地；同样地；两者都</strong> both</td><td>dislike</td><td>v. 不喜欢；厌恶<br>n. 厌恶的事物；不喜欢，反感</td></tr><tr><td>likewise</td><td align="left">adv. 同样地；类似地</td><td></td><td></td></tr></tbody></table><h2><span id="8-most">8. most</span></h2><p>pron. 大多数；大部分</p><p>adv. 极其，很；最；几乎，差不多</p><p>det.（determiner 限定词） 最多的；最大量的 </p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th align="left">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>mostly</td><td align="left">adv. 大多；多半；主要地</td><td>outermost</td><td>outer + most<br>adj. 最外面的；离中心最远的</td></tr><tr><td>utmost</td><td align="left">ut(at) + most<br>n. 极度；极限；最大可能<br>adj. 极度的；最大的</td><td>foremost</td><td>fore + most<br>fore-: pref.在前部；在前<br>adj. 最重要的；最先的<br>adv. 首先；居于首位地</td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>英语学习</category>
+          
+          <category> 英语学习 </category>
+          
       </categories>
-      <tags>
-        <tag>英语资源</tag>
-        <tag>英语专业</tag>
-        <tag>英语网站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019恋词 - Unit 1</title>
-    <url>/2021/07/24/2019-love-word-Unit-1/</url>
-    <content><![CDATA[<ul>
-<li><a href="#1-economy">1. economy</a></li>
-<li><a href="#2-echo">2. echo</a></li>
-<li><a href="#3-part">3. part</a></li>
-<li><a href="#4-apart">4. apart</a></li>
-<li><a href="#5-participate">5. participate</a></li>
-<li><a href="#6-counterpart">6. ⭐counterpart</a></li>
-<li><a href="#7-depart">7. depart</a></li>
-</ul>
-<!-- tocstop -->
-
-<span id="more"></span>
-
-<h2><span id="1-economy">1. economy</span></h2><p>n. 经济，经济体制；节俭，节约</p>
-<h4><span id="词根词缀">词根词缀</span></h4><p><strong>eco- (生态，生态的) + nom- (rule, managing)</strong></p>
-<p>e.g. : autonomy 自治；自治权</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2017-12 选词填空）</p>
-<p>Now, <em><strong>Africa’s largest economy</strong></em>（非洲最大的经济体） is facing a food crisis as major tomato fields have been destroyed by an insect, leading to a nationwide shortage and escalating prices.</p>
-<table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>food crisis</td>
-<td>食物危机</td>
-<td>organism</td>
-<td>有机物，生物体</td>
-</tr>
-<tr>
-<td>GM(genetically modified)</td>
-<td>转基因 or 基因改造</td>
-<td>micro-organism</td>
-<td>微生物</td>
-</tr>
-<tr>
-<td>GMO(Genetically Modified Organism)</td>
-<td>基因改造生物</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th align="left">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>economic</td>
-<td align="left">adj. 经济的，经济上的；<br>有利可图的，赚钱的</td>
-<td>economics</td>
-<td>n. 经济学；经济体制</td>
-</tr>
-<tr>
-<td>economical</td>
-<td align="left">adj. 经济的；省钱的；节俭的</td>
-<td>economist</td>
-<td>n. 经济学家</td>
-</tr>
-</tbody></table>
-<h4><span id="形近词">形近词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ecology</td>
-<td>n. 生态学；生态（环境）；生态系统</td>
-</tr>
-</tbody></table>
-<h6><span id="词根词缀">词根词缀：</span></h6><p>-ology (学科) </p>
-<h5><span id="派生词">派生词</span></h5><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ecological</td>
-<td>adj. 生态的；生态学的；生态保护的</td>
-</tr>
-<tr>
-<td>ecosystem</td>
-<td>n. 生态系统</td>
-</tr>
-</tbody></table>
-<h2><span id="2-echo">2. echo</span></h2><p>n. 回声；附和</p>
-<p>v. 发出回声，产生回响；附和</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2007-12 阅读）v. 附和</p>
-<p>Wilbur Ross Jr. has <em>echoed</em> Zuckerman’s anger over the bitter struggles faced by middle-class Americans.</p>
-<h2><span id="3-part">3. part</span></h2><p>n. 部分；片段；零件；角色；作用；参与</p>
-<p>adv. 部分地</p>
-<p>v. （使）分开</p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>partial</strong></td>
-<td><strong>adj. 局部地；偏爱的</strong></td>
-<td><strong>impartial</strong></td>
-<td><strong>adj. 公正的；不偏不倚的；中立的</strong></td>
-</tr>
-<tr>
-<td>partially</td>
-<td>adj. 不完全地</td>
-<td>partly</td>
-<td>adv. 某种程度上</td>
-</tr>
-</tbody></table>
-<h2><span id="4-apart">4. apart</span></h2><p>adv. 相隔；分开</p>
-<p>phr. apart from 除……以外</p>
-<h4><span id="词根词缀">词根词缀</span></h4><p>a- 把一个单词变成状态去描述，例如</p>
-<table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>aside</td>
-<td></td>
-<td>asleep</td>
-<td></td>
-</tr>
-<tr>
-<td>awake</td>
-<td></td>
-<td>alive</td>
-<td></td>
-</tr>
-</tbody></table>
-<h4><span id="真题例句">真题例句</span></h4><p>（2007-6 阅读）</p>
-<p><em>Apart from</em> a series of fortunate events, what is that has made Google so successful?</p>
-<h4><span id="形近词">形近词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>partner</td>
-<td>n. 配偶；合伙人；搭档</td>
-</tr>
-</tbody></table>
-<h5><span id="派生词">派生词</span></h5><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>partnership</td>
-<td>n. 伙伴关系；合作关系</td>
-</tr>
-</tbody></table>
-<p>-ship，如 relationship (n.)</p>
-<p>-hood，如 childhood (n.)</p>
-<h2><span id="5-participate">5. participate</span></h2><p>v. 参与，参加</p>
-<p>分解：part + cip(to take) + ate</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2014-6听力）</p>
-<p>A lot of <em>contestants</em>（参赛者） participated in the show.</p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th align="center">单词/词组</th>
-<th align="center">释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">participation</td>
-<td align="center">n. 参与，参加</td>
-</tr>
-<tr>
-<td align="center">participant</td>
-<td align="center">n. 参与者，参加者</td>
-</tr>
-</tbody></table>
-<h2><span id="6-counterpart">6. ⭐counterpart</span></h2><p>n. 对应的人或事物</p>
-<p>分解：counter- (against) + part</p>
-<p>⭐counter</p>
-<p>例如，反恐精英 CS (Counter-Strike)</p>
-<h4><span id="真题例句">真题例句</span></h4><p>n. 对应的人或事物</p>
-<p>（2014-6 段落匹配）</p>
-<p>So why are American women so far ahead of <em>their Swedish counterparts</em> in breaking through the glass ceiling?</p>
-<p>写作运用：A、B对比</p>
-<p>The time of students use of computer reached 2hrs a week in 1990 and it doubled in 1995, in 2002, the <em>counterpart</em> hit 14 hrs a week.</p>
-<p><img src="https://i.loli.net/2021/07/24/PlSFD6LjxJoT5qh.png" alt="image-20210724171148796"></p>
-<h2><span id="7-depart">7. depart</span></h2><p>v. 离开，启程，违背；辞职；去世</p>
-<p>分解：de- (away, apart) + part</p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>departure</td>
-<td>n. 离开，启程；违背；辞职</td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 英语笔记 </tag>
+            
+            <tag> 恋词 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>FE-Learning-note</title>
+      <link href="2021/07/24/FE-Learning-note/"/>
+      <url>2021/07/24/FE-Learning-note/</url>
+      
+        <content type="html"><![CDATA[<h2><span id="先挖个坑">先挖个坑</span></h2><p>等先学完CSS部分再补。</p>]]></content>
+      
+      
       <categories>
-        <category>英语学习</category>
+          
+          <category> 前端学习 </category>
+          
       </categories>
-      <tags>
-        <tag>英语笔记</tag>
-        <tag>恋词</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FE-Learning-note</title>
-    <url>/2021/07/24/FE-Learning-note/</url>
-    <content><![CDATA[<h2><span id="先挖个坑">先挖个坑</span></h2><p>等先学完CSS部分再补。</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 前端学习 </tag>
+            
+            <tag> HTML &amp; CSS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2019恋词 - Unit 1</title>
+      <link href="2021/07/24/2019-love-word-Unit-1/"/>
+      <url>2021/07/24/2019-love-word-Unit-1/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#1-economy">1. economy</a></li><li><a href="#2-echo">2. echo</a></li><li><a href="#3-part">3. part</a></li><li><a href="#4-apart">4. apart</a></li><li><a href="#5-participate">5. participate</a></li><li><a href="#6-counterpart">6. ⭐counterpart</a></li><li><a href="#7-depart">7. depart</a></li></ul><!-- tocstop --><span id="more"></span><h2><span id="1-economy">1. economy</span></h2><p>n. 经济，经济体制；节俭，节约</p><h4><span id="词根词缀">词根词缀</span></h4><p><strong>eco- (生态，生态的) + nom- (rule, managing)</strong></p><p>e.g. : autonomy 自治；自治权</p><h4><span id="真题例句">真题例句</span></h4><p>（2017-12 选词填空）</p><p>Now, <em><strong>Africa’s largest economy</strong></em>（非洲最大的经济体） is facing a food crisis as major tomato fields have been destroyed by an insect, leading to a nationwide shortage and escalating prices.</p><table><thead><tr><th>单词/词组</th><th>释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>food crisis</td><td>食物危机</td><td>organism</td><td>有机物，生物体</td></tr><tr><td>GM(genetically modified)</td><td>转基因 or 基因改造</td><td>micro-organism</td><td>微生物</td></tr><tr><td>GMO(Genetically Modified Organism)</td><td>基因改造生物</td><td></td><td></td></tr></tbody></table><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th align="left">释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>economic</td><td align="left">adj. 经济的，经济上的；<br>有利可图的，赚钱的</td><td>economics</td><td>n. 经济学；经济体制</td></tr><tr><td>economical</td><td align="left">adj. 经济的；省钱的；节俭的</td><td>economist</td><td>n. 经济学家</td></tr></tbody></table><h4><span id="形近词">形近词</span></h4><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>ecology</td><td>n. 生态学；生态（环境）；生态系统</td></tr></tbody></table><h6><span id="词根词缀">词根词缀：</span></h6><p>-ology (学科) </p><h5><span id="派生词">派生词</span></h5><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>ecological</td><td>adj. 生态的；生态学的；生态保护的</td></tr><tr><td>ecosystem</td><td>n. 生态系统</td></tr></tbody></table><h2><span id="2-echo">2. echo</span></h2><p>n. 回声；附和</p><p>v. 发出回声，产生回响；附和</p><h4><span id="真题例句">真题例句</span></h4><p>（2007-12 阅读）v. 附和</p><p>Wilbur Ross Jr. has <em>echoed</em> Zuckerman’s anger over the bitter struggles faced by middle-class Americans.</p><h2><span id="3-part">3. part</span></h2><p>n. 部分；片段；零件；角色；作用；参与</p><p>adv. 部分地</p><p>v. （使）分开</p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th>释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td><strong>partial</strong></td><td><strong>adj. 局部地；偏爱的</strong></td><td><strong>impartial</strong></td><td><strong>adj. 公正的；不偏不倚的；中立的</strong></td></tr><tr><td>partially</td><td>adj. 不完全地</td><td>partly</td><td>adv. 某种程度上</td></tr></tbody></table><h2><span id="4-apart">4. apart</span></h2><p>adv. 相隔；分开</p><p>phr. apart from 除……以外</p><h4><span id="词根词缀">词根词缀</span></h4><p>a- 把一个单词变成状态去描述，例如</p><table><thead><tr><th>单词/词组</th><th>释义</th><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>aside</td><td></td><td>asleep</td><td></td></tr><tr><td>awake</td><td></td><td>alive</td><td></td></tr></tbody></table><h4><span id="真题例句">真题例句</span></h4><p>（2007-6 阅读）</p><p><em>Apart from</em> a series of fortunate events, what is that has made Google so successful?</p><h4><span id="形近词">形近词</span></h4><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>partner</td><td>n. 配偶；合伙人；搭档</td></tr></tbody></table><h5><span id="派生词">派生词</span></h5><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>partnership</td><td>n. 伙伴关系；合作关系</td></tr></tbody></table><p>-ship，如 relationship (n.)</p><p>-hood，如 childhood (n.)</p><h2><span id="5-participate">5. participate</span></h2><p>v. 参与，参加</p><p>分解：part + cip(to take) + ate</p><h4><span id="真题例句">真题例句</span></h4><p>（2014-6听力）</p><p>A lot of <em>contestants</em>（参赛者） participated in the show.</p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th align="center">单词/词组</th><th align="center">释义</th></tr></thead><tbody><tr><td align="center">participation</td><td align="center">n. 参与，参加</td></tr><tr><td align="center">participant</td><td align="center">n. 参与者，参加者</td></tr></tbody></table><h2><span id="6-counterpart">6. ⭐counterpart</span></h2><p>n. 对应的人或事物</p><p>分解：counter- (against) + part</p><p>⭐counter</p><p>例如，反恐精英 CS (Counter-Strike)</p><h4><span id="真题例句">真题例句</span></h4><p>n. 对应的人或事物</p><p>（2014-6 段落匹配）</p><p>So why are American women so far ahead of <em>their Swedish counterparts</em> in breaking through the glass ceiling?</p><p>写作运用：A、B对比</p><p>The time of students use of computer reached 2hrs a week in 1990 and it doubled in 1995, in 2002, the <em>counterpart</em> hit 14 hrs a week.</p><p><img src="https://i.loli.net/2021/07/24/PlSFD6LjxJoT5qh.png" alt="image-20210724171148796"></p><h2><span id="7-depart">7. depart</span></h2><p>v. 离开，启程，违背；辞职；去世</p><p>分解：de- (away, apart) + part</p><h4><span id="派生词">派生词</span></h4><table><thead><tr><th>单词/词组</th><th>释义</th></tr></thead><tbody><tr><td>departure</td><td>n. 离开，启程；违背；辞职</td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>前端学习</category>
+          
+          <category> 英语学习 </category>
+          
       </categories>
-      <tags>
-        <tag>前端学习</tag>
-        <tag>HTML &amp; CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019恋词 - Unit 2</title>
-    <url>/2021/07/25/2019-love-word-Unit-2/</url>
-    <content><![CDATA[<ul>
-<li><a href="#1-state">1. state</a></li>
-<li><a href="#2-statistics">2. statistics</a></li>
-<li><a href="#3estate">3.estate</a></li>
-<li><a href="#4-establish">4. establish</a></li>
-<li><a href="#5-strategy">5. strategy</a></li>
-<li><a href="#6-direct">6. direct</a></li>
-<li><a href="#7-like">7. like</a></li>
-<li><a href="#8-most">8. most</a></li>
-</ul>
-<!-- tocstop -->
-
-<span id="more"></span>
-
-<h2><span id="1-state">1. state</span></h2><p>n.洲；</p>
-<p>n. 状态</p>
-<p>v. 表明，列明</p>
-<h4><span id="真题例句">真题例句</span></h4><p>⭐1: n.洲；</p>
-<p>He comes form the Ohio State of  the United States of America.</p>
-<p>⭐2: n. 状态 v. 表明，列明</p>
-<p>Every time when he was in a dizzy <em>state</em>(n. 状态) after drinking some wines, he would like to <em>state</em>（v. 表明，列明） various reasons to prove that life is not easy.</p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>statement</td>
-<td>n. 陈述，声明</td>
-</tr>
-</tbody></table>
-<h4><span id="形近词">形近词</span></h4><table>
-<thead>
-<tr>
-<th align="left">单词/词组</th>
-<th align="center">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">overstate</td>
-<td align="center">v. 夸大；对……言过其实</td>
-<td>exaggerate</td>
-<td>v. 夸大；对……言过其实</td>
-</tr>
-<tr>
-<td align="left">statue</td>
-<td align="center">n. 雕像，雕塑</td>
-<td>statutory</td>
-<td>adj. 法令的，法规的</td>
-</tr>
-<tr>
-<td align="left">static</td>
-<td align="center">adj. 静止的，不变化的</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2><span id="2-statistics">2. statistics</span></h2><p>n. <strong>统计数据（或资料）</strong>；统计学</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2013-6阅读） n. *统计数据（或资料）；统计学</p>
-<p>The problem is that the statistics aren’t an objective measure of reality; they are simply a best approximation(n. 近似值).</p>
-<h2><span id="3estate">3.estate</span></h2><p>n. 不动产；地产；遗产</p>
-<h4><span id="词根词缀">词根词缀</span></h4><p><strong>sta-</strong> / stac- / stad- / stan- : stand,make or be firm</p>
-<p>稳定不动，伫立……</p>
-<p>e- : out, 往外</p>
-<h2><span id="4-establish">4. establish</span></h2><p>v. 建立；设立；制定；确定；确立（地位）</p>
-<h4><span id="词根词缀">词根词缀</span></h4><p>e- + stab- + lish (v.)</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2010-6 阅读）</p>
-<p>Last spring one of the two, Australia, gave up the dubious distinction by <em>establishing</em> paid family leave starting in 2011.</p>
-<table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>dubious</td>
-<td>adj. 可疑的；模棱两可的</td>
-</tr>
-</tbody></table>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>establishment</td>
-<td>n. 成立；建立；机构；企业</td>
-</tr>
-</tbody></table>
-<h2><span id="5-strategy">5. strategy</span></h2><p>n. 战略；策略</p>
-<h4><span id="词根词缀">词根词缀</span></h4><p>stere(to spread) to eg(to act)</p>
-<p>eg/ag : act 行动</p>
-<p>stereo 立体声</p>
-<p>mono 单声道</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2012-6阅读）</p>
-<p>In face of global warming, much effort has been focused on reducing greenhouse gas emissions through a variety of <em>strategies</em>.</p>
-<h2><span id="6-direct">6. direct</span></h2><p>v. 指向；指引；指导，管理；指示，命令；指导（电影等）</p>
-<p>adj. 径直的，直达的；<strong>直接的</strong>；坦率的</p>
-<h4><span id="词根词缀">词根词缀</span></h4><p>di-(down) + rect(straight)</p>
-<h4><span id="真题例句">真题例句</span></h4><p>（2013-12 阅读）v. 指示，命令</p>
-<p>Meanwhile, a second group was <em>directed</em> to solve the same problems by collaborating with one another, without any prompts from their instructor.</p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th align="left">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>direction</td>
-<td align="left">n. 方向；方位；（发展）趋势；指示，说明</td>
-<td><strong>director</strong></td>
-<td>n. 导演；主任，主管；（公司的）经理，董事</td>
-</tr>
-<tr>
-<td>directory</td>
-<td align="left">n. 通讯录；（网站上的）专题目录</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h4><span id="形近词">形近词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th align="left">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>rectify</td>
-<td align="left">v. 纠正，改正，修改</td>
-<td>directory</td>
-<td>n. 通讯录；（网站上的）专题目录</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>correct</td>
-<td>adj. 正确的；恰当的；得体的<br>v. 纠正；纠正；修改；<strong>修正</strong></td>
-</tr>
-</tbody></table>
-<h5><span id="词根词缀">词根词缀</span></h5><p>co- + r + rect</p>
-<p>co- = con- =com- : 共同，完全，<strong>加强</strong></p>
-<p>例如，cooperate\contribute</p>
-<h5><span id="派生词">派生词</span></h5><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th align="left">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>correction</td>
-<td align="left">n. 批改；惩罚</td>
-<td>corrective</td>
-<td>adj. 改正的；纠正的/ n. 起纠正作用的东西；修正</td>
-</tr>
-</tbody></table>
-<h5><span id="形近词">形近词</span></h5><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>erect</td>
-<td>v. 建造；建立，创立<br>adj. 直立的；竖直的</td>
-</tr>
-</tbody></table>
-<h5><span id="真题例句">真题例句</span></h5><p>(2014-12 选词填空)  v. 建立，创立</p>
-<p>Thus once they enter school, children begin to define subjects and <em>erect boundaries</em> that needn’t to otherwise exist.</p>
-<table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>boundaries</td>
-<td>n.边界，界线（boundary的复数形式）；界限</td>
-</tr>
-</tbody></table>
-<h2><span id="7-like">7. like</span></h2><p>prep. 像，像……一样；比如，例如</p>
-<p>conj. 好像；如同</p>
-<p>v. 喜欢；（用于征询意见）觉得；想要，希望</p>
-<p>n. 爱好；喜欢的事物</p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th align="left">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>likely</td>
-<td align="left">adj. 可能的；看来要发生的；有（……）倾向的</td>
-<td>likelihood</td>
-<td>n. 可能；可能性；可能的事</td>
-</tr>
-<tr>
-<td>likeness</td>
-<td align="left">n. （外表的）相似，相近；肖像，塑像</td>
-<td>unlike</td>
-<td>prep. 不像；与……不同</td>
-</tr>
-<tr>
-<td><strong>alike</strong></td>
-<td align="left">adj. 相似的<br><strong>adv.相似地；同样地；两者都</strong> both</td>
-<td>dislike</td>
-<td>v. 不喜欢；厌恶<br>n. 厌恶的事物；不喜欢，反感</td>
-</tr>
-<tr>
-<td>likewise</td>
-<td align="left">adv. 同样地；类似地</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2><span id="8-most">8. most</span></h2><p>pron. 大多数；大部分</p>
-<p>adv. 极其，很；最；几乎，差不多</p>
-<p>det.（determiner 限定词） 最多的；最大量的 </p>
-<h4><span id="派生词">派生词</span></h4><table>
-<thead>
-<tr>
-<th>单词/词组</th>
-<th align="left">释义</th>
-<th>单词/词组</th>
-<th>释义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>mostly</td>
-<td align="left">adv. 大多；多半；主要地</td>
-<td>outermost</td>
-<td>outer + most<br>adj. 最外面的；离中心最远的</td>
-</tr>
-<tr>
-<td>utmost</td>
-<td align="left">ut(at) + most<br>n. 极度；极限；最大可能<br>adj. 极度的；最大的</td>
-<td>foremost</td>
-<td>fore + most<br>fore-: pref.在前部；在前<br>adj. 最重要的；最先的<br>adv. 首先；居于首位地</td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 英语笔记 </tag>
+            
+            <tag> 恋词 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A test</title>
+      <link href="2021/03/15/test/"/>
+      <url>2021/03/15/test/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="2b8db4a1a8f6c724fd82ed1a9f972577278c280334bd9a25ae72f4c0a2e0f360">23ee0b56edd02031a3330db20002c24bc5903662c9df8c3df10fac081733675799f3410786eaaeef9e2ca5f45433c45cc5a75703f6df9922318a8d9dfe8f18fe6b2683bffce4fc09222cc268c41bed841dae0218d348a022ce7fe3d92f11ab3f23b3de1f826551e34ffe88a765f6e379c3ead02a4ef2f5d4aa7acabc5c0a1fc0365d3364e7afdb6b2e5712f2ae26a293974f6a5464cf5117a8f46cae70ca9a2c593a33868f800ceec2b02ebd0947372b307ed20de059fff5a33a79833582f2c5413b248749ac9f601205e65cd2bd47fa7fa751ffd4939d5c864df26c94cd8cc10842a955f4cb4325d9863c30ee5ee9279f140feea7cd157e0111b240b3cd4b97d9be4626438bcd7c8d2d6157234b259ceb6823cf00f666a75ef7d3a8668b5acc05166c9d7e795ec14fab69155d2faa9b4e3f0f687fa0ccf7ebbbf03b522e37c17f9223250fc4f1bba18392cbfd8b68cd1f1d0f3ddb1e29eb4d8a4bc00167e249dd07ebcd31d04d853e0500cf954947a9f581d725da3113433cb183a3b269b4df0aa7925063de6522b3db45a973b0d2340d6c9deb322f344c51b13fd5577978a70d532df830ddab5a16dc45c4a2fbd4ce702a836aa97581212e8d442f5cd85b8ffee76a92589d59287748948f2ac6ddd3ec3fdbf710d0a44b15d18bd072be598b8f95a7098886d3f0c5422bf1da0951a08d4395f983825329e68d9acf2eb12750df286a4e92b9f3bffaae57d86829f143d00eba6c6b5ef705812072a23c8491db3c45f661517282f1f3f3688975237af8aa157b2e16f7b18412b0ef7c9c6a7b17f511125478084613f2dd0bb7111159db454f50589b25cbd99dfe82c7a777f0c1f44fece5289d30c374eec260d1f9543beade8fecd61e0474ff484e1a47c49f760846051f0ae2d57288c814807f9852beefdbf41060c736caf3e526c4acb31f2d19481eea37a9e1fcc98cfc84356946de78263bc518b22a4641e5c81712c2d0482ec6e6491f4a202fb181643beaca77d2fc05c05c49fde318b46ed4de811ecca03a04cc0cfd5f7fbc330dd082e03c954da3dcebc1149aeecd85080dcf6198db2f186bafa16f04de8b9a298b597eb6565b0b2c064df47812559b7e3af7d8c3c82c2f891b27cb58eb2d7183df4eaca8042f968275a3a5a52dae98ea35442c8e32f8dab307c8d91f93870a6bbd2868f31f6a4b6d5b72d1c0aaca4850815c3ed9ace6b933c33e16fae7fdbee3022d0e4aef2346095878237bc5e8858c94b84b479117ac148e1b1f5d2809d4cbb88d1456570296b3f591de55f58a65f33f203bfc1cb9d76a41fc0f17e8ba3fd487574e8f92e82b3726f983135d3a44a5736d9f7fa3f52af7b6cf6aa80a54b97d0bf5d9d9a7cfa7ff1f38d6ab6635368f9be6d99afe448892205cc3b0f02cf99830035b29bb125752885016e5bb3b648846e8cdec4c379dd9adb5e08acc9e8a2dbe9908d08813711dc96fa0abbadfec6bbf6c0af6a1d3502e084ee11ff191a665ba48ba75c01cebbc7ecce8e372917ccadb0d8f3e3a2b098512e4c621320eb9b7693df37dfccf0b24d9ecebaf3604fad1d853f706138b094b9bafc2046289eb8b38339e89a9bbdae133cf02563a609903bfa06659ca340b6981887aa20a3d1ab17bf1ac771203cede56320e2b0183abbbc8fad50ddaf3</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 嘘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>英语学习资源导航页</title>
+      <link href="2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
+      <url>2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%AB%99"><strong>英语网站</strong></a><ul><li><a href="#%E4%B8%AD%E6%96%87%E7%BD%91%E7%AB%99">中文网站</a></li><li><a href="#%E8%8B%B1%E6%96%87%E7%BD%91%E7%AB%99">英文网站</a></li><li><a href="#%E8%8B%B1%E8%AF%AD%E5%AF%BC%E8%88%AA">英语导航</a></li></ul></li><li><a href="#%E8%8B%B1%E8%AF%AD%E8%B5%84%E6%BA%90"><strong>英语资源</strong></a><ul><li><a href="#%E8%8B%B1%E8%AF%AD%E6%B8%B8%E6%88%8F">英语游戏</a></li></ul></li><li><a href="#%E5%8D%95%E8%AF%8D%E8%AF%8D%E6%B1%87"><strong>单词词汇</strong></a></li><li><a href="#%E5%90%AC%E5%8A%9B%E5%8F%A3%E8%AF%AD"><strong>听力口语</strong></a><ul><li><a href="#%E5%9C%A8%E7%BA%BF%E5%90%AC%E5%8A%9B">在线听力</a></li><li><a href="#%E5%8F%A3%E8%AF%AD%E5%8D%9A%E4%B8%BB"><strong>口语博主</strong></a></li></ul></li><li><a href="#%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3"><strong>阅读理解</strong></a><ul><li><a href="#%E6%9D%82%E5%BF%97%E5%91%A8%E5%88%8A">杂志周刊</a></li><li><a href="#%E8%A5%BF%E6%96%B9%E6%96%B0%E9%97%BB">西方新闻</a></li><li><a href="#%E4%B8%AD%E5%9B%BD%E6%96%B0%E9%97%BB">中国新闻</a></li><li><a href="#%E8%AF%AD%E6%B3%95%E5%8D%9A%E4%B8%BB"><strong>语法博主</strong></a></li></ul></li><li><a href="#%E5%86%99%E4%BD%9C%E8%AF%8D%E5%85%B8"><strong>写作词典</strong></a><ul><li><a href="#%E8%AF%8D%E5%BA%93%E6%9F%A5%E8%AF%A2">词库查询</a></li><li><a href="#%E6%90%AD%E9%85%8D%E8%AF%8D%E5%85%B8">搭配词典</a></li><li><a href="#%E4%BE%8B%E5%8F%A5%E8%AF%8D%E5%85%B8">例句词典</a></li></ul></li><li><a href="#%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95"><strong>写作语法</strong></a><ul><li><a href="#%E8%AF%AD%E6%B3%95%E6%A3%80%E6%B5%8B">语法检测</a></li><li><a href="#%E5%86%99%E4%BD%9C%E5%BB%BA%E8%AE%AE">写作建议</a></li></ul></li></ul><!-- tocstop --><span id="more"></span><h2><span id="英语网站"><strong>英语网站</strong></span></h2><h3><span id="中文网站">中文网站</span></h3><table><thead><tr><th><a href="https://www.hjenglish.com/">沪江英语</a></th><th><a href="https://www.shanbay.com/">扇贝</a></th></tr></thead><tbody><tr><td><a href="https://www.i21st.cn/">21英语</a></td><td><a href="http://yingyu.xdf.cn/">新东方英语</a></td></tr><tr><td><a href="http://www.bigear.cn/">大耳朵英语</a></td><td><a href="http://www.wwenglish.org/index.htm">旺旺英语</a></td></tr><tr><td><a href="https://www.24en.com/">爱思英语</a></td><td><a href="https://www.xiao84.com/">巴士英语网</a></td></tr><tr><td><a href="https://language.chinadaily.com.cn/">英语点津</a></td><td><a href="http://www.dioenglish.com/wiki/">英语百科</a></td></tr><tr><td><a href="http://www.kekenet.com/hangye/">可可行业英语</a></td><td><a href="https://www.24en.com/esp/">爱思行业英语</a></td></tr><tr><td><a href="https://bbs.fobshanghai.com/forumdisplay.php?fid=47&amp;sid=kNS8PJ">福步外贸英语</a></td><td></td></tr></tbody></table><h3><span id="英文网站">英文网站</span></h3><table><thead><tr><th><a href="https://www.engvid.com/">engVid</a></th><th><a href="https://www.mmmenglish.com/">mmmEnglish</a></th></tr></thead><tbody><tr><td><a href="https://www.englishclub.com/">EnglishClub</a></td><td><a href="http://www.world-english.org/">World English</a></td></tr><tr><td><a href="http://www.manythings.org/">ManyThings</a></td><td><a href="https://www.learnenglish.de/">Learn English</a></td></tr><tr><td><a href="https://www.englisch-hilfen.de/en/">English Hilfen</a></td><td><a href="http://www.perfectyourenglish.com/index.htm">PerfectYourEnglish</a></td></tr><tr><td><a href="https://www.thoughtco.com/esl-4133095">ThoughtCo.</a></td><td><a href="https://english.stackexchange.com/">English Stackexchange</a></td></tr></tbody></table><h3><span id="英语导航">英语导航</span></h3><table><thead><tr><th><a href="http://www.up-6.com/">英语学习导航</a></th><th><a href="http://www.yywz123.com/">英语学习网站大全</a></th></tr></thead><tbody><tr><td><a href="http://www.dioenglish.com/diolinks/">英语网址导航</a></td><td><a href="http://www.eol.cn/html/en/daohang/index.shtml">外语学习导航</a></td></tr></tbody></table><!-- more --><h2><span id="英语资源"><strong>英语资源</strong></span></h2><table><thead><tr><th><a href="https://www.pdawiki.com/forum/forum-92-1.html">PDAWIKI 学习交流区</a></th><th><a href="https://www.pdawiki.com/forum/forum-105-1.html">PDAWIKI 学习资源区</a></th></tr></thead><tbody><tr><td><a href="https://www.pdawiki.com/forum/forum-4-1.html">PDAWIKI 词库资源区</a></td><td><a href="https://freemdict.com/">FreeMdict</a></td></tr><tr><td><a href="http://yingyu.bbs.kaoyan.com/">英语考研论坛</a></td><td><a href="https://www.lxwc.com.cn/topic-55-1.html">两小无猜儿童英语</a></td></tr><tr><td><a href="https://www.tjxz.cc/">田间小站</a></td><td><a href="https://www.i-bei.com/baby/thread-66369-1-1.html">牛津阅读树</a></td></tr><tr><td><a href="http://www.eol.cn/html/en/picen001/index.shtml">《图解英语》</a></td><td><a href="http://www.dogwood.com.cn/">新东方图书网</a></td></tr><tr><td><a href="https://ienglish521.com/">力哥爱英语</a></td><td><a href="https://babynames.net/">BellyBallot 英文起名网站</a></td></tr><tr><td><a href="https://disk.lijie.org/gglog/%E8%A7%86%E9%A2%91/%E6%95%99%E7%A8%8B/%E8%8B%B1%E8%AF%AD/">视频/教程/英语网盘</a></td><td></td></tr></tbody></table><h3><span id="英语游戏">英语游戏</span></h3><table><thead><tr><th><a href="https://quizlet.com/zh-cn">单词卡 | Quizlet</a></th><th><a href="https://babadum.com/">看图学单词 | Ba Ba Dum</a></th></tr></thead><tbody><tr><td><a href="https://www.ratatype.com/">英文打字练习 | Ratatype</a></td><td><a href="https://zty.pe/">英文打字练习 | ZType</a></td></tr><tr><td><a href="https://www.purposegames.com/">PurposeGames</a></td><td><a href="https://qwerty-learner.vercel.app/">Qwerty Learner</a></td></tr><tr><td><a href="https://www.youtube.com/c/Langfocus/videos">Langfocus</a></td><td><a href="https://www.youtube.com/user/Xidnaf/videos">Xidnaf</a></td></tr></tbody></table><h2><span id="单词词汇"><strong>单词词汇</strong></span></h2><table><thead><tr><th><a href="https://www.cipindanci.com/">词频背单词</a></th><th><a href="https://bdc2.youzack.com/Recitation/Home">YouZack背单词</a></th></tr></thead><tbody><tr><td><a href="http://testyourvocab.com/">Test Your Vocabulary</a></td><td><a href="https://www.languageguide.org/%E8%8B%B1%E8%AF%AD/%E8%AF%8D%E6%B1%87/">LanguageGuide.org</a></td></tr><tr><td><a href="https://www.engrish.com/">Engrish 英语错用收集</a></td><td></td></tr><tr><td><a href="https://www.usingenglish.com/">UsingEnglish.com</a></td><td><a href="https://www.englishpage.com/">English Pages</a></td></tr><tr><td><a href="https://www.myenglishpages.com/">My English Pages</a></td><td></td></tr></tbody></table><h2><span id="听力口语"><strong>听力口语</strong></span></h2><h3><span id="在线听力">在线听力</span></h3><table><thead><tr><th><a href="http://www.tingroom.com/">在线英语听力室</a></th><th><a href="http://dict.eudic.net/ting">每日英语听力</a></th></tr></thead><tbody><tr><td><a href="https://www.putclub.com/">普特听力</a></td><td><a href="http://www.tingclass.net/">听力课堂</a></td></tr><tr><td><a href="http://www.kekenet.com/">可可英语</a></td><td></td></tr><tr><td><a href="http://yinbiao.tingclass.net/show-16-9-1.html">48个英语音标表</a></td><td><a href="http://www.hydcd.com/baike/yingyuyinbiao.htm">48个国际音标发音表</a></td></tr><tr><td><a href="https://www.youzack.com/">英语听力逐句精听</a></td><td><a href="https://www.listeningexpress.com/">听力特快</a></td></tr><tr><td><a href="https://youglish.com/">Youglish</a></td><td></td></tr><tr><td><a href="https://www.listeningexpress.com/cnn10/">CNN10 Student News</a></td><td><a href="https://www.51voa.com/">51VOA</a></td></tr><tr><td><a href="http://www.tingvoa.com/">VOA英语学习网</a></td><td><a href="http://mini-ielts.com/">在线雅思机考模拟</a></td></tr></tbody></table><h3><span id="口语博主"><strong>口语博主</strong></span></h3><table><thead><tr><th><a href="https://space.bilibili.com/407282397/video">EnglishTube</a></th><th><a href="https://space.bilibili.com/24801003/video">口语老炮儿马思瑞</a></th></tr></thead><tbody><tr><td><a href="https://space.bilibili.com/340223423/video">Ella教美语</a></td><td><a href="https://space.bilibili.com/131058159/video">英语老师Lee</a></td></tr><tr><td><a href="https://space.bilibili.com/30145454/video">阿曾曾儿</a></td><td><a href="https://space.bilibili.com/346396741/video">FanfaniShare</a></td></tr><tr><td><a href="https://space.bilibili.com/433248184/video">一起暴击口语</a></td><td><a href="https://space.bilibili.com/17996988/video">免子队长油百万</a></td></tr><tr><td><a href="https://space.bilibili.com/20420581/video">EngVid</a></td><td></td></tr><tr><td><a href="https://www.youtube.com/c/engvidEmma/videos">EngVid</a></td><td><a href="https://www.youtube.com/c/EnglishLikeANative/videos">English Like A Native</a></td></tr><tr><td><a href="https://www.youtube.com/c/rachelsenglish/videos">Rachel’s English</a></td><td><a href="https://www.youtube.com/c/EnglishwithLucy/videos">English with Lucy</a></td></tr><tr><td><a href="https://www.youtube.com/c/mmmEnglish_Emma/videos">mmmEnglish</a></td><td><a href="https://www.youtube.com/c/MaaaxterEnglish/videos">Maaaxter English</a></td></tr><tr><td><a href="https://www.youtube.com/c/SoundsAmerican/videos">Sounds American</a></td><td><a href="https://www.youtube.com/c/JackiesEnglishClass/videos">跟洋妞学英语 Jackie</a></td></tr></tbody></table><h2><span id="阅读理解"><strong>阅读理解</strong></span></h2><h3><span id="杂志周刊">杂志周刊</span></h3><table><thead><tr><th><a href="https://time.com/">TIME</a></th><th><a href="https://www.economist.com/">The Economist</a></th></tr></thead><tbody><tr><td><a href="https://github.com/nailperry-zd/The-Economist">The Economist 下载</a></td><td><a href="https://www.discover.com/">Discover</a></td></tr><tr><td><a href="https://www.newsweek.com/">Newsweek</a></td><td><a href="https://www.rd.com/">Reader’s Digest</a></td></tr></tbody></table><h3><span id="西方新闻">西方新闻</span></h3><table><thead><tr><th><a href="https://edition.cnn.com/">CNN</a></th><th><a href="https://www.usatoday.com/">USA TODAY</a></th></tr></thead><tbody><tr><td><a href="https://www.washingtonpost.com/">Washington Post</a></td><td><a href="https://www.nytimes.com/">New York Times</a></td></tr><tr><td><a href="https://www.latimes.com/">Los Angeles Times</a></td><td><a href="https://www.bbc.com/">BBC</a></td></tr><tr><td><a href="https://www.theguardian.com/international">The Guardian</a></td><td></td></tr></tbody></table><h3><span id="中国新闻">中国新闻</span></h3><table><thead><tr><th><a href="http://www.chinadaily.com.cn/">China Daily</a></th><th><a href="http://en.people.cn/home.html">People’s Daily Online</a></th></tr></thead><tbody><tr><td><a href="http://www.qcenglish.com/">七彩英语</a></td><td><a href="http://www.enread.com/">英文阅读网</a></td></tr><tr><td><a href="http://www.kekenet.com/read/">可可双语阅读</a></td><td><a href="http://www.qqenglish.com/">蛐蛐英语</a></td></tr><tr><td><a href="https://zhuanlan.zhihu.com/p/31557166">21个英语新闻网站</a></td><td></td></tr></tbody></table><h3><span id="语法博主"><strong>语法博主</strong></span></h3><table><thead><tr><th align="left"><a href="https://space.bilibili.com/401727458/video">张富贵的英语世界</a></th><th align="left"><a href="https://space.bilibili.com/224437180/video">rio老师</a></th></tr></thead><tbody><tr><td align="left"><a href="https://space.bilibili.com/402370368/video">Mmxgxg</a></td><td align="left"><a href="https://space.bilibili.com/99574633/video">KMF考满分</a></td></tr><tr><td align="left"><a href="https://www.youtube.com/c/Englishwithjennifer/videos#0">JenniferESL</a></td><td align="left"></td></tr><tr><td align="left"><a href="https://www.youtube.com/c/engvidJames/videos">JamesESL English Lessons</a></td><td align="left"><a href="https://www.youtube.com/c/engvidRonnie/videos">EnglishLessons4U</a></td></tr><tr><td align="left"><a href="https://github.com/Dictionaryphile/All_Dictionaries">宇宙最全在线词典网站导航</a></td><td align="left"></td></tr><tr><td align="left"><a href="https://github.com/Dictionaryphile/1000_Eng_Dicts">1000 部英语类词典名录</a></td><td align="left"><a href="https://zhuanlan.zhihu.com/51xiaochu">51xiaochu雅思写作</a></td></tr><tr><td align="left"><a href="https://zhuanlan.zhihu.com/talk-about-english">魏剑峰</a></td><td align="left"><a href="https://zhuanlan.zhihu.com/miaomianba">妙面爸英语</a></td></tr><tr><td align="left"><a href="https://www.jianshu.com/users/e652ef294319/timeline">超级莎 – 简书</a></td><td align="left"></td></tr></tbody></table><h2><span id="写作词典"><strong>写作词典</strong></span></h2><h3><span id="词库查询">词库查询</span></h3><table><thead><tr><th><a href="https://www.wordnik.com/">Wordnik</a></th><th><a href="https://www.collinsdictionary.com/dictionary/english-thesaurus">Collins Thesaurus</a></th></tr></thead><tbody><tr><td><a href="https://www.powerthesaurus.org/">PowerThesaurus</a></td><td><a href="https://www.words-to-use.com/">Words to Use</a></td></tr><tr><td><a href="https://www.thesaurus.com/">Thesaurus.com</a></td><td><a href="https://www.freethesaurus.com/">FreeThesaurus</a></td></tr><tr><td><a href="https://words.bighugelabs.com/">Big Huge Thesaurus</a></td><td><a href="https://www.wordhippo.com/">WordHippo</a></td></tr><tr><td><a href="https://visuwords.com/">VisuWords</a></td><td></td></tr></tbody></table><h3><span id="搭配词典">搭配词典</span></h3><table><thead><tr><th><a href="http://www.freecollocation.com/">Collocation Dictionary ▲</a></th><th><a href="http://ozdic.com/">Ozdic.com</a></th></tr></thead><tbody><tr><td><a href="http://www.just-the-word.com/">Just the Word</a></td><td><a href="https://linggle.com/">Linggle</a></td></tr><tr><td><a href="https://netspeak.org/">Netspeak ▲</a></td><td><a href="https://textranch.com/sentence-checker/">TextRanch</a></td></tr></tbody></table><h3><span id="例句词典">例句词典</span></h3><table><thead><tr><th><a href="http://www.jukuu.com/">句库</a></th><th><a href="https://sentencedict.com/">SentenceDict</a></th></tr></thead><tbody><tr><td><a href="https://www.linguee.com/">Linguee</a></td><td><a href="https://ludwig.guru/">Ludwig</a></td></tr><tr><td><a href="https://www.english-corpora.org/coca/">语料库 | COCA</a></td><td><a href="https://www.english-corpora.org/bnc/">语料库 | BNC</a></td></tr><tr><td><a href="http://www.webcorp.org.uk/live/index.jsp">语料库 | WebCorp</a></td><td><a href="https://www.azquotes.com/">名人语录 | A-Z Quotes</a></td></tr></tbody></table><h2><span id="写作语法"><strong>写作语法</strong></span></h2><h3><span id="语法检测">语法检测</span></h3><table><thead><tr><th><a href="http://www.wwenglish.org/en/z/grammar/index.htm">旺旺英语语法</a></th><th><a href="https://www.grammarly.com/grammar-check">Grammarly</a></th></tr></thead><tbody><tr><td><a href="https://www.languagetool.org/">LanguageTool</a></td><td><a href="http://www.1checker.com/OnlineChecker">易改</a></td></tr><tr><td><a href="https://www.nounplus.net/grammarcheck/">NounPlus</a></td><td><a href="https://grammica.com/">GrammarChecker</a></td></tr><tr><td><a href="https://hemingwayapp.com/">Hemingway Editor</a></td><td><a href="https://app.mtutor.engkoo.com/englishwriting/">Aim Writing</a></td></tr><tr><td><a href="https://wordcounter.net/">WordCounter</a></td><td></td></tr></tbody></table><h3><span id="写作建议">写作建议</span></h3><table><thead><tr><th><a href="http://www.1checker.com/Templates">英文写作模版</a></th><th><a href="https://www.adreep.cn/">英语作文网</a></th></tr></thead><tbody><tr><td><a href="https://www.writeexpress.com/">英语写作模板</a></td><td><a href="https://guinlist.wordpress.com/">guinlist</a></td></tr><tr><td><a href="https://www.powa.org/">Paradigm</a></td><td><a href="https://www.squibler.io/writing-prompts">Squibler 写作工具</a></td></tr><tr><td><a href="https://www.writersdigest.com/">Writer’s Digest 写作文摘</a></td><td><a href="https://grammica.com/paraphrasing-tool/">Grammica 伪原创工具</a></td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>英语学习</category>
+          
+          <category> 英语学习 </category>
+          
       </categories>
-      <tags>
-        <tag>英语笔记</tag>
-        <tag>恋词</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 英语资源 </tag>
+            
+            <tag> 英语专业 </tag>
+            
+            <tag> 英语网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小锋TV导航页</title>
+      <link href="2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
+      <url>2021/03/15/%E5%B0%8F%E9%94%8BTV%E5%AF%BC%E8%88%AA%E9%A1%B5/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90%E9%87%87%E9%9B%86%E7%BD%91">影视资源采集网</a><ul><li><a href="#%E5%85%8D%E8%B4%B9%E5%9C%A8%E7%BA%BF">免费在线</a></li><li><a href="#%E7%94%B5%E5%BD%B1%E8%81%9A%E5%90%88%E6%90%9C%E7%B4%A2">电影聚合搜索</a></li><li><a href="#%E9%AB%98%E6%B8%85%E4%B8%8B%E8%BD%BD">高清下载</a></li><li><a href="#%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90">视频解析</a></li><li><a href="#%E8%A7%86%E9%A2%91%E8%BD%AF%E4%BB%B6">视频软件</a></li></ul></li><li><a href="#%E5%9C%A8%E7%BA%BF%E7%BD%91%E7%AB%99">在线网站</a><ul><li><a href="#%E7%BB%BC%E5%90%88">综合</a></li><li><a href="#%E7%BE%8E%E5%89%A7">美剧</a></li><li><a href="#%E9%9F%A9%E5%89%A7">韩剧</a></li><li><a href="#%E6%97%A5%E5%89%A7">日剧</a></li><li><a href="#%E6%B8%AF%E5%89%A7">港剧</a></li><li><a href="#%E5%AD%97%E5%B9%95">字幕</a></li></ul></li><li><a href="#%E6%89%8B%E6%9C%BAapp">手机APP</a><ul><li><a href="#%E9%AB%98%E6%B8%85%E4%B8%8B%E8%BD%BD-1">高清下载</a></li><li><a href="#%E9%AB%98%E8%B4%A8%E9%87%8F%E7%94%B5%E5%BD%B1%E4%B8%8B%E8%BD%BD">高质量电影下载</a></li></ul></li><li><a href="#%E5%9C%A8%E7%BA%BF%E8%A7%A3%E6%9E%90%E7%AB%99">在线解析站</a></li><li><a href="#vip%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC">VIP视频解析油猴脚本</a><ul><li><a href="#%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6">视频下载软件</a></li><li><a href="#%E8%A7%86%E9%A2%91%E5%9C%A8%E7%BA%BF%E8%A7%A3%E6%9E%90">视频在线解析</a></li><li><a href="#%E5%9B%BD%E5%A4%96%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD">国外视频下载</a></li><li><a href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F">小程序</a></li></ul></li></ul><!-- tocstop --><span id="more"></span><h2><span id="影视资源采集网">影视资源采集网</span></h2><table><thead><tr><th>名称</th><th>网址</th></tr></thead><tbody><tr><td>速播资源站</td><td><a href="https://www.subo988.com/">https://www.subo988.com/</a></td></tr><tr><td>OK 资源网</td><td><a href="http://cj.okzy.tv/">http://cj.okzy.tv/</a></td></tr><tr><td>88 影视资源站</td><td><a href="http://www.88zyw.net/">http://www.88zyw.net/</a></td></tr><tr><td>1886 资源</td><td><a href="http://cj.1886zy.co/">http://cj.1886zy.co/</a></td></tr><tr><td>123 资源</td><td><a href="http://cj.123ku2.com:12315/">http://cj.123ku2.com:12315/</a></td></tr><tr><td>最大资源网</td><td><a href="http://www.zdziyuan.com/">http://www.zdziyuan.com/</a></td></tr></tbody></table><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">影视导航</span><br><span class="line">https://adzhp.cn/mian-fei-shi-pin.html </span><br><span class="line"></span><br><span class="line">http://www.xsldh6.com/ </span><br></pre></td></tr></tbody></table></figure><!-- more --><h3><span id="免费在线">免费在线</span></h3><p><strong>推荐影视站：<a href="https://www.o8tv.com/">555电影</a></strong><br><strong>推荐APP</strong>：<a href="http://dxzj.tv/"><strong>免费大熊追剧</strong></a></p><table><thead><tr><th><strong><a href="https://www.zhenbuka.com/">真不卡电影网</a></strong></th><th><strong><a href="https://www.nfmovies.com/">奈菲影视</a></strong></th></tr></thead><tbody><tr><td><strong><a href="http://www.wanmeikk.me/">完美看看</a></strong></td><td><strong><a href="http://www.fenggoudy1.com/">疯狗电影</a></strong></td></tr><tr><td>**<a href="http://www.diliktv.com/">嘀哩影视</a>**🚫</td><td><strong><a href="https://tv547.com/">迪迪影视</a></strong></td></tr><tr><td><a href="http://dianying.im/"><strong>电影先生</strong></a></td><td></td></tr><tr><td><strong><a href="http://www.idybee.com/">电影蜜蜂</a></strong></td><td><strong><a href="https://www.magedn.com/">MaGeDN</a></strong></td></tr><tr><td><strong><a href="http://www.kkkkmao.com/">4K屋</a></strong></td><td><strong><a href="https://www.66s.cc/">6V电影</a></strong></td></tr><tr><td>**<a href="https://www.dadatutu.com/">达达兔</a>**–<a href="https://v.jlszyy.org/">1</a>–<a href="https://www.jlszyy.cc/">2</a></td><td><strong><a href="https://www.kankanwu.com/">看看屋</a></strong></td></tr><tr><td><strong><a href="https://tv547.com/">小蚁影视</a></strong></td><td><strong><a href="https://www.yunbtv.com/">云播TV</a></strong></td></tr><tr><td><strong><a href="https://www.adcmove.com/">ADC电影网</a></strong></td><td><strong><a href="https://suyingtv.xyz/">速影TV</a></strong></td></tr><tr><td><strong><a href="https://www.dandanzan.cc/">蛋蛋赞</a></strong></td><td><strong><a href="https://tv547.com/">我爱影视</a></strong></td></tr><tr><td><strong><a href="https://tv547.com/">剧汇TV</a></strong></td><td><strong><a href="http://puz.pub/">PZ影视网</a></strong></td></tr><tr><td><strong><a href="https://www.77kpp.com/">琪琪看片</a></strong></td><td><strong><a href="http://www.tv432.com/">黑米影院</a></strong></td></tr><tr><td><strong><a href="https://www.bde4.com/">哔嘀影视</a></strong>|<a href="https://bdys.me/">备用</a></td><td><strong><a href="http://www.tv5box.com/">电影盒子</a></strong></td></tr><tr><td><strong><a href="https://www.okdyw.com/">OK电影网</a></strong></td><td><strong><a href="http://www.nkdyw.com/">南柯电影网</a></strong></td></tr><tr><td><strong><a href="http://www.aaqqw.com/">私人官网</a></strong></td><td><strong><a href="https://www.tcmove.com/">太初电影</a></strong></td></tr><tr><td><strong><a href="https://www.haiduomi.cc/">嗨哆咪影视</a></strong></td><td><strong><a href="https://www.66e.cc/">66影视</a></strong></td></tr><tr><td><strong><a href="https://www.newqiyu.com/">新奇遇电影</a></strong></td><td><strong><a href="https://www.qukantv.net/">去看TV</a></strong></td></tr><tr><td><strong><a href="http://u5kk.com/">U5影视</a></strong></td><td><a href="https://www.yeshi8.cn/"><strong>无忧影城</strong></a></td></tr></tbody></table><blockquote><p>建议电脑观看，手机可能广告较多。</p></blockquote><h3><span id="电影聚合搜索">电影聚合搜索</span></h3><p><a href="https://adzhp.cn/sites/3940.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E6%90%9C-%E7%B4%A2.png" alt="影视聚合搜索">🍦<strong>影视聚合搜索</strong>电影网站聚合类搜索，搜电影要方便一点</a></p><h3><span id="高清下载">高清下载</span></h3><p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html">高清电影下载网站索引</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><h3><span id="视频解析">视频解析</span></h3><p><a href="https://adzhp.cn/vipdianyingyuduanshipinjiexiziyuansuoyin.html">VIP电影与视频解析下载</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><h3><span id="视频软件">视频软件</span></h3><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><h2><span id="在线网站">在线网站</span></h2><h3><span id="综合">综合</span></h3><blockquote><p>比较方便的聚合类美日韩等国外剧和电影站：<a href="https://adzhp.cn/favorites/guowaiju"><strong>国外剧 | 爱达杂货铺 (adzhp.cn)</strong></a>，或从首页直接进入。</p></blockquote><h3><span id="美剧">美剧</span></h3><blockquote><p>2021年2月3日，上海警方对外发布通报称，2020年9月有人通过“人人影视字幕组”网站和客户端提供疑似侵权影视作品的在线观看和离线下载。上海警方共抓获以梁某为首的犯罪嫌疑人14名，查处涉案公司3家，查获作案用手机20部和电脑主机、服务器12台，涉案金额1600余万元。</p><p>详见<a href="https://baike.baidu.com/item/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86/8666514">百度百科&gt;&gt;&gt;</a></p></blockquote><table><thead><tr><th>MAG磁力</th><th><a href="http://mag234.com/home.html">http://mag234.com/home.html</a></th></tr></thead><tbody><tr><td>美剧迷</td><td><a href="https://www.meijumi.net/">https://www.meijumi.net/</a></td></tr><tr><td>美剧侠</td><td><a href="http://www.meijuxia.com/">http://www.meijuxia.com/</a></td></tr><tr><td>牛牛美剧</td><td><a href="http://www.nnmeiju.com/">http://www.nnmeiju.com/</a></td></tr><tr><td>耐卡影音</td><td><a href="http://mcar.cc/">http://mcar.cc/</a></td></tr><tr><td>91美剧</td><td><a href="https://91mjw.com/">https://91mjw.com/</a></td></tr><tr><td>美剧天堂</td><td><a href="https://www.meijutt.tv/">https://www.meijutt.tv/</a></td></tr><tr><td>不卡美剧</td><td><a href="https://www.meijutt.cn/">https://www.meijutt.cn/</a></td></tr><tr><td>EZTV片源</td><td><a href="https://eztv.ag/">https://eztv.ag/</a></td></tr><tr><td>天下美剧</td><td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td></tr><tr><td>爱美剧TV1</td><td><a href="https://www.imjtv.com/">https://www.imjtv.com/</a></td></tr><tr><td>爱美剧TV2</td><td><a href="https://www.imeijutv.com/">https://www.imeijutv.com/</a></td></tr><tr><td>爱美剧</td><td><a href="https://www.imeiju.io/">https://www.imeiju.io/</a></td></tr><tr><td>天天美剧</td><td><a href="http://www.ttmeiju.me/">http://www.ttmeiju.me/</a></td></tr><tr><td>美剧粉</td><td><a href="http://www.mjf2020.com/">http://www.mjf2020.com/</a></td></tr><tr><td>謦灵风软</td><td><a href="http://www.1000fr.net/">http://www.1000fr.net/</a></td></tr><tr><td>美剧鸟</td><td><a href="http://www.meijuniao.com/">http://www.meijuniao.com/</a></td></tr><tr><td>天天看美剧</td><td><a href="https://www.ttkmj.net/">https://www.ttkmj.net/</a></td></tr><tr><td>天下美剧</td><td><a href="https://www.txmeiju.com/">https://www.txmeiju.com/</a></td></tr><tr><td>每日美剧</td><td><a href="http://www.meirimeiju.com/">http://www.meirimeiju.com/</a></td></tr></tbody></table><h3><span id="韩剧">韩剧</span></h3><p><a href="https://adzhp.cn/sites/3896.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1.ico" alt="韩剧资源合集">🍦<strong>韩剧资源合集</strong>本页收录韩剧相关资源，为大家提供韩剧免费观看渠道</a></p><h3><span id="日剧">日剧</span></h3><p><a href="https://adzhp.cn/sites/3899.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/cropped-favicon-192x192-1.png" alt="日剧资源合集">🍦<strong>日剧资源合集</strong>本页收录日剧相关资源，为大家提供日剧免费观看渠道</a></p><h3><span id="港剧">港剧</span></h3><p><a href="https://adzhp.cn/sites/3902.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon-1-1.ico" alt="港剧资源合集">🍦<strong>港剧资源合集</strong>本页收录港剧相关资源，为大家提供港剧免费观看渠道</a></p><h3><span id="字幕">字幕</span></h3><p><a href="https://adzhp.cn/sites/3905.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/favicon.png" alt="字幕组翻译">🍦<strong>字幕组翻译</strong>本页收录各大字幕组网站，从这里获取国外视频的首发翻译吧</a></p><h2><span id="手机app">手机APP</span></h2><p><a href="https://adzhp.cn/mianfeishipinruanjiansuoyin.html">免费视频APP-软件资源索引</a></p><p> <a href="https://adzhp.cn/shi-pin-zhi-bo">视频直播</a></p><p>9个月前</p><p><a href="https://www.cupfox.com/">茶狐杯</a></p><p><a href="https://www.dianyinggou.com/">电影狗</a></p><p><a href="https://xiaoshesoso.com/">小蛇搜搜</a></p><p><a href="https://www.sbkk.me/">随便看看</a></p><p><a href="http://ifkdy.com/">疯狂影视</a></p><p><a href="http://ifkdy.com/">五号站</a></p><p><a href="https://www.mvcat.com/">影猫</a></p><h4><span id="相关导航">相关导航</span></h4><p><a href="https://adzhp.cn/mian-fei-shi-pin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/03/%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E6%91%84%E5%BD%B1-01-1.png" alt="🈴免费在线影视"><strong>🈴免费在线影视</strong>本页收录各大免费在线视频网站，主要提供电影、电视剧、综艺等免费观看，请勿相信网站内部广告</a></p><p><a href="https://adzhp.cn/sites/4244.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/img.jpg" alt="免费观看超高清大片"><strong>免费观看超高清大片</strong>院线高清大片 点击进来，超高清大片随您看，免费在线或 下载APP观看</a></p><p><a href="https://adzhp.cn/gaoqingdianyingxiazaiwangzhansuoyin.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/%E4%B8%8B%E8%BD%BD.png" alt="高清电影下载">🍦<strong>高清电影下载</strong></a></p><p><a href="https://adzhp.cn/wang-luo-zhi-bo.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/02/TV.png" alt="网络电视直播">🍦<strong>网络电视直播</strong>本页收录网络直播、电视直播、体育直播等相关直播类资源</a></p><p><a href="https://adzhp.cn/sites/3363.html"><img src="https://api.iowen.cn/favicon/www.nfmovies.com.png" alt="奈菲影视"><strong>奈菲影视</strong>高清秒播，速度快，手机电脑均有广告。</a></p><p><a href="https://adzhp.cn/sites/1185.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2020/01/favicon-3.ico" alt="达达兔"><strong>达达兔</strong>无广告视频站，页面简洁速度快。</a></p><h3><span id="高清下载">高清下载</span></h3><p>电影天堂系列：<a href="https://www.dytt8.net/">电影天堂1</a>–<a href="https://www.dy2018.com/">电影天堂2</a>–<a href="https://www.ygdy8.com/index.html">阳光电影</a>–<a href="https://www.btwuji.com/">无极电影</a>|<a href="https://dytt8.net/app.html">APP下载</a></p><table><thead><tr><th><a href="http://www.415.net/">BT之家</a> +<a href="https://www.51btbtt.com/">2</a>[BT]</th><th><a href="https://www.mypianku.com/"><strong>片库网</strong></a> [在线+磁力+BT]</th></tr></thead><tbody><tr><td><a href="https://www.80s.tw/">80s电影</a> [<a href="http://www.jianpian.com/">荐片</a>+迅雷]</td><td><a href="https://www.66s.cc/">6V电影网</a>[在线+磁力+百度云]</td></tr><tr><td><a href="https://www.piaohua.com/">飘花资源</a> [磁力+<a href="http://www.jianpian.com/">荐片</a>]</td><td><a href="http://www.btshoufa.net/forum.php">BT首发论坛</a> [BT]</td></tr><tr><td><a href="https://www.btdx8.com/">比特大雄</a> [在线+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td><td><a href="http://www.dygang.net/">电影港</a> [磁力+百度云]</td></tr><tr><td><a href="http://www.ed2000.com/">ED2000</a> <del>[</del>磁力]</td><td><a href="http://www.etdown.tv/">光影资源联盟</a> [磁力+百度云]</td></tr><tr><td><a href="http://www.mp4ba.la/">高清MP4</a>[BT+磁力+百度云]</td><td><a href="http://www.rarbt.com/">RABT</a> [BT]</td></tr><tr><td><a href="https://www.bttwo.com/">两个BT</a> [在线+BT]</td><td><a href="http://www.youzhidy.com/">优质电影网</a> [磁力]</td></tr><tr><td><a href="http://xijing.tv/movie/index">XijingTv</a> [磁力+奶牛+百度云]</td><td><a href="https://www.jsr9.com/">BT天堂</a> [在线+BT]</td></tr><tr><td><a href="http://www.chapaofan.com/">泡饭影视</a> [收费]</td><td><a href="http://www.btbuluo.com/">BT部落天堂</a> [磁力+迅雷]</td></tr><tr><td><a href="http://mag234.com/">MAG磁力站</a>[磁力+人人影视下载器]</td><td><a href="http://xiepp.com/">下片片</a> [磁力+在线+迅雷]</td></tr><tr><td><a href="https://www.xl720.com/">迅雷电影天堂</a> [在线++迅雷+磁力+<a href="http://www.jianpian.com/">荐片</a>]</td><td><a href="https://www.yingyinwu.com/">影音屋</a> [BT]</td></tr><tr><td><a href="https://www.993dy.com/">LOL电影天堂</a> [迅雷]</td><td><a href="https://www.cilixiong.com/">磁力熊</a> [在线+磁力]</td></tr><tr><td><a href="http://www.verycd.com/">电驴大全</a></td><td><a href="http://www.hkb123.com/">好恐怖</a> [在线+磁力+电驴]</td></tr><tr><td><a href="https://www.dy8c.com/">电影巴士</a>[磁力]</td><td><a href="https://www.uump4.net/">悠悠MP4</a> [BT+磁力+电驴]</td></tr><tr><td><a href="https://www.domp4.com/">MP4电影</a> [在线+磁力]</td><td><a href="https://www.poxiao.com/">破晓电影</a> [迅雷+<a href="http://www.jianpian.com/">荐片</a>]</td></tr><tr><td><a href="https://www.12bt.net/">12BT</a> [BT]</td><td><a href="https://www.xlc2020.com/">迅雷仓</a> [迅雷]</td></tr><tr><td><a href="https://dlkoo.com/">大连生活网</a> [BT+百度云]</td><td><a href="http://www.qtfy7.com/">且听风吟</a> [在线+迅雷]</td></tr><tr><td><a href="http://www.rrdyw.cc/">人人电影网</a> [百度云]</td><td><a href="http://www.xyxz001.com/">夕阳小站</a> [磁力+百度云]</td></tr><tr><td><a href="http://seehd.so/">看高清联盟</a> [BT]</td><td></td></tr></tbody></table><h3><span id="高质量电影下载">高质量电影下载</span></h3><table><thead><tr><th><a href="http://www.languang.co/">蓝光网</a> [磁力+4K]</th><th><a href="http://www.yinfans.com/">音范丝</a> [磁力+4K]</th></tr></thead><tbody><tr><td><a href="http://www.4ktt.com/">4K天堂</a> [收费+磁力+4K]</td><td><a href="https://www.hao4k.cn/forum.php">hao4K论坛</a> [BT+4K]</td></tr><tr><td><a href="http://pianyuan.la/">片源网</a> [BT+磁力]</td><td><a href="https://www.chapianyuan.com/">查片源</a> [电驴+磁力]</td></tr><tr><td><a href="https://gaoqing.fm/">高清电台</a> [BT+磁力+4K]</td><td><a href="http://gaoqing.la/">中国高清网</a> [磁力+原盘]</td></tr><tr><td><a href="http://www.gaoqingw.com/">高清网</a> [BT+磁力+4K]</td><td><a href="https://www.1080.cn/">蓝光电影网</a> [磁力+4K]</td></tr><tr><td><a href="https://www.mini4k.com/">迷客电影</a> [BT+磁力+4K]</td><td><a href="https://www.7bt.org/">7BT</a> [BT+4K]</td></tr><tr><td><a href="https://www.60zhen.com/">60帧电影</a> [收费+网盘]</td><td><a href="https://www.4k123.com/"> 4K论坛</a></td></tr></tbody></table><h2><span id="在线解析站">在线解析站</span></h2><p>提供爱奇艺、腾讯、优酷等收费视频网站解析、复制视频地址即可享受VIP服务。<br>视频解析背后的原理：<a href="https://www.bilibili.com/read/cv10045082">https://www.bilibili.com/read/cv10045082</a></p><table><thead><tr><th><strong><a href="https://www.administrator5.com/">无名小站</a></strong></th><th><strong><a href="https://www.ikukk.com/">爱酷看看</a></strong></th></tr></thead><tbody><tr><td><strong><a href="https://v.cnv3.com/">全民解析</a></strong></td><td><a href="http://czjx8.com/"><strong>船长解析</strong></a></td></tr><tr><td><strong><a href="https://660e.com/">乐乐云</a></strong></td><td><strong><a href="http://jx.618g.com/">618G免费解析</a></strong></td></tr><tr><td><strong><a href="https://www.nxflv.com/">诺讯解析</a></strong></td><td><strong><a href="https://vip.mpos.ren/">人人视频解析</a></strong></td></tr><tr><td><strong><a href="https://www.sounm.com/">搜你妹解析</a></strong></td><td><strong><a href="https://api.927jx.com/">927解析</a></strong></td></tr></tbody></table><h2><span id="vip视频解析油猴脚本">VIP视频解析油猴脚本</span></h2><p>使用油猴脚本解析：<a href="https://greasyfork.org/zh-CN/scripts?q=VIP">VIP视频相关的脚本 (greasyfork.org)</a><br>油猴脚本安装方法：<a href="https://adzhp.cn/sites/1919.html">Greasy Fork(油猴脚本) | 爱达杂货铺 (adzhp.cn)</a></p><h3><span id="视频下载软件">视频下载软件</span></h3><p><a href="https://adzhp.cn/sites/3882.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E4%B8%8B%E8%BD%BD.png" alt="在线视频下载软件">🍦<strong>在线视频下载软件</strong>可以下载网页上播放视频、支持各种站点，比如YouTube、哔哩哔哩、西瓜等短视频平台</a></p><h3><span id="视频在线解析">视频在线解析</span></h3><h4><span id="哔哩哔哩">哔哩哔哩</span></h4><p><a href="https://adzhp.cn/sites/3876.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/favicon.ico" alt="B站视频下载">🍦<strong>B站视频下载</strong>本页收录那些可以解析哔哩哔哩的视频网站以及下载软件，方便大家下载B站视频</a></p><h4><span id="综合短视频解析">综合短视频解析</span></h4><p><a href="https://adzhp.cn/sites/3884.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8A%96%E9%9F%B3.png" alt="短视频解析下载">🍦<strong>短视频解析下载</strong>提供各种短视频网站解析下载服务，支持抖音、快手、火山等主流视频平台视频</a></p><h3><span id="国外视频下载">国外视频下载</span></h3><p><a href="https://adzhp.cn/sites/3888.html"><img src="https://cdn.adzhp.cn/wp-content/uploads/2021/01/%E6%8E%A8%E7%89%B9-twitter.png" alt="其他国外视频下载">🍦<strong>其他国外视频下载</strong>提供Twitter、Instagram、Facebook和vlive等视频下载服务的相关内容</a></p><h3><span id="小程序">小程序</span></h3><p>微信小程序搜索：<strong>去水印</strong></p><p>注：本页很多资源由用户“神界中人”提供，在此表示感谢！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 影视网站 </tag>
+            
+            <tag> 视频解析 </tag>
+            
+            <tag> 影视导航 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/03/13/hello-world/"/>
+      <url>2021/03/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>Hexo 是一个基于 node.js 的博客框架。它简单、强大，支持 Markdown 写作，一键就可以部署到 <a href="https://github.com/">GitHub</a> 或 <a href="https://coding.net/">Coding</a> 平台，瞬间拥有个人博客网站，是程序员、技术宅居家必备利器。同时 Hexo 还有丰富的主题和插件可供定制和扩展，适合有折腾癖好的同学深入探索。</p><p>这是一篇极简的使用教程，涉及到 Hexo 安装、配置、部署以及网站备份（方便多地写作更新）等内容。基本满足了想快速上手使用的同学的需求。更详细的使用方法，可以参考 <a href="https://hexo.io/zh-cn/docs/">Hexo 中文文档</a>和 <a href="http://theme-next.iissnan.com/">Hexo Next 主题中文文档</a>。</p><h2><span id="安装">安装</span></h2><p>建议在 Linux 系统下安装和使用 Hexo，即便是 Win10 系统，也可以通过安装 Linux 子系统（WLS）方便地使用 Linux 环境。</p><p>安装前提</p><ul><li>git</li><li>node.js</li></ul><p>git 在各 Linux 发行版的仓库中都有，可通过系统的包管理工具安装，以 Ubuntu 为例：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install git</span><br></pre></td></tr></tbody></table></figure><p>node.js 需要先安装包管理工具 npm，详细的安装方法可参考 <a href="https://www.npmjs.com.cn/getting-started/installing-node/">npm 中文网</a>。对于 Ubuntu 系统，可使用如下命令安装：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -</span><br><span class="line">sudo apt-get install -y nodejs</span><br></pre></td></tr></tbody></table></figure><p>安装 Hexo</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure><h2><span id="使用">使用</span></h2><h2><span id="建站">建站</span></h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog    <span class="comment"># blog 是自己起的目录名</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br></pre></td></tr></tbody></table></figure><p>完成后，blog 目录下结构如下：</p><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">├──</span> <span class="string">_config.yml</span></span><br><span class="line"><span class="string">├──</span> <span class="string">package.json</span></span><br><span class="line"><span class="string">├──</span> <span class="string">package-lock.json</span></span><br><span class="line"><span class="string">├──</span> <span class="string">node_modules(目录)</span></span><br><span class="line"><span class="string">├──</span> <span class="string">scaffolds(目录)</span></span><br><span class="line"><span class="string">├──</span> <span class="string">source</span></span><br><span class="line"><span class="string">|</span>   <span class="string">├──</span> <span class="string">_drafts</span></span><br><span class="line"><span class="string">|</span>   <span class="string">└──</span> <span class="string">_posts</span></span><br><span class="line"><span class="string">└──</span> <span class="string">themes(目录)</span></span><br></pre></td></tr></tbody></table></figure><p><strong>_config.yml</strong></p><p>网站配置信息（标题，作者，主题、部署等等）</p><p><strong>package.json/package-lock.json</strong></p><p>Hexo 是一个 node.js 应用，可以通过 npm 安装各种扩展包，这两个文件就记录了安装的包信息。</p><p><strong>node_modules 目录</strong></p><p>这个目录中存放通过 npm 安装的包</p><p><strong>scaffolds 目录</strong></p><p>模版文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</p><p><strong>source 目录</strong></p><p>这个目录就是用户写文章的地方，_post 目录下存放用户写的 Markdown 文件会被解析成 HTML 并放入 public 文件夹中。</p><p><strong>theme 目录</strong></p><p>主题文件夹，Hexo 会根据主题来生成不同风格的页面。</p><h2><span id="写作">写作</span></h2><h2><span id="新建文章">新建文章</span></h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"Write blog using markdown"</span></span><br><span class="line"><span class="comment"># 或简写为</span></span><br><span class="line">hexo n <span class="string">"Write blog using markdown"</span></span><br></pre></td></tr></tbody></table></figure><p>该命令会在 _post 目录下生成文件 write-blog-using-markdown.md。可以在文件开头设置标题，时间、标签，分类等，如下：</p><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">用</span> <span class="string">Markdown</span> <span class="string">写博客</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-08-13 09:22:18</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">categories:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tutorial</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown</span></span><br></pre></td></tr></tbody></table></figure><p>接着这部分就是文章的正文，遵循 Markdown 格式。</p><h2><span id="生成静态页面">生成静态页面</span></h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line"><span class="comment"># 或简写为</span></span><br><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure><h2><span id="启动网站">启动网站</span></h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br><span class="line"><span class="comment"># 或简写为</span></span><br><span class="line">hexo s</span><br></pre></td></tr></tbody></table></figure><p>打开浏览器，在地址栏中输入 <a href="http://localhost:4000/">http://localhost:4000</a> 就可以看到自己的博客了。本地网站只是方便开发时预览效果，其他人无法通过互联网访问。</p><p><em>如果无法显示，可能是 4000 端口被占用了，可以使用如下命令指定端口</em></p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -p 4444</span><br></pre></td></tr></tbody></table></figure><p><em>或者修改 node_modules/hexo-server/index.js 文件，修改默认端口</em></p><figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo.config.server = assign({</span><br><span class="line">  port: <span class="number">4444</span>,</span><br><span class="line">  log: <span class="literal">false</span>,</span><br><span class="line">  ip: <span class="string">'0.0.0.0'</span>,</span><br><span class="line">  compress: <span class="literal">false</span>,</span><br><span class="line">  header: <span class="literal">true</span></span><br><span class="line">}, hexo.config.server);</span><br></pre></td></tr></tbody></table></figure><h2><span id="插入图片">插入图片</span></h2><p>在 _config.yml 开启资源文件夹</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></tbody></table></figure><p>这样，在 _posts 目录下会生成一个与文章同名的文件夹。把需要插入到文章中的图片放到该文件夹中，并在写文章时通过如下标签引用即可。</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">{% asset_img &lt;图片名&gt; [图片标题] %}</span><br></pre></td></tr></tbody></table></figure><h2><span id="部署到-github-或-coding">部署到 Github 或 Coding</span></h2><p>首先在 Github 中新建名为 <a href="http://jia-zhuang.github.io/">http://jia-zhuang.github.io</a> 的项目，这样部署成功后，就可以通过链接 <a href="https://jia-zhuang.github.io/">https://jia-zhuang.github.io</a> 来访问网站了。</p><p><em>若是在 Coding 中，项目名应为 <a href="http://jiazhuang.coding.me/">http://jiazhuang.coding.me</a>，网站访问链接为 <a href="http://jiazhuang.coding.me/">http://jiazhuang.coding.me</a></em></p><p>安装 hexo-deployer-git</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure><p>修改 _config.yml 配置</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  - type: git</span><br><span class="line">    repo: git@git.coding.net:jiazhuang/jiazhuang.coding.me.git</span><br><span class="line">    branch: coding-pages</span><br><span class="line">  - type: git</span><br><span class="line">    repo: git@github.com:jia-zhuang/jia-zhuang.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></tbody></table></figure><p><em>注意：我们这里使用 coding-pages 分支部署网站，把 master 分支留给整个 Hexo 的备份；而Gibhub 个人主页只能使用 master 分支</em></p><p>在 Github 和 Coding 中开启 Github pages 和 Coding pages 服务，选择对应分支。</p><h2><span id="使用-next-主题">使用 Next 主题</span></h2><p>Hexo 默认的 Landscape 主题不够美观，换成流行的 Next 主题吧！通过对 Next 主题简单的设置，基本可以满足新手所有的需求。</p><h2><span id="安装和启用">安装和启用</span></h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></tbody></table></figure><p>主题将会被下载到 theme/next 目录下。</p><p>在站点配置文件 _config.yml 更换主题：</p><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#theme: landscape    # 注释掉这一行，换成下面</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></tbody></table></figure><h2><span id="配置-next">配置 Next</span></h2><p>Next 主题有自己的配置文件，位于 theme/next/_config.yml，里面有丰富的配置，详细可以参考 <a href="http://theme-next.iissnan.com/">Next中文文档</a>。这里列出几个常用配置。</p><h2><span id="更换风格">更换风格</span></h2><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></tbody></table></figure><p>一共有四种风格，可以通过注释来开启和关闭某个风格。</p><h2><span id="开启数学公式支持">开启数学公式支持</span></h2><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></tbody></table></figure><h2><span id="添加邮箱和-github-链接">添加邮箱和 Github 链接</span></h2><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">social:</span><br><span class="line">  GitHub: "https://github.com/jia-zhuang || github"</span><br><span class="line">  E-Mail: mailto:jiazzzz@qq.com || envelope</span><br></pre></td></tr></tbody></table></figure><h2><span id="设置菜单">设置菜单</span></h2><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br></pre></td></tr></tbody></table></figure><p>这样会在主页增加 tags 和 categories 菜单（链接），还需生成相应的页面：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g page tags</span><br><span class="line">hexo g page categories</span><br></pre></td></tr></tbody></table></figure><p>这样会在 source 目录下生成 tags 和 categories 目录。分别打开两个目录中的 index.md，可以修改页面标题，但需要设置 type 字段：</p><figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">标签</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-08-14 09:13:19</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">tags</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attr">title:</span> <span class="string">分类</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-08-14 09:13:19</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">categories</span></span><br></pre></td></tr></tbody></table></figure><h2><span id="修改头像">修改头像</span></h2><p>将图片放入 theme/next/source/images 目录下，并在 Next 配置文件 theme/next/_config.yml 文件中引用图片：</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: /images/gene.jpg</span><br></pre></td></tr></tbody></table></figure><h2><span id="其他资源">其他资源</span></h2><p>除 Next 之外，Hexo 还有非常丰富的主题，可以浏览 <a href="https://hexo.io/themes/">Hexo 官网</a>寻找适合自己口味的主题。</p><p>随着博客数量和网站需求的增加，可能需要多种多样的扩展功能，可以在 <a href="https://hexo.io/plugins/">Hexo 官网插件页面</a>找当满足自己需求的插件。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>

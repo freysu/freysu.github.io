@@ -6,7 +6,7 @@
   <link href="https://freysu.github.io/atom.xml" rel="self"/>
   
   <link href="https://freysu.github.io/"/>
-  <updated>2021-07-25T09:24:57.115Z</updated>
+  <updated>2021-08-12T09:36:07.882Z</updated>
   <id>https://freysu.github.io/</id>
   
   <author>
@@ -15,6 +15,74 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JS - 表达式与运算符</title>
+    <link href="https://freysu.github.io/2021/08/11/JS%20-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+    <id>https://freysu.github.io/2021/08/11/JS%20-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6/</id>
+    <published>2021-08-11T09:27:39.000Z</published>
+    <updated>2021-08-12T09:36:07.882Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;表达式与运算符&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%AD%97%E9%9D%A2%E9%87%8F&quot;&gt;字面量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;表达式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;运算符&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;算数运算符&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;比较运算符&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;逻辑运算符&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;赋值运算符&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%AF%94%E8%BE%83%E4%B8%8D%E5%90%8C%E7%9A%84%E7%B1%BB%E5%9E%8B&quot;&gt;比较不同的类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81&quot;&gt;练习代码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS - 变量与数据类型</title>
+    <link href="https://freysu.github.io/2021/08/10/JS%20-%20%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>https://freysu.github.io/2021/08/10/JS%20-%20%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <published>2021-08-10T09:27:39.000Z</published>
+    <updated>2021-08-12T09:35:53.386Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%8F%98%E9%87%8F&quot;&gt;变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4-&quot;&gt;加减乘除 &lt;code&gt;+&lt;/code&gt; &lt;code&gt;-&lt;/code&gt; &lt;code&gt;*&lt;/code&gt; &lt;code&gt;/&lt;/code&gt;&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#var-%E5%A3%B0%E6%98%8E%E5%8F%98%E9%87%8F&quot;&gt;var 声明变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83&quot;&gt;变量命名规范&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B&quot;&gt;数据类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81&quot;&gt;练习代码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>2019恋词 - Unit 2</title>
@@ -52,7 +120,7 @@
     <link href="https://freysu.github.io/2021/07/24/FE-Learning-note/"/>
     <id>https://freysu.github.io/2021/07/24/FE-Learning-note/</id>
     <published>2021-07-24T10:33:39.000Z</published>
-    <updated>2021-07-24T10:35:43.164Z</updated>
+    <updated>2021-08-12T09:24:13.758Z</updated>
     
     
       
@@ -240,7 +308,7 @@
     <link href="https://freysu.github.io/2021/03/13/hello-world/"/>
     <id>https://freysu.github.io/2021/03/13/hello-world/</id>
     <published>2021-03-12T16:38:02.398Z</published>
-    <updated>2021-03-15T13:32:45.120Z</updated>
+    <updated>2021-08-12T09:33:05.297Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
