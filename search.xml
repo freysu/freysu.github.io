@@ -1905,18 +1905,4 @@
 
    <figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//do...while...</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>,</span><br><span class="line">  sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">do</span> {</span><br><span class="line">  sum += i;</span><br><span class="line">  i++;</span><br><span class="line">} <span class="keyword">while</span> (i &lt;= <span class="number">100</span>);</span><br><span class="line"><span class="built_in">console</span>.log(sum);</span><br></pre></td></tr></tbody></table></figure>
 
-   <figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//while</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>,</span><br><span class="line">  sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (i &lt;= <span class="number">100</span>) {</span><br><span class="line">  sum += i;</span><br><span class="line">  i++;</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(sum);</span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<p>以上为 2021 年 8 月 13 日 （16 点 48 分）学习内容。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>前端学习</category>
-      </categories>
-      <tags>
-        <tag>前端学习</tag>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-</search>
+   <figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//while</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>,</span><br><span class="line">  sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (i &lt;= <span class="number">100</span>) {</span><br><span class="line">  sum += i;</span><br><span class="line">  i++;</span><br
