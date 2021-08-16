@@ -1905,4 +1905,445 @@
 
    <figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//do...while...</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>,</span><br><span class="line">  sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">do</span> {</span><br><span class="line">  sum += i;</span><br><span class="line">  i++;</span><br><span class="line">} <span class="keyword">while</span> (i &lt;= <span class="number">100</span>);</span><br><span class="line"><span class="built_in">console</span>.log(sum);</span><br></pre></td></tr></tbody></table></figure>
 
-   <figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//while</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>,</span><br><span class="line">  sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (i &lt;= <span class="number">100</span>) {</span><br><span class="line">  sum += i;</span><br><span class="line">  i++;</span><br
+   <figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//while</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">1</span>,</span><br><span class="line">  sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (i &lt;= <span class="number">100</span>) {</span><br><span class="line">  sum += i;</span><br><span class="line">  i++;</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(sum);</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上为 2021 年 8 月 13 日 （16 点 48 分）学习内容。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS - 函数基础</title>
+    <url>/2021/08/14/JS%20-%20%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0">数学函数</a></li>
+<li><a href="#%E5%87%BD%E6%95%B0%E6%A6%82%E8%BF%B0">函数概述</a></li>
+<li><a href="#%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0">传递参数</a><ul>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E4%B8%80%E4%B8%AA%E5%8F%82%E6%95%B0">例子 - 一个参数</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E4%B8%A4%E4%B8%AA%E5%8F%82%E6%95%B0">例子 - 两个参数</a><ul>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E5%AE%9A%E4%B9%89%E4%B8%80%E4%B8%AA%E8%AE%A1%E7%AE%97%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E7%9A%84%E5%87%BD%E6%95%B0">例子 - 定义一个计算四则运算的函数</a></li>
+</ul>
+</li>
+<li><a href="#%E8%BF%94%E5%9B%9E%E5%80%BC">返回值</a><ul>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E6%A3%80%E6%9F%A5%E7%94%A8%E6%88%B7%E5%90%8D-%E5%AF%86%E7%A0%81%E6%98%AF%E5%90%A6%E6%AD%A3%E7%A1%AE">例子 - 检查用户名、密码是否正确</a></li>
+</ul>
+</li>
+<li><a href="#%E7%90%86%E8%A7%A3%E5%87%BD%E6%95%B0">理解函数</a></li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a><ul>
+<li><a href="#1-%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%B8%BA%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B4%E6%95%B0-n%E8%AE%A1%E7%AE%97-1~n-%E6%89%80%E6%9C%89%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9A%84%E5%8A%A0%E5%92%8C">1. 编写一个函数，参数为一个正整数 n，计算 1~n 所有正整数的加和。</a></li>
+<li><a href="#2-%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%B8%BA%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B4%E6%95%B0-n%E8%AE%A1%E7%AE%97-1~n-%E4%B9%8B%E9%97%B4%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0">2. 编写一个函数，参数为一个正整数 n，计算 1~n 之间所有奇数。</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="数学函数">数学函数</span></h2><figure class="highlight llvm"><table><tbody><tr><td class="code"><pre><span class="line">f(<span class="keyword">x</span>) <span class="operator">=</span> <span class="number">3</span><span class="keyword">x</span> + <span class="number">4</span><span class="comment">;</span></span><br><span class="line"></span><br><span class="line">当 <span class="keyword">x</span> <span class="operator">=</span> <span class="number">5</span> 时；求 f(<span class="keyword">x</span>)的值。</span><br><span class="line"></span><br><span class="line">f(<span class="number">5</span>)<span class="operator">=</span> <span class="number">3</span>\*<span class="number">5</span> + <span class="number">4</span> <span class="operator">=</span> <span class="number">19</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>5：实参</p>
+<p>x：形参</p>
+<figure class="highlight llvm"><table><tbody><tr><td class="code"><pre><span class="line">f(<span class="keyword">x</span> <span class="punctuation">,</span> y) <span class="operator">=</span> <span class="number">3</span><span class="keyword">x</span> + <span class="number">4</span>y + <span class="number">5</span><span class="comment">;</span></span><br><span class="line"></span><br><span class="line">当 <span class="keyword">x</span> <span class="operator">=</span> <span class="number">2</span><span class="punctuation">,</span> y <span class="operator">=</span> <span class="number">3</span> 时；求 f(<span class="keyword">x</span> <span class="punctuation">,</span> y)的值。</span><br><span class="line"></span><br><span class="line">f(<span class="number">2</span> <span class="punctuation">,</span> <span class="number">3</span>)<span class="operator">=</span> <span class="number">3</span>\*<span class="number">2</span> + <span class="number">4</span>\*<span class="number">3</span> + <span class="number">5</span> <span class="operator">=</span> <span class="number">23</span></span><br><span class="line"></span><br><span class="line">函数运行的结果是 <span class="number">23</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="函数概述">函数概述</span></h2><p>函数是一个可执行的语句块（通过<code>function</code>关键字声明）。</p>
+<p>声明的时候不执行语句块，调用函数时执行。</p>
+<p><em>声明之后可以反复调用，提高代码的复用能力。</em></p>
+<p><code>//声明函数 </code></p>
+<p><code>function fun(){</code></p>
+<p><code> //语句...</code></p>
+<p><code>} </code></p>
+<p><code>//调用函数</code></p>
+<p><code>fun();</code></p>
+<h2><span id="传递参数">传递参数</span></h2><p>通过参数可以让函数的功能更具扩展性。</p>
+<p>形参：声明函数的时候可以定义。</p>
+<p>实参：调用函数的时候传递实参。</p>
+<h3><span id="例子-一个参数">例子 - 一个参数</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//函数声明的语法</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">x</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> result = <span class="number">3</span> * x + <span class="number">4</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(result);</span><br><span class="line">}</span><br><span class="line"><span class="comment">//调用函数</span></span><br><span class="line">fun(<span class="number">5</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="例子-两个参数">例子 - 两个参数</span></h2><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//多个参数的函数</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun1</span>(<span class="params">x, y</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> result = <span class="number">3</span> * x + <span class="number">4</span> * y + <span class="number">5</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(result);</span><br><span class="line">}</span><br><span class="line"><span class="comment">//调用函数</span></span><br><span class="line">fun1(<span class="number">2</span>, <span class="number">3</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="例子-定义一个计算四则运算的函数">例子 - 定义一个计算四则运算的函数</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">computed</span>(<span class="params">n, m, op</span>) </span>{</span><br><span class="line">  <span class="keyword">switch</span> (op) {</span><br><span class="line">    <span class="keyword">case</span> <span class="string">"+"</span>:</span><br><span class="line">      <span class="keyword">return</span> n + m;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="string">"-"</span>:</span><br><span class="line">      <span class="keyword">return</span> n - m;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="string">"*"</span>:</span><br><span class="line">      <span class="keyword">return</span> n * m;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="string">"/"</span>:</span><br><span class="line">      <span class="keyword">return</span> n / m;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"><span class="keyword">var</span> result = computed(<span class="number">3</span>, <span class="number">5</span>, <span class="string">"*"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//15</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="返回值">返回值</span></h2><p>返回值表示函数运作之后的结果。</p>
+<p>将返回值赋值给变量。</p>
+<p>记住关键字 <code>return</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun2</span>(<span class="params">x, y</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> result = <span class="number">3</span> * x + <span class="number">4</span> * y + <span class="number">5</span>;</span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(fun2(<span class="number">2</span>, <span class="number">3</span>));</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="例子-检查用户名-密码是否正确">例子 - 检查用户名、密码是否正确</span></h3><p>如果用户名为 admin，密码为 123456，提示登录成功，否则登录失败</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//如果用户名为admin，密码为123456，提示登录成功，否则登录失败</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">checkLogin</span>(<span class="params">username, password</span>) </span>{</span><br><span class="line">  <span class="keyword">if</span> (username === <span class="string">"admin"</span> &amp;&amp; password === <span class="string">"123456"</span>) {</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">  } <span class="keyword">else</span> {</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"><span class="comment">//定义存放结果的变量 result，通过 if 语句来判断 result 的真假再打印输出登录是否成功。</span></span><br><span class="line"><span class="keyword">var</span> result = checkLogin(<span class="string">"admin"</span>, <span class="string">"123456"</span>);</span><br><span class="line"><span class="comment">//result 本来就是 boolean 值，所以不用写 result === true</span></span><br><span class="line"><span class="comment">//if (result === true){</span></span><br><span class="line"><span class="keyword">if</span> (result) {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"登录成功"</span>);</span><br><span class="line">} <span class="keyword">else</span> {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"登录失败"</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="理解函数">理解函数</span></h2><p>可以把函数理解为一个生产车间。传递进来的参数可以多个，但是返回值只有一个。</p>
+<h2><span id="课后练习">课后练习</span></h2><h3><span id="1-编写一个函数参数为一个正整数-n计算-1~n-所有正整数的加和">1. 编写一个函数，参数为一个正整数 n，计算 1~n 所有正整数的加和。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">allSum</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> sum = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">1</span>; i &lt;= n; i++) {</span><br><span class="line">    sum += i;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> sum;</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(allSum(<span class="number">100</span>));</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="2-编写一个函数参数为一个正整数-n计算-1~n-之间所有奇数">2. 编写一个函数，参数为一个正整数 n，计算 1~n 之间所有奇数。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">printAllJishu</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">1</span>; i &lt;= n; i++) {</span><br><span class="line">    <span class="keyword">if</span> (i % <span class="number">2</span> === <span class="number">1</span>) {</span><br><span class="line">      <span class="built_in">console</span>.log(i);</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line">printAllJishu(<span class="number">100</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 14 日 00 点 48 分</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS - 对象</title>
+    <url>/2021/08/14/JS%20-%20%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-null">数据类型 - null</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-undefined">数据类型 - undefined</a></li>
+<li><a href="#%E4%B8%96%E9%97%B4%E4%B8%87%E7%89%A9%E7%9A%86%E5%AF%B9%E8%B1%A1">世间万物皆对象</a></li>
+<li><a href="#%E5%AF%B9%E8%B1%A1">对象</a><ul>
+<li><a href="#%E6%96%B9%E6%B3%95">方法</a></li>
+<li><a href="#this-%E5%85%B3%E9%94%AE%E5%AD%97">this 关键字</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%86%E7%B1%BB">对象的分类</a></li>
+<li><a href="#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81">练习代码</a></li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a></li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="数据类型-null">数据类型 - null</span></h2><p>什么都没有（空），未初始化一个对象，可以暂时赋值为 <code>null</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> student = <span class="literal">null</span>;</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="数据类型-undefined">数据类型 - undefined</span></h2><p>不赋值的变量就是 <code>undefined </code>数据类型，<em>尽量不要定义一个 <code>undefined</code> 变量</em></p>
+<p>注意不要写成 <code>var v = undefined</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> v;</span><br><span class="line"><span class="built_in">console</span>.log(v); <span class="comment">//undefined</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="世间万物皆对象">世间万物皆对象</span></h2><p>桌子：宽度、高度、颜色、用途</p>
+<p>猫：名字、毛色、年龄、吃东西、睡觉</p>
+<h2><span id="对象">对象</span></h2><p>六种数据类型中的一种。<em>对象可以重新设置属性</em></p>
+<p>定义：属性的无需集合。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 创建一个对象</span></span><br><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>, <span class="comment">//注意是逗号</span></span><br><span class="line">  age: <span class="number">2</span>,</span><br><span class="line">};</span><br><span class="line"><span class="comment">// "." 的 cat.name 猫的名字</span></span><br><span class="line"><span class="built_in">console</span>.log(cat.name);</span><br><span class="line"><span class="comment">// 特殊情况时可以使用这种方法，当cat.name获取不到的时候</span></span><br><span class="line"><span class="comment">// console.log(cat["name"]);</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="方法">方法</span></h3><p>属性的值是一个函数，则称为方法。可以传递参数，也可以不传递参数，还可以<code>return </code>返回值。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"mm"</span>,</span><br><span class="line">  age: <span class="number">2</span>,</span><br><span class="line">  sayName: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"我是mm"</span>);</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line">cat.sayName();</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  <span class="comment">//方法 - 也可以不传递参数</span></span><br><span class="line">  sayName: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"我是miaomiao"</span>);</span><br><span class="line">  }, <span class="comment">// 注意逗号</span></span><br><span class="line">  <span class="comment">//方法 - 传递参数</span></span><br><span class="line">  eat: <span class="function"><span class="keyword">function</span> (<span class="params">food</span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"吃"</span> + food);</span><br><span class="line">  },</span><br><span class="line">  <span class="comment">//方法 - 返回值</span></span><br><span class="line">  computed: <span class="function"><span class="keyword">function</span> (<span class="params">n, m</span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> n + m;</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line"><span class="comment">//调用对象的`方法`</span></span><br><span class="line">cat.sayName(); <span class="comment">//我是miaomiao</span></span><br><span class="line">cat.eat(<span class="string">"鱼"</span>); <span class="comment">//吃鱼</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> result = cat.computed(<span class="number">1</span>, <span class="number">2</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//3</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="this-关键字">this 关键字</span></h3><p>可以指向调用方法的对象。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  sayName: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    <span class="comment">// this.xxxx 可以指向调用方法的对象</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"我是"</span> + <span class="built_in">this</span>.name);</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line"><span class="comment">//对象可以重新设置属性</span></span><br><span class="line">cat.name = <span class="string">"小白"</span>;</span><br><span class="line">cat.sayName();</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="对象的分类">对象的分类</span></h2><ol>
+<li><p>自定义对象</p>
+<p>作用:封装</p>
+</li>
+<li><p>内置对象（例如 Date，获取当前时间）</p>
+</li>
+<li><p>宿主对象（document）</p>
+</li>
+<li><p>第三方库的对象（jQuery、Vue 等）</p>
+</li>
+</ol>
+<h2><span id="练习代码">练习代码</span></h2><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 创建一个对象</span></span><br><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  age: <span class="number">2</span>,</span><br><span class="line">};</span><br><span class="line"><span class="comment">// "." 的 cat.name 猫的名字</span></span><br><span class="line"><span class="built_in">console</span>.log(cat.name);</span><br><span class="line"><span class="comment">// 特殊情况时可以使用这种方法，当cat.name获取不到的时候</span></span><br><span class="line"><span class="comment">// console.log(cat["name"]);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// null 什么都没有（空），未初始化一个对象，可以暂时赋值为null</span></span><br><span class="line"><span class="keyword">var</span> student = <span class="literal">null</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// //不赋值的变量就是undefined数据类型，尽量不要定义一个undefined变量</span></span><br><span class="line"><span class="keyword">var</span> v;</span><br><span class="line"><span class="built_in">console</span>.log(v);</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法</span></span><br><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  <span class="comment">//方法 - 也可以不传递参数</span></span><br><span class="line">  sayName: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"我是miaomiao"</span>);</span><br><span class="line">  },</span><br><span class="line">  <span class="comment">//方法 - 传递参数</span></span><br><span class="line">  eat: <span class="function"><span class="keyword">function</span> (<span class="params">food</span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"吃"</span> + food);</span><br><span class="line">  },</span><br><span class="line">  <span class="comment">//方法 - 返回值</span></span><br><span class="line">  computed: <span class="function"><span class="keyword">function</span> (<span class="params">n, m</span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> n + m;</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line"><span class="comment">//调用对象的`方法`</span></span><br><span class="line">cat.sayName();</span><br><span class="line">cat.eat(<span class="string">"鱼"</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> result = cat.computed(<span class="number">1</span>, <span class="number">2</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法</span></span><br><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  <span class="comment">//方法 - 也可以不传递参数</span></span><br><span class="line">  sayName: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    <span class="comment">// this.xxxx 可以指向调用方法的对象</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"我是"</span> + <span class="built_in">this</span>.name);</span><br><span class="line">  },</span><br><span class="line">  <span class="comment">//方法 - 传递参数</span></span><br><span class="line">  eat: <span class="function"><span class="keyword">function</span> (<span class="params">food</span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"吃"</span> + food);</span><br><span class="line">  },</span><br><span class="line">  <span class="comment">//方法 - 返回值。</span></span><br><span class="line">  computed: <span class="function"><span class="keyword">function</span> (<span class="params">n, m</span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> n + m;</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line"><span class="comment">//对象可以重新设置属性</span></span><br><span class="line">cat.name = <span class="string">"小白"</span>;</span><br><span class="line">cat.sayName();</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="课后练习">课后练习</span></h2><p>掌握如何自定义对象，并获取属性，了解如何调用对象的方法，this 关键字的作用。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个对象</span></span><br><span class="line"><span class="keyword">var</span> cat = {</span><br><span class="line">  name: <span class="string">"mm"</span>,</span><br><span class="line">  age: <span class="number">2</span>,</span><br><span class="line">  sayName: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"I'm "</span> + <span class="built_in">this</span>.name);</span><br><span class="line">  },</span><br><span class="line">  eat: <span class="function"><span class="keyword">function</span> (<span class="params">food</span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"eat"</span> + food);</span><br><span class="line">  },</span><br><span class="line">  computed: <span class="function"><span class="keyword">function</span> (<span class="params">n, m</span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> n + m;</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(cat.name);</span><br><span class="line"><span class="built_in">console</span>.log(cat.age);</span><br><span class="line">cat.name = <span class="string">"sb"</span>;</span><br><span class="line">cat.sayName();</span><br><span class="line">cat.eat(<span class="string">"fish"</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> result = cat.computed(<span class="number">2</span>, <span class="number">3</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 14 日 20 点 24 分。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS - 数组</title>
+    <url>/2021/08/16/JS%20-%20%E6%95%B0%E7%BB%84/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E6%95%B0%E7%BB%84%E6%A6%82%E8%BF%B0">数组概述</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0">获取数组中的元素</a></li>
+<li><a href="#%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84">遍历数组</a><ul>
+<li><a href="#1-while-%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86">1. while 循环遍历</a></li>
+<li><a href="#2-for-%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84">2. for 循环遍历数组</a></li>
+<li><a href="#3-for-in-%E9%81%8D%E5%8E%86-i-%E4%B8%BA%E7%B4%A2%E5%BC%95">3. for in 遍历（ i 为索引）</a></li>
+<li><a href="#4-for-of-%E9%81%8D%E5%8E%86-i-%E4%B8%BA%E5%80%BC">4. for of 遍历（ i 为值）</a></li>
+<li><a href="#5-map-%E6%96%B9%E6%B3%95%E9%81%8D%E5%8E%86">5. map 方法遍历</a></li>
+</ul>
+</li>
+<li><a href="#%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95">数组的常用方法</a><ul>
+<li><a href="#1-map">1. map</a></li>
+<li><a href="#2-push">2. push</a></li>
+<li><a href="#3-sort">3. sort</a></li>
+<li><a href="#4-filter">4. filter</a></li>
+<li><a href="#5-join">5. join</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2-string-%E7%9A%84-split-%E6%96%B9%E6%B3%95">字符串 string 的 split 方法</a><ul>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E6%8A%8A%E6%97%A5%E6%9C%9F-2021-8-15-%E6%8C%89-%E6%9D%A5%E6%8B%86%E5%88%86">例子 - 把日期 “2021-8-15” 按 ”-“ 来拆分</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BB%93%E5%90%88%E6%95%B0%E7%BB%84%E4%B8%8E%E5%AF%B9%E8%B1%A1">结合数组与对象</a><ul>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%94%B7%E5%90%8C%E5%AD%A6%E6%94%BE%E5%85%A5%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E6%95%B0%E7%BB%84">例子 - 找出所有男同学，放入一个新的数组。</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a><ul>
+<li><a href="#1-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84-134678111215161920-%E7%9A%84%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E5%B9%B6%E6%94%BE%E5%9C%A8%E4%B8%80%E4%B8%AA%E6%96%B0%E6%95%B0%E7%BB%84%E4%B8%AD">1. 找出数组 [1,3,4,6,7,8,11,12,15,16,19,20] 的所有奇数，并放在一个新数组中。</a></li>
+<li><a href="#2-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84-4612375-%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E7%9A%84%E7%B4%A2%E5%BC%95">2. 找出数组 [4,6,1,2,3,7,5] 中的最大值的索引。</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81">练习代码</a></li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="数组概述">数组概述</span></h2><p>数组是一个特殊的对象，可以按顺序存储数据。</p>
+<p>创建数值类型的数组：</p>
+<p><code>var list = [1,2,3,4,5];</code></p>
+<p>存放字符串的数组</p>
+<p><code>var list = ["a","b","c"];</code></p>
+<h2><span id="获取数组中的元素">获取数组中的元素</span></h2><p>通过下标获取数组中的元素。</p>
+<p><code>list[0]</code>、<code>list[1]</code>、…</p>
+<p>获取数组元素的个数：<code>list.length</code></p>
+<p>如果想获取数组中的某一个元素，可以通过下标来获取。 0 就是第一个元素</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 创建一个数组 第一种方法</span></span><br><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>];</span><br><span class="line"><span class="comment">// new 构造函数 第二种方法</span></span><br><span class="line"><span class="keyword">var</span> list = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//  [index],索引是从0开始的。</span></span><br><span class="line"><span class="keyword">var</span> item = list[<span class="number">0</span>];</span><br><span class="line"><span class="keyword">var</span> len = list.length;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(item);</span><br><span class="line"><span class="built_in">console</span>.log(len); <span class="comment">//3 说明数组有三个元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//可以直接输出list 数组全部内容</span></span><br><span class="line"><span class="built_in">console</span>.log(list);</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="遍历数组">遍历数组</span></h2><h3><span id="1-while-循环遍历">1. while 循环遍历</span></h3><p><code>i</code> 是 <em>索引</em></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line"><span class="comment">//下标索引</span></span><br><span class="line"><span class="keyword">var</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (i &lt; list.length) {</span><br><span class="line">  <span class="built_in">console</span>.log(list[i]);</span><br><span class="line">  i++;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="2-for-循环遍历数组">2. for 循环遍历数组</span></h3><p><code>i</code> 是 <em>索引</em></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; list.length; i++) {</span><br><span class="line">  <span class="built_in">console</span>.log(list[i]);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="3-for-in-遍历-i-为索引">3. for in 遍历（ i 为索引）</span></h3><p><code>var i in list</code>中<code>i</code> 为索引</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i <span class="keyword">in</span> list) {</span><br><span class="line">  <span class="built_in">console</span>.log(list[i]);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="4-for-of-遍历-i-为值">4. for of 遍历（ i 为值）</span></h3><p><code>var i of list</code> 中<code>i</code> 为值</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i <span class="keyword">of</span> list) {</span><br><span class="line">  <span class="built_in">console</span>.log(i);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="5-map-方法遍历">5. map 方法遍历</span></h3><p>数组自带的，map 方法的参数是函数，这种函数称为<strong>回调函数</strong>。_map 有两个参数。这是顺序—— 值 、索引_。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line">list.map(<span class="function"><span class="keyword">function</span> (<span class="params">value, index</span>) </span>{</span><br><span class="line">  <span class="comment">// console.log(value);//value是list的元素</span></span><br><span class="line">  <span class="comment">// console.log(index);//index就是list的索引</span></span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"第"</span> + (index + <span class="number">1</span>) + <span class="string">"个元素是"</span> + value); <span class="comment">//如 第a1个元素是0</span></span><br><span class="line">});</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="数组的常用方法">数组的常用方法</span></h2><h3><span id="1-map">1. map</span></h3><p>遍历数组。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line">list.map(<span class="function"><span class="keyword">function</span> (<span class="params">value, index</span>) </span>{</span><br><span class="line">  <span class="comment">// console.log(value);//value是list的元素</span></span><br><span class="line">  <span class="comment">// console.log(index);//index就是list的索引</span></span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"第"</span> + (index + <span class="number">1</span>) + <span class="string">"个元素是"</span> + value);</span><br><span class="line">});</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="2-push">2. push</span></h3><p>在结尾追加元素。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>, <span class="string">"e"</span>];</span><br><span class="line"><span class="comment">//push 在结尾追加元素</span></span><br><span class="line">list.push(<span class="string">"f"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(list);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="3-sort">3. sort</span></h3><p>排序。</p>
+<p>*数值：从小到大排序。</p>
+<p><em>字符串：按首字母从 a~z 来排序。</em></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">6</span>, <span class="number">5</span>, <span class="number">2</span>];</span><br><span class="line"><span class="comment">// sort 排序，从小到大</span></span><br><span class="line">list.sort();</span><br><span class="line"><span class="built_in">console</span>.log(list);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="4-filter">4. filter</span></h3><p>过滤器。<code>newList = list.filter(function (item) {}</code>的<code>item</code>是数组的每个元素</p>
+<h4><span id="例子-将数组中大于等于-3-的元素放到新的数组">例子 - 将数组中大于等于 3 的元素放到新的数组</span></h4><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">6</span>, <span class="number">5</span>, <span class="number">2</span>];</span><br><span class="line"><span class="comment">//定义一个新数组，将大于等于3的元素放到新的数组，return返回才实现过滤的效果，item是数组里的每个元素</span></span><br><span class="line"><span class="keyword">var</span> newList = list.filter(<span class="function"><span class="keyword">function</span> (<span class="params">item</span>) </span>{</span><br><span class="line">  <span class="keyword">if</span> (item &gt;= <span class="number">3</span>) {</span><br><span class="line">    <span class="keyword">return</span> item;</span><br><span class="line">  }</span><br><span class="line">});</span><br><span class="line"><span class="built_in">console</span>.log(newList); <span class="comment">// [3, 6, 5]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="5-join">5. join</span></h3><p>连接数组。</p>
+<p>不加参数时，默认加逗号。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>];</span><br><span class="line"><span class="keyword">var</span> str = list.join();</span><br><span class="line"><span class="built_in">console</span>.log(str); <span class="comment">//a,b,c</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>实现 abc，在 join 里面加参数，<em>空字符串可以设成空的连接符</em></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = list.join(<span class="string">""</span>);</span><br><span class="line"><span class="built_in">console</span>.log(str); <span class="comment">//abc</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>实现 a+b+c</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = list.join(<span class="string">"+"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(str); <span class="comment">//a+b+c</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="字符串-string-的-split-方法">字符串 string 的 split 方法</span></h2><p>split 是字符串的拆分方法。</p>
+<p>split 不设参数时，默认生成一个数组。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"banana"</span>;</span><br><span class="line"><span class="keyword">var</span> list = str.split();</span><br><span class="line"><span class="built_in">console</span>.log(list); <span class="comment">// ["banana"]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><em>空字符串会拆分字符串</em></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = str.split(<span class="string">""</span>);</span><br><span class="line"><span class="built_in">console</span>.log(list); <span class="comment">// ["b","a","n","a","n","a"]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>按字符来拆分</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = str.split(<span class="string">"n"</span>); <span class="comment">//把 n 当成连接符来拆分</span></span><br><span class="line"><span class="built_in">console</span>.log(list); <span class="comment">// ["ba","a","a"]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="例子-把日期-2021-8-15-按-来拆分">例子 - 把日期 “2021-8-15” 按 ”-“ 来拆分</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"2021-8-15"</span>;</span><br><span class="line"><span class="keyword">var</span> list = str.split(<span class="string">"-"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(list); <span class="comment">//["2021", "8", "15"]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 15 日 00 点 53 分。</p>
+</blockquote>
+<h2><span id="结合数组与对象">结合数组与对象</span></h2><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小明"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"男"</span> },</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小红"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"女"</span> },</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小亮"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"男"</span> },</span><br><span class="line">];</span><br></pre></td></tr></tbody></table></figure>
+
+<p>获取数据：<code>list[0].name</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//获取数组里第一个对象的年龄</span></span><br><span class="line"><span class="built_in">console</span>.log(list[<span class="number">0</span>].age);</span><br><span class="line"><span class="comment">//获取数组里第一个对象的名字</span></span><br><span class="line"><span class="built_in">console</span>.log(list[<span class="number">0</span>].name);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="例子-找出所有男同学放入一个新的数组">例子 - 找出所有男同学，放入一个新的数组。</span></h3><p>方法 1 - 数组 filter 过滤器</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小明"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"男"</span> },</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小红"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"女"</span> },</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小亮"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"男"</span> },</span><br><span class="line">];</span><br><span class="line"><span class="keyword">var</span> newList = list.filter(<span class="function"><span class="keyword">function</span> (<span class="params">item</span>) </span>{</span><br><span class="line">  <span class="keyword">if</span> (item.sex === <span class="string">"男"</span>) {</span><br><span class="line">    <span class="keyword">return</span> item;</span><br><span class="line">  }</span><br><span class="line">});</span><br><span class="line"><span class="built_in">console</span>.log(newList);</span><br></pre></td></tr></tbody></table></figure>
+
+<p>方法 2 - 数组 push 添加</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小明"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"男"</span> },</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小红"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"女"</span> },</span><br><span class="line">  { <span class="attr">name</span>: <span class="string">"小亮"</span>, <span class="attr">age</span>: <span class="number">2</span>, <span class="attr">sex</span>: <span class="string">"男"</span> },</span><br><span class="line">];</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> newList = [];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; list.length; i++) {</span><br><span class="line">  <span class="keyword">if</span> (list[i].sex === <span class="string">"男"</span>) {</span><br><span class="line">    newList.push(list[i]);</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(newList);</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="课后练习">课后练习</span></h2><h3><span id="1-找出数组-134678111215161920-的所有奇数并放在一个新数组中">1. 找出数组 [1,3,4,6,7,8,11,12,15,16,19,20] 的所有奇数，并放在一个新数组中。</span></h3><p>方法一 - <code>filter</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">11</span>, <span class="number">12</span>, <span class="number">15</span>, <span class="number">16</span>, <span class="number">19</span>, <span class="number">20</span>];</span><br><span class="line"><span class="keyword">var</span> newList = list.filter(<span class="function"><span class="keyword">function</span> (<span class="params">item</span>) </span>{</span><br><span class="line">  <span class="keyword">if</span> (item % <span class="number">2</span> === <span class="number">1</span>) {</span><br><span class="line">    <span class="keyword">return</span> item;</span><br><span class="line">  }</span><br><span class="line">});</span><br><span class="line"><span class="built_in">console</span>.log(newList); <span class="comment">//[1, 3, 7, 11, 15, 19]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>方法二 - <code>push</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">11</span>, <span class="number">12</span>, <span class="number">15</span>, <span class="number">16</span>, <span class="number">19</span>, <span class="number">20</span>];</span><br><span class="line"><span class="keyword">var</span> newList = [];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; list.length; i++) {</span><br><span class="line">  <span class="keyword">if</span> (list[i] % <span class="number">2</span> === <span class="number">1</span>) {</span><br><span class="line">    newList.push(list[i]);</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(newList); <span class="comment">//[1, 3, 7, 11, 15, 19]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="2-找出数组-4612375-中的最大值的索引">2. 找出数组 [4,6,1,2,3,7,5] 中的最大值的索引。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="number">4</span>, <span class="number">6</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">7</span>, <span class="number">5</span>];</span><br><span class="line"><span class="keyword">var</span> max = list[<span class="number">0</span>];</span><br><span class="line"><span class="keyword">var</span> maxIndex = <span class="number">0</span>;</span><br><span class="line">list.map(<span class="function"><span class="keyword">function</span> (<span class="params">value, index</span>) </span>{</span><br><span class="line">  <span class="keyword">if</span> (value &gt; max) {</span><br><span class="line">    max = value;</span><br><span class="line">    maxIndex = index;</span><br><span class="line">  }</span><br><span class="line">});</span><br><span class="line"><span class="built_in">console</span>.log(max); <span class="comment">// 7 即最大值是7</span></span><br><span class="line"><span class="built_in">console</span>.log(maxIndex); <span class="comment">//5 即最大值的索引是7</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="练习代码">练习代码</span></h2><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//   //创建一个数组</span></span><br><span class="line"><span class="comment">//   var list = [1, 2, 3, 4, 5];</span></span><br><span class="line"><span class="comment">//   // var list1 = ["a","b","c"];</span></span><br><span class="line"><span class="comment">//   // var list2 = new Array(1,2,3,4,5);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   var item = list[0]; //数组中第一个元素（索引：第0个） list[0]</span></span><br><span class="line"><span class="comment">//   var len = list.length; //数组的长度 list.length;</span></span><br><span class="line"><span class="comment">//   console.log(item); // 数组中第一个元素（索引：第0个）为 1</span></span><br><span class="line"><span class="comment">//   console.log(len); // 数组的长度为5，有5个元素</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 1. while遍历数组 索引</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   //i 为索引</span></span><br><span class="line"><span class="comment">//   var i = 0;</span></span><br><span class="line"><span class="comment">//   while (i &lt; list.length) {</span></span><br><span class="line"><span class="comment">//     console.log(list[i]);</span></span><br><span class="line"><span class="comment">//     i++;</span></span><br><span class="line"><span class="comment">//   }</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 2. for遍历数组 索引</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   for (var i = 0; i &lt; list.length; i++) {</span></span><br><span class="line"><span class="comment">//     console.log(list[i]);</span></span><br><span class="line"><span class="comment">//   }</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 3. for in遍历数组 索引</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   // `var i in list` = `var i = 0; i &lt; list.length; i++`</span></span><br><span class="line"><span class="comment">//   for (var i in list) {</span></span><br><span class="line"><span class="comment">//     console.log(list[i]);</span></span><br><span class="line"><span class="comment">//   }</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 4.for of 遍历数组 值</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   // `var i of list` = 数组的每个值</span></span><br><span class="line"><span class="comment">//   for (var i of list) {</span></span><br><span class="line"><span class="comment">//     console.log(i);</span></span><br><span class="line"><span class="comment">//   }</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   //5. map 方法遍历</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   // map 有两个参数， 值     索引</span></span><br><span class="line"><span class="comment">//   list.map(function (value, index) {</span></span><br><span class="line"><span class="comment">//     // console.log(value);</span></span><br><span class="line"><span class="comment">//     // console.log(index);</span></span><br><span class="line"><span class="comment">//     console.log("第" + (index + 1) + "个元素是" + value);</span></span><br><span class="line"><span class="comment">//   });</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 数组的常用方法</span></span><br><span class="line"><span class="comment">//   // 1. map 遍历数组</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   list.map(function (listValue, listIndex) {</span></span><br><span class="line"><span class="comment">//     console.log("第" + (listIndex + 1) + "个元素是" + listValue);</span></span><br><span class="line"><span class="comment">//   });</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   //2. push 在结尾添加元素</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c", "d", "e"];</span></span><br><span class="line"><span class="comment">//   list.push("f");</span></span><br><span class="line"><span class="comment">//   console.log(list);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   //3. sort 数值：从小到大排序, 字符串：按首字母从a~z来排序</span></span><br><span class="line"><span class="comment">//   var list = [4, 2, 3, 1, 5];</span></span><br><span class="line"><span class="comment">//   var list = ["a", "c", "b", "de", "e"];</span></span><br><span class="line"><span class="comment">//   list.sort();</span></span><br><span class="line"><span class="comment">//   console.log(list);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 4. filter 过滤器</span></span><br><span class="line"><span class="comment">//   //将数组中大于等于 3 的元素放到新的数组</span></span><br><span class="line"><span class="comment">//   var list = [1, 3, 6, 5, 2];</span></span><br><span class="line"><span class="comment">//   var newList = list.filter(function (item) {</span></span><br><span class="line"><span class="comment">//     if (item &gt;= 3) {</span></span><br><span class="line"><span class="comment">//       return item;</span></span><br><span class="line"><span class="comment">//     }</span></span><br><span class="line"><span class="comment">//   });</span></span><br><span class="line"><span class="comment">//   console.log(newList);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // 5. join 连接数组</span></span><br><span class="line"><span class="comment">//   var list = ["a", "b", "c"];</span></span><br><span class="line"><span class="comment">//   var str = list.join();</span></span><br><span class="line"><span class="comment">//   console.log(str); //a,b,c</span></span><br><span class="line"><span class="comment">//   var str1 = list.join("");</span></span><br><span class="line"><span class="comment">//   console.log(str1); //abc</span></span><br><span class="line"><span class="comment">//   var str2 = list.join("+");</span></span><br><span class="line"><span class="comment">//   console.log(str2); //a+b+c</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//   // string字符串的 split 拆分</span></span><br><span class="line"><span class="comment">//   var str = "banana";</span></span><br><span class="line"><span class="comment">//   var list = str.split();</span></span><br><span class="line"><span class="comment">//   console.log(list); //["banana"]</span></span><br><span class="line"><span class="comment">//   var list1 = str.split("");</span></span><br><span class="line"><span class="comment">//   console.log(list1); //["b", "a", "n", "a", "n", "a"]</span></span><br><span class="line"><span class="comment">//   var list2 = str.split("n");</span></span><br><span class="line"><span class="comment">//   console.log(list2); //&nbsp;["ba", "a", "a"]</span></span><br><span class="line"><span class="comment">//   // 把日期 “2021-8-16” 按 ”-“ 来拆分</span></span><br><span class="line"><span class="comment">//   var str = "2021-8-16";</span></span><br><span class="line"><span class="comment">//   var list = str.split("-");</span></span><br><span class="line"><span class="comment">//   console.log(list); //&nbsp;["2021", "8", "16"]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 结合数组与对象</span></span><br><span class="line"><span class="keyword">var</span> list = [</span><br><span class="line">  {</span><br><span class="line">    name: <span class="string">"xiaoming"</span>,</span><br><span class="line">    age: <span class="number">2</span>,</span><br><span class="line">    sex: <span class="string">"man"</span>,</span><br><span class="line">  },</span><br><span class="line">  {</span><br><span class="line">    name: <span class="string">"xiaohong"</span>,</span><br><span class="line">    age: <span class="number">2</span>,</span><br><span class="line">    sex: <span class="string">"woman"</span>,</span><br><span class="line">  },</span><br><span class="line">  {</span><br><span class="line">    name: <span class="string">"xiaoliang"</span>,</span><br><span class="line">    age: <span class="number">2</span>,</span><br><span class="line">    sex: <span class="string">"man"</span>,</span><br><span class="line">  },</span><br><span class="line">];</span><br><span class="line"><span class="built_in">console</span>.log(list[<span class="number">0</span>].name);</span><br><span class="line"><span class="built_in">console</span>.log(list[<span class="number">0</span>].sex);</span><br><span class="line"><span class="comment">//   找出所有男同学，放入一个新的数组。</span></span><br><span class="line"><span class="comment">// 1. filter</span></span><br><span class="line"><span class="keyword">var</span> newList = list.filter(<span class="function"><span class="keyword">function</span> (<span class="params">item</span>) </span>{</span><br><span class="line">  <span class="keyword">if</span> (item.sex === <span class="string">"man"</span>) {</span><br><span class="line">    <span class="keyword">return</span> item;</span><br><span class="line">  }</span><br><span class="line">});</span><br><span class="line"><span class="built_in">console</span>.log(newList);</span><br><span class="line"><span class="comment">// 2. push</span></span><br><span class="line"><span class="keyword">var</span> newList1 = [];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; list.length; i++) {</span><br><span class="line">  <span class="keyword">if</span> (list[i].sex === <span class="string">"man"</span>) {</span><br><span class="line">    newList1.push(list[i]);</span><br><span class="line">  }</span><br><span class="line">}</span><br><span class="line"><span class="built_in">console</span>.log(newList1);</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 16 日 02 点 37 分。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS - 内置对象</title>
+    <url>/2021/08/16/JS%20-%20%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1%E6%A6%82%E8%BF%B0">内置对象概述</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1">常用的内置对象</a><ul>
+<li><a href="#math-%E5%AF%B9%E8%B1%A1">Math 对象</a></li>
+<li><a href="#date-%E5%AF%B9%E8%B1%A1">Date 对象</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AE%A1%E6%97%B6%E5%99%A8%E6%96%B9%E6%B3%95-setinterval">计时器方法 <code>setInterval</code></a><ul>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E6%AF%8F%E9%9A%94-1-%E7%A7%92%E8%BE%93%E5%87%BA%E4%B8%80%E6%AC%A1-hello-world">例子 - 每隔 1 秒输出一次 hello world</a></li>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E7%AE%80%E5%8D%95%E8%AE%A1%E6%97%B6%E5%99%A8%E6%AF%8F%E7%A7%92%E8%BE%93%E5%87%BA%E5%BD%93%E5%89%8D%E7%A7%92%E6%95%B0">例子 - 简单计时器，每秒输出当前秒数。</a></li>
+<li><a href="#%E4%BE%8B%E5%AD%90-%E5%9C%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%AF%8F%E7%A7%92%E8%BE%93%E5%87%BA%E4%B8%80%E6%AC%A1">例子 - 在控制台输出当前时间，每秒输出一次。</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a><ul>
+<li><a href="#1-%E5%B0%86%E8%87%AA%E5%B7%B1%E7%8F%AD%E7%BA%A7%E7%9A%84%E5%90%8C%E5%AD%A6%E6%B7%BB%E5%8A%A0%E5%88%B0%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E6%AF%8F%E6%AC%A1%E5%88%B7%E6%96%B0%E9%A1%B5%E9%9D%A2%E9%9A%8F%E6%9C%BA%E9%80%89%E6%8B%A9%E4%B8%80%E5%90%8D%E5%90%8C%E5%AD%A6">1. 将自己班级的同学添加到一个数组中，每次刷新页面，随机选择一名同学。</a></li>
+<li><a href="#2-%E5%9C%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%AF%8F%E7%A7%92%E8%BE%93%E5%87%BA%E4%B8%80%E6%AC%A1">2. 在控制台输出当前时间，每秒输出一次。</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="内置对象概述">内置对象概述</span></h2><p>JavaScript 语言中提供了一些对象，让开发人员可以使用一些现成的功能。</p>
+<h2><span id="常用的内置对象">常用的内置对象</span></h2><ul>
+<li><p>[Array - 数组](./js - 数组.md)</p>
+</li>
+<li><p>Math - 数学</p>
+</li>
+<li><p>Date - 日期</p>
+</li>
+<li><p>RegExp - 正则表达式</p>
+</li>
+</ul>
+<h3><span id="math-对象">Math 对象</span></h3><p>常用的方法</p>
+<ul>
+<li><p><code>Math.floor()</code> : 向下取整</p>
+<p>去掉数值类型数据的小数部分，只保留整数部分。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="number">3.14</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.floor(number);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 3</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="number">3.99</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.floor(number);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 3 不是四舍五入</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>负数情况时，去掉小数部分，然后在整数部分减 1。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = -<span class="number">3.99</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.floor(number);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// -4</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>Math.random()</code> : 获取 0~1 之间的随机数</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.random();</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>Math.abs()</code> : 绝对值</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = -<span class="number">3.99</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.abs(number);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 3.99</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>Math.sqrt()</code> : 开方</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="number">9</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.sqrt(number);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 3</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="number">16</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.sqrt(number);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 4</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>Math.pow()</code> : 乘方</p>
+<p><code>Math.pow(m,n)</code>中 m 底数，n 次方</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">var</span> result = <span class="built_in">Math</span>.pow(number, <span class="number">4</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 16 2^4</span></span><br></pre></td></tr></tbody></table></figure></li>
+</ul>
+<h4><span id="获取指定范围的随机数">获取指定范围的随机数</span></h4><h5><span id="例子-如何获取-1-10-的随机数">例子 - 如何获取 1-10 的随机数？</span></h5><p>首先获取一个 0~1 的随机数，<code>Math.random()</code>。</p>
+<p>然后乘以 10，即 0~10，<code>Math.random() * 10</code>。</p>
+<p>又因为要从 1 开始，所以要再加 1，即 1~11，<code>Math.random() * 10 + 1</code>。</p>
+<p>但因为要的是整数，所以要向下取整，这样就不用担心会出现大于 10 的整数，<code>Math.floor(Math.random() * 10 + 1)</code>。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * <span class="number">10</span> + <span class="number">1</span>);</span><br><span class="line"><span class="built_in">console</span>.log(number);</span><br></pre></td></tr></tbody></table></figure>
+
+<p>扩展成一个公式 <strong>Math.floor(Math.random() * X + Y)</strong></p>
+<p>X 指的是想取到 x 的随机数，y 指的是从 y 开始，不设时默认为 0</p>
+<p>例如随机获取星期 1~7,即 1~7 的整数</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> number = <span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * <span class="number">7</span> + <span class="number">1</span>);</span><br><span class="line"><span class="built_in">console</span>.log(number);</span><br></pre></td></tr></tbody></table></figure>
+
+<h5><span id="例子-针对下面的成员列表随机选择一个人在控制台输出">例子 - 针对下面的成员列表，随机选择一个人在控制台输出。</span></h5><p>让随机数设成下标。</p>
+<p>5 个超级英雄，他们的索引——0，1，2，3，4，即要生成 0~5 之间的随机数,因为要向下取整，所以要 4+1。</p>
+<p>因为数组的长度可能会变，所以要生成 0 ~ <code>list.length</code>之间的随机数。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"钢铁侠"</span>, <span class="string">"绿巨人"</span>, <span class="string">"美国队长"</span>, <span class="string">"蜘蛛侠"</span>, <span class="string">"雷神"</span>];</span><br><span class="line"><span class="keyword">var</span> index = <span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * list.length);</span><br><span class="line"><span class="built_in">console</span>.log(list[index]);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="date-对象">Date 对象</span></h3><p><code>var d = new Date();</code></p>
+<p>Date() 不设参数时就是显示当前的星期 月 日 年 时：分：秒 时区</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> d = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line"><span class="built_in">console</span>.log(d); <span class="comment">// Mon Aug 16 2021 16:05:27 GMT+0800 (香港标准时间)</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>var d_target = new Date("2021-1-1");</code></p>
+<p>自己设置时间</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> d1 = <span class="keyword">new</span> <span class="built_in">Date</span>(<span class="string">"2021-1-1 12:00:30"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(d1); <span class="comment">// Fri Jan 01 2021 12:00:30 GMT+0800 (香港标准时间)</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>d.getFullYear();</code></p>
+<p>获取年份</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> year = d.getFullYear(); <span class="comment">//获取年份</span></span><br><span class="line"><span class="built_in">console</span>.log(year); <span class="comment">// 2021</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>d.getMonth();</code></p>
+<p>获取月份</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> month = d.getMonth();</span><br><span class="line"><span class="built_in">console</span>.log(month); <span class="comment">// 7 实际上现在是8月 因为获取的月份是从0开始的 1月是0</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>自己设置时间，2021 年 1 月 1 日，1 月是 0</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> d1 = <span class="keyword">new</span> <span class="built_in">Date</span>(<span class="string">"2021-1-1"</span>);</span><br><span class="line"><span class="keyword">var</span> month = d1.getMonth();</span><br><span class="line"><span class="built_in">console</span>.log(month); <span class="comment">// 0 1月是0</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>d.getDate();</code></p>
+<p>获取日期</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> date = d.getDate(); <span class="comment">//获取日期</span></span><br><span class="line"><span class="built_in">console</span>.log(date);</span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>d.getHours();</code></p>
+<p>获取小时</p>
+<p><code>d.getMinutes();</code></p>
+<p>获取分钟</p>
+<p><code>d.getSeconds();</code></p>
+<p>获取秒数</p>
+<p>``d.getTime(); `</p>
+<p>获取时间戳。<strong>时间戳是指格林威治时间 1970 年 01 月 01 日 00 时 00 分 00 秒起至现在的总毫秒数。</strong></p>
+<p>应用场景：可用于计算时间的差值。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> time = d.getTime();</span><br><span class="line"><span class="built_in">console</span>.log(time); <span class="comment">// 1629102337282</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h4><span id="例子-打印显示当前时间">例子 - 打印显示当前时间</span></h4><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> d = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line"><span class="keyword">var</span> hours = d.getHours(); <span class="comment">//获取小时</span></span><br><span class="line"><span class="keyword">var</span> minutes = d.getMinutes(); <span class="comment">//获取分钟</span></span><br><span class="line"><span class="keyword">var</span> seconds = d.getSeconds(); <span class="comment">//获取秒钟</span></span><br><span class="line"><span class="built_in">console</span>.log(hours + <span class="string">":"</span> + minutes + <span class="string">":"</span> + seconds); <span class="comment">//打印显示当前时间</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="计时器方法-setinterval">计时器方法 <code>setInterval</code></span></h2><p><code>setInterval(function(){},ms);</code></p>
+<p>第一个参数：可以把一个函数作为一个参数传递给第一个参数。</p>
+<p>第二个参数：毫秒数。</p>
+<p>每隔 1 毫秒数调用一次函数。</p>
+<h3><span id="例子-每隔-1-秒输出一次-hello-world">例子 - 每隔 1 秒输出一次 hello world</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"hello world"</span>);</span><br><span class="line">}, <span class="number">1000</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="例子-简单计时器每秒输出当前秒数">例子 - 简单计时器，每秒输出当前秒数。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> n = <span class="number">0</span>;</span><br><span class="line"><span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(n++);</span><br><span class="line">}, <span class="number">1000</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="例子-在控制台输出当前时间每秒输出一次">例子 - 在控制台输出当前时间，每秒输出一次。</span></h3><p>正确代码。每一次都获取的时候才能改变控制台输出的时间。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="comment">//   每一次都获取的时候才能改变控制台输出的时间</span></span><br><span class="line">  <span class="keyword">var</span> d = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">  <span class="keyword">var</span> hours = d.getHours();</span><br><span class="line">  <span class="keyword">var</span> minutes = d.getMinutes();</span><br><span class="line">  <span class="keyword">var</span> seconds = d.getSeconds();</span><br><span class="line">  <span class="built_in">console</span>.log(hours + <span class="string">":"</span> + minutes + <span class="string">":"</span> + seconds);</span><br><span class="line">}, <span class="number">1000</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<p>错误代码，只会一直输出那时的时间。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> d = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line"><span class="keyword">var</span> hours = d.getHours();</span><br><span class="line"><span class="keyword">var</span> minutes = d.getMinutes();</span><br><span class="line"><span class="keyword">var</span> seconds = d.getSeconds();</span><br><span class="line"><span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(hours + <span class="string">":"</span> + minutes + <span class="string">":"</span> + seconds);</span><br><span class="line">}, <span class="number">1000</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="课后练习">课后练习</span></h2><h3><span id="1-将自己班级的同学添加到一个数组中每次刷新页面随机选择一名同学">1. 将自己班级的同学添加到一个数组中，每次刷新页面，随机选择一名同学。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = [<span class="string">"小红"</span>, <span class="string">"小明"</span>, <span class="string">"小亮"</span>, <span class="string">"小李"</span>, <span class="string">"小孙"</span>];</span><br><span class="line"><span class="keyword">var</span> index = <span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * list.length);</span><br><span class="line"><span class="built_in">console</span>.log(list[index]);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="2-在控制台输出当前时间每秒输出一次">2. 在控制台输出当前时间，每秒输出一次。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> nowTime = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">  <span class="keyword">var</span> hours = nowTime.getHours();</span><br><span class="line">  <span class="keyword">var</span> minutes = nowTime.getMinutes();</span><br><span class="line">  <span class="keyword">var</span> seconds = nowTime.getSeconds();</span><br><span class="line">  <span class="built_in">console</span>.log(hours + <span class="string">":"</span> + minutes + <span class="string">":"</span> + seconds);</span><br><span class="line">}, <span class="number">1000</span>);</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 16 日 17 点 38 分。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+</search>
