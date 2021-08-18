@@ -6,7 +6,7 @@
   <link href="https://freysu.github.io/atom.xml" rel="self"/>
   
   <link href="https://freysu.github.io/"/>
-  <updated>2021-08-16T09:40:36.498Z</updated>
+  <updated>2021-08-18T17:13:47.628Z</updated>
   <id>https://freysu.github.io/</id>
   
   <author>
@@ -15,6 +15,83 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JS - ES2015基础</title>
+    <link href="https://freysu.github.io/2021/08/19/JS%20-%20ES2015%E5%9F%BA%E7%A1%80/"/>
+    <id>https://freysu.github.io/2021/08/19/JS%20-%20ES2015%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-08-18T17:13:50.000Z</published>
+    <updated>2021-08-18T17:13:47.628Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#ecmascipt&quot;&gt;ECMAScipt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#es2015-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&quot;&gt;ES2015 基础语法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%8F%98%E9%87%8F&quot;&gt;变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%B8%B8%E9%87%8F&quot;&gt;常量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2&quot;&gt;模板字符串&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC&quot;&gt;解构赋值&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%AD%97%E7%AC%A6%E4%B8%B2&quot;&gt;字符串&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS - 正则表达式</title>
+    <link href="https://freysu.github.io/2021/08/18/JS%20-%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>https://freysu.github.io/2021/08/18/JS%20-%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
+    <published>2021-08-17T18:13:50.000Z</published>
+    <updated>2021-08-17T18:13:59.118Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;正则表达式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%9C%A8-js-%E4%B8%AD%E5%88%9B%E5%BB%BA%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AF%B9%E8%B1%A1&quot;&gt;在 JS 中创建正则表达式对象&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-1&quot;&gt;正则表达式&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E8%AF%AD%E6%B3%95&quot;&gt;正则表达式的语法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-1%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F&quot;&gt;例 1：验证邮箱格式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-2%E6%88%AA%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2&quot;&gt;例 2：截取字符串&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-3%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9B%BF%E6%8D%A2&quot;&gt;例 3：字符串替换&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-%E7%BC%96%E5%86%99%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%94%A8%E4%BA%8E%E9%AA%8C%E8%AF%81%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81&quot;&gt;1. 编写正则表达式，用于验证电话号码。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-%E7%BC%96%E5%86%99%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%94%A8%E4%BA%8E%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F&quot;&gt;2. 编写正则表达式，用于验证邮箱格式。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%AE%9E%E9%99%85%E5%BC%80%E5%8F%91%E4%B8%AD&quot;&gt;实际开发中…&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BD%AC%E8%BD%BD&quot;&gt;常用正则表达式（转载）&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%B8%80-%E6%A0%A1%E9%AA%8C%E6%95%B0%E5%AD%97%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;一、校验数字的表达式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%BA%8C-%E6%A0%A1%E9%AA%8C%E5%AD%97%E7%AC%A6%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;二、校验字符的表达式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%B8%89-%E7%89%B9%E6%AE%8A%E9%9C%80%E6%B1%82%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;三、特殊需求表达式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>JS - 内置对象</title>

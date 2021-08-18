@@ -1896,4 +1896,239 @@
         <tag>JavaScript</tag>
       </tags>
   </entry>
+  <entry>
+    <title>JS - ES2015基础</title>
+    <url>/2021/08/19/JS%20-%20ES2015%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<ul>
+<li><a href="#ecmascipt">ECMAScipt</a></li>
+<li><a href="#es2015-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95">ES2015 基础语法</a><ul>
+<li><a href="#%E5%8F%98%E9%87%8F">变量</a></li>
+<li><a href="#%E5%B8%B8%E9%87%8F">常量</a></li>
+<li><a href="#%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2">模板字符串</a></li>
+<li><a href="#%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC">解构赋值</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2">字符串</a></li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a></li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="ecmascipt">ECMAScipt</span></h2><p>ECMAScipt 简称 ES。</p>
+<p>简单的理解就是用 ES 表示 JS 的版本。</p>
+<p>例如，Java8、Java9，说的就是 Java SE 的版本；Python2、Python3，说的就是 Python 的版本。</p>
+<p>ES2015(ES6)是一个跨越性很大的一个版本。</p>
+<h2><span id="es2015-基础语法">ES2015 基础语法</span></h2><h3><span id="变量">变量</span></h3><ol>
+<li><p>使用 <code>let </code>代替 <code>var</code>。</p>
+</li>
+<li><p>块级作用域。</p>
+</li>
+<li><p>不存在变量提升。</p>
+<p><code>var </code>存在变量提升。</p>
+</li>
+<li><p>不允许重复声明。</p>
+</li>
+</ol>
+<p>总之，让变量更加规范。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//var str = "Hello World";</span></span><br><span class="line"><span class="keyword">let</span> str = <span class="string">"Hello World"</span>;</span><br><span class="line"><span class="built_in">console</span>.log(str);</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="常量">常量</span></h3><ol>
+<li><p><code>const </code>定义常量。</p>
+</li>
+<li><p>定义之后不可以修改。</p>
+</li>
+<li><p>不变的值用常量声明。</p>
+</li>
+<li><p>函数表达式可以使用常量。</p>
+<p>函数表达式常用<code>const</code>来定义。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fun1 = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"hello world"</span>);</span><br><span class="line">};</span><br><span class="line">fun1();</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>对象声明可以使用常量。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getObject</span>(<span class="params"></span>)</span>{</span><br><span class="line">    <span class="keyword">return</span> {<span class="attr">name</span>:<span class="string">"xiaoming"</span>};</span><br><span class="line">}</span><br><span class="line"><span class="keyword">const</span> xm = getObject();。</span><br><span class="line">xm.name = <span class="string">"xiaohong"</span>;<span class="comment">//虽然是常量，但是对象的属性可以改变。</span></span><br><span class="line"><span class="built_in">console</span>.log(xm);</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>引入外部模块使用常量。</p>
+</li>
+</ol>
+<h3><span id="模板字符串">模板字符串</span></h3><p>反引号 <code>``</code></p>
+<ol>
+<li>支持换行。<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> str = <span class="string">`hello </span></span><br><span class="line"><span class="string"> world`</span>;</span><br><span class="line"><span class="built_in">console</span>.log(str); <span class="comment">//hello</span></span><br><span class="line"><span class="comment">//                     world</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li>支持嵌入变量。<br><code>${}</code><br>连接字符串<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> year = <span class="string">"2020"</span>;</span><br><span class="line"><span class="keyword">let</span> month = <span class="string">"10"</span>;</span><br><span class="line"><span class="keyword">let</span> date = <span class="string">"10"</span>;</span><br><span class="line"><span class="comment">//2020年10月10日</span></span><br><span class="line"><span class="comment">// let result = year + "年" + month + "月" + date + "日";</span></span><br><span class="line"><span class="keyword">let</span> result = <span class="string">`<span class="subst">${year}</span>年<span class="subst">${month}</span>月<span class="subst">${date}</span>日`</span>;</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<h3><span id="解构赋值">解构赋值</span></h3><ol>
+<li>数组的解构赋值。<br><code>[n,m]</code></li>
+</ol>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//   let n = 10;</span></span><br><span class="line"><span class="comment">//   let m = 20;</span></span><br><span class="line"><span class="keyword">let</span> [n, m] = [<span class="number">10</span>, <span class="number">20</span>];</span><br><span class="line"><span class="built_in">console</span>.log(n);</span><br><span class="line"><span class="built_in">console</span>.log(m);</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><p><strong>例子 - 交换。让 n=20,m=10。</strong><br>定义一个临时变量，先把 n 放到 temp 里，再把 m 赋值给 n,最后再把 temp 赋值给 n。</p>
+<ul>
+<li>方法一</li>
+</ul>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">let</span> m = <span class="number">20</span>;</span><br><span class="line"><span class="keyword">let</span> temp;</span><br><span class="line">temp = n;</span><br><span class="line">n = m;</span><br><span class="line">m = temp;</span><br><span class="line"><span class="built_in">console</span>.log(n); <span class="comment">// 20</span></span><br><span class="line"><span class="built_in">console</span>.log(m); <span class="comment">// 10</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>方法二（解构赋值）</li>
+</ul>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">let</span> m = <span class="number">20</span>;</span><br><span class="line">[n, m] = [m, n];</span><br><span class="line"><span class="built_in">console</span>.log(n); <span class="comment">// 20</span></span><br><span class="line"><span class="built_in">console</span>.log(m); <span class="comment">// 10</span></span><br></pre></td></tr></tbody></table></figure></li>
+</ul>
+<ol start="2">
+<li><p>对象的结构赋值（常用）。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//   let name = "xiaoming";</span></span><br><span class="line"><span class="comment">//   let age = 10;</span></span><br><span class="line"><span class="keyword">let</span> { name, age } = { <span class="attr">name</span>: <span class="string">"xiaoming"</span>, <span class="attr">age</span>: <span class="number">10</span> };</span><br><span class="line"><span class="comment">//   let { age, name } = { name: "xiaoming", age: 10 }; //不会影响数据</span></span><br><span class="line"><span class="built_in">console</span>.log(name); <span class="comment">// xiaoming</span></span><br><span class="line"><span class="built_in">console</span>.log(age); <span class="comment">// 10</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> xm = { <span class="attr">name</span>: <span class="string">"xiaoming"</span>, <span class="attr">age</span>: <span class="number">10</span> };</span><br><span class="line"><span class="comment">//   function getName(obj) {</span></span><br><span class="line"><span class="comment">//     return obj.name;</span></span><br><span class="line"><span class="comment">//   }</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getName</span>(<span class="params">{ name }</span>) </span>{</span><br><span class="line">  <span class="keyword">return</span> name;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">let</span> result = getName(xm);</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>通过解构赋值传递参数。</p>
+</li>
+</ol>
+<h2><span id="字符串">字符串</span></h2><p>可以用 <code>""</code> 或者 <code>''</code> 来定义，但最好要统一。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">'hello "world"'</span>;</span><br><span class="line"><span class="keyword">var</span> str1 = <span class="string">'hello "world"'</span>;</span><br><span class="line"><span class="built_in">console</span>.log(str); <span class="comment">// hello "world"</span></span><br><span class="line"><span class="built_in">console</span>.log(str1); <span class="comment">// hello "world"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="课后练习">课后练习</span></h2><ol>
+<li>熟练使用本节讲解的基础语法。</li>
+</ol>
+<blockquote>
+<p>以上内容编写于2021年8月19日01点12分。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS - 正则表达式</title>
+    <url>/2021/08/18/JS%20-%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">正则表达式</a></li>
+<li><a href="#%E5%9C%A8-js-%E4%B8%AD%E5%88%9B%E5%BB%BA%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AF%B9%E8%B1%A1">在 JS 中创建正则表达式对象</a></li>
+<li><a href="#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-1">正则表达式</a><ul>
+<li><a href="#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E8%AF%AD%E6%B3%95">正则表达式的语法</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BE%8B-1%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F">例 1：验证邮箱格式</a></li>
+<li><a href="#%E4%BE%8B-2%E6%88%AA%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2">例 2：截取字符串</a></li>
+<li><a href="#%E4%BE%8B-3%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9B%BF%E6%8D%A2">例 3：字符串替换</a></li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a><ul>
+<li><a href="#1-%E7%BC%96%E5%86%99%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%94%A8%E4%BA%8E%E9%AA%8C%E8%AF%81%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81">1. 编写正则表达式，用于验证电话号码。</a></li>
+<li><a href="#2-%E7%BC%96%E5%86%99%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%94%A8%E4%BA%8E%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F">2. 编写正则表达式，用于验证邮箱格式。</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%9E%E9%99%85%E5%BC%80%E5%8F%91%E4%B8%AD">实际开发中…</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BD%AC%E8%BD%BD">常用正则表达式（转载）</a><ul>
+<li><a href="#%E4%B8%80-%E6%A0%A1%E9%AA%8C%E6%95%B0%E5%AD%97%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F">一、校验数字的表达式</a></li>
+<li><a href="#%E4%BA%8C-%E6%A0%A1%E9%AA%8C%E5%AD%97%E7%AC%A6%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F">二、校验字符的表达式</a></li>
+<li><a href="#%E4%B8%89-%E7%89%B9%E6%AE%8A%E9%9C%80%E6%B1%82%E8%A1%A8%E8%BE%BE%E5%BC%8F">三、特殊需求表达式</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="正则表达式">正则表达式</span></h2><p>正则表达式可以用来匹配字符串。</p>
+<p>通过正则表达式，可以实现字符串的截取或按规则替换和验证字符串内容。</p>
+<p>正则表达式独立于语言，很多语言都支持正则表达式。（并非 JavaScript 特性）。</p>
+<h2><span id="在-js-中创建正则表达式对象">在 JS 中创建正则表达式对象</span></h2><p><em><code>//</code>中间不写内容就是注释，<code>/.../</code>就是正则表达式。</em></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//第一种方法</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"123"</span>);</span><br><span class="line"><span class="comment">//第二种方法 简写</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/123/</span>;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>类似于数组</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> list = <span class="keyword">new</span> <span class="built_in">Array</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> list = [];</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="正则表达式">正则表达式</span></h2><h3><span id="正则表达式的语法">正则表达式的语法</span></h3><ul>
+<li><p><code>^</code>：开头</p>
+</li>
+<li><p><code>$</code>：结尾</p>
+<p><code>^</code>规定开头，<code>$</code> 规定结尾 ，如这个就是第一位只能是字母，因为字符串的第一位是 1，所以匹配失败。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"1"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^[a-z]$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>[]</code>：范围</p>
+<p>[a-z]：小写字母、[0-9]：数字、[A-Z]：大写字母。</p>
+<p><code>[]</code>范围 要加范围直接在括号里加</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"s"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/[a-z]/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>{}</code> ：位数</p>
+<p><code>/^[a-z]{3}$/</code> 表示要三位都是字母，多了不行，少了也不行。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"abc"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^[a-z]{3}$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"abcd"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^[a-z]{3}$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// false</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>()</code> ：分组</p>
+<p>如，截取字符串</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"2021-2-1"</span>;</span><br><span class="line"><span class="comment">// `()` 分组</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^(\d{4})-(\d{1,2})-(\d{1,2})$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.exec(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// ["2019-12-01", "2019", "12", "01", index: 0, input: "2019-12-01", groups: undefined]</span></span><br><span class="line"><span class="built_in">console</span>.log(result[<span class="number">1</span>]); <span class="comment">// 2019</span></span><br><span class="line"><span class="built_in">console</span>.log(result[<span class="number">2</span>]); <span class="comment">// 12</span></span><br><span class="line"><span class="built_in">console</span>.log(result[<span class="number">3</span>]); <span class="comment">// 01</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>+</code> ：匹配 1 位或多位，同<code>{1,}</code></p>
+<p><code>{x,y}</code> {5,8}：只能 5~8 位之间。<code>{1，}</code> = <code>+</code>：1 到多位。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"testabcd"</span>; <span class="comment">//7位</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^[a-z]{5,8}$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>?</code> ：0 位或 1 位，同<code>{0,1}</code></p>
+<p><code>?</code>代表 0 位或 1 位 ， <code>?</code> = <code>{0,1}</code></p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"1"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\d?$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"11"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\d?$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// false</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//0位</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">""</span>; <span class="comment">//空字符串</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\d?$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>.</code> ：匹配所有</p>
+<p><code>.</code> 匹配所有 随便写什么都行别留空就行。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">""</span>; <span class="comment">//空字符串</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^.+$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"312FASFAasdsad2312——"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^.+$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>\</code> ：转义</p>
+<p><code>\</code>转义符 要想匹配得到就要转义</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"1+"</span>;</span><br><span class="line"><span class="comment">// `\`转义符</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^1\+$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"1+"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^1+$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//false</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>\d</code> ：数字</p>
+<p><code>[0-9]</code> = <code>\d</code></p>
+</li>
+<li><p><code>\w</code> ：数字、字母、下划线</p>
+<p><code>[a-z 0-9 A-Z _]</code> = <code>\w</code></p>
+<p><code>[a-z 0-9 A-Z _]</code>：只能输入 0~9 的数字、a~z 小写字母、A~Z 大写字母或者下划线</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"teSta1_d"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^[a-z 0-9 A-Z _]{5,8}$/</span>;</span><br><span class="line"><span class="comment">//var reg = /^\w{5,8}$/;</span></span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>\s</code> ：空格或换行</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">" "</span>; <span class="comment">//空格</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\s$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"  "</span>; <span class="comment">//空格</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\s+$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// true</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>g</code></p>
+<p>全局匹配，找到所有能匹配到的内容。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 用户输入</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">"123abc456def"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/[a-zA-z]/g</span>;</span><br><span class="line"><span class="keyword">var</span> result = str.replace(reg, <span class="string">""</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 123456</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>reg.test()</code></p>
+<p>用于检测字符串和正则表达式匹配成功。<code>reg.test()</code>返回值是布尔值 true/false。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//假设是用户输入的字符串</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">"123"</span>;</span><br><span class="line"><span class="comment">//正则表达式</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/123/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//true 匹配成功</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"456"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/123/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.test(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//false 失败</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p><code>reg.exec()</code></p>
+<p>显示匹配的内容。<code>reg.exec()</code>返回值是匹配的内容。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"s"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/[a-z]/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.exec(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">//["s", index: 0, input: "s", groups: undefined]</span></span><br></pre></td></tr></tbody></table></figure></li>
+</ul>
+<h2><span id="例-1验证邮箱格式">例 1：验证邮箱格式</span></h2><p><code>\w</code> ：数字、字母、下划线； <code>{5,12}</code>：5 位到 12 位</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 用户输入</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">"xiaozhou@163.com"</span>;</span><br><span class="line"><span class="comment">// 规定邮箱格式</span></span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\w{5,12}@163\.com$/</span>;</span><br><span class="line"><span class="comment">// reg.test返回的是布尔值 true/false。因此可以用if语句判断是否通过。</span></span><br><span class="line"><span class="keyword">if</span> (reg.test(str)) {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"OK!!!"</span>);</span><br><span class="line">} <span class="keyword">else</span> {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"SORRY..."</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="例-2截取字符串">例 2：截取字符串</span></h2><p>字符串 “2021-01-01”，可以将其数字部分截取出来。<code>()</code> 分组</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">"2021-2-1"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^(\d{4})-(\d{1,2})-(\d{1,2})$/</span>;</span><br><span class="line"><span class="keyword">var</span> result = reg.exec(str);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// ["2019-12-01", "2019", "12", "01", index: 0, input: "2019-12-01", groups: undefined]</span></span><br><span class="line"><span class="built_in">console</span>.log(result[<span class="number">1</span>]); <span class="comment">// 2019</span></span><br><span class="line"><span class="built_in">console</span>.log(result[<span class="number">2</span>]); <span class="comment">// 12</span></span><br><span class="line"><span class="built_in">console</span>.log(result[<span class="number">3</span>]); <span class="comment">// 01</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="例-3字符串替换">例 3：字符串替换</span></h2><p>去掉字符串中的字母，把字符串中的某个内容替换成某个内容。</p>
+<p>如，“123a456b789c”，去掉字符串中的所有字母（ <code>str.replace</code> )。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 用户输入</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">"123abc456def"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/[a-zA-z]/g</span>; <span class="comment">//全局匹配 找到所有能匹配到的内容</span></span><br><span class="line"><span class="keyword">var</span> result = str.replace(reg, <span class="string">""</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 123456</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="课后练习">课后练习</span></h2><h3><span id="1-编写正则表达式用于验证电话号码">1. 编写正则表达式，用于验证电话号码。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> phoneNumber = <span class="string">"18503084396"</span>;</span><br><span class="line"><span class="keyword">var</span> reg =</span><br><span class="line">  /^(<span class="number">13</span>[<span class="number">0</span>-<span class="number">9</span>]|<span class="number">14</span>[<span class="number">5</span>|<span class="number">7</span>]|<span class="number">15</span>[<span class="number">0</span>|<span class="number">1</span>|<span class="number">2</span>|<span class="number">3</span>|<span class="number">4</span>|<span class="number">5</span>|<span class="number">6</span>|<span class="number">7</span>|<span class="number">8</span>|<span class="number">9</span>]|<span class="number">18</span>[<span class="number">0</span>|<span class="number">1</span>|<span class="number">2</span>|<span class="number">3</span>|<span class="number">5</span>|<span class="number">6</span>|<span class="number">7</span>|<span class="number">8</span>|<span class="number">9</span>])\d{<span class="number">8</span>}$/;</span><br><span class="line"><span class="keyword">if</span> (reg.test(phoneNumber)) {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"OK!!!"</span>);</span><br><span class="line">} <span class="keyword">else</span> {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"SORRY..."</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="2-编写正则表达式用于验证邮箱格式">2. 编写正则表达式，用于验证邮箱格式。</span></h3><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> EmailAddress = <span class="string">"xiaozhou123@126.com"</span>;</span><br><span class="line"><span class="keyword">var</span> reg = <span class="regexp">/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/</span>;</span><br><span class="line"><span class="keyword">if</span> (reg.test(EmailAddress)) {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"OK!!!"</span>);</span><br><span class="line">} <span class="keyword">else</span> {</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"SORRY..."</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h2><span id="实际开发中">实际开发中…</span></h2><p>大部分情况下，是不需要我们自己写正则表达式的。</p>
+<p>邮箱或电话的验证方式：有很多现成的解决方案。</p>
+<p>截取和替换数据，掌握一些常用语法即可。</p>
+<blockquote>
+<p>以上内容编写于2021年8月18日02点10分。</p>
+</blockquote>
+<h2><span id="常用正则表达式转载">常用正则表达式（转载）</span></h2><h3><span id="一-校验数字的表达式">一、校验数字的表达式</span></h3><figure class="highlight taggerscript"><table><tbody><tr><td class="code"><pre><span class="line">数字：^[0-9]*$</span><br><span class="line">n 位的数字：^<span class="symbol">\d</span>{n}$</span><br><span class="line">至少 n 位的数字：^<span class="symbol">\d</span>{n,}$</span><br><span class="line">m-n 位的数字：^<span class="symbol">\d</span>{m,n}$</span><br><span class="line">零和非零开头的数字：^(0|[1-9][0-9]*)$</span><br><span class="line">非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(<span class="symbol">\.</span>[0-9]{1,2})?$</span><br><span class="line">带 1-2 位小数的正数或负数：^(<span class="symbol">\-</span>)?<span class="symbol">\d</span>+(<span class="symbol">\.</span><span class="symbol">\d</span>{1,2})$</span><br><span class="line">正数、负数、和小数：^(<span class="symbol">\-</span>|<span class="symbol">\+</span>)?<span class="symbol">\d</span>+(<span class="symbol">\.</span><span class="symbol">\d</span>+)?$</span><br><span class="line">有两位小数的正实数：^[0-9]+(<span class="symbol">\.</span>[0-9]{2})?$</span><br><span class="line">有 1~3 位小数的正实数：^[0-9]+(<span class="symbol">\.</span>[0-9]{1,3})?$</span><br><span class="line">非零的正整数：^[1-9]<span class="symbol">\d</span>*$ 或 ^([1-9][0-9]*){1,3}$ 或 ^<span class="symbol">\+</span>?[1-9][0-9]*$</span><br><span class="line">非零的负整数：^<span class="symbol">\-</span>[1-9][] 0-9"*$ 或 ^-[1-9]<span class="symbol">\d</span>*$</span><br><span class="line">非负整数：^<span class="symbol">\d</span>+$ 或 ^[1-9]<span class="symbol">\d</span>*|0$</span><br><span class="line">非正整数：^-[1-9]<span class="symbol">\d</span>*|0$ 或 ^((-<span class="symbol">\d</span>+)|(0+))$</span><br><span class="line">非负浮点数：^<span class="symbol">\d</span>+(<span class="symbol">\.</span><span class="symbol">\d</span>+)?$ 或 ^[1-9]<span class="symbol">\d</span>*<span class="symbol">\.</span><span class="symbol">\d</span>*|0<span class="symbol">\.</span><span class="symbol">\d</span>*[1-9]<span class="symbol">\d</span>*|0?<span class="symbol">\.</span>0+|0$</span><br><span class="line">非正浮点数：^((-<span class="symbol">\d</span>+(<span class="symbol">\.</span><span class="symbol">\d</span>+)?)|(0+(<span class="symbol">\.</span>0+)?))$ 或 ^(-([1-9]<span class="symbol">\d</span>*<span class="symbol">\.</span><span class="symbol">\d</span>*|0<span class="symbol">\.</span><span class="symbol">\d</span>*[1-9]<span class="symbol">\d</span>*))|0?<span class="symbol">\.</span>0+|0$</span><br><span class="line">正浮点数：^[1-9]<span class="symbol">\d</span>*<span class="symbol">\.</span><span class="symbol">\d</span>*|0<span class="symbol">\.</span><span class="symbol">\d</span>*[1-9]<span class="symbol">\d</span>*$ 或 ^(([0-9]+<span class="symbol">\.</span>[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*<span class="symbol">\.</span>[0-9]+)|([0-9]*[1-9][0-9]*))$</span><br><span class="line">负浮点数：^-([1-9]<span class="symbol">\d</span>*<span class="symbol">\.</span><span class="symbol">\d</span>*|0<span class="symbol">\.</span><span class="symbol">\d</span>*[1-9]<span class="symbol">\d</span>*)$ 或 ^(-(([0-9]+<span class="symbol">\.</span>[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*<span class="symbol">\.</span>[0-9]+)|([0-9]*[1-9][0-9]*)))$</span><br><span class="line">浮点数：^(-?<span class="symbol">\d</span>+)(<span class="symbol">\.</span><span class="symbol">\d</span>+)?$ 或 ^-?([1-9]<span class="symbol">\d</span>*<span class="symbol">\.</span><span class="symbol">\d</span>*|0<span class="symbol">\.</span><span class="symbol">\d</span>*[1-9]<span class="symbol">\d</span>*|0?<span class="symbol">\.</span>0+|0)$</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="二-校验字符的表达式">二、校验字符的表达式</span></h3><figure class="highlight elixir"><table><tbody><tr><td class="code"><pre><span class="line">汉字：^[\u4e00-\u9fa5]{0,}$</span><br><span class="line">英文和数字：^[A-Za-z0<span class="number">-9</span>]+<span class="variable">$ </span>或 ^[A-Za-z0<span class="number">-9</span>]{<span class="number">4</span>,<span class="number">40</span>}$</span><br><span class="line">长度为 <span class="number">3</span><span class="number">-20</span> 的所有字符：^.{<span class="number">3</span>,<span class="number">20</span>}$</span><br><span class="line">由 <span class="number">26</span> 个英文字母组成的字符串：^[A-Za-z]+$</span><br><span class="line">由 <span class="number">26</span> 个大写英文字母组成的字符串：^[A-Z]+$</span><br><span class="line">由 <span class="number">26</span> 个小写英文字母组成的字符串：^[a-z]+$</span><br><span class="line">由数字和 <span class="number">26</span> 个英文字母组成的字符串：^[A-Za-z0<span class="number">-9</span>]+$</span><br><span class="line">由数字、<span class="number">26</span> 个英文字母或者下划线组成的字符串：^\w+<span class="variable">$ </span>或 ^\w {<span class="number">3</span>,<span class="number">20</span>}$</span><br><span class="line">中文、英文、数字包括下划线：^[\u4E00-\u9FA5A-Za-z0<span class="number">-9_</span>]+$</span><br><span class="line">中文、英文、数字但不包括下划线等符号：^[\u4E00-\u9FA5A-Za-z0<span class="number">-9</span>]+<span class="variable">$ </span>或 ^[\u4E00-\u9FA5A-Za-z0<span class="number">-9</span>]{<span class="number">2</span>,<span class="number">20</span>}$</span><br><span class="line">可以输入含有 ^%&amp;<span class="string">',;=?$\" 等字符：[^%&amp;'</span>,;=?<span class="variable">$\</span>x22]+</span><br><span class="line">禁止输入含有～的字符：[^~\x22]+</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="三-特殊需求表达式">三、特殊需求表达式</span></h3><figure class="highlight inform7"><table><tbody><tr><td class="code"><pre><span class="line">Email 地址：^\w+(<span class="comment">[-+.]</span>\w+)*@\w+(<span class="comment">[-.]</span>\w+)*\.\w+(<span class="comment">[-.]</span>\w+)*$</span><br><span class="line">域名：<span class="comment">[a-zA-Z0-9]</span><span class="comment">[-a-zA-Z0-9]</span>{0,62}(\.<span class="comment">[a-zA-Z0-9]</span><span class="comment">[-a-zA-Z0-9]</span>{0,62})+\.?</span><br><span class="line">InternetURL：<span class="comment">[a-zA-z]</span>+://<span class="comment">[^\s]</span>* 或 ^http://(<span class="comment">[\w-]</span>+\.)+<span class="comment">[\w-]</span>+(/<span class="comment">[\w-./?%&amp;=]</span>*)?$</span><br><span class="line">手机号码：^(13<span class="comment">[0-9]</span>|14<span class="comment">[5|7]</span>|15<span class="comment">[0|1|2|3|4|5|6|7|8|9]</span>|18<span class="comment">[0|1|2|3|5|6|7|8|9]</span>)\d{8}$</span><br><span class="line">电话号码 (<span class="string">"XXX-XXXXXXX"</span>、<span class="string">"XXXX-XXXXXXXX"</span>、<span class="string">"XXX-XXXXXXX"</span>、<span class="string">"XXX-XXXXXXXX"</span>、<span class="string">"XXXXXXX"</span> 和 <span class="string">"XXXXXXXX)：^(\(\d{3,4}-)|\d{3.4}-)?\d{7,8}$</span></span><br><span class="line"><span class="string">国内电话号码 (0511-4405222、021-87888822)：\d{3}-\d{8}|\d{4}-\d{7}</span></span><br><span class="line"><span class="string">电话号码正则表达式（支持手机号码，3-4 位区号，7-8 位直播号码，1－4 位分机号）: ((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)</span></span><br><span class="line"><span class="string">身份证号 (15 位、18 位数字)，最后一位是校验位，可能为数字或字符 X：(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)</span></span><br><span class="line"><span class="string">帐号是否合法 (字母开头，允许 5-16 字节，允许字母数字下划线)：^<span class="subst">[a-zA-Z]</span><span class="subst">[a-zA-Z0-9_]</span>{4,15}$</span></span><br><span class="line"><span class="string">密码 (以字母开头，长度在 6~18 之间，只能包含字母、数字和下划线)：^<span class="subst">[a-zA-Z]</span>\w{5,17}$</span></span><br><span class="line"><span class="string">强密码 (必须包含大小写字母和数字的组合，不能使用特殊字符，长度在 8-10 之间)：^(?=.*\d)(?=.*<span class="subst">[a-z]</span>)(?=.*<span class="subst">[A-Z]</span>)<span class="subst">[a-zA-Z0-9]</span>{8,10}$</span></span><br><span class="line"><span class="string">强密码 (必须包含大小写字母和数字的组合，可以使用特殊字符，长度在 8-10 之间)：^(?=.*\d)(?=.*<span class="subst">[a-z]</span>)(?=.*<span class="subst">[A-Z]</span>).{8,10}$</span></span><br><span class="line"><span class="string">日期格式：^\d{4}-\d{1,2}-\d{1,2}</span></span><br><span class="line"><span class="string">一年的 12 个月 (01～09 和 1～12)：^(0?<span class="subst">[1-9]</span>|1<span class="subst">[0-2]</span>)$</span></span><br><span class="line"><span class="string">一个月的 31 天 (01～09 和 1～31)：^((0?<span class="subst">[1-9]</span>)|((1|2)<span class="subst">[0-9]</span>)|30|31)$</span></span><br><span class="line"><span class="string">钱的输入格式：</span></span><br><span class="line"><span class="string">有四种钱的表示形式我们可以接受:"</span>10000.00<span class="string">" 和 "</span>10,000.00<span class="string">", 和没有 "</span>分<span class="string">" 的 "</span>10000<span class="string">" 和 "</span>10,000<span class="string">"：^<span class="subst">[1-9]</span><span class="subst">[0-9]</span>*$</span></span><br><span class="line"><span class="string">这表示任意一个不以 0 开头的数字，但是，这也意味着一个字符 "</span>0<span class="string">" 不通过，所以我们采用下面的形式：^(0|<span class="subst">[1-9]</span><span class="subst">[0-9]</span>*)$</span></span><br><span class="line"><span class="string">一个 0 或者一个不以 0 开头的数字。我们还可以允许开头有一个负号：^(0|-?<span class="subst">[1-9]</span><span class="subst">[0-9]</span>*)$</span></span><br><span class="line"><span class="string">这表示一个 0 或者一个可能为负的开头不为 0 的数字。让用户以 0 开头好了。把负号的也去掉，因为钱总不能是负的吧。下面我们要加的是说明可能的小数部分：^<span class="subst">[0-9]</span>+(.<span class="subst">[0-9]</span>+)?$</span></span><br><span class="line"><span class="string">必须说明的是，小数点后面至少应该有 1 位数，所以 "</span>10.<span class="string">" 是不通过的，但是 "</span>10<span class="string">" 和 "</span>10.2<span class="string">" 是通过的：^<span class="subst">[0-9]</span>+(.<span class="subst">[0-9]</span>{2})?$</span></span><br><span class="line"><span class="string">这样我们规定小数点后面必须有两位，如果你认为太苛刻了，可以这样：^<span class="subst">[0-9]</span>+(.<span class="subst">[0-9]</span>{1,2})?$</span></span><br><span class="line"><span class="string">这样就允许用户只写一位小数。下面我们该考虑数字中的逗号了，我们可以这样：^<span class="subst">[0-9]</span>{1,3}(,<span class="subst">[0-9]</span>{3})*(.<span class="subst">[0-9]</span>{1,2})?$</span></span><br><span class="line"><span class="string">1 到 3 个数字，后面跟着任意个 逗号 + 3 个数字，逗号成为可选，而不是必须：^(<span class="subst">[0-9]</span>+|<span class="subst">[0-9]</span>{1,3}(,<span class="subst">[0-9]</span>{3})*)(.<span class="subst">[0-9]</span>{1,2})?$</span></span><br><span class="line"><span class="string">备注：这就是最终结果了，别忘了 "</span>+<span class="string">" 可以用 "</span>*<span class="string">" 替代如果你觉得空字符串也可以接受的话 (奇怪，为什么？) 最后，别忘了在用函数时去掉去掉那个反斜杠，一般的错误都在这里</span></span><br><span class="line"><span class="string">xml 文件：^(<span class="subst">[a-zA-Z]</span>+-?)+<span class="subst">[a-zA-Z0-9]</span>+\\.<span class="subst">[x|X]</span><span class="subst">[m|M]</span><span class="subst">[l|L]</span>$</span></span><br><span class="line"><span class="string">中文字符的正则表达式：<span class="subst">[\u4e00-\u9fa5]</span></span></span><br><span class="line"><span class="string">双字节字符：<span class="subst">[^\x00-\xff]</span> (包括汉字在内，可以用来计算字符串的长度 (一个双字节字符长度计 2，ASCII 字符计 1))</span></span><br><span class="line"><span class="string">空白行的正则表达式：\n\s*\r (可以用来删除空白行)</span></span><br><span class="line"><span class="string">HTML 标记的正则表达式：&lt;(\S*?)<span class="subst">[^&gt;]</span>*&gt;.*?|&lt;.*? /&gt; ( 首尾空白字符的正则表达式：^\s*|\s*$ 或 (^\s*)|(\s*$) (可以用来删除行首行尾的空白字符 (包括空格、制表符、换页符等等)，非常有用的表达式)</span></span><br><span class="line"><span class="string">腾讯 QQ 号：<span class="subst">[1-9]</span><span class="subst">[0-9]</span>{4,} (腾讯 QQ 号从 10000 开始)</span></span><br><span class="line"><span class="string">中国邮政编码：<span class="subst">[1-9]</span>\d {5}(?!\d) (中国邮政编码为 6 位数字)</span></span><br><span class="line"><span class="string">IPv4 地址：((2(5<span class="subst">[0-5]</span>|<span class="subst">[0-4]</span>\d))|<span class="subst">[0-1]</span>?\d{1,2})(\.((2(5<span class="subst">[0-5]</span>|<span class="subst">[0-4]</span>\d))|<span class="subst">[0-1]</span>?\d{1,2})){3}</span></span><br></pre></td></tr></tbody></table></figure>
+
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
 </search>
