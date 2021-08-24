@@ -2131,4 +2131,126 @@
         <tag>JavaScript</tag>
       </tags>
   </entry>
+  <entry>
+    <title>JS - 函数进阶</title>
+    <url>/2021/08/25/JS%20-%20%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/</url>
+    <content><![CDATA[<ul>
+<li><a href="#%E5%A4%8D%E4%B9%A0%E5%87%BD%E6%95%B0%E7%9F%A5%E8%AF%86%E7%82%B9">复习函数知识点</a></li>
+<li><a href="#%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6">函数进阶</a><ul>
+<li><a href="#%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%E5%80%BC">设置默认参数值</a></li>
+<li><a href="#%E7%AB%8B%E5%8D%B3%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0">立即执行函数</a></li>
+<li><a href="#%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE">作用域链</a></li>
+<li><a href="#%E9%97%AD%E5%8C%85">闭包</a></li>
+<li><a href="#%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0">箭头函数</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0">课后练习</a></li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="复习函数知识点">复习函数知识点</span></h2><ol>
+<li><p>声明函数</p>
+<ul>
+<li>一次声明，多次使用的语句块。</li>
+<li>参数：形参、实参。</li>
+<li>返回值：函数运行的结果。</li>
+</ul>
+</li>
+<li><p>函数声明提升</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">n, m</span>) </span>{</span><br><span class="line">  <span class="keyword">return</span> n + m;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">let</span> result1 = fun(<span class="number">10</span>, <span class="number">20</span>);</span><br><span class="line"><span class="keyword">let</span> result2 = fun(<span class="number">100</span>, <span class="number">200</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result1);</span><br><span class="line"><span class="built_in">console</span>.log(result2);</span><br><span class="line"><span class="comment">// 函数声明提升</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">n, m</span>) </span>{</span><br><span class="line">  <span class="keyword">return</span> n + m;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>匿名函数<br>一个函数如果不需要多次调用那么可以写成匿名函数。<br>例如 <code>setInterval</code> 的匿名函数。<br><code>setInterval</code> 这种函数又叫回调函数，将匿名函数作为参数传递给另外一个函数或方法。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">setInterval</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"hello"</span>);</span><br><span class="line">}, <span class="number">1000</span>);</span><br><span class="line"><span class="comment">//相当于</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"hello"</span>);</span><br><span class="line">}</span><br><span class="line"><span class="built_in">setInterval</span>(fun, <span class="number">1000</span>);</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>函数表达式</p>
+<p>函数表达式没有函数声明提升的特性。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fun = <span class="function"><span class="keyword">function</span> (<span class="params">n, m</span>) </span>{</span><br><span class="line">  <span class="keyword">return</span> n + m;</span><br><span class="line">};</span><br><span class="line"><span class="keyword">let</span> result = fun(<span class="number">10</span>, <span class="number">20</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 30</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>方法：属于某一对象的函数。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  <span class="comment">// sayName: function(){</span></span><br><span class="line">  <span class="comment">//     console.log(this.name);</span></span><br><span class="line">  <span class="comment">// }</span></span><br><span class="line">  <span class="comment">// 简写</span></span><br><span class="line">  <span class="function"><span class="title">sayName</span>(<span class="params"></span>)</span> {</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">this</span>.name);</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line">cat.sayName();</span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 20 日 02 点 04 分。</p>
+</blockquote>
+<h2><span id="函数进阶">函数进阶</span></h2><ol>
+<li>设置默认参数值</li>
+<li>立即执行函数</li>
+<li>闭包</li>
+<li>箭头函数</li>
+</ol>
+<h3><span id="设置默认参数值">设置默认参数值</span></h3><p>ES2015 的语法可以为函数的参数设置默认值。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">x = <span class="number">10</span>, y = <span class="number">20</span></span>) </span>{</span><br><span class="line">  <span class="keyword">return</span> x + y;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>例如</p>
+<ul>
+<li><p>未传递参数和未设置默认参数值时</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">n, m</span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(n); <span class="comment">// undefind</span></span><br><span class="line">  <span class="built_in">console</span>.log(m); <span class="comment">// undefind</span></span><br><span class="line">  <span class="keyword">return</span> n + m;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">let</span> result = fun();</span><br><span class="line"><span class="comment">// NaN: not a Number</span></span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// NaN</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>未传递参数但设置默认参数值时</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">n = <span class="number">100</span>, m = <span class="number">200</span></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(n); <span class="comment">// 100</span></span><br><span class="line">  <span class="built_in">console</span>.log(m); <span class="comment">// 200</span></span><br><span class="line">  <span class="keyword">return</span> n + m;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">let</span> result = fun();</span><br><span class="line"><span class="built_in">console</span>.log(result); <span class="comment">// 300</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>传递参数也设置默认参数值时</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">n = <span class="number">100</span>, m = <span class="number">200</span></span>) </span>{</span><br><span class="line">  <span class="built_in">console</span>.log(n); <span class="comment">// 10</span></span><br><span class="line">  <span class="built_in">console</span>.log(m); <span class="comment">// 200</span></span><br><span class="line">  <span class="keyword">return</span> n + m;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">let</span> result1 = fun(<span class="number">10</span>);</span><br><span class="line"><span class="built_in">console</span>.log(result1); <span class="comment">// 210</span></span><br></pre></td></tr></tbody></table></figure></li>
+</ul>
+<h3><span id="立即执行函数">立即执行函数</span></h3><p>功能：封装代码。</p>
+<ul>
+<li>声明之后可以直接调用；</li>
+<li>不可以多次调用；</li>
+<li>某些第三方库实现封装。</li>
+</ul>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="keyword">let</span> a = <span class="number">10</span>;</span><br><span class="line">  <span class="keyword">let</span> b = <span class="number">20</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(a + b);</span><br><span class="line">})();</span><br></pre></td></tr></tbody></table></figure>
+
+<p><em>ES2015 有模块化的语法，所以立即执行函数现在也不常用了。</em></p>
+<h3><span id="作用域链">作用域链</span></h3><ul>
+<li>每一个函数都会创建一个新的作用域。</li>
+<li>函数外部无法访问函数内部的值。</li>
+<li>函数内部的值可以访问函数外部的值。</li>
+</ul>
+<p><em>如果内部找不到值就去外部找。</em></p>
+<h4><span id="例-1">例 1</span></h4><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> str = <span class="string">"hello"</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun1</span>(<span class="params"></span>) </span>{</span><br><span class="line">  <span class="keyword">let</span> str = <span class="string">"world"</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(str);</span><br><span class="line">}</span><br><span class="line">fun1(); <span class="comment">// world</span></span><br><span class="line"><span class="built_in">console</span>.log(str); <span class="comment">// hello</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h4><span id="例-2">例 2</span></h4><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> str = <span class="string">"hello"</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun1</span>(<span class="params"></span>) </span>{</span><br><span class="line">  <span class="keyword">let</span> str = <span class="string">"world"</span>;</span><br><span class="line">  <span class="keyword">let</span> num = <span class="number">10</span>; <span class="comment">//执行完成就会被销毁</span></span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">fun2</span>(<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(str); <span class="comment">//world</span></span><br><span class="line">    <span class="built_in">console</span>.log(num); <span class="comment">//10</span></span><br><span class="line">  }</span><br><span class="line">  fun2();</span><br><span class="line">}</span><br><span class="line">fun1(); <span class="comment">// world</span></span><br><span class="line"><span class="comment">//         10</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">"num :"</span> + num); <span class="comment">////执行完成就会被销毁 所以会报错。</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>例 2 的树状图</p>
+<figure class="highlight gherkin"><table><tbody><tr><td class="code"><pre><span class="line">|<span class="string">-window</span></span><br><span class="line">|<span class="string"> </span>|<span class="string">-str</span></span><br><span class="line">|<span class="string"> </span>|<span class="string">-fun1</span></span><br><span class="line">|<span class="string"> </span>|<span class="string"> </span>|<span class="string">-str</span></span><br><span class="line">|<span class="string"> </span>|<span class="string"> </span>|<span class="string">-num</span></span><br><span class="line">|<span class="string"> </span>|<span class="string"> </span>|<span class="string">-fun2</span></span><br><span class="line">|<span class="string"> </span>|<span class="string"> </span>|<span class="string"> </span>|<span class="string">-str</span></span><br><span class="line">|<span class="string"> </span>|<span class="string"> </span>|<span class="string"> </span>|<span class="string">-num</span></span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 24 日 01 点 11 分。</p>
+</blockquote>
+<h3><span id="闭包">闭包</span></h3><p>闭包函数：声明在一个函数中的函数，叫做闭包函数。</p>
+<p>闭包：内部函数总是可以访问其所在的外部函数中声明的参数和变量，即使在其外部函数被返回之后。</p>
+<p>闭包的特性： 内部函数未执行完，外部函数即使执行完成，外部函数中的变量也不会被销毁。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun1</span>(<span class="params"></span>) </span>{</span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">fun2</span>(<span class="params"></span>) </span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"I'm fun2"</span>);</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> fun2;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">const</span> f = fun1(); <span class="comment">//fun1的运行结果是fun2</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>利用闭包实现了代码的封装。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun1</span>(<span class="params"></span>) </span>{</span><br><span class="line">  <span class="keyword">let</span> n = <span class="number">10</span>;</span><br><span class="line">  <span class="keyword">let</span> m = <span class="number">20</span>;</span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">fun2</span>(<span class="params"></span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> n + m;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> fun2;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">const</span> f = fun1(); <span class="comment">//fun1的运行结果是fun2</span></span><br><span class="line"><span class="keyword">const</span> result = f();</span><br><span class="line"><span class="built_in">console</span>.log(result);</span><br></pre></td></tr></tbody></table></figure>
+
+<h4><span id="代码封装">代码封装</span></h4><p>ES5 的一个模块化的语法。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="built_in">module</span> = (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>{</span><br><span class="line">  <span class="keyword">let</span> a = <span class="number">10</span>;</span><br><span class="line">  <span class="keyword">let</span> b = <span class="number">20</span>;</span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params"></span>) </span>{</span><br><span class="line">    <span class="keyword">return</span> a + b;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> add;</span><br><span class="line">})();</span><br></pre></td></tr></tbody></table></figure>
+
+<h3><span id="箭头函数">箭头函数</span></h3><p>作用： 简化写法。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> add = <span class="function">(<span class="params">x</span>) =&gt;</span> {</span><br><span class="line">  <span class="keyword">return</span> x * x;</span><br><span class="line">};</span><br><span class="line"><span class="comment">// 再次简化</span></span><br><span class="line"><span class="keyword">const</span> add = <span class="function">(<span class="params">x</span>) =&gt;</span> x * x;</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fun = <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>{</span><br><span class="line">  <span class="keyword">return</span> x * x;</span><br><span class="line">};</span><br><span class="line"><span class="comment">//简化</span></span><br><span class="line"><span class="keyword">const</span> fun = <span class="function">(<span class="params">x</span>) =&gt;</span> {</span><br><span class="line">  <span class="keyword">return</span> x * x;</span><br><span class="line">};</span><br><span class="line"><span class="comment">//简化</span></span><br><span class="line"><span class="comment">//         参数   返回值</span></span><br><span class="line"><span class="keyword">const</span> fun = <span class="function">(<span class="params">x</span>) =&gt;</span> x * x;</span><br></pre></td></tr></tbody></table></figure>
+
+<h4><span id="例子-每秒输出一次名字">例子 - 每秒输出一次名字</span></h4><figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  <span class="comment">// sayName() {</span></span><br><span class="line">  <span class="comment">//     let self = this</span></span><br><span class="line">  <span class="comment">//     setInterval(function () {</span></span><br><span class="line">  <span class="comment">//         console.log(self.name);</span></span><br><span class="line">  <span class="comment">//     }, 1000)</span></span><br><span class="line">  <span class="comment">// }</span></span><br><span class="line">  <span class="function"><span class="title">sayName</span>(<span class="params"></span>)</span> {</span><br><span class="line">    <span class="comment">//window调用的setInterval</span></span><br><span class="line">    <span class="built_in">setInterval</span>(<span class="function">() =&gt;</span> {</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="built_in">this</span>.name);</span><br><span class="line">    }, <span class="number">1000</span>);</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line">cat.sayName();</span><br></pre></td></tr></tbody></table></figure>
+
+<p>使用 <code>function</code> 定义的函数， <code>this</code> 取决于调用的函数。</p>
+<p>使用箭头函数， <code>this</code> 取决于函数定义的位置。</p>
+<p>箭头函数和普通函数的<code>this</code> 指向不同。</p>
+<p>普通函数指向的是调用该函数的对象。</p>
+<p>箭头函数：在哪里定义，<code>this</code> 就指向谁。</p>
+<h2><span id="课后练习">课后练习</span></h2><ol>
+<li><p>使用箭头函数延迟调用 <code>cat.sayName</code>， 输出 cat 对象的 <code>name</code> 属性。</p>
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> cat = {</span><br><span class="line">  name: <span class="string">"miaomiao"</span>,</span><br><span class="line">  <span class="function"><span class="title">sayName</span>(<span class="params"></span>)</span> {</span><br><span class="line">    <span class="built_in">setInterval</span>(<span class="function">() =&gt;</span> {</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="built_in">this</span>.name);</span><br><span class="line">    }, <span class="number">1000</span>);</span><br><span class="line">  },</span><br><span class="line">};</span><br><span class="line">cat.sayName();</span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<blockquote>
+<p>以上内容编写于 2021 年 8 月 25 日 02 点 31 分。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端学习</category>
+      </categories>
+      <tags>
+        <tag>前端学习</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
 </search>
