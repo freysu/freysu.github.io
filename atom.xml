@@ -6,7 +6,7 @@
   <link href="https://freysu.github.io/atom.xml" rel="self"/>
   
   <link href="https://freysu.github.io/"/>
-  <updated>2021-08-24T18:34:04.279Z</updated>
+  <updated>2021-08-31T17:56:40.957Z</updated>
   <id>https://freysu.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JS - 面向对象</title>
+    <link href="https://freysu.github.io/2021/09/01/JS%20-%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    <id>https://freysu.github.io/2021/09/01/JS%20-%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</id>
+    <published>2021-08-31T17:55:53.000Z</published>
+    <updated>2021-08-31T17:56:40.957Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A6%82%E8%BF%B0&quot;&gt;面向对象概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5&quot;&gt;基本概念&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E6%96%B0%E8%AF%AD%E6%B3%95%E4%B8%8E%E6%97%A7%E8%AF%AD%E6%B3%95&quot;&gt;新语法与旧语法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#es5-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%9F%A5%E8%AF%86&quot;&gt;ES5 面向对象的知识&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#es5-%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0&quot;&gt;ES5 构造函数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1&quot;&gt;原型对象&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%8E%9F%E5%9E%8B%E9%93%BE%E7%BB%A7%E6%89%BF&quot;&gt;原型链（继承）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#es2015-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95&quot;&gt;ES2015 面向对象语法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#class-%E5%85%B3%E9%94%AE%E5%AD%97&quot;&gt;Class 关键字&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%BB%A7%E6%89%BF&quot;&gt;继承&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-%E6%89%A9%E5%B1%95-date-%E5%AF%B9%E8%B1%A1%E5%AE%9E%E7%8E%B0%E5%A6%82%E4%B8%8B%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0-dateformate-%E6%96%B9%E6%B3%95%E8%BF%94%E5%9B%9E%E5%80%BC%E6%98%AFxxxx-%E5%B9%B4-xx-%E6%9C%88-xx-%E6%97%A5&quot;&gt;1. 扩展 Date 对象实现如下功能，实现 dateFormate 方法，返回值是“xxxx 年 xx 月 xx 日”；&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-%E5%AE%9A%E4%B9%89%E4%B8%80%E4%B8%AA-person-%E7%B1%BB%E8%AE%A9-student-%E7%B1%BB%E5%92%8C-teacher-%E7%B1%BB%E7%BB%A7%E6%89%BF-person%E4%B8%BA-person-%E7%B1%BB%E6%B7%BB%E5%8A%A0-getinformation-%E6%96%B9%E6%B3%95%E4%BD%BF-student-%E7%B1%BB%E5%92%8C-teacher-%E7%B1%BB%E9%83%BD%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E6%AD%A4%E6%96%B9%E6%B3%95%E8%8E%B7%E5%8F%96%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF&quot;&gt;2. 定义一个 Person 类，让 Student 类和 Teacher 类继承 Person，为 Person 类添加 getInformation 方法，使 Student 类和 Teacher 类都可以通过此方法获取个人信息。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>JS - 函数进阶</title>
