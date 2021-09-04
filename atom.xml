@@ -6,7 +6,7 @@
   <link href="https://freysu.github.io/atom.xml" rel="self"/>
   
   <link href="https://freysu.github.io/"/>
-  <updated>2021-08-31T17:56:40.957Z</updated>
+  <updated>2021-09-04T16:42:59.096Z</updated>
   <id>https://freysu.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JS - DOM基础</title>
+    <link href="https://freysu.github.io/2021/09/05/JS%20-%20DOM%E5%9F%BA%E7%A1%80/"/>
+    <id>https://freysu.github.io/2021/09/05/JS%20-%20DOM%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-09-04T16:42:53.000Z</published>
+    <updated>2021-09-04T16:42:59.096Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%8A%82%E7%82%B9%E7%B1%BB%E5%9E%8B&quot;&gt;节点类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#document-%E5%AF%B9%E8%B1%A1&quot;&gt;document 对象&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%8E%B7%E5%8F%96%E8%8A%82%E7%82%B9&quot;&gt;获取节点&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&quot;&gt;事件类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%AE%BE%E7%BD%AE%E6%A0%B7%E5%BC%8F&quot;&gt;设置样式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%AE%BE%E7%BD%AE%E5%B1%9E%E6%80%A7&quot;&gt;设置属性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E9%80%9A%E8%BF%87-class-%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E6%A0%B7%E5%BC%8F&quot;&gt;通过 class 属性设置样式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81&quot;&gt;示例代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%8E%B7%E5%8F%96%E8%8A%82%E7%82%B9-1&quot;&gt;获取节点&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B-%E8%AE%BE%E7%BD%AE%E6%A0%B7%E5%BC%8F&quot;&gt;事件类型、设置样式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%82%B9%E5%87%BB%E6%95%B0%E5%AD%97%E5%88%97%E8%A1%A8%E5%88%87%E6%8D%A2%E5%9B%BE%E7%89%87%E7%9A%84%E6%95%88%E6%9E%9C&quot;&gt;1. 实现一个点击数字列表，切换图片的效果。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%BD%AE%E6%92%AD%E5%9B%BE%E6%95%88%E6%9E%9Ccss3&quot;&gt;2. 实现一个轮播图效果（CSS3）。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>JS - 面向对象</title>
@@ -49,12 +85,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -82,12 +112,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -115,12 +139,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -159,12 +177,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -199,12 +211,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -254,12 +260,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -288,12 +288,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -331,12 +325,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -366,12 +354,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -403,12 +385,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -434,12 +410,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
     
   </entry>
   
@@ -465,12 +435,6 @@
     
     
     
-    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="英语笔记" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="恋词" scheme="https://freysu.github.io/tags/%E6%81%8B%E8%AF%8D/"/>
     
   </entry>
   
@@ -492,12 +456,6 @@
     
     
     
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="HTML &amp; CSS" scheme="https://freysu.github.io/tags/HTML-CSS/"/>
     
   </entry>
   
@@ -522,12 +480,6 @@
     
     
     
-    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="英语笔记" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="恋词" scheme="https://freysu.github.io/tags/%E6%81%8B%E8%AF%8D/"/>
     
   </entry>
   
@@ -579,14 +531,6 @@
     
     
     
-    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="英语资源" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E8%B5%84%E6%BA%90/"/>
-    
-    <category term="英语专业" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E4%B8%93%E4%B8%9A/"/>
-    
-    <category term="英语网站" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
@@ -602,10 +546,6 @@
     
     
     
-    <category term="Hexo教程" scheme="https://freysu.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://freysu.github.io/tags/Hexo/"/>
     
   </entry>
   
