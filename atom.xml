@@ -6,7 +6,7 @@
   <link href="https://freysu.github.io/atom.xml" rel="self"/>
   
   <link href="https://freysu.github.io/"/>
-  <updated>2021-09-09T17:25:13.875Z</updated>
+  <updated>2022-02-20T07:47:34.823Z</updated>
   <id>https://freysu.github.io/</id>
   
   <author>
@@ -17,76 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JS - 事件</title>
-    <link href="https://freysu.github.io/2021/09/10/JS%20-%20%E4%BA%8B%E4%BB%B6/"/>
-    <id>https://freysu.github.io/2021/09/10/JS%20-%20%E4%BA%8B%E4%BB%B6/</id>
-    <published>2021-09-09T17:25:50.000Z</published>
-    <updated>2021-09-09T17:25:13.875Z</updated>
+    <title>jQuery 概述</title>
+    <link href="https://freysu.github.io/2022/02/20/jQuery%20%E6%A6%82%E8%BF%B0/"/>
+    <id>https://freysu.github.io/2022/02/20/jQuery%20%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-20T07:47:31.000Z</published>
+    <updated>2022-02-20T07:47:34.823Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%86%85%E5%AE%B9%E6%A6%82%E8%BF%B0&quot;&gt;内容概述&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E7%BB%91%E5%AE%9A&quot;&gt;事件绑定&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E6%B5%81&quot;&gt;事件流&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E6%8D%95%E8%8E%B7%E4%B8%8E%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1&quot;&gt;事件捕获与事件冒泡&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E5%AF%B9%E8%B1%A1%E6%89%A9%E5%B1%95&quot;&gt;事件对象扩展&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%98%BB%E6%AD%A2%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1&quot;&gt;阻止事件冒泡&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E9%BB%98%E8%AE%A4%E8%A1%8C%E4%B8%BA&quot;&gt;事件默认行为&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98&quot;&gt;事件委托&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-1-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B0%B4%E6%9E%9C%E5%88%97%E8%A1%A8%E8%AE%A9%E5%90%8E%E6%B7%BB%E5%8A%A0%E7%9A%84%E5%85%83%E7%B4%A0%E4%B9%9F%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%88%A0%E9%99%A4&quot;&gt;例 1 - 实现一个水果列表，让后添加的元素也可以被删除。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&quot;&gt;事件类型&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6&quot;&gt;键盘事件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%A7%A6%E5%B1%8F%E4%BA%8B%E4%BB%B6&quot;&gt;触屏事件&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JS - DOM操作</title>
-    <link href="https://freysu.github.io/2021/09/07/JS%20-%20DOM%E6%93%8D%E4%BD%9C/"/>
-    <id>https://freysu.github.io/2021/09/07/JS%20-%20DOM%E6%93%8D%E4%BD%9C/</id>
-    <published>2021-09-06T16:50:53.000Z</published>
-    <updated>2021-09-06T16:50:58.316Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#innerhtml&quot;&gt;innerHTML&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E9%80%9A%E8%BF%87%E6%8C%89%E9%92%AE%E5%A2%9E%E5%8A%A0-li-%E5%85%83%E7%B4%A0&quot;&gt;例子 - 通过按钮增加 li 元素。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8A%82%E7%82%B9%E6%93%8D%E4%BD%9C&quot;&gt;节点操作&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-1-%E5%A2%9E%E9%80%9A%E8%BF%87-input-%E6%96%87%E6%9C%AC%E6%A1%86%E6%B7%BB%E5%8A%A0-li-%E5%85%83%E7%B4%A0&quot;&gt;例 1 - 【增】通过 input 文本框添加 li 元素。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-2-%E5%88%A0%E5%88%A0%E9%99%A4%E5%B7%B2%E6%9C%89%E7%9A%84-li-%E5%85%83%E7%B4%A0&quot;&gt;例 2 - 【删】删除已有的 li 元素。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E5%AF%B9%E8%B1%A1&quot;&gt;事件对象&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-1-%E8%8E%B7%E5%8F%96%E7%BA%A2%E8%89%B2%E6%96%B9%E5%9D%97%E4%B8%AD%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%9A%84%E5%9D%90%E6%A0%87&quot;&gt;例 1 - 获取红色方块中鼠标点击的坐标。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-2-%E9%9A%8F%E9%BC%A0%E6%A0%87%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E7%9A%84%E5%A4%A7%E5%9B%BE&quot;&gt;例 2 - 随鼠标显示图片的大图。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B0%B4%E6%9E%9C%E5%88%97%E8%A1%A8%E7%9A%84%E6%B7%BB%E5%8A%A0%E5%92%8C%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD&quot;&gt;1. 实现一个水果列表的添加和删除功能。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E9%9A%8F%E9%BC%A0%E6%A0%87%E6%98%BE%E7%A4%BA%E6%94%BE%E5%A4%A7%E5%9B%BE%E7%89%87%E7%9A%84%E6%95%88%E6%9E%9C&quot;&gt;2. 随鼠标显示放大图片的效果。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3-%E6%80%9D%E8%80%83%E9%A2%98%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B0%B4%E6%9E%9C%E5%88%97%E8%A1%A8%E4%B8%AD%E5%90%8E%E6%B7%BB%E5%8A%A0%E7%9A%84%E6%95%B0%E6%8D%AE%E4%B8%8D%E8%83%BD%E5%88%A0%E9%99%A4&quot;&gt;3. 思考题：为什么水果列表中后添加的数据不能删除。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery---&quot;&gt;jQuery 概述&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#--library-----framework-&quot;&gt;库(Library)与框架(Framework)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---jquery&quot;&gt;下载 jQuery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-----jquery&quot;&gt;初步了解 jQuery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery-----&quot;&gt;jQuery 行情分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery------&quot;&gt;jQuery 的应用场景&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -99,36 +44,182 @@
     
     <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    <category term="jQuery" scheme="https://freysu.github.io/tags/jQuery/"/>
     
   </entry>
   
   <entry>
-    <title>JS - DOM基础</title>
-    <link href="https://freysu.github.io/2021/09/05/JS%20-%20DOM%E5%9F%BA%E7%A1%80/"/>
-    <id>https://freysu.github.io/2021/09/05/JS%20-%20DOM%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-09-04T16:42:53.000Z</published>
-    <updated>2021-09-04T16:42:59.096Z</updated>
+    <title>Bootstrap 概述</title>
+    <link href="https://freysu.github.io/2022/02/20/Bootstrap%20%E6%A6%82%E8%BF%B0/"/>
+    <id>https://freysu.github.io/2022/02/20/Bootstrap%20%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-20T07:47:23.000Z</published>
+    <updated>2022-02-20T07:47:28.727Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8A%82%E7%82%B9%E7%B1%BB%E5%9E%8B&quot;&gt;节点类型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#document-%E5%AF%B9%E8%B1%A1&quot;&gt;document 对象&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8E%B7%E5%8F%96%E8%8A%82%E7%82%B9&quot;&gt;获取节点&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&quot;&gt;事件类型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AE%BE%E7%BD%AE%E6%A0%B7%E5%BC%8F&quot;&gt;设置样式&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AE%BE%E7%BD%AE%E5%B1%9E%E6%80%A7&quot;&gt;设置属性&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%80%9A%E8%BF%87-class-%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E6%A0%B7%E5%BC%8F&quot;&gt;通过 class 属性设置样式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bootstrap---&quot;&gt;Bootstrap 概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---bootstrap&quot;&gt;下载 Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bootstrap-----&quot;&gt;Bootstrap 常用样式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bootstrap---&quot;&gt;Bootstrap 组件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bootstrap-javascript---&quot;&gt;Bootstrap Javascript 插件&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81&quot;&gt;示例代码&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8E%B7%E5%8F%96%E8%8A%82%E7%82%B9-1&quot;&gt;获取节点&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B-%E8%AE%BE%E7%BD%AE%E6%A0%B7%E5%BC%8F&quot;&gt;事件类型、设置样式&lt;/a&gt;&lt;/li&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Bootstrap" scheme="https://freysu.github.io/tags/Bootstrap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery 插件概述</title>
+    <link href="https://freysu.github.io/2022/02/20/jQuery%20%E6%8F%92%E4%BB%B6%E6%A6%82%E8%BF%B0/"/>
+    <id>https://freysu.github.io/2022/02/20/jQuery%20%E6%8F%92%E4%BB%B6%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-20T07:47:17.000Z</published>
+    <updated>2022-02-20T07:47:20.100Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery-----&quot;&gt;jQuery 插件概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;使用方式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#--&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%82%B9%E5%87%BB%E6%95%B0%E5%AD%97%E5%88%97%E8%A1%A8%E5%88%87%E6%8D%A2%E5%9B%BE%E7%89%87%E7%9A%84%E6%95%88%E6%9E%9C&quot;&gt;1. 实现一个点击数字列表，切换图片的效果。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%BD%AE%E6%92%AD%E5%9B%BE%E6%95%88%E6%9E%9Ccss3&quot;&gt;2. 实现一个轮播图效果（CSS3）。&lt;/a&gt;&lt;/li&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="jQuery" scheme="https://freysu.github.io/tags/jQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery常用方法</title>
+    <link href="https://freysu.github.io/2022/02/20/jQuery%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://freysu.github.io/2022/02/20/jQuery%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+    <published>2022-02-20T07:47:09.000Z</published>
+    <updated>2022-02-20T07:47:13.430Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#-------&quot;&gt;&lt;code&gt;$&lt;/code&gt; 的作用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery-----&quot;&gt;jQuery 常用方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery---dom---&quot;&gt;jQuery 里 DOM 操作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery---&quot;&gt;jQuery 事件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#jquery-----&quot;&gt;jQuery 动画方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="jQuery" scheme="https://freysu.github.io/tags/jQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Swiper 概述</title>
+    <link href="https://freysu.github.io/2022/02/20/Swiper%20%E6%A6%82%E8%BF%B0/"/>
+    <id>https://freysu.github.io/2022/02/20/Swiper%20%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-20T07:46:37.000Z</published>
+    <updated>2022-02-20T07:46:55.947Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#swiper---&quot;&gt;swiper 概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#--&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="jQuery" scheme="https://freysu.github.io/tags/jQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm常用命令</title>
+    <link href="https://freysu.github.io/2022/02/20/npm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://freysu.github.io/2022/02/20/npm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2022-02-20T07:44:32.000Z</published>
+    <updated>2022-02-20T07:44:38.978Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#npm-----&quot;&gt;npm 常用命令&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#npm------&quot;&gt;npm 项目初始化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#npm-----&quot;&gt;npm 安装依赖&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="npm" scheme="https://freysu.github.io/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node概述</title>
+    <link href="https://freysu.github.io/2022/02/20/Node%E6%A6%82%E8%BF%B0/"/>
+    <id>https://freysu.github.io/2022/02/20/Node%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-20T07:43:40.000Z</published>
+    <updated>2022-02-20T07:45:28.915Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#----node-&quot;&gt;什么是 Node？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#npm---&quot;&gt;npm 概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#cnpm&quot;&gt;cnpm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Node" scheme="https://freysu.github.io/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node基础</title>
+    <link href="https://freysu.github.io/2022/02/20/Node%E5%9F%BA%E7%A1%80/"/>
+    <id>https://freysu.github.io/2022/02/20/Node%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-02-20T07:43:37.000Z</published>
+    <updated>2022-02-20T07:45:30.751Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;模块化开发&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#es2015-------&quot;&gt;ES2015 的模块化语法&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -141,36 +232,54 @@
     
     <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    <category term="Node" scheme="https://freysu.github.io/tags/Node/"/>
     
   </entry>
   
   <entry>
-    <title>JS - 面向对象</title>
-    <link href="https://freysu.github.io/2021/09/01/JS%20-%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
-    <id>https://freysu.github.io/2021/09/01/JS%20-%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</id>
-    <published>2021-08-31T17:55:53.000Z</published>
-    <updated>2021-08-31T17:56:40.957Z</updated>
+    <title>web服务器概述</title>
+    <link href="https://freysu.github.io/2022/02/20/web%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A6%82%E8%BF%B0/"/>
+    <id>https://freysu.github.io/2022/02/20/web%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-20T07:43:32.000Z</published>
+    <updated>2022-02-20T07:45:33.040Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A6%82%E8%BF%B0&quot;&gt;面向对象概述&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5&quot;&gt;基本概念&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%96%B0%E8%AF%AD%E6%B3%95%E4%B8%8E%E6%97%A7%E8%AF%AD%E6%B3%95&quot;&gt;新语法与旧语法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#es5-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%9F%A5%E8%AF%86&quot;&gt;ES5 面向对象的知识&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#es5-%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0&quot;&gt;ES5 构造函数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1&quot;&gt;原型对象&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8E%9F%E5%9E%8B%E9%93%BE%E7%BB%A7%E6%89%BF&quot;&gt;原型链（继承）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-------&quot;&gt;客户端与服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;创建服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#--&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----emitted--error--event-on-server-instance-at-&quot;&gt;报错 ：Emitted ‘error’ event on Server instance at:&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#es2015-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95&quot;&gt;ES2015 面向对象语法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#class-%E5%85%B3%E9%94%AE%E5%AD%97&quot;&gt;Class 关键字&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BB%A7%E6%89%BF&quot;&gt;继承&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E6%89%A9%E5%B1%95-date-%E5%AF%B9%E8%B1%A1%E5%AE%9E%E7%8E%B0%E5%A6%82%E4%B8%8B%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0-dateformate-%E6%96%B9%E6%B3%95%E8%BF%94%E5%9B%9E%E5%80%BC%E6%98%AFxxxx-%E5%B9%B4-xx-%E6%9C%88-xx-%E6%97%A5&quot;&gt;1. 扩展 Date 对象实现如下功能，实现 dateFormate 方法，返回值是“xxxx 年 xx 月 xx 日”；&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E5%AE%9A%E4%B9%89%E4%B8%80%E4%B8%AA-person-%E7%B1%BB%E8%AE%A9-student-%E7%B1%BB%E5%92%8C-teacher-%E7%B1%BB%E7%BB%A7%E6%89%BF-person%E4%B8%BA-person-%E7%B1%BB%E6%B7%BB%E5%8A%A0-getinformation-%E6%96%B9%E6%B3%95%E4%BD%BF-student-%E7%B1%BB%E5%92%8C-teacher-%E7%B1%BB%E9%83%BD%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E6%AD%A4%E6%96%B9%E6%B3%95%E8%8E%B7%E5%8F%96%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF&quot;&gt;2. 定义一个 Person 类，让 Student 类和 Teacher 类继承 Person，为 Person 类添加 getInformation 方法，使 Student 类和 Teacher 类都可以通过此方法获取个人信息。&lt;/a&gt;&lt;/li&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Node" scheme="https://freysu.github.io/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Koa框架基础</title>
+    <link href="https://freysu.github.io/2022/02/20/Koa%E6%A1%86%E6%9E%B6%E5%9F%BA%E7%A1%80/"/>
+    <id>https://freysu.github.io/2022/02/20/Koa%E6%A1%86%E6%9E%B6%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-02-20T07:43:27.000Z</published>
+    <updated>2022-02-20T07:45:26.014Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#koa---------&quot;&gt;Koa 框架大概流程操作&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#koa-----&quot;&gt;Koa 框架概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---koa&quot;&gt;安装 Koa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;创建服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---koa-router&quot;&gt;路由 koa-router&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;静态文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -183,144 +292,22 @@
     
     <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    <category term="Node" scheme="https://freysu.github.io/tags/Node/"/>
     
   </entry>
   
   <entry>
-    <title>JS - 函数进阶</title>
-    <link href="https://freysu.github.io/2021/08/25/JS%20-%20%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/"/>
-    <id>https://freysu.github.io/2021/08/25/JS%20-%20%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/</id>
-    <published>2021-08-24T18:33:50.000Z</published>
-    <updated>2021-08-24T18:34:04.279Z</updated>
+    <title>原始类型与引用类型</title>
+    <link href="https://freysu.github.io/2022/02/20/%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B/"/>
+    <id>https://freysu.github.io/2022/02/20/%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B/</id>
+    <published>2022-02-20T07:42:10.000Z</published>
+    <updated>2022-02-20T07:42:12.257Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%A4%8D%E4%B9%A0%E5%87%BD%E6%95%B0%E7%9F%A5%E8%AF%86%E7%82%B9&quot;&gt;复习函数知识点&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6&quot;&gt;函数进阶&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%E5%80%BC&quot;&gt;设置默认参数值&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%AB%8B%E5%8D%B3%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0&quot;&gt;立即执行函数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE&quot;&gt;作用域链&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%97%AD%E5%8C%85&quot;&gt;闭包&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0&quot;&gt;箭头函数&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JS - ES2015基础</title>
-    <link href="https://freysu.github.io/2021/08/19/JS%20-%20ES2015%E5%9F%BA%E7%A1%80/"/>
-    <id>https://freysu.github.io/2021/08/19/JS%20-%20ES2015%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-08-18T17:13:50.000Z</published>
-    <updated>2021-08-18T17:13:47.628Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#ecmascipt&quot;&gt;ECMAScipt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#es2015-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&quot;&gt;ES2015 基础语法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8F%98%E9%87%8F&quot;&gt;变量&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%B8%B8%E9%87%8F&quot;&gt;常量&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2&quot;&gt;模板字符串&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC&quot;&gt;解构赋值&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AD%97%E7%AC%A6%E4%B8%B2&quot;&gt;字符串&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JS - 正则表达式</title>
-    <link href="https://freysu.github.io/2021/08/18/JS%20-%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>https://freysu.github.io/2021/08/18/JS%20-%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
-    <published>2021-08-17T18:13:50.000Z</published>
-    <updated>2021-08-17T18:13:59.118Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;正则表达式&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%9C%A8-js-%E4%B8%AD%E5%88%9B%E5%BB%BA%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AF%B9%E8%B1%A1&quot;&gt;在 JS 中创建正则表达式对象&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-1&quot;&gt;正则表达式&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E8%AF%AD%E6%B3%95&quot;&gt;正则表达式的语法&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-1%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F&quot;&gt;例 1：验证邮箱格式&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-2%E6%88%AA%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2&quot;&gt;例 2：截取字符串&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B-3%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9B%BF%E6%8D%A2&quot;&gt;例 3：字符串替换&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E7%BC%96%E5%86%99%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%94%A8%E4%BA%8E%E9%AA%8C%E8%AF%81%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81&quot;&gt;1. 编写正则表达式，用于验证电话号码。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E7%BC%96%E5%86%99%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%94%A8%E4%BA%8E%E9%AA%8C%E8%AF%81%E9%82%AE%E7%AE%B1%E6%A0%BC%E5%BC%8F&quot;&gt;2. 编写正则表达式，用于验证邮箱格式。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AE%9E%E9%99%85%E5%BC%80%E5%8F%91%E4%B8%AD&quot;&gt;实际开发中…&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BD%AC%E8%BD%BD&quot;&gt;常用正则表达式（转载）&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%B8%80-%E6%A0%A1%E9%AA%8C%E6%95%B0%E5%AD%97%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;一、校验数字的表达式&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BA%8C-%E6%A0%A1%E9%AA%8C%E5%AD%97%E7%AC%A6%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;二、校验字符的表达式&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%B8%89-%E7%89%B9%E6%AE%8A%E9%9C%80%E6%B1%82%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;三、特殊需求表达式&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JS - 内置对象</title>
-    <link href="https://freysu.github.io/2021/08/16/JS%20-%20%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/"/>
-    <id>https://freysu.github.io/2021/08/16/JS%20-%20%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1/</id>
-    <published>2021-08-16T09:40:39.000Z</published>
-    <updated>2021-08-16T09:40:36.498Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1%E6%A6%82%E8%BF%B0&quot;&gt;内置对象概述&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%B8%B8%E7%94%A8%E7%9A%84%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1&quot;&gt;常用的内置对象&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#math-%E5%AF%B9%E8%B1%A1&quot;&gt;Math 对象&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#date-%E5%AF%B9%E8%B1%A1&quot;&gt;Date 对象&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AE%A1%E6%97%B6%E5%99%A8%E6%96%B9%E6%B3%95-setinterval&quot;&gt;计时器方法 &lt;code&gt;setInterval&lt;/code&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E6%AF%8F%E9%9A%94-1-%E7%A7%92%E8%BE%93%E5%87%BA%E4%B8%80%E6%AC%A1-hello-world&quot;&gt;例子 - 每隔 1 秒输出一次 hello world&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E7%AE%80%E5%8D%95%E8%AE%A1%E6%97%B6%E5%99%A8%E6%AF%8F%E7%A7%92%E8%BE%93%E5%87%BA%E5%BD%93%E5%89%8D%E7%A7%92%E6%95%B0&quot;&gt;例子 - 简单计时器，每秒输出当前秒数。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E5%9C%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%AF%8F%E7%A7%92%E8%BE%93%E5%87%BA%E4%B8%80%E6%AC%A1&quot;&gt;例子 - 在控制台输出当前时间，每秒输出一次。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E5%B0%86%E8%87%AA%E5%B7%B1%E7%8F%AD%E7%BA%A7%E7%9A%84%E5%90%8C%E5%AD%A6%E6%B7%BB%E5%8A%A0%E5%88%B0%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E6%AF%8F%E6%AC%A1%E5%88%B7%E6%96%B0%E9%A1%B5%E9%9D%A2%E9%9A%8F%E6%9C%BA%E9%80%89%E6%8B%A9%E4%B8%80%E5%90%8D%E5%90%8C%E5%AD%A6&quot;&gt;1. 将自己班级的同学添加到一个数组中，每次刷新页面，随机选择一名同学。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E5%9C%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%AF%8F%E7%A7%92%E8%BE%93%E5%87%BA%E4%B8%80%E6%AC%A1&quot;&gt;2. 在控制台输出当前时间，每秒输出一次。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#js-----&quot;&gt;JS 数据类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#------&quot;&gt;数据类型分类&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#-------&quot;&gt;六种数据类型：&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -338,121 +325,18 @@
   </entry>
   
   <entry>
-    <title>JS - 数组</title>
-    <link href="https://freysu.github.io/2021/08/16/JS%20-%20%E6%95%B0%E7%BB%84/"/>
-    <id>https://freysu.github.io/2021/08/16/JS%20-%20%E6%95%B0%E7%BB%84/</id>
-    <published>2021-08-15T18:37:39.000Z</published>
-    <updated>2021-08-15T18:50:39.535Z</updated>
+    <title>异步编程的解决方案</title>
+    <link href="https://freysu.github.io/2022/02/20/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://freysu.github.io/2022/02/20/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+    <published>2022-02-20T07:42:07.000Z</published>
+    <updated>2022-02-20T07:42:08.584Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E7%BB%84%E6%A6%82%E8%BF%B0&quot;&gt;数组概述&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8E%B7%E5%8F%96%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0&quot;&gt;获取数组中的元素&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84&quot;&gt;遍历数组&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-while-%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86&quot;&gt;1. while 循环遍历&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-for-%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%84&quot;&gt;2. for 循环遍历数组&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3-for-in-%E9%81%8D%E5%8E%86-i-%E4%B8%BA%E7%B4%A2%E5%BC%95&quot;&gt;3. for in 遍历（ i 为索引）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#4-for-of-%E9%81%8D%E5%8E%86-i-%E4%B8%BA%E5%80%BC&quot;&gt;4. for of 遍历（ i 为值）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#5-map-%E6%96%B9%E6%B3%95%E9%81%8D%E5%8E%86&quot;&gt;5. map 方法遍历&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E7%BB%84%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95&quot;&gt;数组的常用方法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-map&quot;&gt;1. map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-push&quot;&gt;2. push&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3-sort&quot;&gt;3. sort&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#4-filter&quot;&gt;4. filter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#5-join&quot;&gt;5. join&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AD%97%E7%AC%A6%E4%B8%B2-string-%E7%9A%84-split-%E6%96%B9%E6%B3%95&quot;&gt;字符串 string 的 split 方法&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E6%8A%8A%E6%97%A5%E6%9C%9F-2021-8-15-%E6%8C%89-%E6%9D%A5%E6%8B%86%E5%88%86&quot;&gt;例子 - 把日期 “2021-8-15” 按 ”-“ 来拆分&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BB%93%E5%90%88%E6%95%B0%E7%BB%84%E4%B8%8E%E5%AF%B9%E8%B1%A1&quot;&gt;结合数组与对象&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E6%89%BE%E5%87%BA%E6%89%80%E6%9C%89%E7%94%B7%E5%90%8C%E5%AD%A6%E6%94%BE%E5%85%A5%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E6%95%B0%E7%BB%84&quot;&gt;例子 - 找出所有男同学，放入一个新的数组。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84-134678111215161920-%E7%9A%84%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E5%B9%B6%E6%94%BE%E5%9C%A8%E4%B8%80%E4%B8%AA%E6%96%B0%E6%95%B0%E7%BB%84%E4%B8%AD&quot;&gt;1. 找出数组 [1,3,4,6,7,8,11,12,15,16,19,20] 的所有奇数，并放在一个新数组中。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84-4612375-%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E7%9A%84%E7%B4%A2%E5%BC%95&quot;&gt;2. 找出数组 [4,6,1,2,3,7,5] 中的最大值的索引。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81&quot;&gt;练习代码&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JS - 对象</title>
-    <link href="https://freysu.github.io/2021/08/14/JS%20-%20%E5%AF%B9%E8%B1%A1/"/>
-    <id>https://freysu.github.io/2021/08/14/JS%20-%20%E5%AF%B9%E8%B1%A1/</id>
-    <published>2021-08-14T12:24:39.000Z</published>
-    <updated>2021-08-15T18:49:32.599Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-null&quot;&gt;数据类型 - null&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-undefined&quot;&gt;数据类型 - undefined&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%B8%96%E9%97%B4%E4%B8%87%E7%89%A9%E7%9A%86%E5%AF%B9%E8%B1%A1&quot;&gt;世间万物皆对象&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AF%B9%E8%B1%A1&quot;&gt;对象&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%96%B9%E6%B3%95&quot;&gt;方法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#this-%E5%85%B3%E9%94%AE%E5%AD%97&quot;&gt;this 关键字&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%86%E7%B1%BB&quot;&gt;对象的分类&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81&quot;&gt;练习代码&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JS - 函数基础</title>
-    <link href="https://freysu.github.io/2021/08/14/JS%20-%20%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80/"/>
-    <id>https://freysu.github.io/2021/08/14/JS%20-%20%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-08-13T16:48:39.000Z</published>
-    <updated>2021-08-15T18:49:58.889Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0&quot;&gt;数学函数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%87%BD%E6%95%B0%E6%A6%82%E8%BF%B0&quot;&gt;函数概述&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0&quot;&gt;传递参数&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E4%B8%80%E4%B8%AA%E5%8F%82%E6%95%B0&quot;&gt;例子 - 一个参数&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E4%B8%A4%E4%B8%AA%E5%8F%82%E6%95%B0&quot;&gt;例子 - 两个参数&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E5%AE%9A%E4%B9%89%E4%B8%80%E4%B8%AA%E8%AE%A1%E7%AE%97%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E7%9A%84%E5%87%BD%E6%95%B0&quot;&gt;例子 - 定义一个计算四则运算的函数&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%BF%94%E5%9B%9E%E5%80%BC&quot;&gt;返回值&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%AD%90-%E6%A3%80%E6%9F%A5%E7%94%A8%E6%88%B7%E5%90%8D-%E5%AF%86%E7%A0%81%E6%98%AF%E5%90%A6%E6%AD%A3%E7%A1%AE&quot;&gt;例子 - 检查用户名、密码是否正确&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%90%86%E8%A7%A3%E5%87%BD%E6%95%B0&quot;&gt;理解函数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%B8%BA%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B4%E6%95%B0-n%E8%AE%A1%E7%AE%97-1~n-%E6%89%80%E6%9C%89%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9A%84%E5%8A%A0%E5%92%8C&quot;&gt;1. 编写一个函数，参数为一个正整数 n，计算 1~n 所有正整数的加和。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%B8%BA%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B4%E6%95%B0-n%E8%AE%A1%E7%AE%97-1~n-%E4%B9%8B%E9%97%B4%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0&quot;&gt;2. 编写一个函数，参数为一个正整数 n，计算 1~n 之间所有奇数。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---------&quot;&gt;同步编程与异步编程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---------&quot;&gt;异步获取数据的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---------&quot;&gt;异步编程的解决方案&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#--&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -470,24 +354,17 @@
   </entry>
   
   <entry>
-    <title>JS - 流程控制语句</title>
-    <link href="https://freysu.github.io/2021/08/13/JS%20-%20%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/"/>
-    <id>https://freysu.github.io/2021/08/13/JS%20-%20%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/</id>
-    <published>2021-08-13T09:27:58.000Z</published>
-    <updated>2021-08-13T09:30:37.708Z</updated>
+    <title>BOM</title>
+    <link href="https://freysu.github.io/2022/02/20/BOM/"/>
+    <id>https://freysu.github.io/2022/02/20/BOM/</id>
+    <published>2022-02-20T07:42:00.000Z</published>
+    <updated>2022-02-20T07:42:01.777Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%AD%E5%8F%A5%E5%9D%97&quot;&gt;语句块&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%8E%A7%E5%88%B6%E6%B5%81%E7%A8%8B&quot;&gt;控制流程&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%8C%89%E9%A1%BA%E5%BA%8F%E6%89%A7%E8%A1%8C&quot;&gt;按顺序执行&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%8C%89%E6%9D%A1%E4%BB%B6%E6%89%A7%E8%A1%8C&quot;&gt;按条件执行&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%BE%AA%E7%8E%AF%E6%89%A7%E8%A1%8C&quot;&gt;循环执行&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0&quot;&gt;课后练习&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-%E8%BE%93%E5%87%BA-100-%E4%BB%A5%E5%86%85%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0&quot;&gt;1. 输出 100 以内所有奇数。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-%E8%AE%A1%E7%AE%97-100-%E4%BB%A5%E5%86%85%E6%89%80%E6%9C%89%E6%AD%A3%E6%95%B4%E6%95%B0%E5%8A%A0%E5%92%8C&quot;&gt;2. 计算 100 以内所有正整数加和。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bom---&quot;&gt;BOM 对象&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#window---&quot;&gt;window 对象&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#---&quot;&gt;弹出框&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -505,28 +382,18 @@
   </entry>
   
   <entry>
-    <title>JS - 表达式与运算符</title>
-    <link href="https://freysu.github.io/2021/08/11/JS%20-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
-    <id>https://freysu.github.io/2021/08/11/JS%20-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6/</id>
-    <published>2021-08-11T09:27:39.000Z</published>
-    <updated>2021-08-12T09:36:07.882Z</updated>
+    <title>计时器方法</title>
+    <link href="https://freysu.github.io/2022/02/20/%E8%AE%A1%E6%97%B6%E5%99%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://freysu.github.io/2022/02/20/%E8%AE%A1%E6%97%B6%E5%99%A8%E6%96%B9%E6%B3%95/</id>
+    <published>2022-02-20T07:41:57.000Z</published>
+    <updated>2022-02-20T07:41:58.421Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;表达式与运算符&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AD%97%E9%9D%A2%E9%87%8F&quot;&gt;字面量&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;表达式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;计时器方法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1--setinterval-----clearinterval-&quot;&gt;1. &lt;code&gt;setInterval&lt;/code&gt; 与 &lt;code&gt;clearInterval&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;运算符&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;算数运算符&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;比较运算符&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;逻辑运算符&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6&quot;&gt;赋值运算符&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%AF%94%E8%BE%83%E4%B8%8D%E5%90%8C%E7%9A%84%E7%B1%BB%E5%9E%8B&quot;&gt;比较不同的类型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81&quot;&gt;练习代码&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- tocstop --&gt;</summary>
     
@@ -542,22 +409,20 @@
   </entry>
   
   <entry>
-    <title>JS - 变量与数据类型</title>
-    <link href="https://freysu.github.io/2021/08/10/JS%20-%20%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
-    <id>https://freysu.github.io/2021/08/10/JS%20-%20%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
-    <published>2021-08-10T09:27:39.000Z</published>
-    <updated>2021-08-12T09:35:53.386Z</updated>
+    <title>动画效果(CSS3)</title>
+    <link href="https://freysu.github.io/2022/02/20/%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C(CSS3)/"/>
+    <id>https://freysu.github.io/2022/02/20/%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C(CSS3)/</id>
+    <published>2022-02-20T07:39:11.000Z</published>
+    <updated>2022-02-20T07:39:12.482Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8F%98%E9%87%8F&quot;&gt;变量&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4-&quot;&gt;加减乘除 &lt;code&gt;+&lt;/code&gt; &lt;code&gt;-&lt;/code&gt; &lt;code&gt;*&lt;/code&gt; &lt;code&gt;/&lt;/code&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#var-%E5%A3%B0%E6%98%8E%E5%8F%98%E9%87%8F&quot;&gt;var 声明变量&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83&quot;&gt;变量命名规范&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B&quot;&gt;数据类型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81&quot;&gt;练习代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---------&quot;&gt;动画与过渡的区别：&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-----animation-&quot;&gt;动画属性(animation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#keyframes&quot;&gt;keyframes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#------&quot;&gt;停止动画效果&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;示例代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#--&quot;&gt;作业&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- tocstop --&gt;</summary>
     
@@ -568,56 +433,25 @@
     
     <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="JavaScript" scheme="https://freysu.github.io/tags/JavaScript/"/>
+    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
     
   </entry>
   
   <entry>
-    <title>2019恋词 - Unit 2</title>
-    <link href="https://freysu.github.io/2021/07/25/2019-love-word-Unit-2/"/>
-    <id>https://freysu.github.io/2021/07/25/2019-love-word-Unit-2/</id>
-    <published>2021-07-25T08:06:20.000Z</published>
-    <updated>2021-07-25T09:24:57.115Z</updated>
+    <title>浮动float</title>
+    <link href="https://freysu.github.io/2022/02/20/%E6%B5%AE%E5%8A%A8float/"/>
+    <id>https://freysu.github.io/2022/02/20/%E6%B5%AE%E5%8A%A8float/</id>
+    <published>2022-02-20T07:39:07.000Z</published>
+    <updated>2022-02-20T07:39:08.717Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-state&quot;&gt;1. state&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-statistics&quot;&gt;2. statistics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3estate&quot;&gt;3.estate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#4-establish&quot;&gt;4. establish&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#5-strategy&quot;&gt;5. strategy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#6-direct&quot;&gt;6. direct&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#7-like&quot;&gt;7. like&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#8-most&quot;&gt;8. most&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#html------&quot;&gt;HTML 元素的分类&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#---&quot;&gt;块元素&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="英语笔记" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="恋词" scheme="https://freysu.github.io/tags/%E6%81%8B%E8%AF%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FE-Learning-note</title>
-    <link href="https://freysu.github.io/2021/07/24/FE-Learning-note/"/>
-    <id>https://freysu.github.io/2021/07/24/FE-Learning-note/</id>
-    <published>2021-07-24T10:33:39.000Z</published>
-    <updated>2021-08-12T09:24:13.758Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2&gt;&lt;span</summary>
-        
-      
     
     
     
@@ -626,81 +460,21 @@
     
     <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="HTML &amp; CSS" scheme="https://freysu.github.io/tags/HTML-CSS/"/>
+    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
     
   </entry>
   
   <entry>
-    <title>2019恋词 - Unit 1</title>
-    <link href="https://freysu.github.io/2021/07/24/2019-love-word-Unit-1/"/>
-    <id>https://freysu.github.io/2021/07/24/2019-love-word-Unit-1/</id>
-    <published>2021-07-24T10:22:18.000Z</published>
-    <updated>2021-07-25T09:25:59.898Z</updated>
+    <title>过渡效果(CSS3)</title>
+    <link href="https://freysu.github.io/2022/02/20/%E8%BF%87%E6%B8%A1%E6%95%88%E6%9E%9C(CSS3)/"/>
+    <id>https://freysu.github.io/2022/02/20/%E8%BF%87%E6%B8%A1%E6%95%88%E6%9E%9C(CSS3)/</id>
+    <published>2022-02-20T07:39:03.000Z</published>
+    <updated>2022-02-20T07:39:04.613Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-economy&quot;&gt;1. economy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2-echo&quot;&gt;2. echo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#3-part&quot;&gt;3. part&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#4-apart&quot;&gt;4. apart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#5-participate&quot;&gt;5. participate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#6-counterpart&quot;&gt;6. ⭐counterpart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#7-depart&quot;&gt;7. depart&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="英语笔记" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="恋词" scheme="https://freysu.github.io/tags/%E6%81%8B%E8%AF%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英语学习资源导航页</title>
-    <link href="https://freysu.github.io/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/"/>
-    <id>https://freysu.github.io/2021/03/15/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA%E9%A1%B5/</id>
-    <published>2021-03-14T16:19:11.000Z</published>
-    <updated>2021-07-24T10:30:40.628Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%AB%99&quot;&gt;&lt;strong&gt;英语网站&lt;/strong&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%B8%AD%E6%96%87%E7%BD%91%E7%AB%99&quot;&gt;中文网站&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8B%B1%E6%96%87%E7%BD%91%E7%AB%99&quot;&gt;英文网站&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8B%B1%E8%AF%AD%E5%AF%BC%E8%88%AA&quot;&gt;英语导航&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8B%B1%E8%AF%AD%E8%B5%84%E6%BA%90&quot;&gt;&lt;strong&gt;英语资源&lt;/strong&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%8B%B1%E8%AF%AD%E6%B8%B8%E6%88%8F&quot;&gt;英语游戏&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8D%95%E8%AF%8D%E8%AF%8D%E6%B1%87&quot;&gt;&lt;strong&gt;单词词汇&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%90%AC%E5%8A%9B%E5%8F%A3%E8%AF%AD&quot;&gt;&lt;strong&gt;听力口语&lt;/strong&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%9C%A8%E7%BA%BF%E5%90%AC%E5%8A%9B&quot;&gt;在线听力&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%8F%A3%E8%AF%AD%E5%8D%9A%E4%B8%BB&quot;&gt;&lt;strong&gt;口语博主&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3&quot;&gt;&lt;strong&gt;阅读理解&lt;/strong&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%9D%82%E5%BF%97%E5%91%A8%E5%88%8A&quot;&gt;杂志周刊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%A5%BF%E6%96%B9%E6%96%B0%E9%97%BB&quot;&gt;西方新闻&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%B8%AD%E5%9B%BD%E6%96%B0%E9%97%BB&quot;&gt;中国新闻&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%AD%E6%B3%95%E5%8D%9A%E4%B8%BB&quot;&gt;&lt;strong&gt;语法博主&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%86%99%E4%BD%9C%E8%AF%8D%E5%85%B8&quot;&gt;&lt;strong&gt;写作词典&lt;/strong&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%8D%E5%BA%93%E6%9F%A5%E8%AF%A2&quot;&gt;词库查询&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%90%AD%E9%85%8D%E8%AF%8D%E5%85%B8&quot;&gt;搭配词典&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E4%BE%8B%E5%8F%A5%E8%AF%8D%E5%85%B8&quot;&gt;例句词典&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95&quot;&gt;&lt;strong&gt;写作语法&lt;/strong&gt;&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E8%AF%AD%E6%B3%95%E6%A3%80%E6%B5%8B&quot;&gt;语法检测&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%86%99%E4%BD%9C%E5%BB%BA%E8%AE%AE&quot;&gt;写作建议&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;过渡效果&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;过渡属性&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -708,33 +482,99 @@
     
     
     
-    <category term="英语学习" scheme="https://freysu.github.io/categories/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/"/>
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="英语资源" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E8%B5%84%E6%BA%90/"/>
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="英语专业" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E4%B8%93%E4%B8%9A/"/>
-    
-    <category term="英语网站" scheme="https://freysu.github.io/tags/%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%AB%99/"/>
+    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://freysu.github.io/2021/03/13/hello-world/"/>
-    <id>https://freysu.github.io/2021/03/13/hello-world/</id>
-    <published>2021-03-12T16:38:02.398Z</published>
-    <updated>2021-08-12T09:33:05.297Z</updated>
+    <title>还原设计稿</title>
+    <link href="https://freysu.github.io/2022/02/20/%E8%BF%98%E5%8E%9F%E8%AE%BE%E8%AE%A1%E7%A8%BF/"/>
+    <id>https://freysu.github.io/2022/02/20/%E8%BF%98%E5%8E%9F%E8%AE%BE%E8%AE%A1%E7%A8%BF/</id>
+    <published>2022-02-20T07:38:59.000Z</published>
+    <updated>2022-02-20T07:39:00.539Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;还原设计稿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#vscode-----emmet--------html---&quot;&gt;VsCode 中使用 Emmet 神器快速编写 HTML 代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;示例代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#indexhtml&quot;&gt;index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
     
     
     
-    <category term="Hexo教程" scheme="https://freysu.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Hexo" scheme="https://freysu.github.io/tags/Hexo/"/>
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>盒子模型</title>
+    <link href="https://freysu.github.io/2022/02/20/%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://freysu.github.io/2022/02/20/%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</id>
+    <published>2022-02-20T07:38:55.000Z</published>
+    <updated>2022-02-20T07:38:56.644Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;盒子概述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#------css---&quot;&gt;盒子模型的 CSS 属性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#--------------&quot;&gt;默认情况：元素宽度和高度计算&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#---box-size-border-box-&quot;&gt;设置 box-size:border-box；&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#--------&quot;&gt;清楚元素默认边距&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#------&quot;&gt;元素水平居中&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;列表的样式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#----&quot;&gt;示例代码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>媒体查询(CSS3)</title>
+    <link href="https://freysu.github.io/2022/02/20/%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2(CSS3)/"/>
+    <id>https://freysu.github.io/2022/02/20/%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2(CSS3)/</id>
+    <published>2022-02-20T07:38:51.000Z</published>
+    <updated>2022-02-20T07:38:53.015Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;响应式页面&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#---&quot;&gt;优点：&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- tocstop --&gt;</summary>
+    
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
     
   </entry>
   
