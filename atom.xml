@@ -6,7 +6,7 @@
   <link href="https://freysu.github.io/atom.xml" rel="self"/>
   
   <link href="https://freysu.github.io/"/>
-  <updated>2022-02-20T18:37:12.737Z</updated>
+  <updated>2022-02-28T08:27:49.228Z</updated>
   <id>https://freysu.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论文翻译降重助手使用说明文档</title>
+    <link href="https://freysu.github.io/2022/02/28/%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E9%99%8D%E9%87%8D%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/"/>
+    <id>https://freysu.github.io/2022/02/28/%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E9%99%8D%E9%87%8D%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/</id>
+    <published>2022-02-28T08:22:07.000Z</published>
+    <updated>2022-02-28T08:27:49.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;首先到百度翻译开放平台首页（&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>cookie和session</title>
@@ -537,33 +559,6 @@
     <summary type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#-----&quot;&gt;响应式页面&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#---&quot;&gt;优点：&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- tocstop --&gt;</summary>
-    
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="前端学习" scheme="https://freysu.github.io/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="CSS" scheme="https://freysu.github.io/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用rem单位设置移动端页面尺寸(CSS3)</title>
-    <link href="https://freysu.github.io/2022/02/20/%E4%BD%BF%E7%94%A8rem%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E5%B0%BA%E5%AF%B8(CSS3)/"/>
-    <id>https://freysu.github.io/2022/02/20/%E4%BD%BF%E7%94%A8rem%E5%8D%95%E4%BD%8D%E8%AE%BE%E7%BD%AE%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E5%B0%BA%E5%AF%B8(CSS3)/</id>
-    <published>2022-02-20T07:38:47.000Z</published>
-    <updated>2022-02-20T07:38:49.338Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#---rem----------&quot;&gt;使用 rem 单位设置移动端尺寸&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#------&quot;&gt;移动端的特点&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
